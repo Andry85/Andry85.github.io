@@ -8,6 +8,9 @@ var object = {
 	 createCheck: function() {
     
 	  	var form = document.createElement('form');
+	  	form.classList.add('forma');
+	  	form.setAttribute('action', '#');
+	  	form.setAttribute('method', 'post');
 	  	var formParent = document.body.appendChild(form);
 
 
@@ -19,7 +22,7 @@ var object = {
 	  		itemTitle.innerHTML = (i+1) + '.' + 'Вопрос №' + (i+1);
 	  		
 			for (var j=0; j<3; j++) {	
-	  			var listItem = document.createElement('dl');
+	  			var listItem = document.createElement('dd');
 	  			var item = list.appendChild(listItem);
 
 	  			
