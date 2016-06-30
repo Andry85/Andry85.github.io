@@ -1,0 +1,406 @@
+﻿@font-face {
+    font-family: 'Aller-Regular';
+    src: url('../fonts/Aller-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Aller-Regular.woff') format('woff'),
+    url('../fonts/Aller-Regular.ttf')  format('truetype'),
+    url('../fonts/Aller-Regular.svg#Aller-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Aller-Bold';
+    src: url('../fonts/Aller-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Aller-Bold.woff') format('woff'),
+    url('../fonts/Aller-Bold.ttf')  format('truetype'),
+    url('../fonts/Aller-Bold.svg#Aller-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Aller-Light';
+    src: url('../fonts/Aller-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Aller-Light.woff') format('woff'),
+    url('../fonts/Aller-Light.ttf')  format('truetype'),
+    url('../fonts/Aller-Light.svg#Aller-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+[class*="ic-"] {background: url("../img/mx.png") no-repeat;}
+body {background: #434343 url("../img/body-bg.jpg") center top no-repeat; font-family: 'Aller-Regular', sans-serif; color: #2a2826; font-size: 16px;}
+
+/* header */
+.header-top {background: rgba(35, 35, 35, 0.8); min-height: 80px; position: fixed; left: 0; top: 0; width: 100%; z-index: 1000; display: none;}
+a.logo {background: url("../img/mx.png") no-repeat; width: 80px; height: 51px; float: left; text-indent: -9000px; overflow: hidden; position: relative; left: 12px; top: 14px;}
+.header-top .navbar-nav {float: right;}
+.header-top .navbar-nav > li > a,.header-top .navbar-nav > li > a:focus {color: #bdbdbd; padding: 30px 7px 30px 50px; background: none; outline: none; font-size: 17px;}
+.header-top .navbar-nav > li:first-child > a {padding-left: 0;}
+.header-top .navbar-nav > li > a:hover,.header-top .navbar-nav > li.active a {color: #fff;}
+.header-top .navbar-collapse {padding: 0; border: 0; box-shadow: none;}
+.header-top .navbar-toggle {background: #51b73d; margin: 20px 0 0 0;}
+.header-top .navbar-toggle .icon-bar {background: #fff;}
+.header-middle {padding: 94px 0 0 0;}
+a.main-logo {background: url("../img/mx.png") -100px 0 no-repeat; width: 180px; height: 117px; float: left; text-indent: -9000px; overflow: hidden; position: relative; left: 58px;}
+.header-middle p {color: #fff; text-align: right; font-family: 'Aller-Light'; font-size: 32px; margin: 0; line-height: 1.3;}
+.header-bottom {margin: 243px 0 0 0;}
+.main-nav {background: url("../img/main-nav-bg.png") center bottom no-repeat; padding: 0 0 26px 0; text-align: center;}
+.main-nav .navbar-nav {float: none;}
+.main-nav .navbar-nav li {float: none; display: inline-block; vertical-align: top;}
+.main-nav .navbar-nav > li > a,.main-nav .navbar-nav > li > a:focus {color: #7f7e7d; font-size: 18px; padding: 9px 43px; background: none; outline: none;}
+.main-nav .navbar-nav > li > a:hover,.main-nav .navbar-nav > li.active a {color: #2a2826; font-family: 'Aller-Bold';}
+
+/* main */
+.main {max-width: 2000px; background: #fff; margin: 0 auto;}
+.main h2 {font-size: 36px; color: #575757; margin: 0 0 17px 0;}
+.main h2 span {color: #51b73e;}
+.block-first {padding: 99px 0 0 0;}
+.text {padding: 0 40px 0 0;}
+.text p {font-size: 22px; line-height: 1.30;}
+.info {padding: 5px 0 0 40px;}
+.line {width: 62px; height: 3px; overflow: hidden; background: #51b73d; margin: 0 0 17px 0;}
+.info p {color: #8c8c8c; line-height: 1.35;}
+.preambule {background: url("../img/preambule-bg.jpg") center top no-repeat; height: 158px; text-align: center; padding: 39px 0 0 0; margin: 138px 0 0 0;}
+.preambule img {margin: 0 auto;}
+.preambule h2 {margin: 0; font-size: 38px; font-family: 'Aller-Bold'; color: #bebebe; text-shadow: 0px 10px 5px rgba(0, 0, 0, 0.2);
+    background: -webkit-linear-gradient(top, #c0c0c0, #8f8f8f);
+    background: linear-gradient(top, #c0c0c0, #8f8f8f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.block-second {padding: 100px 0 0 0;}
+.block-second [class*="ic-"] {display: block; margin: 0 auto; position: relative;}
+.ic-01 {width: 51px; height: 62px; background-position: -300px 0;}
+.ic-02 {width: 76px; height: 57px; background-position: -400px 0; top: 5px;}
+.ic-03 {width: 51px; height: 61px; background-position: -500px 0;}
+.title {min-height: 104px; padding: 12px 0 0 0;}
+.block-second p {line-height: 1.6; padding: 0 45px 0 0;}
+.gallery {background: #252525; position: relative; margin: 89px 0 0 0; overflow: hidden;}
+
+/** Carousel **/
+.jcarousel {position: relative; overflow: hidden; width: 100%; z-index: 10;}
+.jcarousel ul {width: 20000em; position: relative; list-style: none; margin: 0; padding: 0; text-align: center;}
+.jcarousel ul:after {content: ""; display: table; clear: both;}
+.jcarousel li {float: left; width: 547px; margin: 0 2px 0 0; position: relative; cursor: pointer;}
+.jcarousel img {display: block; max-width: 100%; min-width: 100%; height: auto !important; position: relative; z-index: 1;}
+.jcarousel:before {content: ""; position: absolute; left: 0; top: 0; width: 33.35%; height: 100%; z-index: 100; background: #252525; opacity: 0.5;}
+.jcarousel:after {content: ""; position: absolute; right: 0; top: 0; width: 33.1%; height: 100%; z-index: 100; background: #252525; opacity: 0.5;}
+
+/** Carousel Controls **/
+.jcarousel-control-prev,.jcarousel-control-next {position: absolute; margin-top: 170px; width: 85px; height: 85px; text-indent: -9000px; overflow: hidden; outline: none; z-index: 11;}
+.jcarousel-control-prev {left: 0; background: url("../img/mx.png") -200px -200px no-repeat;}
+.jcarousel-control-next {right: 0; background: url("../img/mx.png") -300px -200px no-repeat;}
+.jcarousel-rules {max-width: 1140px; width: 100%; height: 0; position: absolute; left: 50%; top: 0; z-index: 10;
+-webkit-transform: translate(-50%, 0);
+-moz-transform:    translate(-50%, 0);
+-ms-transform:     translate(-50%, 0);
+-o-transform:      translate(-50%, 0);
+transform:         translate(-50%, 0);
+}
+.jcarousel-rules a:focus {outline: none;}
+.content {background: #434343 url("../img/content-bg.jpg") no-repeat center top; background-size: cover;}
+.content h2 {color: #fff;}
+.possitions {padding: 115px 0 0 0;}
+.table-accardion {background: #fff; width: 100%; margin: 32px 0 0 0; word-wrap: break-word;}
+.coll-1 {width: 38.813559322033896%;}
+.coll-2 {width: 15.847457627118644%;}
+.coll-3 {width: 15.847457627118644%;}
+.coll-4 {width: 16.52542372881356%;}
+.table-accardion tr th {background: #51b73d; color: #fff; padding: 23px 0 16px 0; font-size: 17px; font-weight: normal; font-family: 'Aller-Bold';}
+.table-accardion tr th:first-child {padding-left: 3.1355932203389827%;}
+.table-accardion td {background: #f2f2f2; border-top: 2px solid #51b73d; padding: 16px 0 18px 0; font-size: 17px;}
+.table-accardion td:first-child {padding-left: 3.1355932203389827%;}
+.table-accardion tr.row-hide td {padding: 0; border: 0;}
+.table-accardion tr.row-hide td p {color: #404040; margin: 10px 0 23px 0;}
+a.accordion-link {color: #2a2826; position: relative; font-family: 'Aller-Bold';}
+a.accordion-link:hover,a.accordion-link:focus,a.accordion-link:active {text-decoration: none; outline: none;}
+.ic-arr {background: url("../img/ic-arr.png") no-repeat; width: 7px; height: 10px; position: absolute; left: -16px; top: 5px;}
+a.accordion-link.activ .ic-arr {background-position: 0 -12px; width: 11px; height: 6px; top: 8px;}
+button.btn {background: url("../img/mx.png") -300px -100px no-repeat; width: 113px; height: 42px; color: #fff; font-size: 15px; border: 0; border-radius: 0; padding: 0 0 2px 0; line-height: normal; margin: 2px 0 0 0;}
+button.btn:hover,button.btn:focus,button.btn:active,button.btn:active:focus {background: url("../img/mx.png") -300px -100px no-repeat; outline: none; color: #fff; box-shadow: none;}
+.row-accordion button.btn.current {background-position: -100px -184px; width: 14px; text-indent: -9000px; overflow: hidden; padding: 0; float: right; margin: 2px 25% 0 0;}
+.tx {padding: 0 18% 11px 3.1355932203389827%; font-size: 16px;}
+.form {background: #fff; padding: 39px 0 48px 0;}
+.form label {font-weight: normal; margin-bottom: 1px;}
+.form .form-control {border-radius: 0; box-shadow: none;}
+.form .form-group {margin-bottom: 25px;}
+.form-file {padding: 0 0 12px 0;}
+.form button.btn {margin: 0 auto; display: block;}
+.finish {text-align: center; padding: 87px 0 83px 0;}
+.finish-pic {background: url("../img/finish-pic-bg.png") no-repeat; width: 195px; height: 195px; margin: 0 auto;}
+.finish h3 {font-size: 26px; font-family: 'Aller-Bold'; margin: 0; padding: 56px 0 0 0;}
+.finish p {margin: 4px 0 0 0!important; font-size: 26px;}
+.custom-file-upload {display: block; margin: 1px 0 0 0;}
+.custom-file-upload-hidden {display: none; visibility: hidden; position: absolute; left: -9999px;}
+.custom-file-upload label {display: block;}
+.file-upload-wrapper {position: relative; background: #e1e1e1; border-left: 4px solid #51b73d; height: 36px; overflow: hidden;}
+.file-upload-input {color: #51b73d; font-size: 13px; padding: 7px 10px 10px 10px; border: 0; background: none; width: 100%; text-align: right; font-weight: bold; position: relative; z-index: 2;}
+.file-upload-input:hover,.file-upload-input:focus {outline: none;}
+.file-upload-button {cursor: pointer; display: inline-block; color: #000; font-size: 13px; padding: 8px 23px 10px 13px; border: none; background: #e1e1e1; position: absolute; left: 0; top: 0; z-index: 3;}
+.file-upload-button:hover {background: #a4a2a2;}
+.employees {padding: 102px 0 93px 0;}
+.employees-title {text-align: center; padding: 6px 0 78px 0;}
+.employees-title img {margin: 0 auto;}
+.employees-title h2 {margin: 0; font-size: 42px; font-family: 'Aller-Bold'; color: #bebebe; text-shadow: 0px 10px 5px rgba(0, 0, 0, 0.2);
+    background: -webkit-linear-gradient(top, #c0c0c0, #8f8f8f);
+    background: linear-gradient(top, #c0c0c0, #8f8f8f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.box {background: rgba(38, 37, 37, 0.7); padding: 45px 25px 37px 25px; text-align: center; color: #fff; min-height: 690px;}
+.box figure {padding: 0 0 40px 0;}
+.box figure img {border-radius: 50%;}
+.box h3 {font-size: 22px; margin: 0 0 2px 0;}
+.box h4 {font-size: 18px; margin: 0 0 2px 0;}
+.box .line {margin: 22px auto 26px auto; width: 100px;}
+.box p {margin: 0; text-align: left; line-height: 1.55;}
+.contacts {position: relative; margin: 4px 0 0 0; min-height: 418px;}
+.map {height: 100%; width: 100%; position: absolute; left: 0; top: 0; z-index: 1;}
+#map {height: 100%; -webkit-filter: grayscale(1); filter: grayscale(1);}
+.overlay {background: url("../img/mx.png") -500px -100px no-repeat; width: 50px; height: 77px;}
+.contact-info {background: #fff; padding: 42px 27px 0 27px; position: relative; z-index: 2; margin: 28px 0 0 0;}
+.contact-info h3 {margin: 0; color: #4c4c4c; border-bottom: 3px solid #51b73d; padding: 0 0 7px 0;}
+.contact-list {margin: 0; padding: 28px 0 6px 0;}
+.contact-list li {list-style: none; position: relative; font-size: 17px; color: #000; padding: 0 0 36px 0;}
+.contact-list li p {margin: 0; padding: 0 0 0 42px; line-height: 1.6;}
+.contact-list li p a {color: #000;}
+.contact-list li figure {border: 1px solid #cceac6; border-radius: 50%; width: 34px; height: 34px; position: absolute; left: -4px; top: -2px;}
+.contact-list li figure span {display: block; margin: 0 auto; position: relative;}
+.ic-04 {background-position: 0 -100px; width: 12px; height: 19px; top: 8px;}
+.ic-05 {background-position: -15px -100px; width: 20px; height: 13px; top: 10px;}
+.ic-06 {background-position: -41px -100px; width: 17px; height: 18px; top: 7px;}
+
+/* footer */
+.footer {background: #494949 url("../img/footer-bg.jpg") no-repeat center top; background-size: cover; min-height: 219px; max-width: 2000px; margin: 0 auto; text-align: center; padding: 62px 0 0 0;}
+.footer p {color: #fff; font-size: 15px; margin: 0;}
+.social {padding: 24px 0 0 0;}
+.social li {display: inline-block; vertical-align: top; margin: 0 13px;}
+.social li span {width: 32px; height: 33px; display: block;}
+.ic-fb {background-position: 0 -200px;}
+.ic-twiiter {background-position: -32px -200px;}
+.ic-google {background-position: -64px -200px;}
+.ic-linked {background-position: 0 -300px;}
+
+/* career */
+.career-page .header-top {display: none!important;}
+.career-wrap {margin: -6px 0 0 0;}
+.career-title {text-align: center; padding: 0 0 53px 0;}
+.career-title h2 {font-size: 30px; color: #3d3d3d; font-weight: bold; line-height: 1.2; padding: 0 25px;}
+.career-title h3 {font-size: 26px; color: #3d3d3d; margin: 0; padding: 24px 0 0 0;}
+.career-form {background: #eee; border-bottom: 6px solid #51b73d; padding: 53px 0 0 0;}
+.career-form .form-control {border-color: #b7b7b7; border-radius: 0; box-shadow: none; height: 44px;}
+.career-form .form-group {margin-bottom: 29px;}
+.career-form .form-group label {font-size: 16px; font-weight: normal; margin-bottom: 2px;}
+.career-form .form-group label span {color: #999;}
+.career-form .file-upload-wrapper {background: #fff; border: 1px solid #b7b7b7; height: 44px;}
+.career-form .file-upload-button {background: #fff; border-right: 1px solid #dadada; padding: 8px 12px 10px 12px; font-size: 14px; height: 42px;}
+.career-form .file-upload-input {padding-top: 12px;}
+button.submit {background: url(../img/submit-bg.png) center top repeat-x; width: 383px; height: 52px; border-radius: 26px; color: #fff; font-size: 22px; border: 0; padding: 0 0 2px 0; line-height: normal; margin: -3px auto 60px auto; display: block;}
+.info-text {text-align: center; padding: 68px 0 60px 0;}
+.info-text p {font-size: 14px; line-height: 1.7;}
+.success-wrap {padding: 10px 0 0 0;}
+.success-pic {background: #fff url(../img/success-pic.png) no-repeat; border-radius: 50%; width: 154px; height: 155px; display: block; margin: 0 auto 34px auto;}
+.success-wrap p {text-align: center; font-size: 30px; color: #3d3d3d; margin: 0; line-height: 1.4;}
+.optation-text {text-align: center; padding: 40px 0 0 0;}
+.optation-text h2 { font-size: 30px; color: #3d3d3d; margin: 0 0 14px 0;}
+.optation-text h3 {font-size: 20px; color: #3d3d3d; margin: 0;}
+a.send-resume {color: #51b73d; font-size: 20px; display: block; text-align: center; padding: 67px 0 30px 0;}
+.header-middle h2 {color: #fff; text-align: right; font-family: 'Aller-Light'; font-size: 42px; margin: 0; line-height: 1.3; padding: 8px 0 0 0;}
+.required-text {margin: -25px 0 20px 0; color: #999;}
+
+/* responsive */
+@media only screen and   (max-width: 1800px) {
+    .jcarousel-control-prev, .jcarousel-control-next {margin-top: 158px;}
+}
+@media only screen and   (max-width: 1700px) {
+    .jcarousel-control-prev, .jcarousel-control-next {margin-top: 146px;}
+}
+@media only screen and   (max-width: 1600px) {
+    .jcarousel-control-prev, .jcarousel-control-next {margin-top: 136px;}
+}
+@media only screen and   (max-width: 1500px) {
+    .jcarousel-control-prev, .jcarousel-control-next {margin-top: 128px;}
+}
+@media only screen and   (max-width: 1400px) {
+    .jcarousel-control-prev, .jcarousel-control-next {margin-top: 118px;}
+}
+@media only screen and   (max-width: 1280px) {
+    .jcarousel-control-prev, .jcarousel-control-next {margin-top: 100px;}
+}
+@media only screen and  (max-width: 1199px) {
+    .jcarousel-rules {max-width: 990px;}
+    .jcarousel-control-prev, .jcarousel-control-next {margin-top: 91px;}
+    .jcarousel-control-prev {left: 10px;}
+    .jcarousel-control-next {right: 10px;}
+}
+@media only screen and   (max-width: 1024px) {
+    .jcarousel-control-prev, .jcarousel-control-next {margin-top: 125px;}
+    .jcarousel:before,.jcarousel:after {display: none;}
+}
+@media only screen and   (max-width: 850px) {
+    .jcarousel-control-prev, .jcarousel-control-next {margin-top: 95px;}
+}
+@media only screen and   (max-width: 768px) {
+    .jcarousel-control-prev, .jcarousel-control-next {margin-top: 145px;}
+}
+@media only screen and   (max-width: 410px) {
+    .jcarousel-control-prev, .jcarousel-control-next {margin-top: 85px;}
+}
+@media only screen and   (max-width: 1199px) {
+    .header-top .navbar-nav > li > a, .header-top .navbar-nav > li > a:focus {padding-left: 30px;}
+}
+@media only screen and  (max-width: 991px) {
+    .header-middle p {font-size: 26px;}
+    a.main-logo {left: 25px;}
+    .main-nav {background-size: 510px 13px;}
+    .form {padding: 20px 10px;}
+    .box {padding: 20px 15px; margin-bottom: 15px; min-height: auto;}
+    .employees {padding: 50px 0 40px 0;}
+    .employees-title {padding-bottom: 35px;}
+    .possitions {padding: 40px 0 0 0;}
+    .block-second p {padding: 0 0 20px 0;}
+    .text {padding: 0;}
+    .info {padding: 20px 0 0 0;}
+    .preambule {margin-top: 50px; padding-top: 50px;}
+    .preambule h2 {font-size: 30px;}
+    .main h2 {font-size: 30px;}
+    .gallery {margin: 20px 0 0 0;}
+
+    /* career */
+    .career-form {padding-left: 10px; padding-right: 10px;}
+}
+@media (max-width: 767px) {
+    .header-top .navbar-nav {float: none; padding: 20px 13px 0 13px; margin: 0 0 10px 0;}
+    .header-top .navbar-nav > li {float: none; margin: 0; padding: 10px 0;}
+    .header-top .navbar-nav > li > a, .header-top .navbar-nav > li > a:focus {padding: 0;}
+    .header-middle {min-height: 300px;}
+    .header-middle p {font-size: 24px;}
+    a.main-logo {display: none;}
+    .header-bottom {display: none;}
+    
+    /* Force table to not be like tables anymore */
+    .table-accardion {table-layout: fixed;}
+    .table-accardion thead,.table-accardion tbody,.table-accardion th,.table-accardion td,.table-accardion tr {display: block;}
+    /* Hide table headers (but not display: none;, for accessibility) */
+    .table-accardion {border-top: 1px solid #ccc; font-size: 15px;}
+    .table-accardion thead tr,.table-accardion colgroup {position: absolute; top: -9999px; left: -9999px; display: none;}
+    .table-accardion tr {border: 1px solid #ccc; border-bottom: 5px solid #f8f8f8; border-top: 0;}
+    .table-accardion td {/* Behave  like a "row" */ border: none; border-bottom: 1px solid #eee; position: relative; padding-left: 50%!important; padding-right: 3.13559%!important; font-size: 14px; width: 100%;}
+    .table-accardion td:before {/* Now like a table header */ position: absolute;/* Top/left values mimic padding */ top: 18px; left: 6px; width: 45%; white-space: nowrap;}
+    .table-accardion tr.row-accordion td:nth-of-type(1):before {content: "Title";}
+    .table-accardion tr.row-accordion td:nth-of-type(2):before {content: "Departament";}
+    .table-accardion tr.row-accordion td:nth-of-type(3):before {content: "Location";}
+    .table-accardion tr.row-accordion td:nth-of-type(4):before {content: "Date";}
+    .table-accardion tr.row-accordion td:nth-of-type(5):before {content: "";}
+    .table-accardion tr.row-hide td {padding: 0 3.13559%!important;}
+    .row-accordion button.btn.current {float: none;}
+    .tx {font-size: 13px; padding: 0;}
+    .tx p {margin: 0!important; padding: 15px 10px 10px 10px!important;}
+    .finish {padding: 20px 0;}
+    .finish h3 {font-size: 18px;}
+    .finish p {font-size: 18px;}
+    .jcarousel-control-prev,.jcarousel-control-next {width: 43px; height: 43px; background-size: 300px 300px;}
+    .jcarousel-control-prev {background-position: -100px -100px;}
+    .jcarousel-control-next {background-position: -150px -100px;}
+    /* career */
+    .career-title {padding-top: 40px;}
+    button.submit {width: 250px; font-size: 16px;}
+    .main h2 {font-size: 26px;}
+    .career-title h3 {font-size: 22px;}
+    .success-wrap p {font-size: 26px;}
+}
+
+/* retina */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
+    a.logo {
+        background: url("../img/mx@2x.png") no-repeat;
+        background-size: 300px 300px;
+    }
+    a.main-logo {
+        background: url("../img/mx@2x.png") no-repeat;
+        background-size: 300px 300px;
+        background-position: -100px 0;
+    }
+    .ic-01 {
+        background: url("../img/mx@2x.png") no-repeat;
+        background-size: 300px 300px;
+        background-position: 0 -100px;
+    }
+    .ic-02 {
+        background: url("../img/mx@2x.png") no-repeat;
+        background-size: 300px 300px;
+        background-position: 0 -165px;
+     }
+    .ic-03 {
+        background: url("../img/mx@2x.png") no-repeat;
+        background-size: 300px 300px;
+        background-position: 0 -225px;
+    }
+    button.btn {
+        background: url("../img/mx@2x.png") no-repeat;
+        background-size: 300px 300px;
+        background-position: -100px -150px;
+    }
+    .ic-04 {
+        background: url("../img/mx@2x.png") no-repeat;
+        background-size: 300px 300px;
+        background-position: -250px -150px;
+    }
+    .ic-05 {
+        background: url("../img/mx@2x.png") no-repeat;
+        background-size: 300px 300px;
+        background-position: -280px -150px;
+    }
+    .ic-06 {
+        background: url("../img/mx@2x.png") no-repeat;
+        background-size: 300px 300px;
+        background-position: -250px -183px;
+    }
+    .ic-fb {
+        background: url("../img/mx@2x.png") no-repeat;
+        background-size: 300px 300px;
+        background-position: -100px -200px;
+    }
+    .ic-twiiter {
+        background: url("../img/mx@2x.png") no-repeat;
+        background-size: 300px 300px;
+        background-position: -150px -200px;
+    }
+    .ic-google {
+        background: url("../img/mx@2x.png") no-repeat;
+        background-size: 300px 300px;
+        background-position: -200px -200px;
+    }
+    .ic-linked {
+        background: url("../img/mx@2x.png") no-repeat;
+        background-size: 300px 300px;
+        background-position: -100px -250px;
+    }
+    .overlay {
+        background: url("../img/mx@2x.png") no-repeat;
+        background-size: 300px 300px;
+        background-position: -250px -200px;
+    }
+    .jcarousel-control-prev {
+        background: url("../img/arr@2x.png") 0 0 no-repeat;
+        background-size: 85px 170px;
+    }
+    .jcarousel-control-next {
+        background: url("../img/arr@2x.png") 0 -85px no-repeat;
+        background-size: 85px 170px;
+    }
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 767px),
+only screen and (min--moz-device-pixel-ratio: 1.5) and (max-width: 767px),
+only screen and (min-device-pixel-ratio: 1.5) and (max-width: 767px){
+    .jcarousel-control-prev {
+        background: url("../img/arr@2x.png") 0 0 no-repeat;
+        background-size: 43px 85px;
+    }
+    .jcarousel-control-next {
+        background: url("../img/arr@2x.png") 0 -43px no-repeat;
+        background-size: 43px 85px;
+    }
+}

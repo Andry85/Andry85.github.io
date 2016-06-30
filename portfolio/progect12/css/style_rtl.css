@@ -1,0 +1,189 @@
+html {direction: rtl;}
+.floatLeft {float: right;}
+.floatRight {float: left;}
+
+.text-list {padding-left: 9%; padding-right: 15%;}
+.text-list li {text-align: right;}
+.text-list li::before {left: auto; right: -32px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipX;
+    -ms-filter: "FlipX";
+}
+.login .ic-mail {left: 42px; right: auto;}
+.login {background-image: url("../img_rtl/login-bg-rtl.jpg");}
+.logo {float: right; margin: 0 45px 0 0;}
+.navi {float: left;}
+.menu > li {float: right;}
+.header-icons {float: left; padding-left: 42px; padding-right: 30px;}
+.ic-mail {float: left;}
+.ic-search {float: left; margin: 0 0 0 32px; background: url("../img_rtl/mx_rtl.png") -533px -68px;}
+.ic-search:hover, .ic-search.activ {background-position: -500px -68px;}
+.user-outer {float: left; margin-left: 23px; margin-right: 0;}
+.ic-log::before {left: auto; right: -16px;}
+.user-outer > li > ul::before {left: auto; right: 16px;}
+.user-outer > li > ul {right: -37px; left: auto;}
+.ic-cloze {left: 201px; right: auto;}
+.search {margin: 0 9px 0 0;}
+.main-buttons {left: 0; right: auto;}
+.slide-pic {right: 0; left: auto;}
+.main-buttons a span {right: 10%; left: auto;}
+.ic-next {left: 9%; right: auto;}
+.ic-next {background: url("../img_rtl/mx_rtl.png") -356px -56px;}
+.ic-mail {background: url("../img_rtl/mx_rtl.png") -467px -68px;}
+.ic-mail:hover {background-position: -467px -100px;}
+.postambule .butn {margin-left: 0; margin-right: 55px;}
+.col-one {float: right;}
+.col-two {float: left;}
+.footer-nav {float: left;}
+.copy {float: right;}
+.footer-nav > li {float: right;}
+.internship-list li {float: right; padding-right: 3%; padding-left: 1%;}
+.internship-list li:nth-child(2n) {float: left;}
+.video-content {padding-left: 15%; padding-right: 16%;}
+.patway {float: right; padding-right: 5px; padding-left: 0;}
+.content-title {padding-left: 22px; padding-right: 37px;}
+.patway li {float: right; padding: 0 0 0 32px;}
+.patway li::before {right: -19px; left: auto; background: url("../img_rtl/mx_rtl.png") -338px -90px;}
+.slide-menu-wrap {left: auto; right: 0;}
+.ic-toogle {left: auto; right: 0;}
+.slide-menu li a {padding: 9px 49px 9px 30px;}
+.form-list > li > label {float: right;}
+.form-list > li > input, .form-list > li > .select-outer {float: right;}
+div.fancy-select div.trigger::after {left: 14px; right: auto;}
+.form-list > li.birth-day div.fancy-select div.trigger::before {left: 14px; right: auto;}
+div.fancy-select div.trigger {padding-left: 24px; padding-right: 15px;}
+.btn {margin-right: 26.2%; margin-left: 0;}
+.content-entry {padding-right: 16%; padding-left: 15%;}
+a.edit i {padding: 0 9px 0 0;}
+a.edit span {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipX;
+    -ms-filter: "FlipX";
+}
+.article-list li::before {right: -20px; left: auto;}
+.article-list {padding-left: 0; padding-right: 21px;}
+.avatar figure {float: right;}
+.avatar p {margin: 0 51px 0 0;}
+.comment-list > li > ul > li {border-right: 2px solid #d4d4d4; border-left: 0; padding: 0 13px 0 0;}
+.comment-list > li > ul {padding-right: 5.5%; padding-left: 0;}
+.contacts-bottom  {padding-right: 16%; padding-left: 6.5%;}
+.supports {float: right;}
+.call-pic {float: left;}
+.content-entry-contact {padding-left: 0!important; padding-right: 0!important;}
+.photos-col-1 {float: right;}
+.photos-col-2 {float: left;}
+
+.slicknav_menu {left: 7px; right: auto;}
+.slicknav_nav .slicknav_arrow {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipX;
+    -ms-filter: "FlipX";
+    display: inline-block;
+
+}
+
+.slide-text-inner {margin-left: 32%; margin-right: 0;}
+
+@media  (max-width: 1023px) {
+
+    .ic-mail {background-position: -234px -34px;
+        background-size: 300px 300px;}
+    .ic-mail:hover {background-position: -234px -50px;}
+
+    .ic-search {margin: 0 0 0 12px; background-position: -266px -34px;
+        background-size: 300px 300px;
+    }
+    .ic-search:hover,.ic-search.activ {background-position: -250px -34px;}
+    .user-outer {margin: -7px 0 0 8px;}
+    .user-outer > li > ul {left: 0; right: auto;}
+    .user-outer > li > ul::before {right: auto; left: 22px;}
+    .ic-next {
+        background-position: -178px -28px;
+        background-size: 300px 300px;
+    }
+    .logo {margin: 5px 15px 0 0;}
+
+
+}
+
+
+/* Note: Design for a width of 320px */
+
+@media only screen and (max-width: 767px) {
+    .header-icons {padding-left: 60px;}
+    .postambule .butn {margin: 20px auto 0 auto;}
+    .user-outer > li > ul {left: -22px;}
+    .ic-cloze {left: 4%; right: auto;}
+    .content-entry {padding: 20px 3% 0 3%;}
+    .patway {padding-right: 40px;}
+    .contacts-bottom {padding: 20px 3% 0 3%;}
+    .video-content {padding: 0 3%;}
+    .form-list > li.birth-day > .select-outer {float: right;}
+    .slide-text-inner {margin: 0;}
+    .slide-pic {left: 0;}
+
+}
+
+
+/* retina */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
+    .ic-search {
+        background: url("../img_rtl/mx_rtl@2x.png") no-repeat;
+        background-size: 300px 300px;
+        background-position: -268px -50px;
+    }
+    .ic-search:hover,.ic-search.activ { background-position: -218px -50px;}
+
+    .ic-mail {
+        background: url("../img_rtl/mx_rtl@2x.png") no-repeat;
+        background-size: 300px 300px;
+        background-position: -118px -50px;
+    }
+    .ic-mail:hover {background-position: -68px -50px;}
+
+    .ic-next {
+        background: url("../img_rtl/mx_rtl@2x.png") no-repeat;
+        background-size: 300px 300px;
+        background-position: -6px -50px;
+    }
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1023px),
+only screen and (min--moz-device-pixel-ratio: 1.5) and (max-width: 1023px),
+only screen and (min-device-pixel-ratio: 1.5) and (max-width: 1023px){
+    .ic-search {
+        background-size: 150px 150px;
+        background-position: -134px -25px;
+    }
+    .ic-search:hover,.ic-search.activ { background-position: -109px -25px;}
+
+    .ic-mail {
+        background-size: 150px 150px;
+        background-position: -59px -25px;
+    }
+    .ic-mail:hover {background-position: -34px -25px;}
+
+    .ic-next {
+        background-size: 150px 150px;
+        background-position: -3px -25px;
+    }
+
+}
+
+
+
+
+
