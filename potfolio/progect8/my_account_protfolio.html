@@ -1,0 +1,372 @@
+<!doctype html>
+<html dir="rtl" lang="ar">
+<head>
+	<meta charset="utf-8">
+	<title>Trading Protfolio</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link rel="shortcut icon" href="#">
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/base/jquery.ui.all.css">
+    <link rel="stylesheet" href="css/chosen.css">
+</head>
+<body>
+    <div class="links-wrap">
+        <ul class="links-link">
+            <li>
+                <a href="#" title="">
+                    <span class="ic-chat"></span>
+                    <b>Chat with us</b>
+                </a>
+            </li>
+            <li>
+                <a href="#" title="">
+                    <span class="ic-callback"></span>
+                    <b>Request<br> Callback</b>
+                </a>
+            </li>
+        </ul>
+    </div>
+	<!-- Wrapper -->
+        <div class="wrapper">
+            <header class="header">
+                <div class="header-top">
+                    <div class="inside">
+                        <a class="logo" href="index.html" title="">
+                            <i>Tadawul</i>
+                            <span>Investment Group</span>
+                        </a>
+                        <div class="header-info">
+                            <div class="date-outer date-outer-loggedin">
+                                <div class="date">Hello, Tifawt Ameqran #10379103</div>
+                                <div class="balance">Balance: $0</div>
+                            </div>
+                            <div class="header-links">                                
+                                <a class="btnn btnn-3" href="#" title="">
+                                    <span class="ic-01"></span>
+                                    Deposit
+                                </a>
+                                <a class="btnn btnn-4" href="#" title="">
+                                    <span class="ic-portfolio"></span>
+                                    Portfolio
+                                </a>
+                                <a class="btnn btnn-5" href="#" title="">Logout</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-bottom">
+                    <div class="inside">
+                        <nav class="nav">
+                            <ul class="menu">
+                                <li><a href="trade.html" title="">تداول</a></li>
+                                <li class="hasSub"><a href="my_account_protfolio.html" title="">حسابي</a>
+                                    <ul>
+                                        <li><a href="#" title="">محفظة تداول</a></li>
+                                        <li><a href="#" title="">تحليل محفظة التداول</a></li>
+                                        <li><a href="my_account_deatails.html" title="">تفاصيل الحساب</a></li>
+                                        <li><a href="my_account_banking_history.html" title="">سجل المعاملات البنكية</a></li>
+                                        <li><a href="my_account_depsit_funds.html" title="">أموال الإيداع</a></li>
+                                        <li><a href="my_account_withdrawal.html" title="">طلب سحب</a></li>
+                                        <li><a href="my_account_bonus-offers.html" title="">المكافآت الإضافية</a></li>
+                                    </ul>
+                                <li><a href="trading_platforms.html" title="">منصات التداول</a></li>
+                                <li><a href="education.html" title="">التعليم</a></li>
+                                <li><a href="market.html" title="">السوق</a></li>
+                                <li><a href="getting_started.html" title="">مساعدة</a></li>
+                                <li><a href="contact_us.html" title="">24/7 دعم فني </a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <div class="main" role="main">
+                <div class="content">
+                    <div class="inside">
+                        <div class="container">
+                            <div class="account_outer">
+                                <div class="account_tabs">
+                                    <ul class="account-list">
+                                        <li class="activ"><a href="my_account_protfolio.html" title="">محفظة تداول</a></li>
+                                        <li><a href="my_account_deatails.html" title="">تفاصيل الحساب</a></li>
+                                        <li><a href="my_account_banking_history.html" title="">سجل المعاملات البنكية</a></li>
+                                        <li><a href="my_account_depsit_funds.html" title="">أموال الإيداع</a></li>
+                                        <li><a href="my_account_withdrawal.html" title="">طلب سحب</a></li>
+                                        <li><a href="my_account_bonus-offers.html" title="">المكافآت الإضافية</a></li>
+                                    </ul>
+                                </div>
+                                <div class="account-content">
+                                    <div class="account-box">
+                                        <div class="account-box-inner">
+                                            <form method="post" action="#">
+                                                <ul class="account-box-list">
+                                                    <li>
+                                                        <label>تاريخ البدء</label>
+                                                        <input type="text" id="datepicker">
+                                                    </li>
+                                                    <li>
+                                                        <label>تاريخ الانتهاء</label>
+                                                        <input type="text" id="datepicker-1">
+                                                    </li>
+                                                    <li>
+                                                        <label>أدوات</label>
+                                                        <div class="select-outer">
+                                                            <select class="chosen">
+                                                                <option value="0">All</option>
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                            </select>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>الصفقات</label>
+                                                        <div class="select-outer">
+                                                            <select class="chosen">
+                                                                <option value="0">All</option>
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                            </select>
+                                                        </div>
+                                                    </li>
+                                                    <li class="li-last">
+                                                        <label>اختيار</label>
+                                                        <div class="select-outer">
+                                                            <select class="chosen">
+                                                                <option value="0">All Assets</option>
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                            </select>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <table class="account-box-table">
+                                                    <colgroup>
+                                                        <col class="width-10">
+                                                        <col class="width-10">
+                                                        <col class="width-10">
+                                                        <col class="width-10">
+                                                        <col class="width-10">
+                                                        <col class="width-10">
+                                                        <col class="width-10">
+                                                        <col class="width-10">
+                                                        <col class="width-10">
+                                                        <col class="width-10">
+                                                    </colgroup>
+                                                    <thead>
+                                                        <tr>
+                                                            <th>أدوات</th>
+                                                            <th>توجيه</th>
+                                                            <th>الأصل</th>
+                                                            <th>رقم الصفقة</th>
+                                                            <th>تاريخ التنفيذ</th>
+                                                            <th>استثمار</th>
+                                                            <th>معدل</th>
+                                                            <th>معدل انتهاء الصلاحية</th>
+                                                            <th>تاريخ انتهاء الصلاحية</th>
+                                                            <th>المبلغ</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>المدى القصير</td>
+                                                            <td><a class="call" href="#" title=""><i class="call-icon"></i>CALL</a></td>
+                                                            <td>USD/EUR</td>
+                                                            <td>1029438</td>
+                                                            <td><span class="tim">18:14</span>31/10/2013</td>
+                                                            <td>$1000.00</td>
+                                                            <td>0.95132</td>
+                                                            <td>0.95132</td>
+                                                            <td><span class="tim">18:14</span>31/10/2013</td>
+                                                            <td>$ 0.00</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>المدى القصير</td>
+                                                            <td><a class="putt" href="#" title=""><i class="putt-icon"></i>PUT</a></td>
+                                                            <td>OIL</td>
+                                                            <td>1029438</td>
+                                                            <td><span class="tim">16:24</span>31/10/2013</td>
+                                                            <td>$1000.00</td>
+                                                            <td>95.7745</td>
+                                                            <td>95.7745</td>
+                                                            <td><span class="tim">16:24</span>31/10/2013</td>
+                                                            <td>$ 0.00</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>المدى القصير</td>
+                                                            <td><a class="putt" href="#" title=""><i class="putt-icon"></i>PUT</a></td>
+                                                            <td>OIL</td>
+                                                            <td>1018472</td>
+                                                            <td><span class="tim">15:56</span>31/10/2013</td>
+                                                            <td>$800.00</td>
+                                                            <td>0.94123</td>
+                                                            <td>0.94123</td>
+                                                            <td><span class="tim">15:56</span>31/10/2013</td>
+                                                            <td><strong>$ 800.00</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>المدى القصير</td>
+                                                            <td><a class="call" href="#" title=""><i class="call-icon"></i>CALL</a></td>
+                                                            <td>OIL</td>
+                                                            <td>984728</td>
+                                                            <td><span class="tim">14:18</span>31/10/2013</td>
+                                                            <td>$800.00</td>
+                                                            <td>45.3214</td>
+                                                            <td>45.3214</td>
+                                                            <td><span class="tim">14:18</span>31/10/2013</td>
+                                                            <td>$ 0.00</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>المدى القصير</td>
+                                                            <td><a class="putt" href="#" title=""><i class="putt-icon"></i>PUT</a></td>
+                                                            <td>GAZPROM</td>
+                                                            <td>983546</td>
+                                                            <td><span class="tim">14:01</span>31/10/2013</td>
+                                                            <td>$300.00</td>
+                                                            <td>32.5315</td>
+                                                            <td>32.5315</td>
+                                                            <td><span class="tim">14:01</span>31/10/2013</td>
+                                                            <td><strong>$ 300.00</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>المدى القصير</td>
+                                                            <td><a class="putt" href="#" title=""><i class="putt-icon"></i>PUT</a></td>
+                                                            <td>EUR/GBP</td>
+                                                            <td>974829</td>
+                                                            <td><span class="tim">13:48</span>31/10/2013</td>
+                                                            <td>$750.00</td>
+                                                            <td>0.95830</td>
+                                                            <td>0.95830</td>
+                                                            <td><span class="tim">13:48</span>31/10/2013</td>
+                                                            <td>$ 0.00</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>المدى القصير</td>
+                                                            <td><a class="call" href="#" title=""><i class="call-icon"></i>CALL</a></td>
+                                                            <td>AUD/USD</td>
+                                                            <td>971234</td>
+                                                            <td><span class="tim">13:36</span>31/10/2013</td>
+                                                            <td>$500.00</td>
+                                                            <td>0.45253</td>
+                                                            <td>0.45253</td>
+                                                            <td><span class="tim">13:36</span>31/10/2013</td>
+                                                            <td>$ 0.00</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>المدى القصير</td>
+                                                            <td><a class="call" href="#" title=""><i class="call-icon"></i>CALL</a></td>
+                                                            <td>EUR/USD</td>
+                                                            <td>96765</td>
+                                                            <td><span class="tim">13:15</span>31/10/2013</td>
+                                                            <td>$1000.00</td>
+                                                            <td>55.5262</td>
+                                                            <td>55.5262</td>
+                                                            <td><span class="tim">13:15</span>31/10/2013</td>
+                                                            <td><strong>$ 1000.00</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>المدى القصير</td>
+                                                            <td><a class="call" href="#" title=""><i class="call-icon"></i>CALL</a></td>
+                                                            <td>EUR/USD</td>
+                                                            <td>96354</td>
+                                                            <td><span class="tim">12:01</span>31/10/2013</td>
+                                                            <td>$500.00</td>
+                                                            <td>0.94245</td>
+                                                            <td>0.94245</td>
+                                                            <td><span class="tim">12:01</span>31/10/2013</td>
+                                                            <td><strong>$ 500.00</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>المدى القصير</td>
+                                                            <td><a class="putt" href="#" title=""><i class="putt-icon"></i>PUT</a></td>
+                                                            <td>EUR/USD</td>
+                                                            <td>06132</td>
+                                                            <td><span class="tim">11:30</span>31/10/2013</td>
+                                                            <td>$250.00</td>
+                                                            <td>0.91589</td>
+                                                            <td>0.91589</td>
+                                                            <td><span class="tim">11:30</span>31/10/2013</td>
+                                                            <td><strong class="putt">$250.00</strong></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <ul class="pagenav">
+                                                    <li class="activ"><a href="#" title="">1</a></li>
+                                                    <li><a href="#" title="">2</a></li>
+                                                    <li><a href="#" title="">3</a></li>
+                                                    <li><a href="#" title="">4</a></li>
+                                                    <li><a href="#" title="">5</a></li>
+                                                    <li><span>...</span></li>
+                                                    <li><a href="#" title="">17</a></li>
+                                                    <li><a href="#" title="">18</a></li>
+                                                    <li><a href="#" title=""><i class="next"></i></a></li>
+                                                    <li><a href="#" title=""><i class="prew"></i></a></li>
+                                                </ul>
+                                                <button class="btnn btnn-account">RESET</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	<!-- / Wrapper -->
+	<!-- Footer -->
+        <footer class="footer">
+            <div class="inside">
+                <ul class="footer-menu">
+                    <li><a href="about_us.html" title="">من نحن</a></li>
+                    <li><a href="terms.html" title="">الشروط والاحكام </a></li>
+                    <li><a href="privacy_policy.html" title="">الخصوصية والحماية </a></li>
+                    <li><a href="affiliate_program.html" title="">برنامج الأفيليت </a></li>
+                    <li><a href="contact_us.html" title="">اتصل بنا</a></li>
+                    <li class="activ"><a href="request.html" title="">اطلب معاودة الاتصال بك</a></li>
+                </ul>
+                <div class="footer-middle">
+                    <a class="footer-logo" href="index.html" title="#">
+                        <i>Tadawul</i>
+                        <span>Investment Group</span>
+                    </a>
+                    <dl class="social">
+                        <dt>تابعنا على:</dt>
+                        <dd><a href="#" title=""><span class="ic-facbook"></span></a></dd>
+                        <dd><a href="#" title=""><span class="ic-twitter"></span></a></dd>
+                    </dl>
+                    <div class="footer-text">
+                        <p>Servicing company: Intercapital SM Ltd. Address: 145-157 St. John Street, London England</p>
+                        <p>International support: +65-3-1080750</p>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <span class="footer-bwa-awards"></span>
+                    <span class="footer-broker-trust"></span>
+                    <span class="footer-best-binary"></span>
+                    <span class="footer-ssl"></span>
+                    <div class="footer-bottom-text">
+                        <p>تنبيه ضد الأخطار المحتملة: الخدمات المالية التي نقدمها ممكن أن تسبب فقدان جزء من أو كل الامول المستثمرة. يجب عليك أن تنتبه بعناية ان  ما إذا كان هذا النشاط  يناسب احتياجاتك  ومواردك المالية وظروفك الشخصية. مجموعة تداول للأستثمار لن تكون مسؤولة عن أي خسائر كلية أو جزئية الناتجة من تعاملات خاصة  مرتبطة بتداول عبر الأنترنت قد تتعرض اليها.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <!-- / Footer -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/main.js"></script>
+    <script src="js/chosen.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/jquery.ui.core.js"></script>
+    <script src="js/jquery.ui.widget.js"></script>
+    <script src="js/jquery.ui.datepicker.js"></script>
+    <script src="js/datapic.js"></script>  
+</body>
+</html>
