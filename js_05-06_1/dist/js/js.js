@@ -40,7 +40,7 @@ if (document.addEventListener) {
 			
 
 			function clock () {
-				mil++;
+				mil = mil + 4;
 				if (mil > 999) {
 				    mil = 0;
 				    sec++;
@@ -90,7 +90,7 @@ if (document.addEventListener) {
 		    };
 
 		    var hendlerStop = function intervalFunction () {
-		   			clearTimeout(timerId);
+		   			clearInterval(timerId);
 		   			stoping.style.display = "none";
 		   			start.style.display = "block";
 		   			start.innerHTML = 'Continue';
@@ -106,7 +106,7 @@ if (document.addEventListener) {
 		    	start.removeAttribute("class", "alert-info");
 		    	start.setAttribute("class", "alert-success");
 		    	stoping.style.display = "none";
-		        clearTimeout(timerId);
+		        clearInterval(timerId);
 		    	mil = 0;
 		        sec = 0;
 			    min = 0;
