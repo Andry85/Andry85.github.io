@@ -2,57 +2,74 @@
   
 		
 
-	(function appendText() {            
+	(function() {            
 		var $pop = $('<div class="pop"></div>');   
 	    $(".form-group").append($pop);
-	    $("#exampleInputName").next('.pop').text('Please provide your firstname');
-	    $("#exampleInputLastName").next('.pop').text('Please provide also your lastname');
-	    $("#exampleInputAddress").next('.pop').text('Your home or work adress');
+	    var $targetInput = $(".form-group input");
 
-	    var $target = $(".form-group input");
 
-	    $($target).hover(
+
+	    $($targetInput).hover(
 		  function() {
-		    $(this).next('.pop').animate({
+		    if ($(this).attr("title") == "") {
+
+				$(this).next('.pop').animate({
+				    opacity: 1,
+				    right: "-240px",
 				    top: "28px",
-				    opacity: 1
-				  }, 500 );
+				  }, 300 );
+			} else {
+				$(this).next('.pop').text($(this).attr("title")).animate({
+				    opacity: 1,
+				    right: "-240px",
+				    top: "28px",
+				  }, 300 ).text($(this).attr("title"));
+		    	$(this).attr("title","");
+			}
 
 		  }, function() {
-
+  			$(this).attr("title", $(this).next('.pop').text());
 		  	$(this).next('.pop').animate({
+				    opacity: 0,
+				    right: "-440px",
 				    top: "-28px",
-				    opacity: 0
-				  }, 500 );
-		   
+				  }, 300 ).text("");
 		  }
 		);
 
-	    $('.btn').on('click', function(e){
-			e.preventDefault();
-			$('.pop').animate({
+		
+
+	    $('.btn').on('click', function(e){ 
+	    	  e.preventDefault();
+		      $(".form-group input").each(function(){
+	    		$(this).next('.pop').animate({
+				    opacity: 1,
+				    right: "-240px",
 				    top: "28px",
-				    opacity: 1
-				  }, 500 );
-
-			
+				  }, 300 ).text($(this).attr("title"));
+		      });
 		});
 
-		$($target).focus(function() {
-			$(this).next('.pop').animate({
+		
+
+		$($targetInput).focus(function() {
+			if ($(this).attr("title") == "") {
+				$(this).next('.pop').animate({
+				    opacity: 1,
+				    right: "-240px",
 				    top: "28px",
-				    opacity: 1
-				  }, 500 );
+				  }, 300 );
+			} else {
+				$(this).next('.pop').animate({
+				    opacity: 1,
+				    right: "-240px",
+				    top: "28px",
+				  }, 300 ).text($(this).attr("title"));
+		    	$(this).attr("title","");
+			}	
 		});
 
-		$($target).blur(function() {
-			$(this).next('.pop').animate({
-				    top: "-28px",
-				    opacity: 0
-				  }, 500 );
-		});
-
-
+	
 
 	}());
 
