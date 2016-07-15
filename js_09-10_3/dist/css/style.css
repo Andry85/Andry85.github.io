@@ -1,0 +1,83 @@
+﻿html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, em, font, img, strong, b, u, i, sup, sub, center, dl, dt, dd, ol, ul, li, form, label, table, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+vertical-align: baseline;
+background: transparent;
+}
+sup {
+vertical-align: super;
+}
+sub {
+vertical-align: sub;
+}
+body {
+line-height: 1;
+background: #fff;
+color: #000;
+text-align: left;
+font: 0.875em Arial, Helvetica, sans-serif;
+}
+html,body {
+height: 100%;
+}
+.main {
+min-height: 100%;
+}
+
+.main label {font-size: 16px;}
+* html .main {
+height: 100%;
+}
+.rasporka {
+clear: both;
+height: 60px;
+}
+.validateLinks {
+border-top: 1px solid #55b05a;
+padding: 20px 0 0 20px;
+height: 39px;
+background: #fff;
+margin-top: -60px;
+}
+* html .validateLinks {
+height: 60px;
+}
+.validateLinks a {
+color: #365d95;
+}
+.topPanel{
+	height: 90px;
+	text-align:center;
+	border-bottom: 1px solid #55b05a;
+	margin-bottom: 40px;
+	padding: 3px 0;
+}
+
+
+form {
+  margin: 50px;
+  background: #99CCFF;
+  padding: 10px;
+}
+.niceCheck {
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  cursor: pointer;
+  background: url(../../img/checkbox.png);
+  overflow: hidden;
+}
+.niceChecked {
+  background-position: 0 -17px;
+}
+.niceCheck input {
+  margin-left: -100px;
+}
+div {
+  margin-bottom: 10px;
+}
+.niceCheckDisabled {
+  background-image: url(../../img/checkbox-disabled.png);
+}

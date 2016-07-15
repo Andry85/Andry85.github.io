@@ -1,0 +1,10 @@
+﻿.main {padding: 40px;}
+
+
+.check-wrap {position: relative; padding: 0 0 0 7.2%;}
+.checkbox { vertical-align: top; width: 17px; height: 17px; margin: 0 3px 0 0;}
+.checkbox + label {cursor: pointer;}
+.checkbox:not(checked) {position: absolute; opacity: 0;}
+.checkbox:not(checked) + label {position: relative; padding: 0 0 0 29px;}
+.checkbox:not(checked) + label:before {content: ''; background: url("../../img/mx.png") -181px 0 no-repeat; width: 19px; height: 19px; position: absolute; left: 0; top: -1px;}
+.checkbox:checked + label:before {background-position: -181px -24px;}

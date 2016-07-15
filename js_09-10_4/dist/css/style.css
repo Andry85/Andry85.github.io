@@ -1,0 +1,8 @@
+﻿.menu {padding: 0;}
+.menu li {list-style: none; position: relative;}
+.menu > li {display: inline-block;}
+.menu li a {display: block; background: #ccc; padding: 10px 25px; color: #fff; border-bottom: 1px solid #fff;}
+.menu li a:hover {text-decoration: none;}
+.menu li ul {position: absolute; left: 0; top: 41px; padding: 0; min-width: 200px; display: none;}
+.menu li ul li ul {left: 100%; top: 0;}
+.menu li ul li ul li a {background: #666;}
