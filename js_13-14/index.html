@@ -1,0 +1,77 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <!-- Bootstrap -->
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
+    <link href="dist/css/style.css" rel="stylesheet">
+  </head>
+  <body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+        <form id="forma" class="forma" method="post" action="#">
+          
+        </form>
+               
+      </div>
+    </div>
+  </div>
+
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="dist/js/bootstrap.min.js"></script>
+  <script src="dist/js/shabloniz.js"></script>
+	<script src="dist/js/js.js"></script>
+
+   <script type="text/html" id="forma_tmpl">
+    <h1><%=title%></h1>
+    <% for ( var i = 0; i < questions.length; i++ ) { %>
+      <dl>
+
+           <dt><%=questions[i]%></dt>
+          
+         
+              <% for ( var j = 0; j < answer[i].length; j++ ) { %>
+                <dd>
+                
+                    <input type="checkbox" name="<%= i +''+ j %>" id="<%= i +''+ j %>">
+                    <label for="<%= i +''+ j %>"><%=answer[i][j]%></label>
+                  
+                </dd> 
+            <% } %>      
+      </dl>
+
+      <% } %>
+
+      <button id="button" class="btn btn-default" type="button" data-toggle="modal" data-target="#myModal"><%=resulte%></button>
+
+  </script>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Результат теста</h4>
+          </div>
+          <div class="modal-body">
+            <div class="resultate"></div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

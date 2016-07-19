@@ -1,0 +1,5 @@
+﻿h1 {text-align: center; margin: 0; padding: 25px 0;}
+.forma {max-width: 480px; margin: 0 auto; border: 1px solid #000; padding: 20px;}
+.forma dl dt {font-size: 18px;}
+.forma dl dd {padding: 5px 0 5px 15px;}
+.forma dl dd label {padding: 0 0 0 5px; cursor: pointer;}
