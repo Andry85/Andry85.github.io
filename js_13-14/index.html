@@ -30,22 +30,25 @@
 	<script src="dist/js/js.js"></script>
 
    <script type="text/html" id="forma_tmpl">
-    <h1><%=title%></h1>
-    <% for ( var i = 0; i < questions.length; i++ ) { %>
-      <dl>
+    <h1><%=name%></h1>
+    
 
-           <dt><%=questions[i]%></dt>
-          
-         
-              <% for ( var j = 0; j < answer[i].length; j++ ) { %>
-                <dd>
+    <%  for (var key in questions) {  %>
+
+    <h2><%=questions[key].title%></h2>
+
+      <ul>
+
+           <% for ( var i = 0; i < questions[key].answers.length; i++ ) { %>
+              <li>
+              
+                  <input type="checkbox" id="<%= key +''+ i %>">
+                  <label for="<%= key +''+ i %>"><%=questions[key].answers[i]%></label>
                 
-                    <input type="checkbox" name="<%= i +''+ j %>" id="<%= i +''+ j %>">
-                    <label for="<%= i +''+ j %>"><%=answer[i][j]%></label>
-                  
-                </dd> 
-            <% } %>      
-      </dl>
+              </li> 
+          <% } %>
+                
+      </ul>
 
       <% } %>
 
@@ -75,3 +78,6 @@
 
   </body>
 </html>
+
+
+ 

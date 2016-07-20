@@ -4,14 +4,43 @@
 
 var object = {
 
-	title: 'Тест по програмированию',
+	name: 'Тест по програмированию',
 	resulte: 'Проверить мои результаты',
-	questions: ["Что такое Html","Что такое Css","Что такое Javascript"],
-	answer: [
-				["Язык разметки веб сайтов","Вкусное блюдо","Денежное средство"],
-				["Метод шифрования","Каскадные таблицы стилей","Вид помидор"],
-				["Средство для похудения","Символическая музыка","Язык программирования"]
-			],
+	
+
+	questions: {
+					'1': {
+						'title': 'Что такое Html?',
+						'answers': 
+							[
+								'Язык разметки веб сайтов',
+								'Вкусное блюдо',
+								'Денежное средство'
+							],
+						'check': 0
+						},
+					'2': {
+						'title': 'Что такое Css?',
+						'answers': 
+							[
+								'Метод шифрования',
+								'Каскадные таблицы стилей',
+								'Вид помидор'
+							],
+						'check': 1
+						},
+					'3': {
+						'title': 'Что такое Javascript?',
+						'answers': 
+							[
+								'Средство для похудения',
+								'Символическая музыка',
+								'Язык программирования'
+							],
+						'check': 2
+						}
+				}
+
 		
 };
 
@@ -22,44 +51,61 @@ var object = {
 	var formaTest = document.getElementById("forma");
     formaTest.innerHTML = tmpl("forma_tmpl", test);
 
-    console.log($( "input:checked").val());
-
-
- 		
+  
 
 		$( "#button").click(function(event) {
 			event.preventDefault();
+	
+			
+			var cicle = test.questions;
 
-			if ( 
+			for (var prop in cicle) {
 
-				($('input#00') && $('input#11') && $('input#22')).is(":checked") 
+				var check =  cicle[prop].check;
 
-
-				&&
-
-				!($('input#01') && $('input#02') && $('input#10')&& $('input#12')&& $('input#20')&& $('input#21')).is(":checked")
-
-
-			   )
-
-			{
+				 var list = $("input:checked");
+					
 				
+					$(list).each(function(i) {
 
-				$(".resultate").text("Правильно");
+						var parentIndex = $(this).parent("li").index();
 
-			} else {
 
-				$(".resultate").text("Ошибка");
-			}
+						
+						 if ( parentIndex == check) {
+						 	$(".resultate").text("Правильно");
+						 } 
+						 else {
+
+							$(".resultate").text("Ошибка");
+
+						}
+	
+					});
+
+				}
 
 
 			$('input:checkbox').removeAttr('checked');
 			  
-
-			  	
-				
-			 
 			});
+
+
+
+
+			$( "input" ).on( "click", function() {
+				  
+				  if ($('input').is(":checked")) {
+						$(this).parent("li").siblings("li").children("input").removeAttr("checked")
+					}
+
+				});
+
+
+
+			
+
+
 
 
 
