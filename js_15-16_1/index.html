@@ -1,0 +1,71 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <!-- Bootstrap -->
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
+    <link href="dist/css/style.css" rel="stylesheet">
+  </head>
+  <body>
+
+  <div class="wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          
+          <div class="form-group">
+            <div class="row">
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="" placeholder="">
+              </div>
+              <div class="col-md-3">
+                <button type="submit" class="btn btn-default">Search</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div id="images"></div>
+              </div>
+              
+            </div>
+          </div>
+                 
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ <script src="dist/js/shabloniz.js"></script>
+	<script src="dist/js/js.js"></script>
+
+  <script type="text/html" id="pics">
+      <ul class="list">
+           <% for ( var i = 0; i < hits.length; i++ ) { %> 
+              <li>
+                <strong>Author: <%= hits[i].user %></strong>
+                <a href="<%= hits[i].webformatURL %>" title="">
+                  <img src="<%= hits[i].previewURL %>" width="<%= hits[i].previewWidth %>" height="<%= hits[i].previewHeight %>" alt="" title="">
+                </a>
+                <i class="downloads">downloads: <%= hits[i].downloads %></i>
+                <i class="views">views: <%= hits[i].views %></i>
+              </li>
+          <% } %>
+                
+      </ul>
+
+     
+
+   
+
+  </script>
+
+  </body>
+</html>
+
+
+ 
