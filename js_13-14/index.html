@@ -37,7 +37,7 @@
 
     <h2><%=questions[key].title%></h2>
 
-      <ul>
+      <ul class="<%=questions[key].check%>">
 
            <% for ( var i = 0; i < questions[key].answers.length; i++ ) { %>
               <li>

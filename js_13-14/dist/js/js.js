@@ -52,55 +52,40 @@ var object = {
     formaTest.innerHTML = tmpl("forma_tmpl", test);
 
   
+  	$("#button").click(function(event) {
+  		event.preventDefault();
 
-		$( "#button").click(function(event) {
-			event.preventDefault();
-	
+		$('ul').each(function() {
 			
-			var cicle = test.questions;
+			var check = $(this).children().find("input").is(":checked");
+			console.log(check);
+			
 
-			for (var prop in cicle) {
+				if (check) {
 
-				var check =  cicle[prop].check;
-
-				 var list = $("input:checked");
-					
-				
-					$(list).each(function(i) {
-
-						var parentIndex = $(this).parent("li").index();
-
-
-						
-						 if ( parentIndex == check) {
-						 	$(".resultate").text("Правильно");
-						 } 
-						 else {
-
-							$(".resultate").text("Ошибка");
-
+					$('input:checked').each(function() {
+						var indexParent = $(this).parent("li").index();
+						var classParent = parseInt($(this).parents("ul").attr("class"));
+						if (indexParent == classParent)  {
+							$(".resultate").text("Поздровляем! Вы дали правильный ответ на все вопросы.");
+						} else {
+							$(".resultate").text("Ответ не правильный");
+							return false;
 						}
-	
-					});
-
+					}); 
+				} else {
+					$(".resultate").text("Вы не оветели на все вопросы");
+					return false;
 				}
+												 
+				
+		});	
+
+	});	
 
 
-			$('input:checkbox').removeAttr('checked');
-			  
-			});
 
-
-
-
-			$( "input" ).on( "click", function() {
-				  
-				  if ($('input').is(":checked")) {
-						$(this).parent("li").siblings("li").children("input").removeAttr("checked")
-					}
-
-				});
-
+			
 
 
 			
