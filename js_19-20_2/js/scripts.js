@@ -287,18 +287,136 @@ var arre = [
 
 	
 
-	var skills = _.map(test, 'skills');
+	
+
 
 	console.log('1 Start');
 
-	for(var i = 0; i < skills.length; i++) {
 
-		console.log(_.union( skills[i].sort()));
-    
+	var skills = _.map(test, 'skills');
+	var skillsStr = JSON.stringify(skills);
+	var skillsToLow = skillsStr.toLowerCase();
+	var skillsParse = JSON.parse(skillsToLow);
+
+	var skillsList = [];
+	for(var i = 0; i < skillsParse.length; i++) {
+
+
+		skillsList.push(skillsParse[i]);
+
 	}
+
+	var skillsFinishList = [];
+
+	for(var i = 0; i < skillsList.length; i++) {
+
+		
+		for(var j = 0; j < skillsList[i].length; j++) {
+
+			skillsFinishList.push(skillsList[i][j]);
+		
+		}
+	
+	}
+
+	console.log(_.union(skillsFinishList.sort()));
 
 	console.log('1 End');
 	console.log('----------------------------------------------');
+
+
+
+
+
+	console.log('2 Start');
+
+
+		var nameArr = _.sortBy(test, ['name', 'friends'])
+
+
+		var nameArrSort =_.sortBy(nameArr, function(o) { return o.friends; });
+
+		var nameResult = _.map(nameArrSort, 'name');
+
+
+
+		console.log(nameResult);
+    
+	
+
+	console.log('2 End');
+	console.log('----------------------------------------------');
+
+
+
+
+	console.log('3 Start');
+
+	var allFriends = _.map(test, 'friends');
+
+	
+
+		var allNammes = [];
+
+		for(var i = 0; i < allFriends.length; i++) {
+
+			
+			allNammes.push(_.map(allFriends[i], 'name'));
+			
+		
+    
+		}
+
+		var allNammesList = [];
+
+		for(var i = 0; i < allNammes.length; i++) {
+
+			
+			for(var j = 0; j < allNammes[i].length; j++) {
+
+				allNammesList.push(allNammes[i][j]);
+			
+			}
+		
+		}
+
+	
+
+
+		console.log(_.union(allNammesList));
+    
+
+
+
+
+
+		
+
+	
+
+
+
+
+	/* var allInnerFriends = _.map(allFriends, 'id');
+
+
+
+
+	for(var i = 0; i < allInnerFriends.length; i++) {
+
+
+		console.log(allInnerFriends[i]);
+    
+	}
+	*/
+    
+	
+
+	console.log('3 End');
+	console.log('----------------------------------------------');
+
+
+
 
 
 
