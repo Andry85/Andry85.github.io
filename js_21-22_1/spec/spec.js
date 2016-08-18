@@ -2,15 +2,15 @@ var resultat = require('../dist/js/js.js');
 
 
 describe("A suite", function() {
-  it("it choud call name", function() {
+  it("it shoud call name", function() {
   	//prepare
-  	var result;
+  	var povi;
 
   	//act
-  	result = powFunct(2, 2);
+  	povi = resultat;
 
 
   	//assset
-    expect(result).toBe(4);
+    expect(povi).toEqual(4);
   });
 });

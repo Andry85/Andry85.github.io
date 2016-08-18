@@ -1,12 +1,5 @@
-﻿		
-var number = +prompt('Введите число которые вы хотете возвести в степень?', '');
-var numberRound = Math.round(number);
-var numberPow = +prompt('Введите степень?', '');
-var numberPowRound = Math.round(numberPow);
-
-if (number == 0 || numberPow == 0) {
-         alert ('Вы не ввели число либо степнь.');
-}
+﻿var numberRound = 2;
+var numberPowRound = 2;
 
 function powFunct(a,n) {
     
@@ -33,14 +26,10 @@ function powFunct(a,n) {
             pow = 1;
             return pow;
         }  
-
-         
+      
 }
 
 var resultat = powFunct(numberRound, numberPowRound);
 
-console.log(result);
 
-
-
-module.exports = result;
+module.exports = resultat;
