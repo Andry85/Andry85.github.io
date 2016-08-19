@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <!-- Bootstrap -->
+    <link href="dist/css/compile.css" rel="stylesheet">
+  </head>
+  <body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+        <form id="forma" class="forma" method="post" action="#">
+          
+        </form>
+               
+      </div>
+    </div>
+  </div>
+
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   <script src="dist/scripts/bootstrap.min.js"></script>
+   <script src="dist/scripts/shabloniz.js"></script>
+	 <script src="dist/scripts/all.js"></script>
+
+   <script type="text/html" id="forma_tmpl">
+    <h1><%=name%></h1>
+    
+
+    <%  for (var key in questions) {  %>
+
+    <h2><%=questions[key].title%></h2>
+
+      <ul class="<%=questions[key].check%>">
+
+           <% for ( var i = 0; i < questions[key].answers.length; i++ ) { %>
+              <li>
+              
+                  <input type="checkbox" id="<%= key +''+ i %>">
+                  <label for="<%= key +''+ i %>"><%=questions[key].answers[i]%></label>
+                
+              </li> 
+          <% } %>
+                
+      </ul>
+
+      <% } %>
+
+      <button id="button" class="btn btn-default" type="button" data-toggle="modal" data-target="#myModal"><%=resulte%></button>
+
+  </script>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Результат теста</h4>
+          </div>
+          <div class="modal-body">
+            <div class="resultate"></div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
+
+
+ 
