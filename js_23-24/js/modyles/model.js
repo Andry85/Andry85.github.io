@@ -1,4 +1,9 @@
 function Model(data) {
+
+	 	
+
+
+	
 	 var self = this;
 
 	 self.data = data;
@@ -29,11 +34,23 @@ function Model(data) {
 
 
 	 self.redactItemFun = function(stringRedact, item) {
-	 	var str = self.data.indexOf(stringRedact);
-	 	var ind = item;
-	 	 
-	 	 self.data.splice(str, 1, ind);
+	 
 
-	 	  return self.data;  
+	 		if (item.length === 0) {
+	 			return;
+	 		}
+
+	 		var str = self.data.indexOf(stringRedact);
+	 		self.data.splice(str, 1, item);
+	 		return self.data;
+
+
+	 		
+	 	 	
+	
+	 		
+	 
+
+	 	  
 	 };
 };

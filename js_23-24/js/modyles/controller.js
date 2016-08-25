@@ -29,9 +29,16 @@ function Controller(model, view) {
 	 }
 
 	 function radactFiunction () { 
-	 	var redactItem = view.elements.input.val();
-	 	model.redactItemFun(redactString, redactItem);
-	 	view.renderList(model.data); 
+
+			var redactItem = view.elements.input.val();
+		 	model.redactItemFun(redactString, redactItem);
+		 	view.renderList(model.data); 
+		 	view.elements.input.val('');
+		 
+		 	
+
+	 	
+	 	
 	 }
 
 

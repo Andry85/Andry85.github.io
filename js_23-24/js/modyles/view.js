@@ -17,6 +17,7 @@ function View (model) {
 	 };
 
 	 self.renderList = function(data) {
+
 	 	 var list = tmpl($('#list-template').html(), {data: data});
 	 	 self.elements.listContainer.html(list);
 	 };
