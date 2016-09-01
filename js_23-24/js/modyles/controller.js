@@ -12,6 +12,7 @@ function Controller(model, view) {
 	 	 model.addItem(newItem);
 	 	 view.renderList(model.data);
 	 	 view.elements.input.val(''); 
+	 	 
 	 }
 
 	 function removeItem () {
@@ -34,6 +35,8 @@ function Controller(model, view) {
 		 	model.redactItemFun(redactString, redactItem);
 		 	view.renderList(model.data); 
 		 	view.elements.input.val('');
+
+
 		 
 		 	
 

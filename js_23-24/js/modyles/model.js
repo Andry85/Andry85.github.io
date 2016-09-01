@@ -17,7 +17,11 @@ function Model(data) {
 
 	 	  self.data.push(item);
 
-	 	  return self.data;
+ 	  	  localStorage.setItem("obj", JSON.stringify(self.data));
+ 	  	  var newArr = localStorage.getItem("obj");
+		  newArr = JSON.parse(newArr);
+
+	 	  return newArr;
 	 };
 
 	 self.removeItem = function(item) {
@@ -29,7 +33,11 @@ function Model(data) {
 
 	 	self.data.splice(index, 1);
 
-	 	return self.data;  
+	 	localStorage.setItem("obj", JSON.stringify(self.data));
+ 	  	  var newArr = localStorage.getItem("obj");
+		  newArr = JSON.parse(newArr);
+
+	 	  return newArr; 
 	 };
 
 
@@ -42,14 +50,12 @@ function Model(data) {
 
 	 		var str = self.data.indexOf(stringRedact);
 	 		self.data.splice(str, 1, item);
-	 		return self.data;
-
-
 	 		
-	 	 	
-	
-	 		
-	 
+	 		localStorage.setItem("obj", JSON.stringify(self.data));
+ 	  	  var newArr = localStorage.getItem("obj");
+		  newArr = JSON.parse(newArr);
+
+	 	  return newArr;
 
 	 	  
 	 };
