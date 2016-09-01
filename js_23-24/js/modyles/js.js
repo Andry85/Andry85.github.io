@@ -3,7 +3,7 @@ $(function() {
  	
 
 
-if (typeof localStorage !== 'undefined') {
+if (typeof window.localStorage !== 'undefined') {
 	var test = localStorage.getItem("obj");
 	test = JSON.parse(test);
 	var model = new Model(test);
