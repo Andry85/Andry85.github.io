@@ -20,12 +20,17 @@ $(document).ready(function(){
 	        var images = document.getElementById("images");
 			images.innerHTML = tmpl("pics", data);
 
-			$('.grid').masonry({
-				  itemSelector: '.grid-item',
-				  columnWidth: '.grid-sizer',
-				  gutter: '.gutter-sizer',
-				  percentPosition: true
-				});
+			var $grid = $('.grid').masonry({
+			  columnWidth: '.grid-sizer',
+			  itemSelector: '.grid-item',
+			  gutter: '.gutter-sizer',
+			  percentPosition: true
+			});
+
+			$grid.on( 'click', '.grid-item-content', function( event ) {
+			  $( event.currentTarget ).parent('.grid-item').toggleClass('is-expanded');
+			  $grid.masonry();
+			});
 	    }
 	});
 
@@ -40,17 +45,22 @@ $(document).ready(function(){
 	            var images = document.getElementById("images");
 	    		images.innerHTML = tmpl("pics", data);
 
-	    		$('.grid').masonry({
-				  itemSelector: '.grid-item',
+	    		var $grid = $('.grid').masonry({
 				  columnWidth: '.grid-sizer',
+				  itemSelector: '.grid-item',
 				  gutter: '.gutter-sizer',
 				  percentPosition: true
 				});
+
+				$grid.on( 'click', '.grid-item-content', function( event ) {
+				  $( event.currentTarget ).parent('.grid-item').toggleClass('is-expanded');
+				  $grid.masonry();
+				});
+
 	        }
 		  });
   			
 	});
-
 
 	
     

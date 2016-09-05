@@ -21,16 +21,7 @@
 	        .pipe(browserSync.reload({stream: true})) // Обновляем CSS на странице при изменении
 	});
 
-	gulp.task('scripts', function() {
-    	return gulp.src([ // Берем все необходимые библиотеки
-	        'app/libs/jquery/jquery-1.7.1.min.js', // Берем jQuery
-	        'app/libs/owl/owl.carousel.js',
-	        'app/libs/picterfull/picturefill.min.js'
-	        ])
-	        .pipe(concat('libs.min.js')) // Собираем их в кучу в новом файле libs.min.js
-	        .pipe(uglify()) // Сжимаем JS файл
-	        .pipe(gulp.dest('app/js')); // Выгружаем в папку app/js
-		});
+
 
 	gulp.task('css-libs', ['sass'], function() {
 	    return gulp.src(['app/css/main.css']) // Выбираем файл для минификации
@@ -63,7 +54,7 @@
 	});
 
 
-	gulp.task('watch', ['browser-sync', 'css-libs', 'scripts'], function() {
+	gulp.task('watch', ['browser-sync', 'css-libs'], function() {
 	    gulp.watch('app/sass/**/*.scss', ['sass']); // Наблюдение за sass файлами
 	    gulp.watch('app/*.html', browserSync.reload);
 	    gulp.watch('app/js/**/*.js', browserSync.reload);
@@ -81,7 +72,7 @@
 
 
 
-	gulp.task('build', ['clean', 'img', 'sass', 'scripts'], function() {
+	gulp.task('build', ['clean', 'img', 'sass'], function() {
 
 	    var buildCss = gulp.src([ // Переносим CSS стили в продакшен
 	        'app/css/main.min.css'
