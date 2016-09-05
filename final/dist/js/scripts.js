@@ -19,6 +19,13 @@ $(document).ready(function(){
 	  success: function (data) {
 	        var images = document.getElementById("images");
 			images.innerHTML = tmpl("pics", data);
+
+			$('.grid').masonry({
+				  itemSelector: '.grid-item',
+				  columnWidth: '.grid-sizer',
+				  gutter: '.gutter-sizer',
+				  percentPosition: true
+				});
 	    }
 	});
 
@@ -32,18 +39,20 @@ $(document).ready(function(){
 	      success: function (data) {
 	            var images = document.getElementById("images");
 	    		images.innerHTML = tmpl("pics", data);
+
+	    		$('.grid').masonry({
+				  itemSelector: '.grid-item',
+				  columnWidth: '.grid-sizer',
+				  gutter: '.gutter-sizer',
+				  percentPosition: true
+				});
 	        }
 		  });
   			
 	});
 
 
-	$('.grid').masonry({
-	  itemSelector: '.grid-item',
-	  columnWidth: '.grid-sizer',
-	  gutter: '.gutter-sizer',
-	  percentPosition: true
-	});
+	
     
   
     
