@@ -50,7 +50,7 @@
 	            svgoPlugins: [{removeViewBox: false}],
 	            use: [pngquant()]
 	        })))
-	        .pipe(gulp.dest('dist/img')); // Выгружаем на продакшен
+	        .pipe(gulp.dest('src/img')); // Выгружаем на продакшен
 	});
 
 
@@ -63,7 +63,7 @@
 
 
 	gulp.task('clean', function() {
-	    return del.sync('dist'); // Удаляем папку dist перед сборкой
+	    return del.sync('src'); // Удаляем папку src перед сборкой
 	});
 
 	gulp.task('clear', function() {
@@ -77,16 +77,16 @@
 	    var buildCss = gulp.src([ // Переносим CSS стили в продакшен
 	        'app/css/main.min.css'
 	        ])
-	    .pipe(gulp.dest('dist/css'))
+	    .pipe(gulp.dest('src/css'))
 
 	    var buildFonts = gulp.src('app/fonts/**/*') // Переносим шрифты в продакшен
-	    .pipe(gulp.dest('dist/fonts'))
+	    .pipe(gulp.dest('src/fonts'))
 
 	    var buildJs = gulp.src('app/js/**/*') // Переносим скрипты в продакшен
-	    .pipe(gulp.dest('dist/js'))
+	    .pipe(gulp.dest('src/js'))
 
 	    var buildHtml = gulp.src('app/*.html') // Переносим HTML в продакшен
-	    .pipe(gulp.dest('dist'));
+	    .pipe(gulp.dest('src'));
 
 	});
 
