@@ -14,20 +14,20 @@
 
 
 	gulp.task('sass', function(){ // Создаем таск "sass"
-    	return gulp.src('app/sass/**/*.scss') // Берем источник
+    	return gulp.src('src/sass/**/*.scss') // Берем источник
 	        .pipe(sass()) // Преобразуем Sass в CSS посредством gulp-sass
 	        .pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true })) // Создаем префиксы
-	        .pipe(gulp.dest('app/css')) // Выгружаем результата в папку app/css
+	        .pipe(gulp.dest('src/css')) // Выгружаем результата в папку src/css
 	        .pipe(browserSync.reload({stream: true})) // Обновляем CSS на странице при изменении
 	});
 
 
 
 	gulp.task('css-libs', ['sass'], function() {
-	    return gulp.src(['app/css/main.css']) // Выбираем файл для минификации
+	    return gulp.src(['src/css/main.css']) // Выбираем файл для минификации
 	        .pipe(cssnano()) // Сжимаем
 	        .pipe(rename({suffix: '.min'})) // Добавляем суффикс .min
-	        .pipe(gulp.dest('app/css')); // Выгружаем в папку app/css
+	        .pipe(gulp.dest('src/css')); // Выгружаем в папку src/css
 	});
 
 	
@@ -36,34 +36,34 @@
 	gulp.task('browser-sync', function() { // Создаем таск browser-sync
 	    browserSync({ // Выполняем browser Sync
 	        server: { // Определяем параметры сервера
-	            baseDir: 'app' // Директория для сервера - app
+	            baseDir: 'src' // Директория для сервера - src
 	        },
 	        notify: false // Отключаем уведомления
 	    });
 	});
 
 	gulp.task('img', function() {
-	    return gulp.src('app/img/**/*') // Берем все изображения из app
+	    return gulp.src('src/img/**/*') // Берем все изображения из src
 	        .pipe(cache(imagemin({  // Сжимаем их с наилучшими настройками с учетом кеширования
 	            interlaced: true,
 	            progressive: true,
 	            svgoPlugins: [{removeViewBox: false}],
 	            use: [pngquant()]
 	        })))
-	        .pipe(gulp.dest('src/img')); // Выгружаем на продакшен
+	        .pipe(gulp.dest('dist/img')); // Выгружаем на продакшен
 	});
 
 
 	gulp.task('watch', ['browser-sync', 'css-libs'], function() {
-	    gulp.watch('app/sass/**/*.scss', ['sass']); // Наблюдение за sass файлами
-	    gulp.watch('app/*.html', browserSync.reload);
-	    gulp.watch('app/js/**/*.js', browserSync.reload);
+	    gulp.watch('src/sass/**/*.scss', ['sass']); // Наблюдение за sass файлами
+	    gulp.watch('src/*.html', browserSync.reload);
+	    gulp.watch('src/js/**/*.js', browserSync.reload);
 	    // Наблюдение за другими типами файлов
 	});	
 
 
 	gulp.task('clean', function() {
-	    return del.sync('src'); // Удаляем папку src перед сборкой
+	    return del.sync('dist'); // Удаляем папку dist перед сборкой
 	});
 
 	gulp.task('clear', function() {
@@ -75,18 +75,18 @@
 	gulp.task('build', ['clean', 'img', 'sass'], function() {
 
 	    var buildCss = gulp.src([ // Переносим CSS стили в продакшен
-	        'app/css/main.min.css'
+	        'src/css/main.min.css'
 	        ])
-	    .pipe(gulp.dest('src/css'))
+	    .pipe(gulp.dest('dist/css'))
 
-	    var buildFonts = gulp.src('app/fonts/**/*') // Переносим шрифты в продакшен
-	    .pipe(gulp.dest('src/fonts'))
+	    var buildFonts = gulp.src('src/fonts/**/*') // Переносим шрифты в продакшен
+	    .pipe(gulp.dest('dist/fonts'))
 
-	    var buildJs = gulp.src('app/js/**/*') // Переносим скрипты в продакшен
-	    .pipe(gulp.dest('src/js'))
+	    var buildJs = gulp.src('src/js/**/*') // Переносим скрипты в продакшен
+	    .pipe(gulp.dest('dist/js'))
 
-	    var buildHtml = gulp.src('app/*.html') // Переносим HTML в продакшен
-	    .pipe(gulp.dest('src'));
+	    var buildHtml = gulp.src('src/*.html') // Переносим HTML в продакшен
+	    .pipe(gulp.dest('dist'));
 
 	});
 

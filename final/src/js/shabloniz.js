@@ -1,4 +1,4 @@
-// see:
+﻿// see:
 // http://ejohn.org/blog/javascript-micro-templating/
 
 // Simple JavaScript Templating
