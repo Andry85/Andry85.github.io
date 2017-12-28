@@ -1,0 +1,101 @@
+/*
+Author: Shapoval Andry
+Author URI: http://www.free-lance.ru/users/merr
+*/
+* {padding: 0; margin :0;}
+html {height:100%;}
+body {background: #fff url(../images/body-bg.jpg) center top no-repeat; font: 14px Arial, Helvetica, sans-serif; color: #000; overflow-x:hidden; min-width:1000px; height: auto !important; height: 100%; min-height: 100%; position: relative;}
+img, table {border: none;}
+table tr td {border-collapse: collapse; vertical-align: middle;}
+li {list-style: none;}
+.clear {clear: both; height: 0; text-indent: -9000px; overflow: hidden;}
+a {color: #002b83;}
+a:link, a:visited{text-decoration: none;}
+a:hover {text-decoration: underline;}
+a:focus {outline: none;}
+/*	clearfix			*/
+.clearfix{_height: 1%; _overflow: visible;}
+.clearfix:after{content: "."; display: block; height: 0px; clear: both; visibility: hidden; line-height:0px; font-size:0px;}
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/*	clearfix			*/
+
+
+.wraper {width: 980px; margin: 0 auto; padding-bottom: 180px; position: relative; z-index: 100;}
+.wraper:after {content: "."; display: block; height: 0; visibility: hidden;clear: both;}
+.head {height: 131px; position: relative;}
+.logo {float: left; padding: 39px 0 0 0;}
+.menu {background: url(../images/menu-bg.gif) left 3px no-repeat; float: left; padding: 0 0 0 29px; margin: 43px 0 0 29px;}
+.menu li {background: url(../images/menu-li-bg.png) left 5px no-repeat; padding: 0 0 3px 23px;}
+.menu li a {font-weight: bold; font-size: 13px;}
+.contacts {float: right; padding: 48px 3px 0 0; width: 300px;}
+.tel {font: bold 24px Verdana, Arial, Helvetica, sans-serif; color: #002b83; text-align: right;}
+.icq {background: url(../images/icq-bg.png) left 1px no-repeat; padding: 0 0 0 23px; float: right; color: #89b1db; font-size: 16px;}
+.mail {background: url(../images/mail-bg.png) left 5px no-repeat; padding: 0 8px 0 24px; float: right;}
+.mail a {color: #89b1db; font-size: 16px;}
+
+.content { width: 100%;}
+.left-col {width: 724px; float: left;}
+.slider {width: 770px; height: 278px; position: relative; left: -78px; z-index: 100;}
+#slideshow {width: 770px; height: 272px; overflow: hidden;}
+#slideshow img {display: block;}
+#nav {background: url(../images/nav-bg.png) no-repeat; width: 60px; height: 12px; overflow: hidden; position: absolute; bottom: -1px; right: 30px; padding: 3px 0 0 7px;}
+#nav li {float: left; margin: 0 2px 0 0;}
+#nav li a {background: url(../images/nav-a-bg.png) no-repeat; float: left; width: 9px; height: 9px; overflow: hidden; text-indent: -9000px;}
+#nav li a:hover {background: url(../images/nav-a-hover.png) no-repeat;} 
+.block {background: #00174a url(../images/block-bg.png) no-repeat; width: 668px; position: relative; top: -6px; left: -22px; padding: 0 0 5px 0; z-index: 90;}
+.box-inner {padding: 56px 0 0 24px;}
+.box-inner h1 {color: #fff; font: bold 32px Verdana, Arial, Helvetica, sans-serif; padding: 0 0 0 4px;}
+.box-inner h1 span {font-family: Arial, Helvetica, sans-serif; font-weight: normal;}
+.box-inner h2 {font-size: 16px; font-weight: bold; color: #fff; padding: 0 0 0 4px;}
+.serveses {padding: 26px 0 0 0;}
+.serveses li {float: left; padding: 0 30px 16px 0;}
+.serveses li.last {padding-right: 0;}
+.serveses li a {float: left; width: 114px; height: 59px; font-size: 19px; text-decoration: none; color: #345fb2; padding: 15px 0 0 73px;}
+.serveses li a:hover {text-decoration: underline;}
+.serveses li a span {display: block; line-height: 1.1;}
+.serveses .l01 a {background: url(../images/li-001.png) no-repeat;}
+.serveses .l02 a {background: url(../images/li-002.png) no-repeat;}
+.serveses .l03 a {background: url(../images/li-003.png) no-repeat;}
+.serveses .l04 a {background: url(../images/li-004.png) no-repeat;}
+.serveses .l05 a {background: url(../images/li-005.png) no-repeat;}
+.serveses .l06 a {background: url(../images/li-006.png) no-repeat;}
+.serveses .l07 a {background: url(../images/li-007.png) no-repeat; width: 120px; padding-left: 67px;}
+.serveses .l08 a {background: url(../images/li-008.png) no-repeat;}
+.serveses .l09 a {background: url(../images/li-009.png) no-repeat;}
+.text {width: 678px; position: relative; left: -22px;}
+.text-title { padding: 8px 0 17px 22px;}
+.text-title p {font-size: 23px; font-weight: bold; color: #000;}
+.text-title p span {font: bold 30px Verdana, Arial, Helvetica, sans-serif; color: #002b83; padding: 0 0 0 12px;}
+.text-body {padding: 13px 30px 0 0; border-top: 1px solid #ccd2e0; margin: 0 10px 0 0;}
+.text-body p {line-height: 1.8; padding: 0 0 26px 0;}
+
+
+.right-col {width: 256px; float: left; padding: 6px 0 0 0;}
+.work {margin: 0 0 0 5px;}
+.vizov {position: relative;}
+.vizov p { background: url(../images/vizov.png) no-repeat; width: 434px; height: 204px; position: absolute; top: -35px; left: -62px;}
+.vizov a { display: block; margin: 63px 0 0 61px;}
+.sidebar-bg1 {background: url(../images/sidebar-bg1.png) no-repeat; padding: 32px 0 0 0; margin: 134px 0 0 0;}
+.sidebar-bg2 {background: url(../images/sidebar-bg2.png) repeat-y; position: relative; padding: 40px 0 0 0;}
+.price {position: absolute; top: -12px; left: 23px;}
+.sidebar-bg2 ul {padding: 17px 0 0 23px;}
+.sidebar-bg2 ul li {padding: 0 0 17px 0;}
+.sidebar-bg2 ul li p {font-size: 15px;}
+.sidebar-bg2 ul li span {display: block; font-size: 31px; font-weight: bold; color: #699f00; line-height: 1.1;}
+.sidebar-bottom {background: url(../images/sidebar-bottom.png) no-repeat; width: 256px; height: 82px;}
+.sidebar-bottom p {padding: 22px 0 0 88px;}
+.sidebar-bottom p a {color: #fff; font-size: 15px; font-weight: bold; text-decoration: none;}
+.sidebar-bottom p a:hover {text-decoration: underline;}
+
+.footer {background: url(../images/footer-bg.png) center top no-repeat; height: 219px; width: 100%; position: absolute; bottom: 0; z-index: 101;}
+.footer-main {width: 980px; margin: 0 auto; padding: 158px 0 0 0; font-size: 13px; color: #6d92b8;}
+.nav {float: left; margin: 0 0 0 -24px; position: relative;}
+.nav li {display: inline; padding: 0 27px 0 0;}
+.nav li a {color: #6d92b8; text-decoration: underline;}
+.nav li a:hover {text-decoration: none;}
+.design {width: 300px; float: right; text-align: right;}
+.design p {padding: 0 0 2px 0;}
+.design p a {color: #6d92b8; text-decoration: underline;}
+.design p a:hover {text-decoration: none;}

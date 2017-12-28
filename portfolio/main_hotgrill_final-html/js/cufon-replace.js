@@ -1,0 +1,1 @@
+Cufon.replace('.head h1, .sait, .tell, .time, .inn strong, .inn i, .recepts span, .slider1Image span.top strong, .slider1Image span.bottom strong',  {fontFamily: 'eurofurence light'});

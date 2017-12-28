@@ -1,0 +1,76 @@
+@media (max-width:1840px){
+    .catalog-list li {width: 25%;}
+}
+
+@media (max-width:1366px){
+    .catalog-list li {width: 33.4%;}
+}
+
+@media (max-width: 1023px){
+    .footer-nav {float: none; clear: both; padding: 10px 0; text-align: center;}
+    .footer-nav li {margin: 0; float: none; display: inline-block;}
+    .footer-nav li a {font-size: 12px; padding: 5px 5px 5px 7px}
+    .social {float: none; text-align: center;}
+    .social li {float: none; padding: 0; display: inline-block; padding: 0 8px;}
+    .social li a {float: none; display: block;}
+}
+
+@media (max-width: 960px){
+    .catalog-list li {width: 50%;}
+    .informer-list > li label {float: none; display: block; padding-bottom: 10px;}
+    .dann-list li input {width: 80%;}
+}
+
+
+/* Note: Design for a width of 768px */
+@media  (min-width: 768px) and (max-width: 1023px) {
+}
+/* #Mobile (Portrait)
+================================================== */
+ /* Note: Design for a width of 320px */
+
+@media  (max-width: 767px) {
+	html {-webkit-text-size-adjust: none;}
+
+    #footer {display: none;}
+    .catalog-list li {width: 100%;}
+    .catalog-list li img {border: 0;}
+    a.clMenuLink {display: block;}
+
+    .sidebar {display: none;}
+    .page,#footer {padding-right: 0;}
+    .product_list > li {width: 100%; margin-bottom: 25px;}
+    .informer-list > li {float: none; clear: both; width: 100%;}
+    .informer-list > li:first-child {padding-bottom: 25px;}
+    .informer-list > li.last {float: none; clear: both; width: 100%;}
+    .page-inner {padding: 0 10px;}
+    .dann-list {width: 100%;}
+    .dann-list li {float: none; clear: both; width: 100%; margin: 0 0 30px 0!important;}
+    .dann-list li input {width: 90%;}
+    .siz-list {width: 100%;}
+    .siz-inner {float: none; clear: both; width: 100%; overflow: hidden;}
+    .numbers {float: none; clear: both; width: 100%;}
+    .booking a.edd-a {float: none; margin: 0 0 10px 0;}
+    .booking p {float: none;}
+    .hd_2 {background-size: 150px 26px; width: 150px; height: 26px;}
+    .hd_1 {background-size: 115px 27px; width: 115px; height: 27px;}
+    .box-right {float: none; clear: both; width: 100%; padding-bottom: 20px;}
+    .box-left {float: none; clear: both; width: 100%;}
+    .box-right .contact-lists {padding-left: 0;}
+    .box-left .contact-lists {padding-left: 0;}
+    .clozze {float: none; position: absolute; left: 0px; top: 0px; margin: 0;}
+    .count-outer {margin: 0;}
+    .siz-list-second li {padding-bottom: 35px;}
+    .bt {width: 118px; font-size: 16px;}
+    .hd_3 {background-size: 114px 27px; width: 114px; height: 27px;}
+    .box-title span {min-width: 210px;}
+}
+
+
+
+
+
+
+
+
+

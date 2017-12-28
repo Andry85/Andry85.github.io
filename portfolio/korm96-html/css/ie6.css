@@ -1,0 +1,10 @@
+.head-inner-right .regi {margin: 0 9px 0 0;}
+.head-inner-right .regi li {width: 43px;}
+.head-inner-right .regi li span {width: 37px; }
+.head-inner-right .regi li span a {width: 28px;}
+.head-inner-right .regi li.last {margin: 0; width: 110px;}
+.head-inner-right .regi li.last span {width: 104px;}
+.head-inner-right .regi li.last span a {width: 95px;}
+.niceCheck {height: 22px;}
+.list li { display: inline;}
+.pagenavi li a i { padding-bottom: 6px;}

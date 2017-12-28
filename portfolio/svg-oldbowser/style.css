@@ -1,0 +1,26 @@
+/*Common Elements*/
+html {
+	background: #f9f9f9;
+}
+h1 {
+	margin-bottom: 50px;
+}
+h3 {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+}
+section {
+	margin-bottom: 50px;
+}
+pre	{
+	color: #777;
+	overflow: hidden;
+}
+
+
+/*Wrapper*/
+
+#wrapper {
+	width: 500px;
+	margin: 0 auto;
+}

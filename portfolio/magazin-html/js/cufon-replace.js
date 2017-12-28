@@ -1,0 +1,1 @@
+Cufon.replace('.head .contacts p,.head .contacts span, .head .menu li a, .info h3, .info p, .jqGSPagination a, .catalog ul li h3, .pagenator ul li a, .responde-inner p, .other, .zayavka h2, .text h1, .product-info h2, .product-inside h1,.responde h2.h22, .tovar-outer h3, #forma-zakaza h2',  { fontFamily: 'Myriad Pro', hover:true });

@@ -1,0 +1,109 @@
+/*windows*/
+.windows .header { height:60px; }
+.windows .footer { background-image: url(../img/bg/windows_footer.jpg);  height: 245px; }
+.windows .wigetbox .top_item img {
+	margin-right: 20px;
+}
+
+.windows_wg_bg1, .windows_wg_bg2, .windows_wg_bg3, .windows_wg_bg4 {
+	margin: 6px 3px 7px 4px;
+	width: 230px;
+	height: 173px;
+	float: left;
+	
+}
+.windows_wg_bg1 span, .windows_wg_bg2 span , .windows_wg_bg3 span , .windows_wg_bg4 span{
+	color:#7C520D;
+}
+.windows_wg_bg1 {
+	background-image: url(../img/wiget/windows/1.png);
+}
+.windows_wg_bg2 {
+	background-image: url(../img/wiget/windows/2.png);
+}
+.windows_wg_bg3 {
+	background-image: url(../img/wiget/windows/3.png);
+}
+.windows_wg_bg4 {
+	background-image: url(../img/wiget/windows/4.png);
+}
+.windows .wigetbox h3 { color:#7c520e; font-size: 14px; }
+.windows .wigetbox h3 a { color:#7c520e; }
+.windowscontentbox { text-align:justify; color:#1d2300; line-height:21px; }
+
+.windowscontentbox button.add-funds { 
+	background-image: url(../img/btn_green.png);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	color:#fff;
+	padding:10px 10px; 
+	border-style: none;	
+	width: 250px;
+	height:57px;
+	font-size: 25px;
+	font-family: 'Noto Sans';
+	cursor: pointer;
+}
+.windowscontentbox button.download {
+	background-image: url(../img/ico_bg_win.png);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	color: #7c520e;
+	padding: 7px 10px 8px 44px;
+	height:83px;
+	width: 250px;
+	border-style: none;
+	font-size: 35px;
+	font-family: 'Noto Sans';
+	cursor: pointer;
+}
+.windowscontentbox button.reg_b, .windowscontentbox button.login_b  {
+	color: #fff;
+	padding: 7px 10px 8px 10px;
+	width: 250px;
+	height:57px;
+	border-style: none;
+	font-size: 25px;
+	font-family: 'Noto Sans';
+	cursor: pointer;
+	margin-top:25px;
+	background-size: 100%;
+	background-color: transparent;
+	background-repeat: no-repeat;
+}
+.windowscontentbox button.reg_b {
+	background-image:url(../img/btn_blue.png);
+}
+.windowscontentbox button.login_b {
+	background-image:url(../img/btn_green.png);
+}
+.windowscontentbox  h3 { padding: 0 0 22px 0; font-family: 'Segoe'; font-size: 20px !important; color:#1d2100 !important; }
+
+.windowssliderbox { 
+	height: 400px;
+	background-image: url(../img/bg/slider.jpg);
+	padding: 50px 0;
+	background-repeat: repeat-x;
+	background-position: 0 -250px;	
+	margin-top: 40px;
+}
+.windowssliderbox div.step-info{
+	width: 500px;
+	float: left;
+	padding: 0 30px;
+	color: #d5d5d5;
+	font-size: 20px;
+	font-family: 'Segoe';
+	font-size:15px;
+}
+.windowssliderbox div.step-info h3 { font-family: 'Segoe'; color:#fff !important; font-size: 25px !important; margin-bottom:15px; }
+.windowssliderbox div.step-info h3 span { font-family: 'Segoe'; color:#ff942a; margin-right:7px;}
+.windowssliderbox div.step-info p.orange { color:#ff942a; }
+.windowssliderbox div.step-info p b { font-family: 'Segoe'; color:#fff;}
+.windowssliderbox img { }
+.windowssliderbox p { line-height:40px; }
+.anythingSlider-default.activeSlider .anythingControls a.cur,
+.anythingSlider-default.activeSlider .anythingControls a:hover {	
+	background-position: -75px 1px;
+	color: #fff;
+}

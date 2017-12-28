@@ -1,0 +1,75 @@
+/*
+Author: Shapoval Andry
+Author URI: http://www.free-lance.ru/users/merr
+*/
+* {padding: 0; margin :0;}
+html, body {width:100%;height:100%;}
+body {background: #292728 url(../images/body-bg.png) center top no-repeat; font: 12px Arial, Helvetica, sans-serif; color: #fff;}
+img, table {border: none;}
+table tr td {border-collapse: collapse; vertical-align: middle;}
+li {list-style: none;}
+.clear {clear: both; height: 0; text-indent: -9000px; overflow: hidden;}
+a {text-decoration: underline;}
+a:hover {text-decoration: none;}
+a:focus {outline: none;}
+/*	clearfix			*/
+.clearfix{_height: 1%; _overflow: visible;}
+.clearfix:after{content: "."; display: block; height: 0px; clear: both; visibility: hidden; line-height:0px; font-size:0px;}
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/*	clearfix			*/
+
+	.wrapper {width: 956px; margin: 0 auto; position:relative; min-height: 100%; height: auto !important; height: 100%;}
+	.head {position: relative; margin-bottom: 31px; height: 605px;}
+		.head .logo {display: block; padding: 9px 0 9px 28px;}
+		.head .menu-outer {background: url(../images/menu-outer-bg.png) no-repeat; height: 30px; width: 956px;}
+		.head .menu-outer .title {float: left; font-size: 19px; color: #ee520c; padding: 2px 0 0 27px;}
+		.head .menu-outer .title span {color: #fff;}
+		.head .menu-outer .menu {float: right; padding: 7px 0 0 0;}
+		.head .menu-outer .menu li {float: left; padding: 1px 0 0 0;}
+		.head .menu-outer .menu li span {float: left; background: url(../images/menu-span-bg.gif) center top no-repeat; height: 17px; width: 2px; padding: 0 18px;}
+		.head .menu-outer .menu li a {float: left; color: #fff; text-decoration: none;}
+		.head .menu-outer .menu li a:hover {text-decoration: underline;}
+		.inner {background: url(../images/inner-bg.png) no-repeat; width: 941px; height: 424px; padding: 15px 0 0 15px; position: relative;}
+		.soc {background: url(../images/soc-bg.png) no-repeat; width: 237px; height: 29px; position: absolute; right: 6px; bottom: 0;}
+		.soc ul {padding: 5px 30px 0 0; float: right;}
+		.soc ul li {float: left; padding: 1px 0 0 0;}
+		.soc ul li span {float: left; background: url(../images/menu-span-bg.gif) center top no-repeat; height: 17px; width: 2px; padding: 0 17px;}
+		.soc ul li a {float: left; color: #fff; text-decoration: none; font-size: 13px;}
+		.soc ul li a:hover {text-decoration: underline;}
+		.info {position: absolute; left: 28px; top: 31px;}
+		.info p {font-size: 48px; color: #fe560b; margin: 0 0 9px 0;}
+		.info p.rus {color: #fefefe; font-size: 36px; margin: 0 0 13px 0;}
+		.div {position: absolute; font-size: 17px; position: absolute; left: 30px; bottom: 22px;}
+		
+		.content {width: 100%; padding-bottom: 175px}
+		.main {background: #0d0d0d; margin: 0 0 30px 0;}
+		.main-last {margin: 0;}
+		.naw {padding: 6px 0 6px 29px;}
+		.naw li {float: left; padding: 1px 0 0 0;}
+		.naw li span {float: left; background: url(../images/menu-span-bg.gif) center top no-repeat; height: 17px; width: 2px; padding: 0 23px;}
+		.naw li a {float: left; color: #fff; text-decoration: none; font-size: 13px;}
+		.naw li a:hover,.naw li.cur a {font-size: 18px; color: #fe560b;}
+		.content .inner {background-color: #292728;}
+		.foto-slider {width: 887px; height: 404px; position: relative; padding: 20px 36px 0 20px;}
+		.foto-slider .next {background: url(../images/next-button.png) no-repeat; width: 35px; height: 33px; border: 0; padding: 0; cursor: pointer; position: absolute; right: 2px; top: 185px; z-index: 10;}
+		.foto-slider .prew {background: url(../images/prew-button.png) no-repeat; width: 32px; height: 33px; border: 0; padding: 0; cursor: pointer; position: absolute; left: -15px; top: 185px; z-index: 10;}
+		.foto-slider-inner {overflow: hidden; position: relative; width:100%;}
+		.foto-slider-inner .slide {width:100% !important;}
+		.foto-slider-inner .slide ul li {float: left; margin: 0 22px 0 0;}
+		.submenu {padding: 9px 0 7px 28px;}
+		.submenu li {float: left; padding: 1px 0 0 0;}
+		.submenu li span {float: left; background: url(../images/menu-span-bg.gif) center top no-repeat; height: 17px; width: 2px; padding: 0 23px;}
+		.submenu li a {float: left; color: #fff; text-decoration: none; font-size: 13px;}
+		.submenu li a:hover {text-decoration: underline;}
+		
+		.text {padding: 15px;}
+		.text h1 {padding: 5px;}
+		.text p {padding-bottom: 15px;}
+		
+	.footer {background: url(../images/footer.png) no-repeat; width: 956px; margin: -175px auto 0 auto; height: 175px; position: relative;}
+		.footer .logo {float: left; padding: 34px 0 0 30px;}
+		.footer .contacts {width: 237px; float: right; padding: 73px 28px 0 0;}
+		.footer .contacts p {padding: 0 0 9px 0;}
+		.footer ul li {padding-bottom: 4px;}	

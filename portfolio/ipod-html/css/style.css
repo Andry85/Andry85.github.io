@@ -1,0 +1,63 @@
+/*
+Author: Shapoval Andry
+Author URI: http://www.free-lance.ru/users/merr
+*/
+* {padding: 0; margin :0;}
+html, body {width: 100%; height: 100%;}
+body {background: #000 url(../images/body-bg.png) repeat-x; font: 11px Tahoma, Geneva, sans-serif; color: #2d2d2d;}
+img, table {border: none;}
+table tr td {border-collapse: collapse; vertical-align: middle;}
+li {list-style: none;}
+.clear {clear: both; height: 0; text-indent: -9000px; overflow: hidden;}
+a {text-decoration: underline;}
+a:hover {text-decoration: none;}
+a:focus {outline: none;}
+
+
+/*	clearfix			*/
+.clearfix{_height: 1%; _overflow: visible;}
+.clearfix:after{content: "."; display: block; height: 0px; clear: both; visibility: hidden; line-height:0px; font-size:0px;}
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/*	clearfix			*/
+
+			.wrapper {background: url(../images/wrapper-bg.png) center 19px no-repeat; width: 1000px; margin: 0 auto;}
+				.head {width: 1000px; position: relative; height: 220px;}
+				.head .description {font-size: 14px; color: #323232; position: absolute; right: 130px; top: 91px;}
+				.head .logo {position: absolute; top: 144px; right: 309px;}
+				
+				.content {width: 1000px;}
+				.box-outer {float: right; padding: 0 112px 0 0;}
+				.box-bg {background: url(../images/box-bg.png) no-repeat; width: 454px; height: 265px; position: relative;}
+				.box-bg1 {background: url(../images/box-bg1.png) no-repeat; width: 454px; height: 299px; padding: 12px 0 0 0;}
+				.box-bg h2 {color: #febaf7; font-size: 16px; font-weight: normal; text-align: right; padding: 8px 20px 0 0;}
+				.box-bg h3 {color: #fff; font-size: 18px; font-weight: normal; padding: 14px 0 0 22px;}
+				.box-bg .inside {padding: 16px 0 0 67px;}
+				.box-bg form .inside .submit {background: url(../images/submit-bg.png) no-repeat; width: 154px; height: 25px; border: 0; margin: 0 7px 0 0; cursor: pointer;}
+				.box-bg form .inside .submit-1 {background: url(../images/submit-bg1.png) no-repeat; width: 154px; height: 25px; border: 0; cursor: pointer;}
+				.box-bg form .title {font-size: 17px; color: #6fe73b; padding: 39px 0 0 23px;}
+				.box-bg form .inner {padding: 15px 0 0 24px; width: 430px;}
+				.box-bg form .inner .text {background: url(../images/input-bg.png) no-repeat; width: 221px; height: 25px; border: 0; line-height: 25px; padding: 0 11px; float: left; margin: 0 10px 0 0;}
+				.box-bg form .inner .submit-2 {background: url(../images/submit-bg2.png) no-repeat; width: 154px; height: 25px; border: 0; cursor: pointer; float: left;}
+				.box-bg form .inner .submit-3 {background: url(../images/submit-bg3.png) no-repeat; width: 154px; height: 25px; border: 0; cursor: pointer; float: left;}
+				.box-bg form .inner span {color: #fff; font-weight: bold; padding: 2px 0 0 57px; display: block;}
+				.box-bg .action {position: absolute; right: -106px; bottom: -173px;}
+				.box-bg .info {text-align: center; padding: 16px 0 2px 0;}
+				.box-bg .info p {font-size: 14px; color: #fff; line-height: 1.0;}
+				.box-bg .info p strong {font-weight: normal; color: #6ccd3e;}
+				.chek {padding: 20px 0 0 23px; width: 431px;}
+				.chek input {margin: 0 7px 0 0; float: left;}
+				.chek span {color: #fff; float: left;}
+				.chek span a {color: #fff;}
+				.box-bg form textarea {background: url(../images/textarea-bg.png) no-repeat; width: 395px; height: 119px; border: 0; color: #fff; margin: 10px 0 0 24px; font-size: 11px; padding: 2px 2px 2px 10px; line-height: 1.2; overflow: auto;}
+				*+html .chek input {margin-top: -4px; margin-bottom: -5px;}
+				
+				.footer {padding: 346px 0 0 0;}
+				.footer .copy {text-align: center; color: #a1a1a1; padding: 0 0 18px 0;}
+				.footer-inner {background: url(../images/footer-inner.png) no-repeat; width: 922px; height: 61px; margin: 0 auto; overflow: hidden;}
+				.footer-inner ul {padding: 20px 0 0 3px;}
+				.footer-inner ul li {float: left; padding: 0 5px 0 0;}
+				.footer-text {padding: 39px 0 8px 40px;}
+				.footer-text p {line-height: 1.3;}
+				.footer-text p a {color: #828181;}

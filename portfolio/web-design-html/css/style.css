@@ -1,0 +1,81 @@
+* {margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; -webkit-font-smoothing: antialiased;}
+html, body {width:100%; height:100%;}
+table {border-collapse: collapse; width: 100%;}
+input:focus {outline: none;}
+.clear {clear: both; height: 0; text-indent: -9000px; overflow: hidden;}
+img, table {border: none;}
+a:link, a:visited {text-decoration: none; color: #fff;}
+a:hover, a:active {text-decoration: underline;}
+button {outline: none; cursor: pointer;}
+
+
+
+header,footer,article,section,hgroup,nav,menu,aside,figure,main,video{display:block;}
+.floatLeft {float: left;}
+.floatRight {float: right;}
+
+h1, h2, h3, h4, h5, h6 {margin: 0; font-weight: 300;}
+h1 {font-size: 72px; font-weight: 700;}
+h2 {font-size: 34px;}
+h3 {font-size: 24px;}
+h4 {font-size: 18px;}
+h5 {font-size: 12px;}
+h6 {font-size: 10px;}
+
+ul, ol {list-style:none;}
+
+p {margin: 0; line-height: 1.2;}
+
+img{width:auto\9;height:auto;max-width:100%;vertical-align:middle;border:0;-ms-interpolation-mode:bicubic;}
+
+
+
+
+
+body {font-family: 'Open Sans', sans-serif; font-weight: 300; font-size: 16px; color: #fff;
+    background: url("../img/body_bg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;}
+
+.container {padding: 100px 0 0 100px;}
+.main {width: 400px; padding: 10px 40px 28px 40px; position: relative; background: url("../img/main_bg.png");}
+.contacts {padding: 19px 0 0 0;}
+.contacts h1 {line-height: 1.0; padding: 26px 0 32px 0;}
+.contacts p {font-size: 30px;}
+.contact-list {padding: 36px 0 7px 0;}
+.contact-list li {padding: 0 0 7px 0;}
+.contact-list li a {border-bottom: 1px solid #edeeef; font-size: 24px;}
+.contact-list li a:hover {text-decoration: none;}
+
+.inside {padding: 11px 0 0 0;}
+a.prew {border-bottom: 1px solid #edeeef; font-size: 18px; display: inline-block; vertical-align: top; margin: 0 0 9px 0;}
+a.prew:hover {text-decoration: none;}
+a.prew i {font-style: normal; padding: 0 0 0 5px;}
+.prew-icon {background: url("../img/prew-icon.png") no-repeat; width: 11px; height: 10px; display: inline-block;}
+.catalog {padding: 8px 0 0 0;}
+.catalog dt {font-size: 34px; padding: 0 0 19px 0;}
+.catalog dd {padding: 0 0 19px 0;}
+.catalog dd a {border-bottom: 1px solid #edeeef;}
+.catalog dd a:hover {text-decoration: none;}
+
+
+
+@media  (max-width: 1024px) {
+    body {background-image: url("../img/body_bg_medium.jpg");}
+}
+
+/* Note: Design for a width of 320px */
+
+@media only screen and (max-width: 767px) {
+    body {background-image: url("../img/body_bg_small.jpg");}
+    .container {padding: 2% 2%;}
+    .main {width: 100%; padding: 5px 5% 8px 5%;}
+    .contacts {padding: 9px 0 0 0;}
+}
+
+
+
+
+

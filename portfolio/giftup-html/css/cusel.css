@@ -1,0 +1,226 @@
+@charset "utf-8";
+/*
+	styles for select
+*/
+.cusel,
+.cuselFrameRight,
+.jScrollPaneDrag,
+.jScrollArrowUp,
+.jScrollArrowDown {
+	background: url(../images/selects-2.png) no-repeat;
+}
+.cusel { /* общий вид селекта включая стрелку справа */
+	height: 23px;
+	width: 165px!important;
+	background-position: left top;
+	
+	position: relative;
+	cursor: pointer;
+	
+}
+.cuselFrameRight { /* левая чсть селект. обыно скругление и левая граница */
+	position: absolute;
+	z-index: 20;
+	top: 0;
+	right: 0;
+	
+	height: 25px;
+	width: 26px;
+	background-position: right top;
+}
+
+.cuselText { /* контейнер для отображенного текста селект */
+	height: 19px;
+	padding: 3px 0px 0 7px; /* подбираем отступы и высоту для видимого текста в селекте */
+	cursor: pointer;
+	overflow: hidden;
+	position: relative;
+	z-index: 20;
+	
+	position: absolute;
+	top: 2px;
+	left: 3px;
+	color: #484848;
+	
+}
+* html .cuselText { /* высота блока для текста для ие6 */
+	height: 22px;
+}
+.cusel span { /* оформление оптиона */
+	display: block;
+	cursor: pointer;
+	white-space: nowrap;
+	padding: 2px 5px 2px 5px; /* паддинг справа - это отступ текста от ползунка */
+	zoom: 1;
+	
+}
+.cusel span:hover,
+.cusel .cuselOptHover { /* реакция оптиона на наведение */
+	background: #fbfdff;
+	color: #275c94;
+
+}
+.cusel .cuselActive { /* оформление активного оптиона в списке */
+	background: #d9eafc;
+	color: #275c94;
+	cursor: default;
+	
+	
+}
+
+/*
+	styles for focus and hover
+*/
+.cusel:hover,
+.cusel:hover .cuselFrameRight,
+.cusel:focus,
+.cusel:focus .cuselFrameRight,
+.cuselFocus,
+.cuselFocus .cuselFrameRight {
+	background-image: url(../images/selects-focus.png);
+}
+
+/*
+	styles for disabled select
+*/
+.classDisCusel,
+.classDisCusel .cuselFrameRight {
+	background-image: url(../images/selects-2-dis.png) !important;
+	cursor: default;
+	color: #ccc;
+}
+.classDisCusel .cuselText {
+	cursor: default;
+}
+
+
+/*
+	styles for scrollbar
+*/
+.cusel-scroll-wrap { /* контейнер для блока с прокруткой */
+	display: block;
+	visibility: hidden;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	background: #d9eafc; /* фон выпадающего списка */
+	min-width: 100%;
+	width: auto;
+}
+.cusel .jScrollPaneContainer {
+	position: relative;
+	overflow: hidden;
+	z-index: 5;
+	border: 1px solid #e1e6ea;
+}
+
+
+.cusel .cusel-scroll-playli {border: 1px solid #e1e6ea;}
+
+
+.cusel .jScrollPaneTrack { /* трек для ползунка прокрутки */
+	height: 100%;
+	width: 7px !important;
+	background: #ccc;
+	position: absolute;
+	top: 0;
+	right: 4px;
+}
+.cusel .jScrollPaneDrag { /* ползунок */
+	position: absolute;
+	background-position: -40px -26px;
+	cursor: pointer;
+	width: 15px !important;
+	height: 27px !important;
+	right: -4px;
+	
+}
+
+.cusel .jScrollPaneDragTop {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.cusel .jScrollPaneDragBottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+}
+.cusel .jScrollArrowUp { /* стрелка вверх */
+	position: absolute;
+	top: 0;
+	right: 2px;
+	width: 26px;
+	height: 12px;
+	cursor: pointer;
+	background-position: -2px -26px;
+	overflow: hidden;
+}
+.cusel .jScrollArrowDown { /* стрелка вниз */
+	width: 25px;
+	height: 12px;
+	position: absolute;
+	top: auto;
+	bottom: 0;
+	right: 3px;
+	cursor: pointer;
+	background-position: -21px -26px;
+	overflow: hidden;
+}
+
+
+
+
+
+.redSelect .cusel,.redSelect .cuselFrameRight,.redSelect .jScrollPaneDrag,.redSelect .jScrollArrowUp,.redSelect .jScrollArrowDown {background: url(../images/selects-21.png) no-repeat;}
+.redSelect .cusel { /* общий вид селекта включая стрелку справа */height: 20px; width: 180px!important; background-position: left top; position: relative; cursor: pointer;	}
+
+.redSelect .cusel:hover,.redSelect .cusel:hover .cuselFrameRight,.redSelect .cusel:focus,.redSelect .cusel:focus .cuselFrameRight,.redSelect .cuselFocus, .redSelect .cuselFocus .cuselFrameRight {background-image: url(../images/selects-focus1.png);}
+.redSelect .cuselFrameRight { /* левая чсть селект. обыно скругление и левая граница */position: absolute; z-index: 20; top: 0; right: 0; width: 26px;background-position: right top;}
+.redSelect .cusel-scroll-wrap { /* контейнер для блока с прокруткой */background: #fff; /* фон выпадающего списка */}
+.redSelect .cusel span:hover,.redSelect .cusel .cuselOptHover { /* реакция оптиона на наведение */background: #d9eafc;color: #484848;}
+.redSelect .cuselText { /* контейнер для отображенного текста селект */height: 20px;padding: 0 0px 0 6px; /* подбираем отступы и высоту для видимого текста в селекте */}
+.redSelect  .cusel .jScrollPaneContainer {border: none;}
+
+
+.size .cusel,.size .cuselFrameRight,.size .jScrollPaneDrag,.size .jScrollArrowUp,.size .jScrollArrowDown {background: url(../images/selects-22.png) no-repeat;}
+.size .cusel { /* общий вид селекта включая стрелку справа */height: 20px; width: 137px!important; background-position: left top; position: relative; cursor: pointer;	}
+.size .cusel:hover,.size .cusel:hover .cuselFrameRight,.size .cusel:focus,.size .cusel:focus .cuselFrameRight,.size .cuselFocus, .size .cuselFocus .cuselFrameRight {background-image: url(../images/selects-focus2.png);}
+.size .cuselFrameRight { /* левая чсть селект. обыно скругление и левая граница */position: absolute; z-index: 20; top: 0; right: 0; width: 26px;background-position: right top;}
+.size .cusel-scroll-wrap { /* контейнер для блока с прокруткой */background: #fff; /* фон выпадающего списка */}
+.size .cusel span:hover,.size .cusel .cuselOptHover { /* реакция оптиона на наведение */background: #d9eafc;color: #484848;}
+.size .cuselText { /* контейнер для отображенного текста селект */height: 20px;padding: 0 0px 0 6px; /* подбираем отступы и высоту для видимого текста в селекте */}
+.size  .cusel .jScrollPaneContainer {border: none;}
+
+
+.size-1 .cusel { /* общий вид селекта включая стрелку справа */height: 20px; width: 86px!important;}
+.size-2 .cusel { /* общий вид селекта включая стрелку справа */height: 20px; width: 57px!important;}
+
+.size-3 .cusel,.size-3 .cuselFrameRight,.size-3 .jScrollPaneDrag,.size-3 .jScrollArrowUp,.size-3 .jScrollArrowDown {background: url(../images/selects-23.png) no-repeat;}
+.size-3 .cusel { /* общий вид селекта включая стрелку справа */height: 20px; width: 154px!important; background-position: left top; position: relative; cursor: pointer;	}
+.size-3 .cusel:hover,.size-3 .cusel:hover .cuselFrameRight,.size-3 .cusel:focus,.size-3 .cusel:focus .cuselFrameRight,.size-3 .cuselFocus, .size-3 .cuselFocus .cuselFrameRight {background-image: url(../images/selects-focus3.png);}
+.size-3 .cuselFrameRight { /* левая чсть селект. обыно скругление и левая граница */position: absolute; z-index: 20; top: 0; right: 0; width: 26px;background-position: right top;}
+.size-3 .cusel-scroll-wrap { /* контейнер для блока с прокруткой */background: #fff; /* фон выпадающего списка */}
+.size-3 .cusel span:hover,.size-3 .cusel .cuselOptHover { /* реакция оптиона на наведение */background: #d9eafc;color: #484848;}
+.size-3 .cuselText { /* контейнер для отображенного текста селект */height: 20px;padding: 0 0px 0 6px; /* подбираем отступы и высоту для видимого текста в селекте */}
+.size-3  .cusel .jScrollPaneContainer {border: none;}
+
+.country .cusel,.country .cuselFrameRight,.country .jScrollPaneDrag,.country .jScrollArrowUp,.country .jScrollArrowDown {background: url(../images/selects-24.png) no-repeat;}
+.country .cusel { /* общий вид селекта включая стрелку справа */height: 20px; width: 168px!important; background-position: left top; position: relative; cursor: pointer;	}
+.country .cusel:hover,.country .cusel:hover .cuselFrameRight,.country .cusel:focus,.country .cusel:focus .cuselFrameRight,.country .cuselFocus, .country .cuselFocus .cuselFrameRight {background-image: url(../images/selects-focus4.png);}
+.country .cuselFrameRight { /* левая чсть селект. обыно скругление и левая граница */position: absolute; z-index: 20; top: 0; right: 0; width: 26px;background-position: right top;}
+.country .cusel-scroll-wrap { /* контейнер для блока с прокруткой */background: #fff; /* фон выпадающего списка */}
+.country .cusel span:hover,.country .cusel .cuselOptHover { /* реакция оптиона на наведение */background: #d9eafc;color: #484848;}
+.country .cuselText { /* контейнер для отображенного текста селект */height: 20px;padding: 0 0px 0 6px; /* подбираем отступы и высоту для видимого текста в селекте */}
+.country  .cusel .jScrollPaneContainer {border: none;}
+
+.coun .cusel,.coun .cuselFrameRight,.coun .jScrollPaneDrag,.coun .jScrollArrowUp,.coun .jScrollArrowDown {background: url(../images/selects-25.png) no-repeat;}
+.coun .cusel { /* общий вид селекта включая стрелку справа */height: 21px; width: 236px!important; background-position: left top; position: relative; cursor: pointer;	}
+.coun .cusel:hover,.coun .cusel:hover .cuselFrameRight,.coun .cusel:focus,.coun .cusel:focus .cuselFrameRight,.coun .cuselFocus, .coun .cuselFocus .cuselFrameRight {background-image: url(../images/selects-focus5.png);}
+.coun .cuselFrameRight { /* левая чсть селект. обыно скругление и левая граница */position: absolute; z-index: 20; top: 0; right: 0; width: 26px;background-position: right top;}
+.coun .cusel-scroll-wrap { /* контейнер для блока с прокруткой */background: #fff; /* фон выпадающего списка */}
+.coun .cusel span:hover,.coun .cusel .cuselOptHover { /* реакция оптиона на наведение */background: #d9eafc;color: #484848;}
+.coun .cuselText { /* контейнер для отображенного текста селект */height: 20px;padding: 0 0px 0 6px; /* подбираем отступы и высоту для видимого текста в селекте */}
+.coun  .cusel .jScrollPaneContainer {border: none;}

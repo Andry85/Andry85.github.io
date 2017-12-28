@@ -1,0 +1,11 @@
+.head ul li div a {margin-top: expression((parentNode.offsetHeight - this.offsetHeight)<0 ? "0" : (parentNode.offsetHeight - this.offsetHeight)/2 + "px");}
+.products li span a {margin-top: expression((parentNode.offsetHeight - this.offsetHeight)<0 ? "0" : (parentNode.offsetHeight - this.offsetHeight)/2 + "px");}
+.head ul {bottom: -2px;}
+.registration form div .chek input {top: 0; left: -4px; }
+.registration form div .chek label { position: relative; left: -6px; top: -2px;}
+.sort dd select { position: relative; top: -1px;}
+.catalog li div a {margin-top: expression((parentNode.offsetHeight - this.offsetHeight)<0 ? "0" : (parentNode.offsetHeight - this.offsetHeight)/2 + "px");}
+.catalog li { display: inline;}
+.catalog li h4 a {margin-top: expression((parentNode.offsetHeight - this.offsetHeight)<0 ? "0" : (parentNode.offsetHeight - this.offsetHeight)/2 + "px");}
+
+

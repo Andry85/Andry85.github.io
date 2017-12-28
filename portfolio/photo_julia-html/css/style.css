@@ -1,0 +1,142 @@
+/*
+Author: Shapoval Andry
+Author URI: http://www.free-lance.ru/users/merr
+*/
+* {padding: 0; margin :0;}
+html {width:100%; height:100%;}
+body {background: #000 url(../images/body-bg.png) center top repeat-y; font: 13px Tahoma, Geneva, sans-serif; color: #fff; height: auto !important; height: 100%; min-height: 100%; position: relative;}
+img, table {border: none;}
+table tr td {border-collapse: collapse; vertical-align: middle;}
+li {list-style: none;}
+.clear {clear: both; height: 0; text-indent: -9000px; overflow: hidden;}
+a {text-decoration: underline;}
+a:hover {text-decoration: none;}
+a:focus {outline: none;}
+
+
+/*	clearfix			*/
+.clearfix{_height: 1%; _overflow: visible;}
+.clearfix:after{content: "."; display: block; height: 0px; clear: both; visibility: hidden; line-height:0px; font-size:0px;}
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/*	clearfix			*/
+
+	.wrapper {width: 1000px;  margin: 0 auto;}
+		
+		.head {background: url(../images/head-bg.png) center top no-repeat; height: 154px; position: relative;}
+			.head .logo {position: absolute; top: 21px; left: 250px;}
+			.head .cont {width: 63px; position: absolute; right: 42px; top: 24px;}
+			.head .cont p {font-size: 16px; color: #d0d0d0; font-style: italic; padding: 0 0 6px 0;}
+			.head .cont ul {float: right; margin: 0 -5px 0 0;}
+			.head .cont ul li {display: inline; padding: 0 1px 0 0;}
+			.head .menu {background: url(../images/menu-bg.png) no-repeat; width: 830px; height: 32px; position: absolute; top: 92px; left: 0; padding: 3px 0 0 170px; z-index: 100;}
+			.head .menu li {float: left; width: 124px; height: 26px; text-align: center; padding: 6px 0 0 0;}
+			.head .menu li a {font-size: 16px; color: #fff; text-decoration: none;}
+			.head .menu li.activ {background: url(../images/menu-li-activ-bg.png) no-repeat;}
+			.head .left-ugol { position: absolute; left: 0; top: 68px; z-index: 10;}
+			.head .righ-ugol { position: absolute; right: 1px; top: 68px; z-index: 10;}
+			
+		.content {padding: 0 0 125px 32px;}
+			.left-column {width: 645px; float: left; padding: 0 22px 0 0;}
+			.left-column  .gallery {background: url(../images/gallery.png) no-repeat; width: 635px; height: 403px; padding: 8px 0 0 10px; overflow: hidden;}
+			
+			.right-column {width: 269px; float: left;}
+			 .mail-box {background: url(../images/e-mail-bg.png) no-repeat; width: 269px; height: 89px; padding: 12px 0 0 0;} 
+			 .mail-box div {padding: 11px 0 10px 72px; font-size: 16px;}
+			 .mail-box .tel {background: url(../images/tel-bg.png) 29px 10px no-repeat;}
+			 .mail-box .email {background: url(../images/email-bg.png) 29px 5px no-repeat; padding-top: 3px;}
+			 .mail-box .email a {color: #fff; text-decoration: none;}
+			 .contact-form {background: url(../images/contact-form-bg.png) no-repeat; width: 269px; height: 288px; margin: 21px 0 0 0;}
+			 .contact-form h2 {font: normal 18px Lucida Sans Unicode, Lucida Grande, sans-serif; padding: 18px 0 0 16px;}
+			 .contact-form form {padding: 10px 0 0 0;}
+			 .contact-form form div {padding: 0 0 4px 18px;}
+			 .contact-form form div label {width: 43px; float: left; font-size: 14px; padding: 6px 0 0 0;}
+			 .contact-form form div input {background: url(../images/input-bg.png) no-repeat; width: 186px; height: 26px; line-height: 26px; float: left; border: 0; padding: 0 2px; color: #fff;}
+			 .contact-form form div textarea {background: url(../images/textarea-bg.png) no-repeat; width: 186px; height: 88px; border: 0; color: #fff; padding: 0 2px; overflow: hidden;}
+			 .contact-form form .submit {background: url(../images/submit-bg.png) no-repeat; width: 96px; height: 29px; float: right; 
+														border: 0; color: #fff; font-size: 15px; position: relative; right: 18px; top: 1px; cursor: pointer; color: #fff;}
+														
+			.archive-bg1 {background: url(../images/archive-bg1.png) no-repeat; padding: 18px 0 0 0; margin: 0 0 20px 0;}
+			.archive-bg2 {background: url(../images/archive-bg2.png) left bottom no-repeat; padding: 0  0 73px 0;}
+			.archive-bg3 {background: url(../images/archive-bg3.png) repeat-y; width: 253px; padding: 0 0 0 16px;}
+			.archive-bg3 h3 {font: normal 18px Lucida Sans Unicode, Lucida Grande, sans-serif; background: url(../images/archive-bg3-h3-bg.png) right 16px no-repeat; margin: 0 4px 11px 4px;}
+			.archive-bg3 ul li {background: url(../images/arrow-bg.png) left 4px no-repeat; padding: 0 0 5px 19px;}
+			.archive-bg3 ul li a {text-decoration: none; font-size: 14px; color: #fff;}
+			.archive-bg3 ul li a i {font-style: normal;}
+			.archive-bg3 ul li ul {padding: 5px 0 0 0;}
+			.archive-bg3 ul li ul li {padding-bottom: 0;}
+			.archive-bg3 ul li ul li ul {position: relative;  padding: 2px 0 4px 0; left: -18px;}
+			.archive-bg3 ul li ul li ul li {background: url(../images/arow-in.png) 2px 5px no-repeat; padding-bottom: 0;}
+			.archive-bg3 ul li ul li ul li a {font-size: 12px;}
+														
+			.banner {padding: 21px 0 0 0;}
+			.banner div {float: left; padding: 0 24px 0 0;}
+			.banner div.last {padding: 0;}
+			.text-bg1 {background: url(../images/text-bg1.png) no-repeat; width: 936px; padding: 16px 0 0 0; margin: 20px 0 0 0;}
+			.text-bg2 {background: url(../images/text-bg2.png) left bottom no-repeat; padding: 0 0 18px 0; width: 936px;}
+			.text-bg3 {background: url(../images/text-bg3.png) repeat-y; width: 936px;}
+			.text-bg3 h2 {font: normal 17px Lucida Sans Unicode, Lucida Grande, sans-serif; background: url(../images/text-h2-bg.png) right 16px no-repeat; padding: 0 0 0 22px; margin: 0 28px 8px 0;}
+			.text-bg3 p {padding: 0 20px 0 23px;}
+			
+			.preambule-bg1 {background: url(../images/preambule-bg1.png) no-repeat; padding: 18px 0 0 0;}
+			.preambule-bg2 {background: url(../images/preambule-bg2.png) left bottom no-repeat; padding: 0 0 19px 0;}
+			.preambule-bg3 {background: url(../images/preambule-bg3.png) repeat-y; width: 645px; min-height: 373px;}
+			*html .preambule-bg3 {height: auto!important; height: 373px;}
+			.preambule-bg3 h2 {font: normal 17px Lucida Sans Unicode, Lucida Grande, sans-serif; background: url(../images/preambule-bg3-h2-bg.png) right 16px no-repeat; padding: 0 0 0 22px; margin: 0 23px 8px 0;}
+			.preambule-bg3 h2.h21 {background: url(../images/h21-bg.png) right 16px no-repeat;}
+			.preambule-bg3 p {padding: 0 22px 17px 22px;}
+			.preambule-bg3 .post {padding: 0 0 7px 22px;}
+			.preambule-bg3 .post .date {font: italic 13px Lucida Sans Unicode, Lucida Grande, sans-serif;}
+			.preambule-bg3 .post h3 {font: 18px Lucida Sans Unicode, Lucida Grande, sans-serif; color: #a7adff; padding: 1px 0 0 0;}
+			.preambule-bg3 .post p {padding: 4px 30px 0 2px;}
+			.preambule-bg3 .pic {border: 1px solid #717171; padding: 3px; float: left; margin: 10px 0 0 0;}
+			.preambule-bg3 .pic img {border: 1px solid #717171; display: block;}
+			.preambule-bg3 .info {padding: 14px 0 0 0;}
+			.preambule-bg3 .info a {float: left; color: #fff;}
+			.preambule-bg3 .info .comments {background: url(../images/comment-bg.png) left 4px no-repeat; padding: 0 23px 0 19px;}
+			.preambule-bg3 .info .details {background: url(../images/ic-bg.png) left 4px no-repeat; padding: 0 0 0 15px;}
+			.preambule-bg3 .labels {padding: 3px 0 0 0;}
+			.preambule-bg3 .labels p {font-size: 11px; color: #b3b2b2;}
+			.preambule-bg3 .line {border-top: 1px solid #717171; margin: 11px 25px 16px 23px;}
+			
+
+			.bloc {background: url(../images/bloc-bg.png) no-repeat; width: 289px; height: 412px; float: left; padding: 0 10px 58px 10px; position: relative; margin: 0 3px 3px 0;}
+			.bloc h3 {font: normal 17px Lucida Sans Unicode, Lucida Grande, sans-serif; text-align: center; padding: 19px 0 0 0;}
+			.bloc .img {position: absolute; top: 1px; left: 0; width: 100%; height: 130px; text-align: center;}
+			.bloc .img img {margin: 13px auto 0 auto;}
+			.bloc .price {font: normal 17px Lucida Sans Unicode, Lucida Grande, sans-serif; text-align: center; position:absolute; left: 0; bottom: 24px; width: 100%;}
+			.bloc ul {padding: 92px 0 0 3px;}
+			.bloc ul li {background: url(../images/arow-in.png) left 4px no-repeat; padding: 0 0 0 14px;}
+			.more-info {width: 309px; height: 470px; float: left;}
+			.more-info .mail-box {background: url(../images/e-mail-bg1.png) no-repeat; width: 309px; height: 88px; padding: 12px 0 0 0;} 
+			.more-info .contact-form {background: url(../images/contact-form-bg1.png) no-repeat; width: 309px; height: 288px; margin: 3px 0 0 0;}
+			.more-info .contact-form form div {padding-left: 35px;}
+			.more-info .contact-form h2 {padding-left: 33px;}
+			.more-info .contact-form form .submit {right: 41px;}
+			.more-info .mail-box .email {background: url(../images/email-bg.png) 48px 5px no-repeat; padding-top: 3px;}
+			.more-info .mail-box div { padding-left: 92px;}
+			.more-info .mail-box .tel {background: url(../images/tel-bg.png) 48px 10px no-repeat;}
+			
+			.foto-slider { background: url(../images/background.png) center top no-repeat; width: 936px; margin-top: 20px; height: 123px; position: relative; overflow: hidden;}
+			
+			
+			div#wn	{position:relative; width:936px; height:123px; overflow:hidden; }
+			
+			 .mouseover_left {position: absolute;left: 0;bottom: 0;width: 24px;height: 123px;z-index: 500;cursor: pointer;}
+			 .mouseover_right {position: absolute;right: 0;bottom: 0;width: 24px;height: 123px;z-index: 500;cursor: pointer;}
+			 *html  .mouseover_right { right: -2px;}
+			#lyr1 { padding: 0 0 0 29px;}
+			 #t1 {margin: 6px 0 0 0;}
+			 #t1 tr td { padding-top: 6px; padding-right: 6px;}
+			 #t1 tr td img { border: 3px solid #c8c8c8;}
+			
+	.footer {background: url(../images/footer-bg.png) center top no-repeat; width: 982px; height: 103px; padding-top: 8px; position: absolute; left: 50%; bottom: 0px; margin-left: -491px; text-align: center;}
+		.footer p {padding: 12px 0 8px 0;}
+		.footer ul li {display: inline;}
+		.footer ul li span {padding: 0 0 0 2px;}
+		.footer ul li a {color: #fff;}
+		.footer .footer-inner {padding: 17px 0 0 0;}
+		.footer .footer-inner .left {float: left; padding-left: 24px;}
+		.footer .footer-inner .right {float: right; padding-right: 24px;}
+		.footer .footer-inner .right a {font-size: 11px; color: #fff;}		

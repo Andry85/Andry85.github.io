@@ -1,0 +1,15 @@
+.wrapper {width:expression((document.documentElement.clientWidth || document.body.clientWidth) < 1000? "1000px": "auto");}
+.footer {width:expression((document.documentElement.clientWidth || document.body.clientWidth) < 1000? "1000px": "auto");}
+body {behavior:url("csshover.htc");}
+.catalog li { display: inline;}
+.catalog li .img  {margin-top: expression((parentNode.offsetHeight - this.offsetHeight)<0 ? "0" : (parentNode.offsetHeight - this.offsetHeight)/2 + "px");}
+.catalog li .i  {margin-top: expression((parentNode.offsetHeight - this.offsetHeight)<0 ? "0" : (parentNode.offsetHeight - this.offsetHeight)/2 + "px");}
+.block-left {display: inline;}
+.block-right {display: inline;}
+.basket-inner-left {display: inline;}
+.basket-inner-right {display: inline;}
+.other-inner ul li {display: inline;}
+.small-photo li a { display: block;}
+.other-inner ul li a img {margin-top: expression((parentNode.offsetHeight - this.offsetHeight)<0 ? "0" : (parentNode.offsetHeight - this.offsetHeight)/2 + "px");}
+.small-photo li a img {margin-top: expression((parentNode.offsetHeight - this.offsetHeight)<0 ? "0" : (parentNode.offsetHeight - this.offsetHeight)/2 + "px");}
+.other-inner { margin: 0 0 0 144px;}

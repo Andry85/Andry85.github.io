@@ -1,0 +1,1 @@
+Cufon.replace('.logo, .menu ul li a, .text-inner h1,  .text-inner h2, .sidebar h2, .foto-gallery h2, .podiya .date span, .podiya h3, .contact-pic-info p, .container h1, .container h2, .container h3',  {fontFamily: 'Petersburg'});

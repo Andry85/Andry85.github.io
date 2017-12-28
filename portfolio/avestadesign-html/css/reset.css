@@ -1,0 +1,91 @@
+* {margin: 0; padding: 0;}
+html {height: 100%;}
+body {height: auto !important; height: 100%; min-height: 100%; position: relative;}
+table {border-collapse: collapse; width: 100%;} 
+input:focus {outline: none;}
+.clear {clear: both; height: 0; text-indent: -9000px; overflow: hidden;}
+img, table {border: none;}
+a:link, a:visited {text-decoration: none; color: #feebdd;}
+a:hover, a:active {text-decoration: underline;}
+button {outline: none;}
+
+/*	clearfix			*/
+.clearfix{_height: 1%; _overflow: visible;}
+.clearfix:after{content: "."; display: block; height: 0px; clear: both; visibility: hidden; line-height:0px; font-size:0px;}
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/*	clearfix			*/
+
+
+header,footer,article,section,hgroup,nav,menu,aside,figure{display:block;}
+
+h1, h2, h3, h4, h5, h6 {margin: 15px 0;}
+h1 {font-size: 30px;}
+h2 {font-size: 24px;}
+h3 {font-size: 20px;}
+h4 {font-size: 16px;}
+h5 {font-size: 14px;}
+h6 {font-size: 10px;}
+
+ul, ol {list-style:none;}
+
+p {margin: 15px 0; line-height: 1.4;}
+
+
+@font-face {
+    font-family: 'frizquadratacregular';
+    src: url('../fonts/frizquadratac-webfont.eot');
+    src: url('../fonts/frizquadratac-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/frizquadratac-webfont.woff') format('woff'),
+         url('../fonts/frizquadratac-webfont.ttf') format('truetype'),
+         url('../fonts/frizquadratac-webfont.svg#frizquadratacregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'frizquadratacbold';
+    src: url('../fonts/frizquadratac-bold-webfont.eot');
+    src: url('../fonts/frizquadratac-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/frizquadratac-bold-webfont.woff') format('woff'),
+         url('../fonts/frizquadratac-bold-webfont.ttf') format('truetype'),
+         url('../fonts/frizquadratac-bold-webfont.svg#frizquadratacbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'frizquadratacbold_italic';
+    src: url('../fonts/frizquadratac-bolditalic-webfont.eot');
+    src: url('../fonts/frizquadratac-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/frizquadratac-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/frizquadratac-bolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/frizquadratac-bolditalic-webfont.svg#frizquadratacbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'frizquadratacitalic';
+    src: url('../fonts/frizquadratac-italic-webfont.eot');
+    src: url('../fonts/frizquadratac-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/frizquadratac-italic-webfont.woff') format('woff'),
+         url('../fonts/frizquadratac-italic-webfont.ttf') format('truetype'),
+         url('../fonts/frizquadratac-italic-webfont.svg#frizquadratacitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -1,0 +1,4 @@
+.left-botton li { margin-right: 1%; overflow: hidden;}
+.right-botton li {margin-right: 1%; overflow: hidden;}
+.details-second { padding-bottom: 4px;}
+#width {width:expression((document.documentElement.clientWidth || document.body.clientWidth) < 1000? "1000px": "auto");}

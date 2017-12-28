@@ -1,0 +1,5 @@
+.conf-block-inner {height:expression(this.scrollHeight < 110? "110px" : "auto");}
+.satire-inner .see-more {margin: 0 6px 0 0;}
+.comment {margin: 0 4px 0 0;}
+ul.fotogal li { display: inline;}
+

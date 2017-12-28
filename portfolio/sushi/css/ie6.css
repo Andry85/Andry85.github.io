@@ -1,0 +1,7 @@
+.basket-wrapper form table tr td div {margin: 3px 11px 0 25px;}
+.block .right-block form table tr .sub .submit-1 {top: 10px; cursor: pointer;}
+.right-td table tr td {background:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/right-td-bg.png', sizingMethod='crop'); height: 524px;}
+.header .posud {background:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/posood.png', sizingMethod='scale'); width: 81px; height: 148px;}
+.palochki  {background:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/palochki.png', sizingMethod='scale'); right: -1px; bottom: 25px;}
+.header .header-inner .basket { position: absolute;top:expression(eval(document.documentElement.scrollTop)+151); background-color: #fff;}
+.block .left-block a {padding: 5px 0 2px 0;}

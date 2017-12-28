@@ -1,0 +1,267 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="Description" content="" />
+	<meta name="KeyWords" content="" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta http-equiv="cache-control" content="no-cache" />
+	<meta name="robots" content="INDEX,FOLLOW" />
+	<link rel="shortcut icon" href="#" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!--[if lt IE 7]>
+	<script src="js/DD_belatedPNG.js" type="text/javascript"></script>
+	<script type="text/javascript">DD_belatedPNG.fix('img, div, input, h1, h2, h3, h4, h5, h6, span, a, ul, li, button, form, label, i');</script>
+	<![endif]-->
+	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.accordion.js"></script>
+	<script type="text/javascript" src="js/s3Slider.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#slider1').s3Slider({
+				timeOut: 3000 
+			});
+		});
+	</script>
+	<script type="text/javascript">
+		jQuery().ready(function(){
+			var urlAddr = document.location.toString();
+			if (!urlAddr.match('#')) { $('#q').focus(); }
+			ac_active = jQuery('#catINDEX').val();
+			// adjust div for catalog
+			if(ac_active == undefined){
+				ac_active = false;
+				$('#innerDivOne').css({'width':'94%', 'margin':'0 auto'});
+				$('#cb').css({'padding':'14 0 12 0'});
+			}
+			else
+				ac_active = parseInt(ac_active);
+			
+			jQuery('#navigation').accordion({
+				header: 'a.cat',
+				active: ac_active,
+				alwaysOpen: false,
+				autoheight: false,
+				icons: false
+			});
+		});
+	</script>
+</head>
+<body>
+	<div class="page">
+		<div class="wrapper">
+			<div class="head">
+				<a class="logo" href="#" title="УКРАЇНСЬКИЙ ПАПІР"><img src="images/logo.png" width="300" height="89" alt="УКРАЇНСЬКИЙ ПАПІР" title="УКРАЇНСЬКИЙ ПАПІР" /></a>
+				<div class="hd">
+					<div id="slider1">
+						<ul id="slider1Content">
+							<li class="slider1Image">
+								<a href=""><img src="images/001.jpg" width="430" height="136" alt="" title="" /></a>
+								<span class="left">&nbsp;</span></li>
+								<li class="slider1Image">
+								<a href=""><img src="images/002.jpg" width="430" height="136" alt="" title="" /></a>
+								<span class="left">&nbsp;</span></li>
+							<div class="clear slider1Image"></div>
+						</ul>
+					</div>
+				</div>
+				<a class="login" href="#" title="">Вход для наших<br />клиентов</a>
+				<div class="clear"></div>
+				<ul class="menu clearfix">
+					<li class="cur"><span><a href="#" title="Главная">Главная</a></span></li>
+					<li><span><a href="#" title="О компании">О компании</a></span></li>
+					<li><span><a href="#" title="Продукция">Продукция</a></span></li>
+					<li><span><a href="#" title="Каталог">Каталог</a></span></li>
+					<li><span><a href="#" title="Новые поступления">Новые поступления</a></span></li>
+					<li><span><a href="#" title="Стать клиентом">Стать клиентом</a></span></li>
+					<li><span><a href="#" title="Вакансии">Вакансии</a></span></li>
+					<li class="last"><span><a href="#" title="Контакты">Контакты</a></span></li>
+				</ul>
+			</div>
+			<div class="content">
+				<div class="left-col">
+					<div class="sidebar">
+						<h2><a href="#" title="">Продукция</a></h2>
+						<ul id="navigation">
+							<li>
+								<a class="cat" href="inner.html" title="">Бумажно-беловые товары</a>
+								<ul>
+									<li><a href="inner.html">Ксероксная бумага</a></li>
+									<li><a href="inner.html">Не ксероксная бумага</a></li>
+									<li><a href="inner.html">Хорошая бумага</a></li>
+									<li><a href="inner.html">  Плохая бумага</a></li>
+								</ul> 	
+							</li>
+							<li>
+								<a  class="cat" href="#" title="">Бумага для офиса</a>
+								<ul>
+									<li><a href="#">Ксероксная бумага</a></li>
+									<li><a href="#">Не ксероксная бумага</a></li>
+									<li><a href="#">Хорошая бумага</a></li>
+									<li><a href="#">  Плохая бумага</a></li>
+								</ul>
+							</li>
+							<li>
+								<a  class="cat" href="#" title="">Полиграфия</a>
+								<ul>
+									<li><a href="#">Ксероксная бумага</a></li>
+									<li><a href="#">Не ксероксная бумага</a></li>
+									<li><a href="#">Хорошая бумага</a></li>
+									<li><a href="#">  Плохая бумага</a></li>
+								</ul>
+							</li>
+							<li>
+								<a  class="cat" href="#" title="">Канцтовары</a>
+								<ul>
+									<li><a href="#">Ксероксная бумага</a></li>
+									<li><a href="#">Не ксероксная бумага</a></li>
+									<li><a href="#">Хорошая бумага</a></li>
+									<li><a href="#">  Плохая бумага</a></li>
+								</ul>
+							</li>
+							<li>
+								<a  class="cat" href="#" title="">Бытовая химия</a>
+								<ul>
+									<li><a href="#">Ксероксная бумага</a></li>
+									<li><a href="#">Не ксероксная бумага</a></li>
+									<li><a href="#">Хорошая бумага</a></li>
+									<li><a href="#">  Плохая бумага</a></li>
+								</ul>
+							</li>
+							<li>
+								<a  class="cat" href="#" title="">Хозяйственные товары</a>
+								<ul>
+									<li><a href="#">Ксероксная бумага</a></li>
+									<li><a href="#">Не ксероксная бумага</a></li>
+									<li><a href="#">Хорошая бумага</a></li>
+									<li><a href="#">  Плохая бумага</a></li>
+								</ul>
+							</li>
+							<li class="last">
+								<a  class="cat" href="#" title="">Компьютеры и картриджи</a>
+								<ul>
+									<li><a href="#">Ксероксная бумага</a></li>
+									<li><a href="#">Не ксероксная бумага</a></li>
+									<li><a href="#">Хорошая бумага</a></li>
+									<li><a href="#">  Плохая бумага</a></li>
+								</ul>
+							</li>
+						</ul>
+						<input type="hidden" name="catINDEX" id="catINDEX" value="0">
+						<div class="contacts">
+							<h3>Связаться с нами:</h3>
+							<p>494-35-10</p>
+							<p>468-22-40</p>
+						</div>				
+					</div>
+				</div>
+				<div class="conteiner">
+					<div class="search">
+						<h2>Поиск</h2>
+						<form method="post" action="#">
+							<input class="input" type="text" value="Название товара"  onfocus="if(this.value=='Название товара') {this.value='';}" onblur="javascript:if(this.value==''){this.value='Название товара'};" />
+							<select>
+								<option selected="selected" value="0">Выберите категорию</option>
+								<option value="1">Бумажно-беловые товары</option>
+								<option value="2">Бумага для офиса</option>
+								<option value="3">Полиграфия</option>
+								<option value="4">Канцтовары</option>
+								<option value="5">Бытовая химия</option>
+								<option value="6">Хозяйственные товары</option>
+								<option value="7">Компьютеры и картриджи</option>
+							</select>
+							<input class="submit" type="submit" value="Найти" />
+							<div class="clear"></div>
+						</form>
+					</div>
+					<div class="result">
+						<div class="patway">
+							<span>Результат по запросу:<a href="#" title="">бумага для офиса</a></span>
+						</div>
+						<ul class="katalog clearfix">
+							<li>
+								<div><a href="#" title=""><img src="uploads/005.jpg" width="130" height="130" alt="" title="" /></a></div>
+								<p><a href="#" title="">Бумага для офиса<br />MultiCopy</a></p>
+							</li>
+							<li>
+								<div><a href="#" title=""><img src="uploads/006.jpg" width="130" height="130" alt="" title="" /></a></div>
+								<p><a href="#" title="">Бумага для офиса<br />Clio</a></p>
+							</li>
+							<li>
+								<div><a href="#" title=""><img src="uploads/007.jpg" width="130" height="130" alt="" title="" /></a></div>
+								<p><a href="#" title="">Бумага для офиса<br />Xerox Premier</a></p>
+							</li>
+							<li>
+								<div><a href="#" title=""><img src="uploads/008.jpg" width="130" height="130" alt="" title="" /></a></div>
+								<p><a href="#" title="">Цветная бумага<br />Xerox Symphony</a></p>
+							</li>
+							<li>
+								<div><a href="#" title=""><img src="uploads/009.jpg" width="130" height="130" alt="" title="" /></a></div>
+								<p><a href="#" title="">Бумага для офиса<br />MultiCopy</a></p>
+							</li>
+							<li>
+								<div><a href="#" title=""><img src="uploads/010.jpg" width="130" height="130" alt="" title="" /></a></div>
+								<p><a href="#" title="">Бумага для офиса<br />Clio</a></p>
+							</li>
+							<li>
+								<div><a href="#" title=""><img src="uploads/011.jpg" width="130" height="130" alt="" title="" /></a></div>
+								<p><a href="#" title="">Бумага для офиса<br />Xerox Premier</a></p>
+							</li>
+							<li>
+								<div><a href="#" title=""><img src="uploads/012.jpg" width="130" height="130" alt="" title="" /></a></div>
+								<p><a href="#" title="">Цветная бумага<br />Xerox Symphony</a></p>
+							</li>
+							<li>
+								<div><a href="#" title=""><img src="uploads/005.jpg" width="130" height="130" alt="" title="" /></a></div>
+								<p><a href="#" title="">Бумага для офиса<br />MultiCopy</a></p>
+							</li>
+							<li>
+								<div><a href="#" title=""><img src="uploads/006.jpg" width="130" height="130" alt="" title="" /></a></div>
+								<p><a href="#" title="">Бумага для офиса<br />Clio</a></p>
+							</li>
+							<li>
+								<div><a href="#" title=""><img src="uploads/007.jpg" width="130" height="130" alt="" title="" /></a></div>
+								<p><a href="#" title="">Бумага для офиса<br />Xerox Premier</a></p>
+							</li>
+							<li>
+								<div><a href="#" title=""><img src="uploads/008.jpg" width="130" height="130" alt="" title="" /></a></div>
+								<p><a href="#" title="">Цветная бумага<br />Xerox Symphony</a></p>
+							</li>
+						</ul>
+						<div class="pagenavi">
+							<ul class="clearfix">
+								<li class="activ"><a href="#" title="">1-16</a></li>
+								<li><a href="#" title="">17-32</a></li>
+								<li><a href="#" title="">33-48</a></li>
+								<li><img src="images/arrow.gif" width="17" height="5" alt="" title="" /></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footer-main">
+			<a class="footer-logo" href="#" title=""><img src="images/footer-logo.png" width="147" height="49" alt="" title="" /></a>
+			<p class="copy">Copyrite &copy; 2003</p>
+			<ul>
+				<li><a href="#" title="Главная">Главная</a></li>
+				<li><a href="#" title="О компании">О компании</a></li>
+				<li><a href="#" title="Продукция">Продукция</a></li>
+				<li><a href="#" title="Каталог">Каталог</a></li>
+				<li><a href="#" title="Новые поступления">Новые поступления</a></li>
+				<li><a href="#" title="Стать клиентом">Стать клиентом</a></li>
+				<li><a href="#" title="Вакансии">Вакансии</a></li>
+				<li><a href="#" title="Контакты">Контакты</a></li>
+			</ul>
+			<p class="design">
+				<span>Создано<img src="images/design.png" width="22" height="23" alt="" title="" /><a href="#" title="Webolla.com">Webolla.com</a></span>
+			</p>
+			<div class="clear"></div>
+		</div>
+	</div>
+</body>
+</html>

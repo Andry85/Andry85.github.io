@@ -1,0 +1,80 @@
+* {margin: 0; padding: 0;}
+table {border-collapse: collapse;} 
+input:focus {outline: none;}
+.clear {clear: both; height: 0; text-indent: -9000px; overflow: hidden;}
+img, table {border: none;}
+a:link,a:visited {text-decoration: underline;}
+a:hover, a:active {text-decoration: none;}
+button {outline: none;}
+h1, h2, h3, h4, h5, h6 {padding: 5px 0; font-weight: normal;}
+
+/*	clearfix			*/
+.clearfix{_height: 1%; _overflow: visible;}
+.clearfix:after{content: "."; display: block; height: 0px; clear: both; visibility: hidden; line-height:0px; font-size:0px;}
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/*	clearfix			*/
+
+
+.left { float: left;}
+.right { float: right;}
+
+
+
+@font-face {
+    font-family: 'LiberationSerifRegular';
+    src: url('../fonts/liberationserif-regularwebfont.eot');
+    src: url('../fonts/liberationserif-regularwebfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/liberationserif-regularwebfont.woff') format('woff'),
+         url('../fonts/liberationserif-regularwebfont.ttf') format('truetype'),
+         url('../fonts/liberationserif-regularwebfont.svg#LiberationSerifRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'LiberationSerifItalic';
+    src: url('../fonts/liberationserif-italicwebfont.eot');
+    src: url('../fonts/liberationserif-italicwebfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/liberationserif-italicwebfont.woff') format('woff'),
+         url('../fonts/liberationserif-italicwebfont.ttf') format('truetype'),
+         url('../fonts/liberationserif-italicwebfont.svg#LiberationSerifItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'LiberationSerifBoldItalic';
+    src: url('../fonts/liberationserif-bolditalicwebfont.eot');
+    src: url('../fonts/liberationserif-bolditalicwebfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/liberationserif-bolditalicwebfont.woff') format('woff'),
+         url('../fonts/liberationserif-bolditalicwebfont.ttf') format('truetype'),
+         url('../fonts/liberationserif-bolditalicwebfont.svg#LiberationSerifBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'LiberationSerifBold';
+    src: url('../fonts/liberationserif-boldwebfont.eot');
+    src: url('../fonts/liberationserif-boldwebfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/liberationserif-boldwebfont.woff') format('woff'),
+         url('../fonts/liberationserif-boldwebfont.ttf') format('truetype'),
+         url('../fonts/liberationserif-boldwebfont.svg#LiberationSerifBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

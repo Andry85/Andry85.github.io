@@ -1,0 +1,80 @@
+/*
+Author: Shapoval Andry
+Author URI: http://www.free-lance.ru/users/merr
+*/
+* {padding: 0; margin :0;}
+html {height:100%;}
+body {background: #f0f0f0 url(../images/body-bg.gif) center 87px no-repeat; font: 14px Arial, Helvetica, sans-serif; color: #7f7f7f; height: auto !important; height: 100%; min-height: 100%; position: relative;}
+img, table {border: none;}
+table tr td {border-collapse: collapse; vertical-align: middle;}
+li {list-style: none;}
+.clear {clear: both; height: 0; text-indent: -9000px; overflow: hidden;}
+a {text-decoration: underline;}
+a:hover {text-decoration: none;}
+a:focus {outline: none;}
+/*	clearfix			*/
+.clearfix{_height: 1%; _overflow: visible;}
+.clearfix:after{content: "."; display: block; height: 0px; clear: both; visibility: hidden; line-height:0px; font-size:0px;}
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/*	clearfix			*/
+
+
+	.page {width: 948px; margin: 0 auto; padding-bottom: 123px;}
+	.page:after {content: "."; display: block; height: 0; visibility: hidden; clear: both;}
+		
+		.head {height: 133px; position: relative;}
+		.head .logo {float: left; text-decoration: none; color: #7f7f7f; font-size: 36px; padding: 26px 0 0 20px;}
+		.head .contacts {color: #7f7f7f; font-size: 36px; float: right; padding: 27px 14px 0 0;}
+		.head .menu {background: url(../images/menu-bg.gif) no-repeat; width: 910px; height: 43px; margin: 20px 0 0 23px;}
+		.head .menu li {background: url(../images/menu-li-bg.gif) right top no-repeat; height: 43px; padding: 0 1px 0 0; float: left;}
+		.head .menu li span {float: left;}
+		.head .menu li a {text-decoration: none; color: #7f7f7f; padding: 13px 20px 0 20px; float: left; height: 30px;}
+		.head .menu li a:hover {text-decoration: underline;}
+		.head .menu li.last {background: none;}
+		.head .menu li.current, .head .menu li:hover {background: url(../images/menu-li-current-bg.gif) right top no-repeat;}
+		.head .menu li.current.first span {background: url(../images/menu-li-current-span.gif) no-repeat; padding: 0 0 0 3px;}
+		.head .menu li.current span a,.head .menu li:hover span a {background: url(../images/menu-li-current-a-bg.gif) repeat-x; color: #fff;}
+		
+		.content {width: 100%; padding: 15px 0 0 0;}
+		.left-column {width: 226px; float: left; padding: 0 0 0 19px;}
+		.left-column .sidebar-bg1 {background: url(../images/sidebar-bg1.gif) no-repeat; padding: 34px 0 0 0; margin: 0 0 28px 0;}
+		.left-column .sidebar-bg2 {background: url(../images/sidebar-bg2.gif) left bottom no-repeat; padding: 0 0 3px 0;}
+		.left-column .sidebar-bg3 {background: url(../images/sidebar-bg3.gif) repeat-y; width: 100%;}
+		.left-column .sidebar-bg3 h2 {font-weight: normal; color: #919191; margin: -24px 0 0 12px; position: relative; font-size: 14px; float: left;}
+		.left-column .submenu {width: 100%;}
+		.left-column .submenu li {background: url(../images/submenu-li-bg.gif) 10px 10px no-repeat; border-bottom: 1px solid #e9e9e9; padding: 8px 0 9px 30px;}
+		.left-column .submenu li:hover,.left-column .submenu li.activ { background: #018fbf url(../images/submenu-li-hover-bg.gif)  10px 10px no-repeat;}
+		.left-column .submenu li:hover a,.left-column .submenu li.activ a {text-decoration: none; color: #fff;}
+		.left-column .submenu li a {text-decoration: none; color: #818181; font-size: 12px;}
+		
+		.left-column .submenu li.las {border-bottom: 0;}
+		.left-column .news h3 {color: #00a9e0; text-decoration: underline; font-size: 18px; font-weight: normal; padding: 0 0 11px 0;}
+		.left-column .news p {color: #00a9e0; padding: 0 0 16px 0;}
+		.left-column .news p a {color: #00a9e0; padding: 0 0 0 4px;}
+	
+		.righ-column {width: 673px; float: left; padding: 0 0 0 11px;}
+		.gallery {width: 671px; height: 260px; border: 1px solid #999;  overflow: hidden;}
+		.pagenav { background: url(../images/pagenav-bg.gif) no-repeat; width: 673px; height: 37px; margin: 0 0 11px 0;}
+		.pagenav ul { padding: 10px 0 0 14px;}
+		.pagenav ul li {display: inline; color: #979797;}
+		.pagenav ul li a { color: #00a9e1; padding: 0 3px 0 0;}
+			
+		.catalog-bg1 {background: url(../images/catalog-bg1.gif) no-repeat; padding: 34px 0 0 0; margin: 10px 0 0 0;}
+		.catalog-bg2 {background: url(../images/catalog-bg2.gif) left bottom no-repeat; padding: 0 0 4px 0;}
+		.catalog-bg3 {background: url(../images/catalog-bg3.gif) repeat-y; padding: 0 0 23px 0;}
+		.catalog-bg3 h2 {font-weight: normal; color: #919191; margin: -24px 0 0 12px; position: relative; font-size: 14px; float: left;}
+		.katalog {padding: 15px 0 0 17px;}
+		.katalog li {padding: 0 5px 14px 0; width: 200px;  display: inline-block; vertical-align: top;}
+		*+html .katalog li { display: inline;}
+		*html .katalog li { display: inline;}
+		.katalog li .pic {background: url(../images/katalog-li-div-bg.gif) no-repeat; width: 188px; height: 188px; text-align: center; margin: 0 6px;}
+		.katalog li .pic a img {margin: 15px 0 0 0;}
+		.katalog li h3 {color: #717171; font-size: 16px; font-weight: normal; padding: 27px 0 0 0; color: #717171;}
+		.katalog li p {font-size: 13px; padding: 20px 15px 0 0; line-height: 1.1;}
+		.katalog li .more {color: #069ad6; display: block; font-size: 16px; padding: 30px 0 0 0;}
+		
+	.footer {background: url(../images/footer-bg.gif) center top no-repeat; height: 66px; width: 100%; position: absolute; left: 0; bottom: 0;}
+		.footer-inner {width: 948px; margin: 0 auto;}
+		.footer-inner p {text-align: right; color: #717171; font-size: 11px; padding: 12px 18px 0 0;}

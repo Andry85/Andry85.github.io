@@ -1,0 +1,116 @@
+/*android*/
+.android .header { height:60px; }
+.android .footer { background-image: url(../img/bg/android_footer.jpg);  height: 245px; }
+.android .wigetbox .top_item img {
+	margin-right: 20px;
+}
+.android_wg_bg1, .android_wg_bg2, .android_wg_bg3, .android_wg_bg4 {
+	margin: 6px 3px 7px 4px;
+	width: 230px;
+	height: 176px;
+	float: left;
+	background-repeat:no-repeat;
+}
+.android_wg_bg1 {
+	background-image: url(../img/wiget/android/1.png);
+}
+.android_wg_bg2 {
+	background-image: url(../img/wiget/android/2.png);
+}
+.android_wg_bg3 {
+	background-image: url(../img/wiget/android/3.png);
+}
+.android_wg_bg4 {
+	background-image: url(../img/wiget/android/4.png);
+}
+.android .wigetbox h3 { color:#82961c; font-size: 14px; }
+
+.androidcontentbox { text-align:justify; color:#1d2300; line-height:21px; min-height:285px; }
+
+.androidcontentbox button.add-funds { 
+	background-image: url(../img/btn_green.png);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	color:#fff;
+	padding:10px 10px; 
+	border-style: none;
+	width: 250px;
+	height: 57px;
+	font-size: 25px;
+	font-family: 'Noto Sans';
+	cursor: pointer;
+}
+.androidcontentbox button.download {
+	background-image: url(../img/ico_bg_android.png);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	color: #fff;
+	padding: 7px 10px 8px 30px;
+	height:83px;
+	width: 250px;
+	border-style: none;
+	font-size: 35px;
+	font-family: 'Noto Sans';
+	cursor: pointer;
+}
+.androidcontentbox button.reg_b, .androidcontentbox button.login_b  {
+	color: #fff;
+	padding: 4px 10px 8px 10px;
+	width: 250px;
+	height:57px;
+	border-style: none;	
+	font-size: 25px;
+	font-family: 'Noto Sans';
+	cursor: pointer;
+	margin-top:25px;
+	background-size: 100%;
+	background-color: transparent;
+	background-repeat: no-repeat;
+}
+.androidcontentbox button.reg_b {
+	background-image:url(../img/btn_blue.png);
+}
+.androidcontentbox button.login_b {
+	background-image:url(../img/btn_green.png);	
+}
+.androidcontentbox  h3 { padding: 0 0 22px 0; font-family: 'Segoe'; font-size: 20px !important; color:#1d2100 !important; }
+
+.androidsliderbox { 
+	height: 400px;
+	background-image: url(../img/bg/slider.jpg);
+	padding: 50px 0;
+	background-repeat: repeat-x;
+	background-position: 0 -250px;	
+	margin-top: 40px;
+}
+.androidsliderbox div.step-info{
+	width: 600px;
+	float: left;
+	padding: 0 30px;
+	color: #d5d5d5;
+	font-size: 20px;
+	font-family: 'Segoe';
+	font-size:15px;
+}
+.androidsliderbox div.step-info h3 { font-family: 'Segoe'; color:#fff !important; font-size: 25px !important; margin-bottom:15px; }
+.androidsliderbox div.step-info h3 span { font-family: 'Segoe'; color:#b1c42c; margin-right:7px;}
+.androidsliderbox div.step-info p.green { color:#b1c42c; }
+.androidsliderbox div.step-info p b { font-family: 'Segoe'; color:#fff;}
+.androidsliderbox img { }
+.androidsliderbox p { line-height:40px; }
+
+.anythingSlider-default.activeSlider .anythingControls a.cur,
+.anythingSlider-default.activeSlider .anythingControls a:hover {	
+	background-position: 2px 1px;
+	color: #fff;
+}
+.home_android_wg_bg1{
+	background-image:url(../img/hom_and_down.png);background-repeat:no-repeat;
+}
+.home_android_wg_bg2{
+	background-image:url(../img/hom_and_reg.png);background-repeat:no-repeat;
+}.home_android_wg_bg3{
+	background-image:url(../img/hom_and_balance.png);background-repeat:no-repeat;
+}.home_android_wg_bg4{
+	background-image:url(../img/hom_and_sett.png);background-repeat:no-repeat;
+}

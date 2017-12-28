@@ -1,0 +1,169 @@
+#test2{
+	
+	width: 693px;
+	height: 550px;
+	overflow: auto;
+	
+	/*IE overflow fix, position must be relative or absolute*/
+position: relative;
+	/*if you do not want the outline when focused on firefox and IE
+use outline: none;, though not recommended as this may confuse
+people who likes to do keyboard navigation */
+outline: none;
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+
+.fixedsize {
+width: 400px;
+height: auto;
+position: relative;
+color: black;
+padding: 1px;
+
+}
+
+.scrollgeneric
+{
+line-height: 1px;
+font-size: 1px;
+position: absolute;
+
+}
+
+.vscrollerbase, .vscrollerbar {
+width: 15px;
+top: 0px;
+
+}
+
+.vscrollerbar {
+left: 0px;
+
+}
+
+.hscrollerbase, .hscrollerbar {
+height: 0px;
+left: 0px;
+
+}
+
+.hscrollerbar {
+top: 0px;
+}
+
+.vscrollerbar, .hscrollerbar {
+/*padding information of these elements are only used for
+padding of the scroll-bar with respect to the scroll base,
+the padding will automatically be turned off by the script*/
+padding: 5px;
+/* z-index for scrollbars no longer has to be given as of version
+1.7.5 for correct operation, but it is still recommended, as this
+decides the z-index for content.*/
+z-index: 2;
+
+}
+
+.vscrollerbarbeg {
+	width: 15px;
+	height: auto;
+	top: 0px;
+
+}
+
+
+.hscrollerbarbeg {
+
+height: 0px;
+width: auto;
+left: 0;
+}
+
+.hscrollerbarend {
+
+height: 0px;
+width: 10px;
+}
+
+.hscrollerbasebeg {
+left: 0px;
+top: 0px;
+height: 0px;
+
+}
+
+.hscrollerbaseend {
+top: 0px;
+height: 0px;
+width: 7px;
+
+}
+
+.vscrollerbasebeg {
+top: 0px;
+width: 45px;
+
+}
+
+.vscrollerbaseend {
+height: 0px;
+width: 15px;
+
+}
+
+.scrollerjogbox {
+width: 0px;
+height: 0px;
+bottom: 0px;
+right: 0px;
+
+}
+
+
+/* Scroll Bar Master Styling Ends Here */
+
+/* Extra sample styles */
+#test2 .vscrollerbarbeg {
+	width: 7px;
+	height: auto;
+	background-image: url(../images/scsroll.png);
+	background-position: 0px -34px;
+}
+
+#test2 .vscrollerbarend {
+	width: 7px;
+	height: 34px;
+	background-image: url(../images/scsroll.png);
+	background-repeat: no-repeat;
+
+}
+
+#test2 .vscrollerbase {
+width: 7px;
+}
+
+#test2 .vscrollerbar {
+padding: 0px;
+}
+
+#test2 .vscrollerbasebeg, #test2 .vscrollerbaseend {
+	background-image: url(../images/1.gif);
+	background-position: 0px top;
+	background-repeat: no-repeat;
+}
+.txt{
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #665761;
+	float: left;
+	width: 98%;
+	text-align: justify;
+	display: inline;
+	margin-right: 2%;
+	margin-top: -10px;
+	$margin-top: 0px;
+	margin-bottom: -22px;
+	_margin-bottom: -25px;
+}

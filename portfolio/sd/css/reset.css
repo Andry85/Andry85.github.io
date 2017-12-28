@@ -1,0 +1,54 @@
+* {margin: 0; padding: 0;}
+html, body {height: 100%;}
+table {border-collapse: collapse; width: 100%;} 
+input:focus {outline: none;}
+.clear {clear: both; height: 0; text-indent: -9000px; overflow: hidden;}
+img, table {border: none;}
+a:link, a:visited {text-decoration: none; color: #666;}
+a:hover, a:active {text-decoration: underline;}
+button {outline: none; cursor: pointer; transition: 0.5s linear;}
+
+/*	clearfix			*/
+.clearfix{_height: 1%; _overflow: visible;}
+.clearfix:after{content: "."; display: block; height: 0px; clear: both; visibility: hidden; line-height:0px; font-size:0px;}
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/*	clearfix			*/
+
+
+header,footer,article,section,hgroup,nav,menu,aside,figure,figcaption,mark{display:block;}
+.floatLeft {float: left;}
+.floatRight {float: right;}
+
+h1, h2, h3, h4, h5, h6 {margin: 15px 0;}
+h1 {font-size: 45px;}
+h2 {font-size: 35px;}
+h3 {font-size: 25px;}
+h4 {font-size: 15px;}
+h5 {font-size: 10px;}
+h6 {font-size: 8px;}
+
+ul, ol {list-style:none;}
+
+p {margin: 15px 0; line-height: 1.4;}
+
+img{width:auto\9;height:auto;max-width:100%;vertical-align:middle;border:0;-ms-interpolation-mode:bicubic;}
+
+::-webkit-input-placeholder { /* для webkit браузеров */
+	color: #666666;
+}
+:-moz-placeholder { /* для браузеров mozilla */
+	color: #666666;
+}
+
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+

@@ -1,0 +1,306 @@
+/*
+Author: Shapoval Andry
+Author URI: http://www.free-lance.ru/users/merr
+*/
+* {padding: 0; margin :0;}
+html {height:100%;}
+body {background: #000 url(../images/body-bg.gif) center top repeat-y; font: 12px Arial, Helvetica, sans-serif; color: #530a4e; height: auto !important; height: 100%; min-height: 100%; position: relative;}
+img, table {border: none;}
+table tr td {border-collapse: collapse; vertical-align: middle;}
+li {list-style: none;}
+.clear {clear: both; height: 0; text-indent: -9000px; overflow: hidden;}
+a {text-decoration: underline;}
+a:hover {text-decoration: none;}
+a:focus {outline: none;}
+/*	clearfix			*/
+.clearfix{_height: 1%; _overflow: visible;}
+.clearfix:after{content: "."; display: block; height: 0px; clear: both; visibility: hidden; line-height:0px; font-size:0px;}
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/*	clearfix			*/
+
+
+	.body-bg1 {background: url(../images/body-bg1.jpg) center top no-repeat; position:absolute; width:100%; min-height:100%; overflow-x:hidden; min-width:1000px;}
+	.page {width: 1000px; margin: 0 auto; padding-bottom: 196px;}
+	.page:after {content: "."; display: block; height: 0; visibility: hidden; clear: both;}
+	.head {background: url(../images/head-bg.png) no-repeat; height: 273px; position: relative; width: 100%;}
+	.head .menu {background: url(../images/menu-bg.png) no-repeat; width: 915px; height: 54px; position: absolute; top: 219px; left: 0; padding: 0 0 0 85px;}
+	.head .menu li {float: left; padding: 14px 0 0 0;}
+	.head .menu li span {color: #fce342; float: left; padding: 6px 19px 0 18px;}
+	.head .menu li a {font-size: 27px; text-decoration: none; color: #fce342; float: left;}
+	.head .menu li a:hover {text-decoration: underline; color: #DF1F4A;}
+	
+	.content {width: 100%;}
+	.content-bg1 {background: url(../images/content-bg1.jpg) no-repeat; padding: 447px 0 0 0;}
+	.content-bg2 {background: url(../images/content-bg2.jpg) left bottom no-repeat; padding: 0 0 285px 0;}
+	.content-bg3 {background: url(../images/content-bg3.jpg) repeat-y; width: 100%;}
+	.content-inner {width: 100%; float: left; overflow: hidden; margin: -447px 0 -285px 0;}
+	.preambule {padding: 14px 0 0 20px;}
+	.enter {background: url(../images/enter-bg.png) no-repeat; width: 242px; height: 224px; float: left;}
+	.enter form {padding: 23px 0 0 0;}
+	.enter .clearfix {padding: 0 0 4px 27px;}
+	.enter .clearfix label {font-size: 16px; color: #fff0c2; float: left; width: 63px; padding: 9px 0 0 0;}
+	.enter .clearfix .tx {background: url(../images/tx-bg.png) no-repeat; width: 123px; height: 26px; line-height: 26px; border: 0; float: left; padding: 0 5px; color: #fff0c2;}
+	.enter-bottom {padding: 23px 0 0 16px;}
+	.enter-bottom .submit {background: url(../images/submit-bg.png) no-repeat; width: 72px; height: 38px; border: 0; cursor: pointer; float: left;}
+	.enter-bottom .sosial {float: left; padding: 5px 0 0 13px;}
+	.enter-bottom .sosial li {float: left; margin: 0 11px 0 0;}
+	.enter-bottom .sosial li.ic-01 {padding: 1px 0 0 0;}
+	.inn {padding: 26px 0 0 12px;}
+	.inn a {color: #fce342; margin: 0 7px 0 0;}
+	.inn a:hover {text-decoration: none; color: #DF1F4A;}
+	.inn .remember {color: #fff0c2;}
+	.bonus {background: url(../images/bonus-bg.png) no-repeat; width: 412px; height: 226px; float: left; margin: 1px 0 0 5px;}
+	.bonus h2 {font-size: 35px; color: #fce342; font-style: italic; font-weight: bold; padding: 37px 0 0 111px;}
+	.bonus .procent {padding: 7px 0 0 108px;}
+	.bonus p {color: #fce342; font-size: 20px; font-style: italic; padding: 1px 0 0 129px;}
+	.line {background: url(../images/line-bg.png) no-repeat; width: 7px; height: 232px; overflow: hidden; float: left; margin: 0 8px 0 6px;}
+	.bonus-plus {background: url(../images/bonus-plus-bg.png) no-repeat; width: 282px; height: 227px; float: left;}
+	.bonus-plus h3 {text-align: center; font-size: 20px; font-weight: bold; color: #f91659; font-style: italic; padding: 30px 0 10px 0;}
+	.bonus-plus table {width: 260px; margin: 0 0 0 10px;}
+	.bonus-plus table tr td {background: url(../images/td-bg.png) no-repeat; height: 34px;}
+	.bonus-plus table tr td .name {height: 26px; font-size: 16px; color: #fe1d18; padding: 8px 0 0 23px; float: left; width: 132px;}
+	.bonus-plus table tr td .summa {height: 27px; font-size: 17px; color: #ff2453; width: 90px; float: left; padding: 7px 0 0 13px;}
+	.inner {width: 100%; overflow: hidden;}
+	.big-line {background: url(../images/big-line-bg.png) no-repeat; width: 13px; height: 332px; overflow: hidden; float: left; margin: 0 0 0 20px;}
+	.box-outer {width: 967px; float: left; overflow: hidden;}
+	.box {width: 100%;}
+	.gallery-outer {background: url(../images/gallery-outer-bg.jpg) no-repeat; width: 947px; height: 182px;}
+	.play-naw {width: 300px; height: 185px; float: left; margin: -6px 0 0 -19px;}
+	.block {width: 673px; float: left; margin: 0 0 0 -15px;}
+	.slider-gallery {width: 640px; padding: 23px 0 0 33px;}
+	.slider-gallery ul li {background: url(../images/slider-gallery-li-bg.png) no-repeat; width: 115px; height: 110px; padding: 7px 0 0 7px; float: left;}
+	.jcarousel-skin-tango .jcarousel-container-horizontal {width: 606px;}
+	.jcarousel-skin-tango .jcarousel-next-horizontal {background: url(../images/next-bg.png) no-repeat; width: 23px; height: 32px; position: absolute; top: 40px; right: -28px; cursor: pointer;}
+	.jcarousel-skin-tango .jcarousel-prev-horizontal {background: url(../images/prew-bg.png) no-repeat; width: 23px; height: 32px; position: absolute; top: 40px; left: -28px; cursor: pointer;}
+	.marks {font-size: 12px; padding: 10px 0 0 8px; position: relative;}
+	.marks dt {display: inline; color: #df1f4a; font-size: 14px;}
+	.marks dd {display: inline; margin: 0 7px;}
+	.marks dd a {color: #fdc073;}
+	.marks dd a:hover {color: #DF1F4A;}
+	.marks dd.all-games {position: absolute; top: 10px; right: 0;}
+	.buttoms {background: url(../images/buttoms-bg.png) no-repeat; width: 947px; height: 142px; margin: 8px 0 0 0;}
+	.buttoms h3 {font-style: italic;}
+	.buttoms p {font-style: italic;}
+	.buttom-1 {width: 403px; float: left; color: #fce344;}
+	.buttom-1 h3 {font-size: 27px; padding: 24px 0 0 56px;}
+	.buttom-1 p {font-size: 50px; padding: 4px 0 0 122px;}
+	.buttom-2 {width: 257px; float: left;}
+	.buttom-2 h3 {font-size: 20px; color: #b31d6a; padding: 28px 0 0 86px;}
+	.buttom-2 p {font-size: 35px; color: #ce3762; padding: 13px 0 0 74px;}
+	.buttom-3 {width: 277px; float: left;}
+	.buttom-3 h3 {font-size: 20px; color: #f91659; padding: 28px 0 0 86px;}
+	.buttom-3 p {font-size: 35px; color: #f91659; padding: 13px 0 0 119px;}
+	
+	.payments {background: url(../images/payments-bg.png) no-repeat; width: 947px; height: 165px; margin: 0 0 0 33px;}
+	.payments-inner {padding: 59px 0 0 0;}
+	.payments-inner ul li {float: left;}
+	.payments-inner ul li.pay-1 {padding: 7px 0 0 19px;}
+	.payments-inner ul li.pay-2 {padding: 4px 0 0 39px;}
+	.payments-inner ul li.pay-3 {padding: 0 0 0 55px;}
+	.payments-inner ul li.pay-4 {padding: 4px 0 0 64px;}
+	.payments-inner ul li.pay-5 {padding: 9px 0 0 49px;}
+	.payments-inner ul li.pay-6 {padding: 3px 0 0 55px;}
+	.payments-inner ul li.pay-7 {padding: 7px 0 0 69px;}
+	.payments-inner ul li.pay-8 {padding: 0 0 0 70px;}
+	
+	
+	.left-col {width: 263px; float: left; margin: 0 0 0 8px; padding: 15px 0 0 0; position: relative;}
+	.login {background: url(../images/login-bg.png) no-repeat; width: 263px; height: 255px;}
+	.login h2 {font-size: 20px; color: #ff2453; padding: 28px 0 20px 27px;}
+	.login p.bonuss {background: url(../images/bonuss-bg.png) left 2px no-repeat; padding: 0 0 0 24px; font-size: 16px; color: #fce342; margin: 0 0 0 29px;}
+	.login p.bonuss span {font-size: 14px; color: #fff0c2;}
+	.login form {padding: 38px 0 0 31px;}
+	.login form div {padding: 0 0 13px 0;}
+	.login form div label {float: left; color: #fff0c2; font-size: 16px; width: 170px;}
+	.login form div label a {font-size: 12px; color: #9d007a; margin: 0 0 0 4px; position: relative; top: -1px;}
+	.login form div label a:hover {color: #DF1F4A;}
+	.login form div label i {font-size: 16px; color: #fce342;}
+	.login form div label img {position: relative; top: 3px; margin: 0 3px 0 0;}
+	.niceRadio {width: 13px; height: 13px; display: inline-block; cursor: pointer; background: url(../images/radio.png); background-position: 0 -13px; overflow:hidden; float: left; margin: 0 10px 0 0;}
+	.radioChecked {background-position: 0 0;}
+	.niceRadio input {margin-left: -17px;}
+	.links-outer {background: url(../images/links-outer-bg.png) no-repeat; width: 242px; height: 155px; margin: 6px 0 0 0;}
+	.links-outer ul {padding: 18px 0 0 31px;}
+	.links-outer ul li {padding: 0 0 9px 23px;}
+	.links-outer ul li.li-01 {background: url(../images/li-01.png) no-repeat;}
+	.links-outer ul li.li-02 {background: url(../images/li-02.png) no-repeat;}
+	.links-outer ul li.li-03 {background: url(../images/li-03.png) no-repeat;}
+	.links-outer ul li.li-04 {background: url(../images/li-04.png) left 3px no-repeat;}
+	.links-outer ul li.li-05 {background: url(../images/li-05.png) left 3px no-repeat;}
+	.links-outer ul li a {color: #fff0c2; font-size: 13px;}
+	.sidebar {width: 238px; margin: 26px 0 0 0;}
+	.sidebar-inner-bg1 {background: url(../images/sidebar-bg1.png) no-repeat; padding: 455px 0 0 0;}
+	.sidebar-inner-bg2 {background: url(../images/sidebar-bg2.png) left bottom no-repeat; padding: 0 0 558px 0;}
+	.sidebar-inner-bg3 {background: url(../images/sidebar-bg3.png) repeat-y; width: 100%;}
+	.sidebar-inside {width: 100%; float: left; overflow: hidden; margin: -455px 0 -558px 0;}
+	.sidebar-inside h2 {font-size: 25px; color: #ff2453; padding: 16px 0 20px 17px;}
+	.sidebar-catalog {padding: 0 0 22px 0;}
+	.sidebar-catalog ul {padding: 5px 0 0 5px;}
+	.sidebar-catalog li {width: 105px; float: left; text-align: center; margin: 0 3px; padding: 0 0 19px 0;}
+	.sidebar-catalog li a {color: #fff0c2; font-size: 11px; display: block; position: relative; top: -2px;}
+	.sidebar-catalog li .flash a {top: 0;}
+	.vertical-slider {position: relative; padding: 64px 0 43px 0; width: 100%;}
+	.vertical-slider .prev {background: url(../images/up-bg.png) no-repeat; width: 236px; height: 50px; border: 0; cursor: pointer; position: absolute; left: 0; top: 0;}
+	.vertical-slider .next {background: url(../images/down-bg.png) no-repeat; width: 236px; height: 43px; border: 0; cursor: pointer; position: absolute; left: 0; bottom: 0;}
+	.vertical-slider .slider {height: 100%;}
+	.slider .carousel {height: 343px!important;}
+	.slider .carousel ul li {width: 105px; height: 85px; float: left!important; text-align: center; margin: 0 3px; padding: 0 0 19px 0;}
+	.slider .carousel ul li a {color: #fff0c2; font-size: 11px; display: block; position: relative; top: -2px;}
+	.slider .carousel ul li .flash a {top: 0;}
+	
+	
+	
+	.right-col {width: 697px; float: left; padding: 19px 0 0 0;}
+	.text-bg1 {background: url(../images/text-bg1.png) no-repeat; padding: 1152px 0 0 0;}
+	.text-bg2 {background: url(../images/text-bg2.png) left bottom no-repeat; padding: 0 0 441px 0;}
+	.text-bg3 {background: url(../images/text-bg3.png) repeat-y; width: 100%;}
+	.text-inner {width: 100%; float: left; overflow: hidden; margin: -1152px 0 -441px 0; padding: 0 0 33px 0;}
+	.text-inner h1 {color: #ce3762; font-size: 25px; padding: 20px 0 0 17px;}
+	.catalog {padding: 17px 0 2px 23px;}
+	.catalog h2 {color: #ce3762; font-size: 25px; padding: 20px 0 20px 0px; position: relative; left: -6px;}
+	.catalog ul li {width: 123px; float: left; text-align: center; padding: 0 0 21px 0; margin: 0 5px;}
+	.catalog ul li a {color: #fff0c2; font-size: 11px; display: block; position: relative; top: -2px;}
+	.catalog ul li .flash a {top: 0;}
+	
+	.container {width: 100%; padding: 12px 0 0 0;}
+	.left-part {width: 282px; float: left; position: relative; overflow: hidden;}
+	.left-part .enter {margin: 0 0 0 21px; float: none;}
+	.bonusss {background: url(../images/bonusss-bg.png) no-repeat; width: 282px; height: 251px; margin: 6px 0 0 0;}
+	.bonusss h2 {font-size: 30px; color: #fce342; font-style: italic; font-weight: bold; padding: 53px 0 0 59px;}
+	.bonusss .procent {padding: 8px 0 0 54px;}
+	.bonusss p {color: #fce342; font-size: 17px; font-style: italic; padding: 2px 0 0 74px;}
+	.line-vertical {position: absolute; top: 22px; right: 5px;}
+	
+	
+	.right-part {width: 697px; float: left;}
+	.open {background: url(../images/open-bg.png) no-repeat; height: 565px;}
+	.open h1 {font-size: 25px; color: #ff2453; padding: 20px 0 20px 17px;}
+	.block-bg1 {background: url(../images/block-bg1.png) no-repeat; padding: 493px 0 0 0;}
+	.block-bg11 {background: url(../images/block-bg11.png) no-repeat; padding: 517px 0 0 0;}
+	.block-bg11 .block-inner {margin-top: -517px;}
+	.block-bg2 {background: url(../images/block-bg2.png) left bottom no-repeat; padding: 0 0 74px 0;}
+	.block-bg3 {background: url(../images/block-bg3.png) repeat-y; width: 697px;}
+	.block-inner {float: left; width: 697px; overflow: hidden; margin: -493px 0 -74px 0;}
+	.block-inner h1 {font-size: 25px; color: #ff2453; padding: 20px 0 14px 20px;}
+	.history-table {background: url(../images/history-table-bg.png) 168px top no-repeat; padding: 28px 0 0 36px; min-height: 483px; margin: 6px 0 0 0;}
+	.history-table table tr th {font-size: 17px; color: #fce342; font-weight: normal; padding: 0 0 14px 0; text-align: left;}
+	.history-table table tr td {font-size: 13px; color: #ffe5a5; padding: 5px 0;}
+	.history-table table tr td p {padding: 0 0 0 13px; position: relative; left: -13px;}
+	.history-table table tr td span {padding: 0 10px 0 0;}
+	.stat-1 {background: url(../images/stat-1.png) left 7px no-repeat;}
+	.stat-2 {background: url(../images/stat-2.png) left 6px no-repeat;}
+	.stat-3 {background: url(../images/stat-3.png) left 3px no-repeat;}
+	.contacts h2 {font-size: 15px; color: #fff0c2; font-weight: normal; padding: 0 0 37px 36px;}
+	.contacts form {padding: 0 0 0 35px;}
+	.contacts form .clearfix {padding: 0 0 9px 0;}
+	.contacts form .clearfix label {float: left; font-size: 13px; color: #fff0c2; padding: 2px 11px 13px 0;}
+	.contacts form .clearfix .txx {float: left; width: 153px; height: 20px; line-height: 20px; border: 1px solid #403c33; background: #000; padding: 0 3px; color: #fff0c2;}
+	.contacts form .clearfix .txx-1 {float: left; width: 45px; height: 20px; line-height: 20px; border: 1px solid #403c33; background: #000; padding: 0 3px; color: #fff0c2;}
+	.contacts form .clearfix textarea {clear: left; width: 630px; height: 157px; border: 1px solid #403c33; background: #000; overflow: hidden; color: #fff0c2;}
+	.contacts form .submit-1 {background: url(../images/submit-1.png) no-repeat; width: 89px; height: 38px; border: 0; cursor: pointer; margin: 16px 0 0 0;}
+	.contacts form p {padding: 28px 0 0 0; color: #9d007a; font-size: 13px; line-height: 1.4;}
+	.user {background: url(../images/user-bg.png) no-repeat; height: 565px;}
+	.user h1 {color: #ce3762; font-size: 25px; padding: 20px 0 0 17px;}
+	.user .danni {padding: 15px 0 0 36px;}
+	.user .danni h3 {font-size: 13px; color: #fff0c2; padding: 1px 0 13px 0; font-weight: normal;}
+	.user .danni .pic {padding: 40px 0 28px 12px;}
+	.user .danni table tr td {color: #fff0c2; font-size: 13px; padding: 0 0 9px 0;}
+	.user .danni table tr td span {color: #b33055;}
+	.submit-2 {background: url(../images/submit-2.png) no-repeat; width: 134px; height: 38px; border: 0; cursor: pointer; margin: 36px 0 0 0;}
+	
+	.statics {padding: 0 0 0 17px;}
+	.statics dl {padding: 2px 0 0 18px;}
+	.statics dl dt {font-size: 15px; color: #fff0c2; padding: 0 0 13px 0;}
+	.statics dl dd {padding: 0 0 18px 0;}
+	.statics dl dd a {font-size: 15px; color: #fce342;}
+	.materials h2 {font-size: 25px; color: #ff2453; padding: 22px 0 15px 0;}
+	.materials h3 {font-size: 11px; color: #fff0c2; font-weight: normal; padding: 0 0 0 18px;}
+	.materials p {padding: 5px 0 3px 18px; font-size: 12px; color: #fff0c2;}
+	.materials p span {color: #c0335b;}
+	.banners {padding: 16px 0 0 18px;}
+	.banners h4 {font-size: 11px; color: #fff0c2; font-weight: normal; padding: 0 0 7px 0;}
+	.banners table {float: left; margin: 0 5px 0 0;}
+	.banners table tr td {padding: 0 27px 6px 0;}
+	.banners table tr td a {font-size: 13px; color: #ce3762;}
+	
+	.help {padding: 0 0 0 35px;}
+	.blok {padding: 0 10px 10px 0;}
+	.blok h2 {font-size: 17px; color: #fce342; font-weight: normal; padding: 0 0 13px 0;}
+	.blok p {color: #ffe5a5; font-size: 13px;}
+	
+	.rules-inner {padding: 7px 20px 8px 0;}
+	.rules-inner h2 {font-size: 13px; color: #ffe5a5; font-weight: normal; padding: 0 0 14px 0;}
+	.rules-inner h3 {font-size: 13px; color: #ffe5a5; font-weight: normal; padding: 0 0 14px 0;}
+	.rules-inner p {color: #ffe5a5; font-size: 13px; padding: 0 0 14px 0;}
+	
+	.registration {padding: 0 0 0 37px;}
+	.registration p {font-size: 11px; color: #620e5d; padding: 4px 0 19px 0;}
+	.registration .clearfix {padding: 0 0 13px 0;}
+	.registration .clearfix label {float: left; width: 116px; text-align: right; padding: 3px 25px 0 0; font-size: 13px; color: #fce342;}
+	.registration .clearfix .ts {background: #000; width: 153px; height: 20px; line-height: 20px; border: 1px solid #403c33; float: left; color: #fce342; padding: 0 6px;}
+	.registration .lineForm {float: left; margin: 0 14px 0 0;}
+	.registration .captcha img {float: left; position: relative; left: -20px; top: -3px;}
+	.registration .captcha label {width: auto; padding: 3px 14px 0 0;}
+	.registration .captcha .tss {background: #000; width: 75px; height: 20px; line-height: 20px; border: 1px solid #403c33; float: left; color: #fce342; padding: 0 6px;}
+	.registration .check p {float: left; color: #fce342; font-size: 13px;}
+	.registration .check .submit-3 {background: url(../images/submit-3.png) no-repeat; width: 108px; height: 38px; border: 0; float: left; cursor: pointer; margin: 0 0 0 39px; position: relative; top: -7px;}
+	#check {float: left; position: relative; width: 19px; height: 18px; margin: 3px 4px 0 0;}
+	.niceCheck {width: 19px; height: 18px; display: inline-block; cursor: pointer; background: url(../images/checkbox.png) 0 -18px no-repeat; float: right; position: relative; overflow: hidden;}
+	.niceCheck input {display: none;}
+	
+	.fun {text-align: center; position: relative; top: -46px;}
+	.fun h2 {font-size: 17px; color: #fce342; font-weight: normal;}
+	.fun img {margin: 0 0 -19px 0;}
+	.fun p {font-size: 13px; color: #fce342;}
+	.fun form {padding: 52px 0 0 0;}
+	.fun form div {padding: 0 0 5px 153px;}
+	.fun form div label {float: left; width: 116px; text-align: right; padding: 3px 25px 0 0; font-size: 13px; color: #fce342;}
+	.fun form div input {background: #000; width: 120px; height: 20px; line-height: 20px; border: 1px solid #403c33; float: left; color: #fce342; padding: 0 6px;}
+	.fun .submit-4 {background: url(../images/submit-4.png) no-repeat; width: 108px; height: 38px; border: 0; margin: 15px auto 0 auto; cursor: pointer;}
+	.fun .inn {padding: 15px 0 0 250px; text-align: left;}
+	
+	.schet {text-align: center;}
+	.payment {padding: 41px 0 35px 0;}
+	.schet form .clearfix label {font-size: 13px; color: #fff0c2; padding: 0 6px 0 0;}
+	.schet form .clearfix span {font-size: 13px; color: #fff0c2;}
+	.schet form .clearfix input.ts-1 {background: #000; width: 94px; height: 20px; line-height: 20px; border: 1px solid #403c33; color: #fce342; padding: 0 6px;}
+	.schet form .clearfix .pr {background: url(../images/pr-bg.png) no-repeat; width: 70px; height: 38px; border: 0; cursor: pointer; margin: 27px 13px 0 17px;}
+	.schet form .clearfix .nx {background: url(../images/nx-bg.png) no-repeat; width: 70px; height: 38px; border: 0; cursor: pointer;}
+	.schet form .info {color: #9d007a; font-size: 15px; padding: 82px 0 0 0;}
+	.schet form .info a {color: #ce3762;}
+	.schet form .summ {color: #ffe5a5; font-size: 11px; line-height: 1.6; padding: 37px 0 0 0;}
+	
+	.schet form .snatie {text-align: left; padding: 0 0 0 129px;}
+	.schet form .snatie .clearfix {padding: 0 0 11px 0;}
+	.schet form .snatie .clearfix label {width: 110px; float: left;}
+	.schet form .snatie .clearfix input.ts-1 {float: left;}
+	.schet form .snatie .clearfix span {float: left; padding: 0 0 0 8px;}
+	.schet form .snatie .clearfix i {font-size: 17px; font-style: normal; color: #dd1f48; float: left; padding: 0 0 0 95px; position: relative; top: -3px;}
+	.schet form .snatie .clearfix input.ts-2 {width: 154px;}
+	.schet form .snatie .clearfix label span {float: none; padding: 2px 0 0 0; font-size: 11px; text-decoration: underline; display: block;}
+	.schet form .snatie .clearfix .nx {margin: 28px 0 0 164px;}
+	.snatie-outer {text-align: left;}
+	.snatie-outer .payment {padding-left: 221px; padding-top: 21px;}
+	
+	.sistems ul {padding: 26px 0 0 84px;}
+	.sistems ul li {float: left; width: 230px; margin: 0 51px 0 0; padding: 0 0 32px 0;}
+	.sistems ul li a {display: block; color: #fce342; font-size: 12px; text-decoration: none;}
+	.sistems ul li a:hover {text-decoration: underline;}
+	.sistems ul li a.link {padding: 8px 0 0 0;}
+	
+	.kasa ul {padding: 0 0 0 7px; position: relative; top: -7px;}
+	.kasa ul li {float: left; width: 230px; margin: 0 -3px -2px 0;}
+	
+	.footer {background: url(../images/footer-bg.jpg) no-repeat; height: 165px; width: 1000px; padding: 31px 0 0 0; position: relative; position: absolute; bottom: 0; left: 50%; margin-left: -500px;}
+	*+html .footer {margin-left: -501px;} 
+	.footer p {text-align: center; font-size: 11px;}
+	.footer p strong {font-weight: normal; color: #7f0062;}
+	.footer .footer-inner {width: 126px; float: left; margin: 17px 0 0 442px;}
+	.footer .footer-inner p {padding: 5px 0 0 0; color: #7f0062;}
+	.footer .nav {float: left; padding: 45px 0 0 0;}
+	.footer .nav li {float: left; padding: 0 16px 0 0;}
+	.footer .nav li a {font-size: 11px; color: #620e5d; font-style: italic;}
+	.left-footer {position: absolute; left: -212px; top: -121px;}
+	.right-footer {position: absolute; right: -92px; top: -146px;}

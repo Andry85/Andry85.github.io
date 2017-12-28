@@ -1,0 +1,68 @@
+@media (max-width: 1366px) {
+    .slogan {top: 200px;}
+}
+
+@media (max-width: 1200px) {
+    .slogan {top: 300px;}
+}
+
+@media (max-width: 1120px) {
+    .navi ul {padding-right: 15px;}
+    .navi ul li {padding-left: 5px; padding-right: 5px;}
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .slogan {top: 200px;}
+    .inner {width: 100%;}
+    .navi ul {width: 500px;}
+    .navi ul li {padding: 10px 7px 10px 7px;}
+    .navi ul {padding: 0;}
+    a.now {padding: 0 5%;}
+    a.logo {top: 25px;}
+    .inner-text {padding: 0 5px;}
+
+}
+
+@media (max-width: 767px) {
+    html {-webkit-text-size-adjust: none;}
+    .navi {display: none;}
+    .slogan {top: 150px;}
+    .big-logo {-webkit-background-size: 300px 300px; -moz-background-size: 300px 300px; -o-background-size: 300px 300px; background-size: 300px 300px; background-position: -50px 0; width: 141px; height: 35px;}
+    .slogan h1 {font-size: 48px;}
+    a.arrow {bottom: 33px;}
+    .inner {width: 100%; padding: 0 5px;}
+    .inner-text h2 {font-size: 34px;}
+    .inner-text p {font-size: 16px;}
+    .inner-text {padding: 40px 0 25px 0;}
+    .form {width: 100%;}
+    .form ul li {padding: 11px;}
+    .form ul li > label {width: 100%; float: none; clear: both; display: block; padding: 0 0 5px 0;}
+    .form ul li > input {width: 100%; float: none; clear: both;}
+    .employee-list li figure {width: 100%; float: none; clear: both; text-align: center;}
+    .employee-list li h3 {padding: 9px 0 0 0;}
+    .employee-list li p {padding: 0;}
+    .employee-list li:nth-child(2n) h3 {padding: 9px 0 0 0; text-align: left;}
+    .employee-list li:nth-child(2n) p {padding: 0; text-align: left;}
+    .employee-list li:nth-child(2n) figure {float: none;}
+    .employee-list {padding: 40px 0 0 0; margin-bottom: -20px;}
+    .option-table table th {font-size: 10px;}
+    .option-table table tr td {font-size: 10px;}
+    a.now {padding: 0 5px; line-height: inherit; text-align: center;}
+    .option-table table th.th-1 {width: 22%; padding-right: 2%;}
+    .option-table table th:last-child {padding-right: 2%;}
+    .option-table table tr td:first-child {padding-right: 2%;}
+    .option-table table tr td:last-child {padding-right: 2%;}
+    .option-table table th.th-3 {width: 23%;}
+    .option-table table th.th-4 {width: 20%;}
+    a.logo {position: absolute; top: 60px;}
+    .slicknav_menu {display: block;}
+    .inner-text.map {-webkit-background-size: 317px 205px; -moz-background-size: 317px 205px; -o-background-size: 317px 205px; background-size: 317px 205px;}
+}
+
+
+@media (max-width: 479px) {
+    .slogan {top: 60px;}
+    .slogan h1 {font-size: 28px;}
+    a.logo {display: none;}
+}

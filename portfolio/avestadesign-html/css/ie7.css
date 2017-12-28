@@ -1,0 +1,12 @@
+.step-list li {display: inline;}
+.step-list li.n-01 {margin-right: 50px;}
+.step-list li.n-02 {margin-right: 50px;}
+.step-list li.n-03 {margin-right: 52px;}
+.list li {display: inline; margin-right: 60px;}
+.proposal li {display: inline;}
+.call h3 { margin-top: -15px;}
+.honors-list li {display: inline; margin-right: 77px;}
+.cats-list {display: inline;}
+.cats-list li {display: inline;}
+.portfolio-list li {display: inline;}
+.portfolio-list li h4 { padding-bottom: 6px;}

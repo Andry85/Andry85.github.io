@@ -1,0 +1,2 @@
+Cufon.replace('.menu li a, .bonus h2,.bonus-plus h3, .buttoms h3,.buttoms p, .login h2, .login form div label i, .sidebar-inside h2, .text-inner h1, .catalog h2, .bonusss h2,.open h1,.block-inner h1,.user h1,.materials h2',  { fontFamily: 'Myriad Pro', hover:true });
+Cufon.replace('.enter .clearfix label, .enter-bottom .inn a, .login p,.login form div label',  { fontFamily: 'Calibri', hover:true });

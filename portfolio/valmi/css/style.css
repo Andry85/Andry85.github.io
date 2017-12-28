@@ -1,0 +1,71 @@
+@import url(common.css);
+ body {background: #25558b url(../images/body-bg.png) center top repeat-y; font: 12px Tahoma, Geneva, sans-serif; color: #002157;}
+ 	.body-bg1 {background: url(../images/body-bg1.png) center top no-repeat;}
+	.body-bg2 {background: url(../images/body-bg2.png) center 166px no-repeat;}
+	.body-bg3 {background: url(../images/body-bg3.png) center 332px no-repeat;}
+	.body-bg4 {background: url(../images/body-bg4.png) center 498px no-repeat;}
+	.body-bg5 {background: url(../images/body-bg5.png) center 664px no-repeat;}
+	
+		.page {width: 999px; margin: 0 auto;}
+			
+			.head {width: 999px; height: 158px; position: relative; text-align: right;}
+				.head .logo {position: absolute; left: 11px; top: -10px;}
+				 ul.menu {padding: 8px 68px 0 0;}
+				 ul.menu li {display: inline;}
+				 ul.menu li a {font-family: Arial, Helvetica, sans-serif; font-weight: bold; color: #002157; text-decoration: none;}
+				 ul.menu li a:hover {color: #52b8f0;}
+				 ul.menu li span {margin: 0 -1px 0 3px; font-size: 11px;}
+				.head .search {padding: 20px 89px 0 0;}
+				.head .search form input {font: 12px Arial, Helvetica, sans-serif; color: #000; border: 1px solid #7f9db9; background: #fff; width: 149px; height: 20px; line-height: 20px; padding: 0 0 0 7px; cursor: pointer;}
+				.head .search form .submit {background: url(../images/submit-bg.png) no-repeat; width: 63px; height: 16px; border: 0; padding: 0; margin: 0 0 0 7px;}
+				*+html .head .search form .submit {position: relative; top: -3px;}
+			
+				
+			.content {width: 999px; position: relative; min-height: 675px;}
+				.content-left {width: 207px; float: left; padding: 0 0 0 23px;}
+				.content-left h2 {background: url(../images/content-left-h2.gif) no-repeat; width: 207px; height: 43px; text-indent: -9000px; overflow: hidden;}
+				.news {padding: 17px 7px 0 13px;}
+				.news p.date {padding: 0 0 17px 0;}
+				.news h3 {font-size: 12px; padding: 0 20px 0 0; line-height: 1.4;}
+				.news a {display: block; text-align: right; color: #002157; font-weight: bold; text-decoration: none;}
+				.news a:hover {text-decoration: underline;}
+				.news p a {padding: 18px 0 17px 0;}
+				
+				.content-center {width: 216px; float: left; padding: 0 0 0 116px;}
+				.content-center h2 {background: url(../images/content-center-h2.gif) no-repeat; width: 216px; height: 43px; text-indent: -9000px; overflow: hidden;}
+				ul.nav {padding: 9px 0 0 3px;}
+				ul.nav li.first {background: url(../images/first-bg.gif) 72px 7px no-repeat;}
+				ul.nav li.first a {color: #ff0000;}
+				ul.nav li.second a {color: #ff0000;}
+				ul.nav li.first a:hover {color: #002157;}
+				ul.nav li.second a:hover {color: #002157;}
+				ul.nav li a {font-size: 24px; text-decoration: none; color: #002157;}
+				ul.nav li a:hover {color: #ff0000;}
+				
+				.content-right {width: 223px; padding: 113px 26px 0 0; float: right;}
+				.content-right h2 {background: url(../images/content-right-h2.gif) no-repeat; width: 223px; height: 42px; text-indent: -9000px; overflow: hidden;}
+				.content-right ul {padding: 10px 0 0 3px;}
+				.content-right ul li a {font-size: 24px; text-decoration: none; color: #ff0000; line-height: 1.5;}
+				.content-right ul li a:hover {color: #fff;}
+				.content-right ul li.last a {color: #fff;}
+				.content-right ul li.last a:hover {color: #ff0000;}
+				
+				.car {position: absolute; left: 89px; top: 257px;}
+				*+html .car {position: relative; left: 89px; top: 27px;}
+				.oil {position: absolute; left: 52px; top: 521px;}
+				.zapravka {position: absolute; right: 37px; top: 282px;}
+			
+				
+			.katalog {padding: 11px 28px 0 25px;}
+				.katalog h2 {background: url(../images/katalog-h2.gif) no-repeat; width: 265px; height: 42px; text-indent: -9000px; overflow: hidden;}
+				.katalog ul {background: #fff; width: 948px; height: 173px; overflow: hidden;}
+				.katalog ul li {width: 189px; text-align: center; float: left;}
+				.katalog ul li div p {padding: 2px 0;}
+				.katalog ul li a.morre {padding: 0 0 0 25px; font-weight: bold; color: #002157;}
+			
+				
+			.footer {text-align: center; padding: 20px 0 20px 0;}
+				.footer ul.menu {padding: 0;}
+				.footer ul.menu li a {color: #fff;}
+				 .footer ul.menu li a:hover {color: #52b8f0;}
+				.footer ul.menu li span {color: #fff;}

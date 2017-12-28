@@ -1,0 +1,5 @@
+.news-list ul li {display: inline; margin-right: 59px;}
+.news-list ul li.last {margin-right: 0;}
+.portfolio li { display: inline; margin-right: 1px;}
+.portfolio li.last {margin-right: 0;}
+.submenu li {margin-right: 35px;}

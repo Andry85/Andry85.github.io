@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<title>index</title>
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/skeleton.css" type="text/css" media="all">
+	<!--[if lte IE 6 ]><script type="text/javascript">window.location.href="ie6_close/index_ru.html";</script><![endif]-->
+	<!--[if IE]><script src="js/html5.js"></script><![endif]-->
+	<!--[if IE 8]><link href="css/ie8.css" rel="stylesheet" type="text/css" media="all" /><![endif]-->
+	<!--[if lt IE 10]><script type="text/javascript" src="js/pie.js"></script><![endif]-->
+	<script src="js/jquery-1.7.2.min.js"></script>
+	<script src="js/jquery.selectbox-0.2.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>
+	<script src="js/main.js"></script>
+    <script src="js/menu-mobile.js"></script>
+    <script src="js/jquery.customfile.js"></script>
+    <script>
+		$(document).ready(function() {
+			$('.input-file').customFile();
+		});
+	</script>
+</head>
+<body>	
+<!-- Wrapper -->
+<div class="wrapper">  
+		<header>
+			<div class="header-inner clearfix">
+				<a class="logo" href="#" title=""><img src="img/logo.png" alt="" title=""></a>
+				<nav id="nav">
+					<ul>
+						<li><a href="#" title="">Главная</a></li>
+						<li><a href="#" title="">Поиск</a></li>
+						<li><a href="#" title="">Фото</a></li>
+						<li><a href="#" title="">Друзья</a></li>
+						<li><a href="#" title="">Топ 100</a></li>					 
+					</ul>
+				</nav>
+				<div class="cabinet">
+					<figure>
+						<img src="img/temp/thumb6.jpg" alt="" title="">
+					</figure>
+					<div class="cabinet-inner">
+						<h3>Павел Дуров</h3>
+						<span class="email"><a href="#" title="">3</a></span>
+						<a class="setting" href="#" title="">настройки</a>
+						<a class="out" href="#" title="">выйти</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="content">
+			<div class="page">
+				<div class="page-inner">
+					<div class="personal-outer clearfix">
+						<aside class="sidebar">
+							<div class="profile-pic">
+								<h2>Мой профиль</h2>
+								<figure>
+									<img src="img/temp/thumb13.jpg" alt="" title="">
+								</figure>
+								<form method="post" action="#">
+									<!--
+                                    <div class="file">
+										<input type="file" size="48" class="inputFile" onchange='document.getElementById("fileName").value=this.value' />
+										<div class="fonTypeFile"><span>Загрузить новое фото</span></div>
+										 <input type="text" class="inputFileVal" readonly="readonly" id="fileName" />
+									</div>
+                                    -->
+                                     <input class="input-file" type="file">
+                                    
+								</form>
+							</div>
+						</aside>
+						<div class="personal-inner">
+							<div class="profile-inner">
+								<form method="post" action="#">
+									<div class="box">
+										<div class="hd">
+											<h3>Общая информация</h3>
+										</div>
+										<div class="entry">
+											<div class="in clearfix">
+												<label>Имя</label>
+												<input class="tx" type="text" value="Павел" onFocus="if(this.value=='Павел') {this.value='';}" onBlur="javascript:if(this.value==''){this.value='Павел'};">
+											</div>
+											<div class="in clearfix">
+												<label>Фамилия</label>
+												<input class="tx" type="text" value="Дуров" onFocus="if(this.value=='Дуров') {this.value='';}" onBlur="javascript:if(this.value==''){this.value='Дуров'};">
+											</div>
+											<div class="in clearfix">
+												<label>Дата рождения</label>
+												<div class="in-select day">
+													<select name="select_day" id="select_day" tabindex="1">
+														<option value="0">10</option>
+														<option value="1">11</option>
+													</select>
+												</div>
+												<div class="in-select month">
+													<select name="select_month" id="select_month" tabindex="2">
+														<option value="0">Января</option>
+														<option value="1">Февраль</option>
+													</select>
+												</div>
+												<div class="in-select years">
+													<select name="select_years" id="select_years" tabindex="3">
+														<option value="0">1980</option>
+														<option value="1">1981</option>
+													</select>
+												</div>
+											</div>
+											<div class="in clearfix">
+												<label>Пол</label>
+												<ul class="radio-select">
+													<li>
+														<input id="rad1" type="radio" name="radio">
+														<label for="rad1">Мужской</label>
+													</li>
+													<li>
+														<input id="rad2" type="radio" name="radio">
+														<label for="rad2">Женский</label>
+													</li>
+												</ul>
+											</div>
+											<div class="in clearfix">
+												<label>Ориентация</label>
+												<div class="orientations">
+													<select name="select_orientations" id="select_orientations" tabindex="4">
+														<option value="0">Гетеро</option>
+														<option value="1">Би</option>
+													</select>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="box">
+										<div class="hd">
+											<h3>Место проживания</h3>
+										</div>
+										<div class="entry">
+											<div class="in clearfix">
+												<label>Страна</label>
+												<div class="orientations">
+													<select name="select_country" id="select_country" tabindex="5">
+														<option value="0">Россия</option>
+														<option value="1">Украина</option>
+													</select>
+												</div>
+											</div>
+											<div class="in clearfix">
+												<label>Область/Регион</label>
+												<div class="orientations">
+													<select name="select_region" id="select_region" tabindex="6">
+														<option value="0">Московская обл.</option>
+														<option value="1">Московская обл.</option>
+													</select>
+												</div>
+											</div>
+											<div class="in clearfix">
+												<label>Город</label>
+												<div class="orientations">
+													<select name="select_city" id="select_city" tabindex="7">
+														<option value="0">Москва</option>
+														<option value="1">Москва</option>
+													</select>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="box last">
+										<div class="hd">
+											<h3>Общая информация</h3>
+										</div>
+										<div class="entry">
+											<div class="in clearfix">
+												<label>Емеил</label>
+												<input class="tx" type="text" value="durov@mail.ru" onFocus="if(this.value=='durov@mail.ru') {this.value='';}" onBlur="javascript:if(this.value==''){this.value='durov@mail.ru'};">
+											</div>
+											<div class="in clearfix">
+												<label>Новый пароль</label>
+												<input class="tx" type="password" value="*************" onFocus="if(this.value=='*************') {this.value='';}" onBlur="javascript:if(this.value==''){this.value='*************'};">
+											</div>
+											<div class="in clearfix">
+												<label>Новый пароль</label>
+												<input class="tx" type="password" value="*************" onFocus="if(this.value=='*************') {this.value='';}" onBlur="javascript:if(this.value==''){this.value='*************'};">
+												<a class="btn gray" href="#" title=""><span>Изменить</span></a>
+											</div>
+											<div class="in clearfix">
+												<label>Старий пароль</label>
+												<input class="tx" type="password" value="*************" onFocus="if(this.value=='*************') {this.value='';}" onBlur="javascript:if(this.value==''){this.value='*************'};">
+											</div>
+											<div class="in clearfix">
+												<div class="chekin">
+													<input id="chekin1" type="checkbox" checked>
+													<label for="chekin1">Разрешить присылать  сообщения мне на почту</label>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="save clearfix">
+										<button class="btn blue"><span>Сохранить изминения</span></button>
+										<a class="del-profile" href="#" title="">Удалить профиль</a>
+									</div>
+								 </form>
+							</div>
+						</div>
+					</div> 
+				</div>
+			</div>
+		</div>
+	</div>	
+<!-- / Wrapper -->
+<!-- Footer -->
+	<footer>
+		<div class="login login-footer">
+			<a class="btn red" href="#" title=""><span>Регистрация</span></a>
+		   	<a class="btn blue" href="#" title=""><span>Войти</span></a>
+		</div>
+	   <div class="footer-inner clearfix">
+			<a class="logo" href="#" title=""><img src="img/logo.png" alt="" title=""></a>
+			<ul class="nav">
+				<li><a href="#">Главная</a></li>
+				<li><a href="#">Поиск</a></li>
+				<li><a href="#">Фото</a></li>
+				<li><a href="#">Друзья</a></li>
+				<li><a href="#">Топ 100</a></li>
+			</ul>
+			<div class="social"><img src="img/social.png" alt=""></div>
+		</div>
+	</footer>
+<!-- / Footer -->	
+</body>
+</html>

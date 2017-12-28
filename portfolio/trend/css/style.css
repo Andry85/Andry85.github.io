@@ -1,0 +1,184 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,greek-ext,vietnamese,latin-ext,cyrillic);
+
+body {font-family: 'Open Sans', sans-serif; font-size: 12px; background: #fff; color: #5c5c5c; font-weight: 300;}
+
+.wrapper {width: 918px; margin: 0 auto 24px auto;}
+.top-header {background: #313131; height: 20px; position: relative;}
+.lang {float: left; position: relative; z-index: 3;}
+.lang li {float: left;}
+.lang li a {float: left; height: 20px; color: #d5d5d5; font-size: 10px; text-transform: uppercase; padding: 2px 8px 1px 10px;}
+.lang li a:hover {text-decoration: none;}
+.lang li.activ a {background: #606060; border-right: 1px solid #4d4d4d;}
+.middle-header {top: -1px; background: #606060; min-height: 58px; position: relative; margin-bottom: -1px;}
+.middle-header-inner {border-top: 1px solid #888; position: relative; z-index: 2;}
+.soc-outer {float: right; padding: 0px 13px 0 0; position: relative; z-index: 4;}
+.soc-toogle {color: #9e9e9e; font-size: 11px; text-transform: uppercase; cursor: pointer; padding: 2px 7px 2px 9px; min-height: 18px;}
+.soc-toogle i {background: url("../img/matrix.png") -13px -12px no-repeat; width: 5px; height: 3px; display: inline-block; position: relative; top: -2px; margin: 0 0 0 3px;}
+.soc-toogle.activ {background: #3f3f3f;}
+.soc-list {background: #3f3f3f; width: 144px; position: absolute; left: 0; top: 19px;}
+.soc-outer .soc-list {display: none;}
+.soc-list ul {padding: 1px 0 7px 9px;}
+.soc-list ul li {padding: 0 0 4px 0;}
+.soc-list ul li a {color: #9e9e9e; font-size: 10px; text-transform: uppercase;}
+.soc-list ul li span {background: url("../img/matrix.png") no-repeat; width: 16px; height: 16px; display: inline-block; margin: 0 6px 0 0; position: relative; top: 5px;}
+.soc-list ul li.soc-1 span {background-position: -9px -27px;}
+.soc-list ul li.soc-2 span {background-position: -9px -51px;}
+.soc-list ul li.soc-3 span {background-position: -9px -76px;}
+.soc-list ul li.soc-4 span {background-position: -9px -100px;}
+.soc-list ul li.soc-5 span {background-position: -9px -124px;}
+.soc-list ul li.soc-6 span {background-position: -9px -148px;}
+.soc-list ul li.soc-7 span {background-position: -9px -173px;}
+.soc-list ul li.soc-8 span {background-position: -9px -197px;}
+.soc-list ul li.soc-9 span {background-position: -9px -221px;}
+a.logo {background: url("../img/matrix.png") -44px 0 no-repeat; width: 165px; height: 44px; float: left; text-indent: -9000px; overflow: hidden; margin: 7px 0 0 10px;}
+.date {margin: 0; float: left; color: #c2c2c2; font-size: 11px; text-transform: uppercase; padding: 22px 0 0 59px;}
+.date span {color: #9e9e9e; padding: 0 1px 0 0;}
+.login {float: left; padding: 21px 0 0 60px;}
+.login li {float: left; color: #dadada; font-size: 11px; text-transform: uppercase;}
+.login li a {color: #dadada; text-decoration: underline;}
+.login li a:hover {text-decoration: none;}
+.login li span {padding: 0 5px 0 7px;}
+.inn {background: url("../img/matrix.png") -219px 0 no-repeat; width: 9px; height: 9px; display: inline-block; position: relative; top: 1px; margin: 0 2px 0 0;}
+.search {width: 240px; height: 22px; background: #ebebeb; border-top: 1px solid #7d7d7d; border-bottom: 1px solid #484848; margin: 17px 10px 0 0; position: relative; float: right; padding: 0 19px 0 0;}
+.search input {background: none; border: 0; width: 100%; font-size: 12px; text-transform: uppercase; color: #707070; padding: 3px 4px 2px 4px;}
+.zoom {background: url("../img/matrix.png") -236px 0 no-repeat; width: 12px; height: 13px; position: absolute; top: 4px; right: 7px; border: 0; z-index: 2;}
+.bottom-header {background: #b7b7b7; border-top: 1px solid #4e4e4e; min-height: 21px;}
+#nav > ul {padding: 0 0 0 3px;}
+#nav > ul > li {float: left; position: relative;}
+#nav > ul > li > a {color: #494949; font-size: 11px; border-top: 1px solid #4e4e4e; text-transform: uppercase; float: left; padding: 2px 8px 2px 8px; position: relative; z-index: 3; top: -1px;}
+#nav > ul > li:hover > a {background: #ececec; border-top: 1px solid #979797; font-weight: 500; text-decoration: none;}
+#nav > ul > li > ul {background: #ececec; width: 185px; padding: 4px 10px 0 9px; border-top: 1px solid #979797; position: absolute; left: 0; top: 19px; z-index: 2; display: none;}
+#nav > ul > li > ul > li {border-bottom: 1px solid #e2e2e2;}
+#nav > ul > li > ul > li > a {font-size: 12px; text-transform: uppercase; color: #494949; padding: 5px 0 3px 0; display: block;}
+#nav > ul > li > ul > li.last {border: 0;}
+#nav select {display: none;}
+
+.content {padding: 9px 0 10px 0;}
+.container {width: 650px; float: left;}
+.sidebar {width: 250px; float: right;}
+.preambule {border-bottom: 4px solid #cacaca; padding: 0 0 6px 0;}
+.col-1 {width: 489px; float: left;}
+.col-2 {width: 144px; float: right;}
+.col-1-part-1 {width: 294px; float: left;}
+.col-1-part-2 {width: 177px; float: right;}
+.slider {position: relative;}
+#carusel {background: #f0f0f0; border-bottom: 1px solid #e0e0e0; position: relative;}
+#carusel li {color: #003663; font-weight: bold; float: left; width: 489px; height: 24px; padding: 3px 50px 0 12px;}
+#carusel li a {color: #003663; padding: 0 0 0 4px;}
+#carusel li i {font-style: normal; font-weight: normal; color: #7893aa;}
+.jcarousel-clip {overflow: hidden;}
+.jcarousel-prev {background: url("../img/matrix.png") -256px 0 no-repeat; width: 20px; height: 24px; position: absolute; top: 1px; right: 21px; cursor: pointer;}
+.jcarousel-next {background: url("../img/matrix.png") -278px 0 no-repeat; width: 20px; height: 24px; position: absolute; top: 1px; right: 0px; cursor: pointer;}
+.main-text {padding: 12px 0 0 0;}
+.main-text-inner {padding: 0 0 0 11px;}
+.time {color: #494949; font-size: 10px; text-transform: uppercase; display: block; padding: 8px 0 0 0;}
+.main-text-inner h1 {line-height: 1.2;}
+.list {padding: 2px 0 0 0;}
+.list li {background: url("../img/list-li-bg.png") 0 9px no-repeat; padding: 0 0 0 11px;}
+.list li a {font-size: 11px; color: #4184a0;}
+.news-list {}
+.news-list li {border-top: 1px dotted #a8a8a8; padding: 0 0 10px 0;}
+.news-list li:first-child {border: 0;}
+.news-list li p {font-size: 15px; line-height: 1.2; margin: 3px 0 0 0;}
+.sbHolder {width: 143px; height: 25px; line-height: 25px; background: #004a80; position: relative; border-bottom: 1px solid #002157; font-size: 11px; text-transform: uppercase;}
+a.sbSelector{display: block; height: 25px; left: 0; line-height: 25px; outline: none; overflow: hidden; position: absolute; text-indent: 10px; top: 0; width: 100%; color: #fff;}
+.sbSelector:hover {text-decoration: none;}
+.sbToggle{background: url("../img/select.png") no-repeat; display: block; height: 25px; outline: none; position: absolute; right: 0; top: 0px; width: 20px;}
+.sbToggleOpen{background: url("../img/select-open.png") no-repeat;}
+.sbOptions{background: #004a80; list-style: none; left: 0; margin: 0; padding: 0; position: absolute; top: 25px; width: 143px; z-index: 1; overflow-y: auto;}
+.sbOptions li{padding: 0 7px;}
+.sbOptions a{display: block; outline: none; padding: 0 0 0 3px;}
+.sbOptions a:link, .sbOptions a:visited{color: #fff; text-decoration: none;}
+.sbOptions a:hover,.sbOptions a:focus,.sbOptions a.sbFocus{color: #969696;}
+.sbOptions li.last a{border-bottom: none;}
+.sbOptions .sbDisabled{color: #999; display: block; padding: 0 0 0 3px;}
+.list-text li {border-bottom: 3px solid #d4d4d4; padding: 11px 0 5px 0;}
+.list-text li:first-child {padding-top: 9px;}
+.list-text li p {font-size: 11px; margin: 0;}
+.list-text li p a {color: #595959;}
+.list-text li .time {padding: 2px 0 0 0; color: #bababa;}
+.left-col {width: 450px; float: left;}
+.right-col {width: 182px; float: right;}
+.list-business > li {border-bottom: 5px solid #cacaca; padding: 13px 0 14px 0;}
+.list-business > li:first-child {padding-top: 9px;}
+.list-business li figure {float: left; padding: 4px 0 0 0;}
+.business-inner {width: 303px; float: right;}
+.business-inner-text {padding: 0 0 0 9px;}
+.business-inner-text .time {padding: 0 0 1px 0;}
+.business-inner-text h2 {margin: 0 0 3px 0; line-height: 1.2;}
+.business-inner .list li a {font-size: 12px;}
+.category {padding: 12px 0 0 0;}
+.category h3 {margin: 0 0 7px 0; color: #0275a5;}
+.category-list li {width: 101px; display: inline-block; vertical-align: top; margin: 0 0 13px 12px;}
+.category-list li:nth-child(4n-3) {margin-left: 0;}
+.category-list li p {margin: 0; font-size: 11px; line-height: 1.2;}
+.category-list li .time {padding: 6px 0 1px 0;}
+.paid-news {padding: 9px 0 0 0;}
+.paid-news h5 {margin: 0; color: #494949; text-transform: uppercase; font-weight: bold; border-bottom: 4px solid; padding: 0 0 2px 0;}
+.paid-news-list li {border-bottom: 4px solid #cacaca; padding: 4px 0 3px 0;}
+.paid-news-list li:first-child {padding-top: 0;}
+.paid-news-list li .time a {color: #494949;}
+.paid-news-list li p {line-height: 1.2; margin: 5px 0;}
+.block-info {padding: 12px 0 0 0;}
+.block-info h5 {background: #7a7a7a; border: 1px solid #6d6d6d; color: #fefefe; text-transform: uppercase; margin: 0; padding: 2px 0 4px 7px;}
+.block-info-inner {background: #ededed; border: 1px solid #d7d7d7; border-top: 0; padding: 9px 9px 0 8px;}
+.block-info-list > li {padding: 0 0 10px 0;}
+.block-info-list > li > p {line-height: 1.1; margin: 5px 0;}
+.block-info-list > li .list {border-top: 1px solid #d4d4d4; margin: 10px 0 -2px 0; padding: 9px 0 0 0;}
+.block-info-list > li .list li {line-height: 1.0; background-position: 0 7px; margin: 0 0 5px 0;}
+.block-info-list > li .list li a {font-size: 10px;}
+.sidebar .block-info-list > li h3 {line-height: 1.2; margin: 7px 0 0 0;}
+.sidebar .block-info-list > li .list {margin: 7px 0 -2px 0; padding: 5px 0 0 0;}
+.sidebar .block-info-list > li .list li {margin: 0;}
+.option-list {padding: 9px 0 1px 0;}
+.option-list li {padding: 0 0 3px 0;}
+.pic {float: left; margin: 4px 0 0 0;}
+.option-info {width: 139px; float: right;}
+.option-info .time {padding: 0 0 2px 0;}
+.option-info p {margin: 0; line-height: 1.1;}
+.option-list-second {padding-top: 0; margin: -3px 0 0 0;}
+.banner-bottom {margin: 13px 0 0 0;}
+
+
+/* footer */
+.footer-top {min-height: 54px; background: #232323;}
+a.footer-logo {background: url("../img/matrix.png") -38px -51px no-repeat; width: 153px; height: 41px; float: left; text-indent: -9000px; overflow: hidden; margin: 7px 0 0 19px;}
+.footer-top .search {margin: 16px 0 0 66px; float: left; width: 529px;}
+a.back-top {float: right; font-size: 10px; text-transform: uppercase; color: #fff; padding: 20px 15px 0 0;}
+a.back-top i {background: url("../img/matrix.png") -304px 0px no-repeat; width: 7px; height: 4px; display: inline-block; position: relative; top: -3px; margin: 0 0 0 16px;}
+.footer-middle {border-top: 1px solid #7c7c7c; border-bottom: 1px solid #3f3f3f; background: #5e5e5e; padding: 16px 15px 16px 11px;}
+.colon-1 {width: 205px; float: left;}
+.copy {margin: 0; color: #fff;}
+.copy small {display: block; font-size: 8px; padding: 1px 0 0 9px;}
+.copy-inner {padding: 7px 0 0 9px; width: 150px;}
+.copy-inner p {color: #ccc; font-size: 10px;}
+.copy-list {padding: 6px 0 11px 0;}
+.copy-list li {margin: 0 0 6px 0;}
+.copy-list li a {font-size: 10px; color: #fff; text-transform: uppercase;}
+a.apps span {background: url("../img/matrix.png") -38px -97px no-repeat; width: 76px; height: 27px; display: inline-block;}
+.colon-2 {width: 665px; float: right; margin: -1px 0 0 0;}
+.box {float: left; width: 126px; color: #fff;}
+.box h3 {font-size: 14px; color: #fff; border-bottom: 4px solid #717171; margin: 0; padding: 0 0 4px 0;}
+.footer-list {padding: 14px 0 0 0;}
+.footer-list li {padding: 0 0 3px 0;}
+.footer-list li a {color: #fff;}
+.box-second {width: 148px; margin: 0 0 0 22px;}
+.box-third {width: 211px; margin: 0 0 0 23px;}
+.box-forth {width: 97px; float: right;}
+.calendar-title {font-size: 18px; padding: 0 0 10px 0;}
+.calendar-title i {font-style: normal; display: inline-block; vertical-align: top; text-align: center;}
+.calendar-month i {width: 98px;}
+.calendar-year i {width: 56px;}
+.calendar-title > div {position: relative;}
+.calendar-month {float: left;}
+.calendar-year {float: right;}
+.calendar-title a {display: inline-block; text-indent: -9000px; overflow: hidden; width: 5px; height: 9px; background: url("../img/matrix.png") -317px 0px no-repeat; position: relative; top: -2px;}
+.calendar-title a.next-a {background-position: -325px 0;}
+.calendar-body {font-size: 15px; border-top: 1px solid #717171; padding: 4px 0 0 0;}
+.calendar-body table tr td {padding: 3px 0;}
+.box-forth .soc-list {position: static; width: 100%; background: none;}
+.box-forth .soc-list ul {padding: 0;}
+.box-forth .soc-list ul li a {font-size: 9px;}
+.footer-bottom {background: #767676; border-bottom: 2px solid #808080; min-height: 56px;}
+.meter-list {padding: 11px 0 0 18px;}
+.meter-list li {float: left; margin: 0 3px 0 0;}

@@ -1,0 +1,102 @@
+/*
+Author: Shapoval Andry
+Author URI: http://www.free-lance.ru/users/merr
+*/
+* {padding: 0; margin :0;}
+html, body {width:100%;height:100%;}
+body {background: #fff; font: 14px Georgia, "Times New Roman", Times, serif; color: #8a8a8a;}
+img, table {border: none;}
+table tr td {border-collapse: collapse; vertical-align: middle;}
+li {list-style: none;}
+.clear {clear: both; height: 0; text-indent: -9000px; overflow: hidden;}
+a {text-decoration: underline;}
+a:hover {text-decoration: none;}
+a:focus {outline: none;}
+/*	clearfix			*/
+.clearfix{_height: 1%; _overflow: visible;}
+.clearfix:after{content: "."; display: block; height: 0px; clear: both; visibility: hidden; line-height:0px; font-size:0px;}
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/*	clearfix			*/
+
+	.page {border: 1px solid #d7d7d7;}
+	.wrapper {width: 978px; margin: 0 auto;  position:relative; min-height: 100%; height: auto !important; height: 100%; z-index: 2;}
+		.header {position: relative; width: 100%;}
+		.top_naw {float: left; padding: 0 0 0 22px;}
+		.top_naw li {float: left; border-top: 2px solid #fff; padding: 8px 0 0 0; margin: 0 28px 0 0;}
+		.top_naw li.curent,.top_naw li:hover {border-top: 2px solid #000;}
+		.top_naw li.curent a,.top_naw li:hover a {color: #000;}
+		.top_naw li a {text-decoration: none; color: #cc0000;}
+		.header-right {float: right; padding: 7px 32px 0 0;}
+		.selectWrap {float: right; position: relative; padding: 4px 0 0 19px;}
+		.selectWrap select {position:absolute; top: -5px; opacity:.5; width: 29px; cursor: pointer; color: #cc0000; font-size: 12px; left: 19px;}
+		.selectWrap .link {background: url(../images/link-bg.gif) right 4px no-repeat; font-size: 12px; text-transform: uppercase; color: #cc0000; padding: 0 11px 0 0;}
+		.selectWrap select option {padding: 0 0 7px 0;}
+		.search {float: right; position: relative;}
+		.search input.tex {background: url(../images/search-bg.gif) no-repeat; width: 182px; height: 23px; line-height: 23px; padding: 0 8px 0 3px; border: 0;}
+		.search input.submit { background: url(../images/submit-bg.png) no-repeat; width: 13px; height: 13px; position: absolute; border: 0; cursor: pointer; top: 5px; right: 5px;}
+		.logo {float: left; padding: 71px 0 0 19px;}
+		.logo span {display: block; font-size: 12px; color: #cc0000; padding: 0 0 0 58px; position: relative; top: -3px;}
+		.menu {float: right; padding: 84px 41px 0 0;}
+		.menu li {float: left; padding: 0 0 0 30px; position: relative;}
+		.menu li a {text-decoration: none; text-transform: uppercase; color: #cc0000;}
+		.menu li a:hover {text-decoration: underline;}
+		.menu li.activ a {color: #333;}
+		.menu li.activ:hover a {color: #333; text-decoration: none;}
+		.menu li ul {width: 100%; position: absolute; left: 30px; top: 42px;}
+		.menu li ul li {float: none; padding: 0 0 12px 12px; border-left: 1px solid #ccc; line-height: 0.6;}
+		.menu li ul li a {font-size: 12px; text-transform: none; color: #cc0000!important;}
+		.menu li ul li a:hover {color: #333!important;}
+		.menu li ul li.curent a {color: #333!important;}
+		.menu li ul li.last {padding-bottom: 18px;}
+		
+		.content {width: 100%; padding: 0 0 151px 0;}
+		.preambule {background: url(../images/preambule-bg.jpg) center 46px no-repeat; height: 389px; padding: 46px 0 0 0;}
+		.preambule .text {padding: 282px 0 0 151px;}
+		.preambule .text p {color: #909090; font-style: italic; float: left;}
+		.preambule .text p.p1 {text-align: right; padding: 0 102px 0 0;}
+		.preambule .text p.p2 {text-align: center; padding: 0 102px 0 0;}
+		.title-bg1 {background: url(../images/title-bg1.gif) repeat-x; margin: 0 27px 0 12px; padding: 23px 0 0 0;}
+		.title-bg2 {background: url(../images/title-bg2.gif) left bottom repeat-x; padding: 0 0 25px 0;}
+		.title-bg2 h1 {font-size: 24px; text-align: center; font-weight: normal; color: #000;}
+		.works {padding: 50px 0 50px 12px;}
+		.works ul li {float: left; width: 220px; margin: 0 20px 0 0;}
+		.works ul li a img {border: 1px solid #636363;}
+		.works ul li h2 {font-size: 16px; font-weight: normal; text-transform: uppercase; color: #000; padding: 19px 0 9px 0;}
+		.works ul li .sait a {color: #d93f3f; font-style: italic;}
+		.works ul li .sait p {line-height: 1.4; padding: 8px 0 0 0;}
+		
+		.container {padding: 97px 0 0 0;}
+		.left-col {width: 700px; padding: 0 20px 0 12px; float: left;}
+		.pathway li {float: left; font-size: 28px;}
+		.pathway li a {text-decoration: none; color: #000;}
+		.pathway li i {font-style: normal; color: #cc0000; padding: 0 13px 0 12px;}
+		.pathway li span {color: #cc0000;}
+		.desc {padding: 38px 0 43px 0;}
+		.desc p {font-size: 18px; font-style: italic; color: #606060; line-height: 1.5;}
+		.inner h2 {font-size: 14px; text-transform: uppercase; font-weight: normal; color: #000; line-height: 1.4; padding-bottom: 9px;}
+		.inner p {line-height: 1.4; padding: 0 0 20px 0;}
+		.inner p a {color: #cc0000;}
+		.inner p a:hover {text-decoration: underline;}
+		.box {padding: 17px 0 0 0;}
+		.box-inner {width: 331px; float: left; padding: 0 31px 0 0;}
+		.box-inner.las {padding: 0;}
+		.box-inner h3 {font-size: 14px; text-transform: uppercase; font-weight: normal; color: #000; padding: 0 0 12px 0;}
+		.box-inner p {line-height: 1.3; padding: 0 0 22px 0;}
+		.inner .news-outer {padding: 43px 0 0 0;}
+		.inner .news-outer .news {padding: 0 0 40px 0;}
+		.inner .news-outer .news p {padding: 0;}
+		.inner .news-outer .news .date {font-style: italic; padding: 0 0 11px 0;}
+		.inner .news-outer .news h2 {padding-bottom: 5px;}
+		
+		
+		.right-col {float: left; width: 220px; overflow: hidden;}
+		.right-col h2 {font-size: 28px; font-weight: normal; color: #000;}
+		.right-col .works {padding: 42px 0 0 0;}
+		.right-col .works ul li {float: none; margin: 0 0 44px 0;}
+		
+	.footer {width: 978px; margin: -94px auto 0 auto; position: relative; z-index: 3;}
+	.footer-inner {padding: 37px 0 39px 0; margin: 0 26px 0 11px; border-top: 1px solid #e5e5e5;}
+		.copy {float: left; font-size: 11px;}
+		.meter {float: right;}	
