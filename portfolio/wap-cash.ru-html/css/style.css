@@ -37,7 +37,7 @@ a:focus {outline: none;}
 				.head .info a {font-size: 13px; color: #ff87b4;}
 				.head .menu {padding: 117px 0 0 26px;}
 				.head .menu-second {padding: 3px 0 0 26px;}
-				.head .menu li {float: left; border-right: 1px dotted #b5b5b5; padding: 0 2px;}
+				.head .menu li {float: left; border-right: 1px dotted #b5b5b5; padding: 0 1px;}
 				.head .menu li.last {border-right: 0;}
 				.head .menu li a {background: url(../images/menu-li-a-bg.png) repeat-x; float: left; height: 23px; line-height: 23px; border-radius: 3px; font-size: 11px; text-transform: uppercase; text-decoration: none; color: #8f1540; padding: 0 8px 0 9px;}
 				.head .menu-main li a { font-size: 15px;}
