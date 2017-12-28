@@ -197,7 +197,7 @@ a:focus {outline: none;}
 		.foto-slider .prew {background: url(../images/prew-button.png) no-repeat; width: 16px; height: 17px; border: 0; padding: 0; cursor: pointer; position: absolute; left: 6px; top: 38px;}
 		.foto-slider-inner {overflow: hidden; position: relative; width:100%;}
 		.foto-slider-inner .slide {width:100% !important;}
-		.foto-slider-inner .slide ul li {float: left; padding: 0 12px 0 0;}
+		.foto-slider-inner .slide ul li {float: left; padding: 0 9px 0 0;}
 		.foto-slider-inner .slide ul li a img {border: 1px solid #000;}
 
 		
