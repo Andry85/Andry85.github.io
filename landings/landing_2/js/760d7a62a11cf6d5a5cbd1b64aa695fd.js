@@ -3,7 +3,7 @@
 	while (document.getElementById("timer" + _id)) _id = _id + "0";
 	document.write("<div id='timer" + _id + "' style='min-width:301px;height:74px;'></div>");
 	var _t = document.createElement("script");
-	_t.src = "timer/timer.min.js";
+	_t.src = "js/timer.js";
 	var _f = function(_k) {
 		var l = new MegaTimer(_id, {
 			"view": [0, 1, 1, 1],
