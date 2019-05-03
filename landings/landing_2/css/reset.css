@@ -516,16 +516,27 @@ h2>span::after {
     border-color: rgb(153, 153, 153);
 }
 
-.block-1 form button {
+.block-1 form button,
+.order .formAction .button
+ {
     display: block;
     position: relative;
     width: 387px;
     height: 88px;
     background: transparent url('../img/button.jpg') no-repeat scroll center top;
     cursor: pointer;
+	border: 0;
+	text-indent: -9000px;
+	overflow: hidden;
 }
 
-.block-1 form button:focus {
+.order .formAction input[type=text] {
+	margin-bottom: 15px;
+}
+
+
+.block-1 form button:focus,
+.order .formAction .button:focus {
     top: -1px;
 }
 
@@ -1037,11 +1048,22 @@ p.skidka {
 #exit-form .exit-popup--form input[type="text"]:-moz-placeholder {color: #a9a9a9; opacity: 1;}
 #exit-form .exit-popup--form input[type="text"]::-moz-placeholder {color: #a9a9a9; opacity: 1;}
 #exit-form .exit-popup--form input[type="text"]:-ms-input-placeholder {color: #a9a9a9; opacity: 1;}
-#exit-form .exit-popup--form input[type="text"]{    width: 90%; height: 64px;   max-width: 100%;    margin-bottom: 16px;    line-height: 64px;  font-size: 17px;    color: #222;    background: #fff;   text-indent: 20px;  border: 1px solid #ccc; text-shadow: none;
+#exit-form .exit-popup--form input[type="text"]
+{    width: 90%; height: 64px;   max-width: 100%;    margin-bottom: 16px;    line-height: 64px;  font-size: 17px;    color: #222;    background: #fff;   text-indent: 20px;  border: 1px solid #ccc; text-shadow: none;
 }
 #exit-form .exit-popup--form input[type="text"]:focus{  border-color: #aaa;
 }
-#exit-form .exit-popup--form button{    width: 90%; height: 68px;   line-height: 68px;  color: #fff;    text-align: center; text-decoration: none;  text-transform: uppercase;  font-size: 22px;    font-weight: 700;   letter-spacing: 0.7px;  border-bottom: 3px solid #cd6c00;   background: #ff8300;    cursor: pointer;    -webkit-box-shadow: 0 0 0 0;    -moz-box-shadow: 0 0 0 0;   box-shadow: 0 0 0 0;    text-shadow: 0px 0px 0px;
+#exit-form .exit-popup--form button,
+#exit-form .exit-popup--form .button
+
+
+{    width: 90%; height: 68px;   line-height: 68px;  color: #fff;    
+text-align: center; text-decoration: none;  text-transform: uppercase; 
+ font-size: 22px;    font-weight: 700;   letter-spacing: 0.7px;  
+ border: 0;
+ display: block;
+ margin: 0 auto;
+ border-bottom: 3px solid #cd6c00;   background: #ff8300;    cursor: pointer;    -webkit-box-shadow: 0 0 0 0;    -moz-box-shadow: 0 0 0 0;   box-shadow: 0 0 0 0;    text-shadow: 0px 0px 0px;
 }
 #exit-form .exit-popup--form input[type="tel"]::-webkit-input-placeholder {color: #a9a9a9; opacity: 1;}
 #exit-form .exit-popup--form input[type="tel"]:-moz-placeholder {color: #a9a9a9; opacity: 1;}
