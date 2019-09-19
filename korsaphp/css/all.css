@@ -1895,15 +1895,12 @@ a.asTop span.ico {
 }
 .listType_2__item {
     flex-basis: 135px;
-    padding: 10px;
-    margin: 3px;
 }
 .listType_2__pic {
     margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
     height: 100%;
 }
 .listType_2__img {
@@ -1912,6 +1909,7 @@ a.asTop span.ico {
     justify-content: center;
     align-items: center;
     min-height: 140px;
+    padding: 0 10px;
 }
 .listType_2__img img {
     max-width: 100%;
@@ -1924,10 +1922,23 @@ a.asTop span.ico {
 }
 .listType_2__pic figcaption {
     font-size: 13px;
+    padding: 0 10px;
 }
 
+.videoCatalog {
+}
+.videoBlock {
+    margin: 0 0 26px 0;
+}
+.videoBlock .as__subtitle {
+    margin: 0 0 32px 0;
+}
+.videoBlock__source {
 
-
+}
+.videoBlock__source iframe {
+    width: 100%;
+}
 
 @keyframes footer-modal-link-ico-hover {
     0%, 100% {
@@ -2034,18 +2045,19 @@ a.asTop span.ico {
     margin: 0 0 30px 0;
     padding: 0;
     list-style: none;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    display: flex;
+    flex-wrap: wrap;
 }
 .listType_1__item {
     text-align: center;
-    padding: 0 10px;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex-basis: 25%;
 }
 .listType_1__pic {
-    margin: 39px 0 15px 0;
+    margin: 39px 10px 15px 10px;
 }
 .listType_1__img {
     min-height: 216px; 
@@ -2184,11 +2196,11 @@ a.asTop span.ico {
         margin: 25px 0;
         padding: 0;
     }
-    .listType_1 {
-        grid-template-columns: 50% 50%;
-    }
     .listType_1__img {
         align-items: center;
+    }
+    .listType_1__item {
+        flex-basis: 50%;
     }
 
 }
@@ -2322,8 +2334,8 @@ a.asTop span.ico {
     .asGoodsList li {
         flex-basis: 50%;
     }
-    .listType_1 {
-        grid-template-columns: 100%;
+    .listType_1__item {
+        flex-basis: 100%;
     }
 }
 
