@@ -87,7 +87,6 @@
 					</a>
 				</li>
 			</ul>
-
 			
 			<?php include 'contents/whereToBuy.php'; ?>
 			<?php include 'contents/map.php'; ?>
@@ -137,8 +136,8 @@
 					</div>
 				</div>
 			</section>
-			<?php include 'contents/slider4for4.php'; ?>
-							
+
+			<?php include 'contents/slider4for4.php'; ?>			
 			<?php include 'contents/advantages.php'; ?>
 
 			<section id="balconies" class="asProductBlock">
@@ -724,8 +723,8 @@
 		</div>
 	</div>
 </div>
+
 <?php include 'contents/reviews.php'; ?>
 <?php include 'contents/differentTypesGoods.php'; ?>
 
 <?php include 'footers/footer.php'; ?>
-
