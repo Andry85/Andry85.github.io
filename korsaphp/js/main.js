@@ -103,28 +103,47 @@ $(function() {
 		});
 	// Form validation End	
 
- $(".asCarousel .owl-carousel").owlCarousel({
-    responsiveClass:true,
-    responsive:{
-		0:{
-            items:1,
-			nav:false,
-			dots: true,
-			loop: true,
-			margin:0
-        },
-        768:{
-            items:2
-        },
-        992:{
-            items:4,
-			dots: false,
-			loop: false,
-			nav:true,
-			margin: 15
-        }
-    }
- });
+	// Slider Start
+	 $(".asCarousel .owl-carousel").owlCarousel({
+	    responsiveClass:true,
+	    responsive:{
+			0:{
+	            items:1,
+				nav:false,
+				dots: true,
+				loop: true,
+				margin:0
+	        },
+	        768:{
+	            items:2
+	        },
+	        992:{
+	            items:4,
+				dots: false,
+				loop: false,
+				nav:true,
+				margin: 15
+	        }
+	    }
+	 });
+	// Slider End 
+
+	// Tabs Start
+		$('.ourOffices_Tablist__link').click(function(e){
+			e.preventDefault();
+			var self = $(this);
+			$(this).parent('li').addClass('ourOffices_Tablist__item--active').siblings().removeClass('ourOffices_Tablist__item--active');
+			var linkID = self.data("link-id");
+
+			console.log(linkID);
+			$(".ourOfficesTabs__item").each(function(){
+			    var id = $(this).attr('id');
+			    if (linkID == id) {
+			    	$(this).addClass('ourOfficesTabs__item--active').siblings().removeClass('ourOfficesTabs__item--active');
+			    }
+			});
+		});
+	// Tabs End
 	
 });
 
