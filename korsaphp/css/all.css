@@ -1075,6 +1075,10 @@ a.asOuterLink:hover {
 	flex-basis: 153px;
 	margin: 0;
 }
+.asCatalogList__wrap figure img {
+    max-width: 100%;
+}
+
 .asCatalogList__content {
 	text-align: center;
 	max-width: 262px;
@@ -2000,11 +2004,14 @@ a.asTop span.ico {
 
 .asCarousel__item {
     height: 100%;
+    display: flex;
 
 }
 .asCarousel__item a {
     display: block;
     margin-bottom: 15px;
+    flex-basis: 50%;
+    padding: 0 7px 0 8px;
 }
 .asCarousel__item a img {
     height: 212px;
@@ -2554,13 +2561,6 @@ a.asBtnLink.ourOffices__btn {
         display: flex;
         flex-wrap: wrap;
     }
-    .asCarousel__item a {
-        padding: 0 10px;
-        width: 50%;
-    }
-    .asCarousel__item a img {
-        height: 150px;
-    }
     .asCarousel {
         margin: 25px 0;
         padding: 0;
@@ -2582,6 +2582,9 @@ a.asBtnLink.ourOffices__btn {
     }
     .listType_4__item {
         flex-basis: 50%;
+    }
+    .asCarousel__item a img {
+        height: 150px;
     }
 
 
@@ -2713,6 +2716,15 @@ a.asBtnLink.ourOffices__btn {
         margin: 0;
         text-align: center;
     }
+    .asProductDesc_text {
+        padding: 5px 0;
+    }
+    .asShop {
+        padding: 0 0 15px 0;
+    }
+    .asCarousel__item a {
+        flex-basis: 100%;
+    }
     
 }
 
@@ -2727,6 +2739,7 @@ a.asBtnLink.ourOffices__btn {
 	}
 	.asCatalogList__wrap {
 		flex-wrap: wrap;
+        padding: 0 5px;
 	}
 	.asCatalogList__content {
 		padding: 0 10px;
@@ -2772,6 +2785,18 @@ a.asBtnLink.ourOffices__btn {
     }
     .listType_4__item {
         flex-basis: 100%;
+    }
+    .asCatalogList {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 25px 0;
+    }
+    .asCatalogList__item {
+        flex-basis: 50%;
+    }
+    .asCatalogList__wrap figure img {
+        min-height: 120px;
+        object-fit: contain;
     }
 
 }

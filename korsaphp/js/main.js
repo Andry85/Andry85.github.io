@@ -35,26 +35,16 @@ $(function() {
 	});
 
 	// Add smooth scrolling to all links
-	$("a").on('click', function(event) {
+	$('.ascategoriesNav__link').on('click', function(e) {
+	  e.preventDefault()
 
-	// Make sure this.hash has a value before overriding default behavior
-	if (this.hash !== "") {
-		// Prevent default anchor click behavior
-		event.preventDefault();
-
-		// Store hash
-		var hash = this.hash;
-
-		// Using jQuery's animate() method to add smooth page scroll
-		// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-		$('html, body').animate({
-		scrollTop: $(hash).offset().top
-		}, 800, function(){
-
-		// Add hash (#) to URL when done scrolling (default click behavior)
-		window.location.hash = hash;
-		});
-	} // End if
+	  $('html, body').animate(
+	    {
+	      scrollTop: $($(this).attr('href')).offset().top-30,
+	    },
+	    500,
+	    'linear'
+	  )
 	});
 
 	// Modal Start
@@ -106,23 +96,20 @@ $(function() {
 	// Slider Start
 	 $(".asCarousel .owl-carousel").owlCarousel({
 	    responsiveClass:true,
+	    loop: true,
+	    items:2,
 	    responsive:{
 			0:{
-	            items:1,
 				nav:false,
 				dots: true,
-				loop: true,
-				margin:0
+				autoHeight:true
+				
 	        },
 	        768:{
-	            items:2
 	        },
 	        992:{
-	            items:4,
 				dots: false,
-				loop: false,
 				nav:true,
-				margin: 15
 	        }
 	    }
 	 });

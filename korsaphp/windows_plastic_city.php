@@ -108,18 +108,18 @@
 					</div>
 				</div>
 			</section>
-			<?php include 'contents/advantagesSecond.php'; ?>
-			<?php include 'contents/recommendation.php'; ?>
-			<?php include 'contents/videoCatalog.php'; ?>
-			<?php include 'contents/popularСolors.php'; ?>
-			<?php include 'contents/non-standard_windows.php'; ?>	
+			<?php include 'contents/windows_plastic_city/advantagesSecond.php'; ?>
+			<?php include 'contents/windows_plastic_city/recommendation.php'; ?>
+			<?php include 'contents/windows_plastic_city/videoCatalog.php'; ?>
+			<?php include 'contents/windows_plastic_city/popularСolors.php'; ?>
+			<?php include 'contents/windows_plastic_city/non-standard_windows.php'; ?>	
 		</div>
 	</div>
 </div>
 <?php include 'contents/our_offices.php'; ?>
-<?php include 'contents/other_window_types.php'; ?>
-<?php include 'contents/differentPVCWindowsTypesGoods.php'; ?>
+<?php include 'contents/windows_plastic_city/other_window_types.php'; ?>
+<?php include 'contents/windows_plastic_city/differentPVCWindowsTypesGoods.php'; ?>
 <?php include 'contents/reviews.php'; ?>
-<?php include 'contents/popular_construction.php'; ?>
+<?php include 'contents/windows_plastic_city/popular_construction.php'; ?>
 
 <?php include 'footers/footer.php'; ?>
