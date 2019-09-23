@@ -15,7 +15,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="asHeaderContainer">
-							<a class="aslogo" href="https://www.korsa.ua/">
+							<a class="aslogo" href="#">
 								<img src="img/header-logo.png" alt="korsa.ua">
 							</a>
 							<a class="asheaderPhone" href="tel:0800210210">0 (800) 210-210</a>
@@ -26,10 +26,10 @@
 											<a class="asnavbarList__link" href="#">окна</a>
 											<ul class="asnavbarSubList">
 												<li class="asnavbarSubList__item">
-													<a class="asnavbarSubList__link" href="#">пластиковые окна</a>
+													<a class="asnavbarSubList__link" href="windows_plastic_city.php">пластиковые окна</a>
 												</li>
 												<li class="asnavbarSubList__item">
-													<a class="asnavbarSubList__link" href="#">алюминиевые окна</a>
+													<a class="asnavbarSubList__link" href="windows_aluminum_city.php">алюминиевые окна</a>
 												</li>
 											</ul>
 										</li>
