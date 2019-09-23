@@ -138,7 +138,7 @@
 			</section>
 
 			<?php include 'contents/index/slider.php'; ?>			
-			<?php include 'contents/index/advantages.php'; ?>
+			<?php include 'contents/advantages.php'; ?>
 
 			<section id="balconies" class="asProductBlock">
 				<h2 class="as__subtitle">Балконы и лоджии в Киеве</h2>
@@ -692,7 +692,7 @@
 				</div>
 			</div>
 
-			<?php include 'contents/index/advantages.php'; ?>
+			<?php include 'contents/advantages.php'; ?>
 
 			<section id="glass" class="asProductBlock">
 				<h2 class="as__subtitle">Остекление фасадов</h2>
