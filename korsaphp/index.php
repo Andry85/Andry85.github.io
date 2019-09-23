@@ -88,7 +88,7 @@
 				</li>
 			</ul>
 			
-			<?php include 'contents/whereToBuy.php'; ?>
+			<?php include 'contents/index/whereToBuy.php'; ?>
 			<?php include 'contents/map.php'; ?>
 
 			<section id="windows" class="asProductBlock">
@@ -519,7 +519,7 @@
 			</div>
 
 			<section id="partitions" class="asProductBlock">
-				<h2 class="as__subtitle">Перегородки в Киеве</h2>
+				<h2 class="as__subtitle">Офисные перегородки</h2>
 				<div class="row">
 					<div class="col-md-6">
 						<div class="asProductBlock__content">
@@ -531,8 +531,8 @@
 						<div class="asOffer">
 							<a class="asOffer__link" href="#">
 								<figure>
-									<img class="img-responsive" src="img/protective-shutters.jpg" alt="Защитные роллеты">
-									<figcaption>Защитные роллеты</figcaption>
+									<img class="img-responsive" src="img/partitions_office_pic.jpg" alt="Офисные перегородки">
+									<figcaption>Офисные перегородки</figcaption>
 								</figure>
 							</a>
 						</div>		
@@ -547,13 +547,13 @@
 							<li class="asCatalogList__item">
 								<div class="asCatalogList__wrap">
 									<figure>
-										<a href="#"><img src="img/window_blinds.jpg" alt="Роллеты на окна"></a>
+										<a href="#"><img src="img/aluminum_partitions.jpg" alt="Алюминиевые перегородки"></a>
 									</figure>
 									<div class="asCatalogList__content">
-										<a class="asCatalogList__title" href="#">Роллеты на окна</a>
+										<a class="asCatalogList__title" href="#">Алюминиевые перегородки</a>
 										<div class="asPrice">
 											Цена от
-											<span class="asPrice__count">2900</span>
+											<span class="asPrice__count">21 900</span>
 											<span class="asPrice__currency">грн</span>
 										</div>
 									</div>
@@ -562,13 +562,13 @@
 							<li class="asCatalogList__item">
 								<div class="asCatalogList__wrap">
 									<figure>
-										<a href="#"><img src="img/door_shutters.jpg" alt="Роллеты на двери"></a>
+										<a href="#"><img src="img/glass_partitions.jpg" alt="Стеклянные пергородки"></a>
 									</figure>
 									<div class="asCatalogList__content">
-										<a class="asCatalogList__title" href="#">Роллеты на двери</a>
+										<a class="asCatalogList__title" href="#">Стеклянные пергородки</a>
 										<div class="asPrice">
 											Цена от
-											<span class="asPrice__count">3100</span>
+											<span class="asPrice__count">12 760</span>
 											<span class="asPrice__currency">грн</span>
 										</div>
 									</div>
@@ -581,13 +581,13 @@
 							<li class="asCatalogList__item">
 								<div class="asCatalogList__wrap">
 									<figure>
-										<a href="#"><img src="img/rolling_grilles.jpg" alt="Роллетные решетки"></a>
+										<a href="#"><img src="img/plastic_partitions.jpg" alt="Пластиковые перегородки"></a>
 									</figure>
 									<div class="asCatalogList__content">
-										<a class="asCatalogList__title" href="#">Роллетные решетки</a>
+										<a class="asCatalogList__title" href="#">Пластиковые перегородки</a>
 										<div class="asPrice">
 											Цена от
-											<span class="asPrice__count">5850</span>
+											<span class="asPrice__count">6619</span>
 											<span class="asPrice__currency">грн</span>
 										</div>
 									</div>

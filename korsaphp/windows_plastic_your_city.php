@@ -22,7 +22,7 @@
 				</div>
 			</section>
 			
-			<?php include 'contents/whereToBuy.php'; ?>
+			<?php include 'contents/windows_plastic_city/whereToBuy.php'; ?>
 			<?php include 'contents/map.php'; ?>
 
 			<div class="row">
@@ -116,6 +116,8 @@
 					</div>
 				</div>
 			</section>
+			<?php include 'contents/windows_plastic_city/advantagesSecond.php'; ?>
+			
 			<section class="asProductBlock">
 				<h2 class="as__subtitle">Цены на алюминиевые окна в Киеве</h2>
 				<div class="row">

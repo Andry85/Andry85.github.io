@@ -1,3 +1,6 @@
+* {
+    word-break: break-word;
+}
 html {
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
@@ -536,8 +539,6 @@ a.asLangList__link:hover
 
 
 
-
-
 .asContainer {
 	padding: 35px 0 0 0;
 }
@@ -558,6 +559,7 @@ a.asLangList__link:hover
 }
 .breadcrumb__item span {
 	color: #777;
+    text-transform: uppercase;
 }
 .breadcrumb__item .fa-home {
 	color: #0e3d6b;
@@ -603,6 +605,7 @@ a.ascategoriesNav__link figcaption {
 	text-decoration: underline;
     text-align: center;
     color: #337ab7;
+    font-family: 'ClearSans-Medium';
 }
 
 .aspreambule {
@@ -1311,7 +1314,7 @@ a.asGoods__item:hover figure figcaption {
 .asGoodsList {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 0 0 25px 0;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -1970,12 +1973,16 @@ a.asTop span.ico {
 }
 .videoBlock .as__subtitle {
     margin: 0 0 32px 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .videoBlock__source {
 
 }
 .videoBlock__source iframe {
     width: 100%;
+    border: 0;
 }
 
 @keyframes footer-modal-link-ico-hover {
@@ -2510,7 +2517,17 @@ a.asBtnLink.ourOffices__btn {
 .portfolioList__item figure img {
     max-width: 100%;
 }
-
+.asCatalog__entry {
+    padding: 40px 0 0 0;
+}
+.asCatalog__text {
+    line-height: 1.7;
+    color: #0e3d6b;
+    margin-bottom: 20px;
+}
+.asCatalog.asCatalog--doors {
+    padding: 40px 0;
+}
 
 
 /* Media */
@@ -2628,6 +2645,9 @@ a.asBtnLink.ourOffices__btn {
     }
     .asCarousel__item a img {
         height: 150px;
+    }
+    .asCatalog.asCatalog--doors {
+        padding: 0;
     }
 
 

@@ -125,7 +125,7 @@
 					</div>
 				</div>
 			</section>
-			<?php include 'contents/windows_plastic_city/videoCatalog.php'; ?>
+			<?php include 'contents/doors_entrance_your_city/videoCatalog.php'; ?>
 			<?php include 'contents/doors_entrance/door_opening_options.php'; ?>
 		</div>
 	</div>
@@ -133,6 +133,6 @@
 <?php include 'contents/reviews.php'; ?>
 <?php include 'contents/doors_entrance/portfolio.php'; ?>
 <?php include 'contents/our_offices.php'; ?>
-<?php include 'contents/doors_entrance/differentTypesGoods.php'; ?>
+<?php include 'contents/doors_entrance_your_city/differentTypesGoods.php'; ?>
 
 <?php include 'footers/footer.php'; ?>
