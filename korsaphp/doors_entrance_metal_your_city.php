@@ -5,7 +5,7 @@
 		<div class="col-md-12">
 			
 			<section class="asProductDesc">
-				<h1 class="asProductDesc__title">Входные Двери в Киеве</h1>
+				<h1 class="asProductDesc__title">Входные металлические двери в Киеве</h1>
 				<ul class="breadcrumb">
 					<li class="breadcrumb__item">
 						<i class="icons fa fa-home"></i> 
@@ -47,7 +47,7 @@
 					</div>
 					<div class="col-md-6">
 						<div class="asOffer">
-							<a class="asOffer__link" href="doors_entrance_plastic_your_city.php">
+							<a class="asOffer__link" href="#">
 								<figure>
 									<img class="img-responsive" src="img/entrance_plastic_doors.jpg" alt="Пластиковые двери входные">
 									<figcaption>Пластиковые двери входные</figcaption>
@@ -75,7 +75,7 @@
 					</div>
 					<div class="col-md-6">
 						<div class="asOffer">
-							<a class="asOffer__link" href="doors_entrance_aluminum_your_city.php">
+							<a class="asOffer__link" href="#">
 								<figure>
 									<img class="img-responsive" src="img/aluminum_plastic_doors.jpg" alt="Алюминиевые двери входные">
 									<figcaption>Алюминиевые двери входные</figcaption>
@@ -104,7 +104,7 @@
 					</div>
 					<div class="col-md-6">
 						<div class="asOffer">
-							<a class="asOffer__link" href="doors_entrance_metal_your_city.php">
+							<a class="asOffer__link" href="#">
 								<figure>
 									<img class="img-responsive" src="img/aluminum_metal_doors.jpg" alt="Металлические двери входные">
 									<figcaption>Металлические двери входные</figcaption>
@@ -125,13 +125,13 @@
 					</div>
 				</div>
 			</section>
-			<?php include 'contents/doors_entrance_your_city/videoCatalog.php'; ?>
+			<?php include 'contents/doors_entrance_metal_your_city/videoCatalog.php'; ?>
 			<?php include 'contents/doors/door_opening_options.php'; ?>
 		</div>
 	</div>
 </div>
 <?php include 'contents/reviews.php'; ?>
-<?php include 'contents/doors_entrance_your_city/portfolio.php'; ?>
+<?php include 'contents/doors_entrance_metal_your_city/portfolio.php'; ?>
 <?php include 'contents/our_offices.php'; ?>
 <?php include 'contents/doors_entrance_your_city/differentTypesGoods.php'; ?>
 

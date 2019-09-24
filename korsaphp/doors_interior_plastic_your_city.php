@@ -5,7 +5,7 @@
 		<div class="col-md-12">
 			
 			<section class="asProductDesc">
-				<h1 class="asProductDesc__title">Межкомнатные Двери в Киеве</h1>
+				<h1 class="asProductDesc__title">Межкомнатные пластиковые двери в Киеве</h1>
 				<ul class="breadcrumb">
 					<li class="breadcrumb__item">
 						<i class="icons fa fa-home"></i> 
@@ -49,7 +49,7 @@
 					</div>
 					<div class="col-md-6">
 						<div class="asOffer">
-							<a class="asOffer__link" href="doors_interior_plastic_your_city.php">
+							<a class="asOffer__link" href="#">
 								<figure>
 									<img class="img-responsive" src="img/interior_plastic_doors.jpg" alt="Пластиковые двери межкомнатные">
 									<figcaption>Пластиковые двери межкомнатные</figcaption>
@@ -78,7 +78,7 @@
 					</div>
 					<div class="col-md-6">
 						<div class="asOffer">
-							<a class="asOffer__link" href="doors_interior_aluminum_your_city.php">
+							<a class="asOffer__link" href="#">
 								<figure>
 									<img class="img-responsive" src="img/aluminum_interior_doors_pic.jpg" alt="Алюминиевые двери межкомнатные">
 									<figcaption>Алюминиевые двери межкомнатные</figcaption>
@@ -106,7 +106,7 @@
 					</div>
 					<div class="col-md-6">
 						<div class="asOffer">
-							<a class="asOffer__link" href="doors_interior_glass_your_city.php">
+							<a class="asOffer__link" href="#">
 								<figure>
 									<img class="img-responsive" src="img/glass_doors_interior_pic.jpg" alt="Стеклянные двери межкомнатные">
 									<figcaption>Стеклянные двери межкомнатные</figcaption>
@@ -135,7 +135,7 @@
 					</div>
 					<div class="col-md-6">
 						<div class="asOffer">
-							<a class="asOffer__link" href="doors_interior_wood_your_city.php">
+							<a class="asOffer__link" href="#">
 								<figure>
 									<img class="img-responsive" src="img/interior_wood_doors_pic.jpg" alt="Деревянные двери межкомнатные">
 									<figcaption>Деревянные двери межкомнатные</figcaption>
@@ -156,13 +156,13 @@
 				</div>
 			</section>
 
-			<?php include 'contents/doors_interior_your_city/videoCatalog.php'; ?>
+			<?php include 'contents/doors_interior_plastic_your_city/videoCatalog.php'; ?>
 			<?php include 'contents/doors/door_opening_options.php'; ?>
 		</div>
 	</div>
 </div>
 <?php include 'contents/reviews.php'; ?>
-<?php include 'contents/doors_interior_your_city/portfolio.php'; ?>
+<?php include 'contents/doors_interior_plastic_your_city/portfolio.php'; ?>
 <?php include 'contents/our_offices.php'; ?>
 <?php include 'contents/doors_interior_your_city/differentTypesGoods.php'; ?>
 

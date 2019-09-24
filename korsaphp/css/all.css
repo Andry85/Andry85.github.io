@@ -2046,6 +2046,10 @@ a.asTop span.ico {
     top: 50%;
     width: 100%;
     transform: translateY(-50%);
+    height: 30px;
+}
+.asWrap .owl-carousel .owl-stage-outer {
+    z-index: 10;
 }
 
 .asWrap .owl-carousel .owl-nav button {
@@ -2291,7 +2295,7 @@ a.asBtnLink.ourOffices__btn {
     margin-bottom: 7px;
     transition: background-color 0.1s ease-in-out 0s;
 }
-.ourOffices_Tablist__link {
+a.ourOffices_Tablist__link {
     color: #fff;
     text-transform: uppercase;
     font-size: 12px;
@@ -2308,9 +2312,9 @@ a.asBtnLink.ourOffices__btn {
     outline: none;
     transition: text-indent 0.2s ease-in-out 0s;
 }
-.ourOffices_Tablist__link:hover,
-.ourOffices_Tablist__link:visited
- {
+a.ourOffices_Tablist__link:hover,
+a.ourOffices_Tablist__link:visited,
+a.ourOffices_Tablist__link:active {
     color: #fff;
     text-indent: 10px;
 }
@@ -2509,13 +2513,14 @@ a.asBtnLink.ourOffices__btn {
     justify-content: center;
 }
 .portfolioList__item {
-
+    width: 25%;
 }
-.portfolioList__item figure {
+.portfolioList__link figure {
     margin: 11px 15px;
 }
-.portfolioList__item figure img {
+.portfolioList__link figure img {
     max-width: 100%;
+    min-height: 200px;
 }
 .asCatalog__entry {
     padding: 40px 0 0 0;
@@ -2648,6 +2653,9 @@ a.asBtnLink.ourOffices__btn {
     }
     .asCatalog.asCatalog--doors {
         padding: 0;
+    }
+    .portfolioList__link figure img {
+       min-height: 160px;
     }
 
 
@@ -2788,6 +2796,9 @@ a.asBtnLink.ourOffices__btn {
     .asCarousel__item a {
         flex-basis: 100%;
     }
+    .portfolioList__link figure img {
+        object-fit: cover;
+    }
     
 }
 
@@ -2863,6 +2874,9 @@ a.asBtnLink.ourOffices__btn {
     }
     .asGoodsList.asGoodsList--doors li {
         flex-basis: 50%;
+    }
+    .portfolioList__item {
+       flex-basis: 50%;
     }
 
 }

@@ -21,7 +21,7 @@
 				</div>
 			</section>
 			
-			<?php include 'contents/doors_entrance/whereToBuy.php'; ?>
+			<?php include 'contents/doors/whereToBuy.php'; ?>
 			<?php include 'contents/map.php'; ?>
 
 			<section id="windows" class="asProductBlock">
@@ -39,15 +39,15 @@
 			<div class="asCatalog asCatalog--doors">
 				<div class="row">
 					<div class="col-md-5">
-						<a class="asOuterLink" href="#">Входные двери</a>
+						<a class="asOuterLink" href="doors_entrance_your_city.php">Входные двери</a>
 						<ul class="asCatalogList">
 							<li class="asCatalogList__item">
 								<div class="asCatalogList__wrap">
 									<figure>
-										<a href="#"><img src="img/plastic_entrance_doors.jpg" alt="Пластиковые двери входные"></a>
+										<a href="doors_entrance_plastic_your_city.php"><img src="img/plastic_entrance_doors.jpg" alt="Пластиковые двери входные"></a>
 									</figure>
 									<div class="asCatalogList__content">
-										<a class="asCatalogList__title" href="#">Пластиковые двери входные</a>
+										<a class="asCatalogList__title" href="doors_entrance_plastic_your_city.php">Пластиковые двери входные</a>
 										<div class="asPrice">
 											Цена от
 											<span class="asPrice__count">9 559</span>
@@ -59,10 +59,10 @@
 							<li class="asCatalogList__item">
 								<div class="asCatalogList__wrap">
 									<figure>
-										<a href="#"><img src="img/aluminum_entrance_doors.jpg" alt="Алюминиевые двери входные"></a>
+										<a href="doors_entrance_aluminum_your_city.php"><img src="img/aluminum_entrance_doors.jpg" alt="Алюминиевые двери входные"></a>
 									</figure>
 									<div class="asCatalogList__content">
-										<a class="asCatalogList__title" href="#">Алюминиевые двери входные</a>
+										<a class="asCatalogList__title" href="doors_entrance_aluminum_your_city.php">Алюминиевые двери входные</a>
 										<div class="asPrice">
 											Цена от
 											<span class="asPrice__count">18 326</span>
@@ -74,10 +74,10 @@
 							<li class="asCatalogList__item">
 								<div class="asCatalogList__wrap">
 									<figure>
-										<a href="#"><img src="img/metal_entrance_doors.jpg" alt="Металлические двери входные"></a>
+										<a href="doors_entrance_metal_your_city.php"><img src="img/metal_entrance_doors.jpg" alt="Металлические двери входные"></a>
 									</figure>
 									<div class="asCatalogList__content">
-										<a class="asCatalogList__title" href="#">Металлические двери входные</a>
+										<a class="asCatalogList__title" href="doors_entrance_metal_your_city.php">Металлические двери входные</a>
 										<div class="asPrice">
 											Цена от
 											<span class="asPrice__count">8 931</span>
@@ -100,7 +100,7 @@
 			<div class="asCatalog asCatalog--doors">
 				<div class="row">
 					<div class="col-md-5">
-						<a class="asOuterLink" href="#">МЕжкомнатные двери</a>
+						<a class="asOuterLink" href="doors_interior_your_city.php">МЕжкомнатные двери</a>
 						<ul class="asCatalogList">
 							<li class="asCatalogList__item">
 								<div class="asCatalogList__wrap">
@@ -165,14 +165,14 @@
 			
 
 			
-			<?php include 'contents/doors_entrance/videoCatalog.php'; ?>
-			<?php include 'contents/doors_entrance/door_opening_options.php'; ?>
+			<?php include 'contents/doors/videoCatalog.php'; ?>
+			<?php include 'contents/doors/door_opening_options.php'; ?>
 		</div>
 	</div>
 </div>
 <?php include 'contents/reviews.php'; ?>
-<?php include 'contents/doors_entrance/portfolio.php'; ?>
+<?php include 'contents/doors/portfolio.php'; ?>
 <?php include 'contents/our_offices.php'; ?>
-<?php include 'contents/doors_entrance/differentTypesGoods.php'; ?>
+<?php include 'contents/doors/differentTypesGoods.php'; ?>
 
 <?php include 'footers/footer.php'; ?>
