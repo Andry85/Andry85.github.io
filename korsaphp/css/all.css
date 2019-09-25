@@ -47,7 +47,7 @@ template {
 }
 
 a {
-    background-color: transparent
+    background-color: transparent;
 }
 
 a:active,
@@ -962,6 +962,9 @@ a.asBtnLink {
 	margin: 10px;
     text-transform: uppercase;
 }
+a.asBtnLink:hover {
+    opacity: 0.8;
+}
 
 a.asBtnLink.asBtnLink--default {
 	background: #1f5e98;
@@ -1298,6 +1301,11 @@ a.asGoods__item figure {
 }
 a.asGoods__item figure img {
 	margin: 0 auto;
+    transition: all 0.5s ease;
+}
+
+a.asGoods__item figure img:hover {
+    animation: pulse 0.5s 1 linear;
 }
 
 a.asGoods__item figure figcaption {
@@ -1671,6 +1679,9 @@ a.asFooterSubLists__link:before {
     border: 0;
     width: 100%;
 }
+.asSubscribeForm__btn:hover {
+    opacity: 0.8;
+}
 .asFooterAdditional {
     padding: 30px 15px 30px 15px;
     flex-basis: 16.667%;
@@ -1751,6 +1762,13 @@ a.asFooterAdditionalList__link:hover:before {
 .asFooterSocial__link {
     margin-right: 15px;
 }
+.asFooterSocial__link i {
+     transition: all 0.5s ease;
+}
+.asFooterSocial__link:hover .icon {
+    transform: rotateY(360deg);
+}
+
 .asFooterSocial:before {
     content: "";
     position: absolute;
