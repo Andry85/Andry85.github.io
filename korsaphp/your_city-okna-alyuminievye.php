@@ -7,7 +7,10 @@
 					<h1 class="asProductDesc__title">АЛЮМИНИЕВЫЕ ОКНА В КИЕВЕ</h1>
 					<ul class="breadcrumb">
 						<li class="breadcrumb__item">
-							<i class="icons fa fa-home"></i> 
+							<a class="breadcrumb__link" href="your_city.php"><i class="icons fa fa-home"></i></a> 
+						</li>
+						<li class="breadcrumb__item">
+							<a class="breadcrumb__link" href="your_city-okna.php">КУПИТЬ ОКНА КИЕВ</a>
 						</li>
 						<li class="breadcrumb__item">
 							<span>купить АЛЮМИНИЕВЫЕ ОКНА В КИЕВЕ</span>
@@ -19,8 +22,8 @@
 						</p>
 					</div>
 				</section>
-				<?php include 'contents/windows_plastic_your_city/whereToBuy.php'; ?>
-				<?php include 'contents/map.php'; ?>
+				<?php include 'contents/regional/your_city/whereToBuy.php'; ?>
+				<?php include 'contents/regional/your_city/map.php'; ?>
 				<section class="asProductBlock">
 					<h2 class="as__subtitle">Цены на пластиковые окна в Киеве</h2>
 					<div class="row">
@@ -105,18 +108,18 @@
 						</div>
 					</div>
 				</section>
-				<?php include 'contents/windows_aluminum_city/advantagesSecond.php'; ?>
-				<?php include 'contents/windows_aluminum_city/recommendation.php'; ?>
-				<?php include 'contents/windows_aluminum_city/videoCatalog.php'; ?>
-				<?php include 'contents/windows_aluminum_city/popularСolors.php'; ?>
-				<?php include 'contents/windows_aluminum_city/non-standard_windows.php'; ?>	
+				<?php include 'contents/advantagesSecond.php'; ?>
+				<?php include 'contents/recommendation.php'; ?>
+				<?php include 'contents/regional/your_city-okna-alyuminievye/videoCatalog.php'; ?>
+				<?php include 'contents/popularСolors.php'; ?>
+				<?php include 'contents/non-standard_windows.php'; ?>	
 			</div>
 		</div>
 	</div>		
 	<?php include 'contents/our_offices.php'; ?>
-	<?php include 'contents/windows_aluminum_city/other_window_types.php'; ?>
-	<?php include 'contents/windows_aluminum_city/differentPVCWindowsTypesGoods.php'; ?>
+	<?php include 'contents/regional/your_city-okna/other_window_types.php'; ?>
+	<?php include 'contents/regional/your_city-okna/differentPVCWindowsTypesGoods.php'; ?>
 	<?php include 'contents/reviews.php'; ?>
-	<?php include 'contents/windows_aluminum_city/popular_construction.php'; ?>
+	<?php include 'contents/regional/your_city-okna/popular_construction.php'; ?>
 
 <?php include 'footers/footer.php'; ?>

@@ -5,4 +5,7 @@
 	<script src="js/jquery.validate.min.js"></script>
 	<script src="js/jquery.fancybox.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.scrollbar.min.js"></script>
 	<script src="js/main.js"></script>
+
+	

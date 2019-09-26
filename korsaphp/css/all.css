@@ -387,6 +387,7 @@ a.asnavbarList__link:hover {
     background: #fff;
     width: 180px;
     z-index: 10;
+    max-height: 70vh;
 }
 
 .asnavbarList__item:hover .asnavbarSubList {
@@ -395,7 +396,7 @@ a.asnavbarList__link:hover {
 .asnavbarSubList__item {
 	background: #F7F7F7;
     color: #0E3D6B;
-    padding: 10px;
+    position: relative;
 }
 .asnavbarSubList__item:hover {
 	background: #ff8500;
@@ -405,11 +406,76 @@ a.asnavbarSubList__link {
     font-family: 'KelsonSans-RegularRU',Arial,sans-serif;
     font-size: 12px;
     color: #337ab7;
+    display: flex;
+    padding: 10px 15px 10px 10px;
+
+}
+a.asnavbarSubList__link span {
+    min-height: 34px;
 }
 .asnavbarSubList__item:hover a.asnavbarSubList__link {
 	text-decoration: none;
 	color: #fff;
 }
+
+.asnavbarSubListlevelTwo {
+    display: none;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #fff;
+    z-index: 10; 
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 180px;
+}
+
+.asnavbarSubList__item:hover .asnavbarSubListlevelTwo {
+    display: flex;
+}
+
+.asnavbarSubList--regions .asnavbarSubListlevelTwo {
+    position: static;
+    width: 100%;
+}
+.asnavbarSubList--regions .asnavbarSubListlevelTwo__item {
+    background: #ebeaea;
+}
+.asnavbarSubList--regions .asnavbarSubList__item:hover .asnavbarSubListlevelTwo {
+    display: none;
+}
+
+
+.asnavbarSubListlevelTwo__item {
+    background: #F7F7F7;
+    color: #0E3D6B;
+    position: relative;
+}
+.asnavbarSubListlevelTwo__item:hover {
+    background-color: #919191;
+}
+a.asnavbarSubListlevelTwo__link {
+    font-family: 'KelsonSans-RegularRU',Arial,sans-serif;
+    font-size: 12px;
+    color: #337ab7;
+    display: block;
+    padding: 10px;
+    position: relative;
+}
+.asnavbarSubListlevelTwo__item:hover a.asnavbarSubListlevelTwo__link {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.asnavbarSubList--regions a.asnavbarSubListlevelTwo__link {
+    text-decoration: underline;
+}
+
+
+
 .asHeaderContainer {
 	display: flex;
 	position: relative;
@@ -510,7 +576,8 @@ a.asLangList__link:hover
 	position: relative;
 }
 
-.slicknav_nav  {clear: both}
+.slicknav_nav  {clear: both;
+}
 .slicknav_nav ul,
 .slicknav_nav li  {display: block;}
 .slicknav_nav .slicknav_arrow  {font-size: 0.8em;}
@@ -525,10 +592,14 @@ a.asLangList__link:hover
 .slicknav_menu {position: fixed; top: 0; right: 0; z-index: 101;
 	width: 100%;
 }
-.slicknav_nav {padding: 0 0 20px 0; position: fixed; top: 35px; left: 0; width: 100%;
+.slicknav_nav {
+    padding: 0 0 20px 0; 
+    position: fixed; 
+    top: 35px; left: 0; width: 100%;
 	background: #fff;
+    height: calc(100% - 35px);
 }
-.slicknav_nav, .slicknav_nav ul {overflow:hidden;}
+.slicknav_nav, .slicknav_nav ul {overflow-y: scroll;}
 .slicknav_nav ul {padding:0;}
 .slicknav_nav .slicknav_row {padding:7px 0px; margin:2px 0px;}
 .slicknav_nav a{padding:5px 10px; margin:2px 5px; text-decoration:none;}
@@ -620,19 +691,19 @@ a.ascategoriesNav__link figcaption {
     text-transform: uppercase;
     position: relative;
     padding-bottom: 3px;
-    font-size: 24px;
+    font-size: 23px;
     color: #0e3d6b;
     font-family: 'ClearSans-Medium',Arial,sans-serif;
     margin: 0;
 }
-.as__subtitle:before {
+.as__subtitle:after {
 	content: '';
-    position: absolute;
     z-index: 2;
     width: 200px;
     height: 3px;
-    bottom: -2px;
-    left: 0px;
+    display: block;
+    position: relative;
+    top: 10px;
     background: #ff8500;
 }
 
@@ -1036,7 +1107,6 @@ a.asOffer__link img {
 }
 .asAdvantagesList__item {
 	flex-basis: 33.3%;
-	padding: 0 14px 0 0;
 	margin: 0 0 11px 0;
 
 }
@@ -1044,6 +1114,7 @@ a.asOffer__link img {
 	display: flex;
 	align-items: center;
 	margin: 0;
+    padding: 0 14px 0 0;
 } 
 .asAdvantagesList__item figure figcaption {
 	padding: 0 0 0 10px;
@@ -1986,14 +2057,24 @@ a.asTop span.ico {
 
 .videoCatalog {
 }
+.videoCatalog > .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+}
+.videoCatalog > .row > div[class^="col-"] {
+    display: flex;
+}
+
 .videoBlock {
-    margin: 0 0 26px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
 }
 .videoBlock .as__subtitle {
-    margin: 0 0 32px 0;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
+    margin: 0 0 20px 0;
 }
 .videoBlock__source {
 
@@ -2368,12 +2449,12 @@ a.ourOffices_Tablist__link:active {
     border-left: 12px solid #3a7ec0;
     border-top: 13px solid transparent;
     border-bottom: 13px solid transparent;
-    visibility: hidden;
-    transition: all 0.2s ease-in-out 0s;
+    opacity: 0;
+    transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .ourOffices_Tablist__item--active:before {
     right: -12px;
-    visibility: visible;
+    opacity: 1;
 }
 
 .ourOffices__descColInner {
@@ -2584,6 +2665,7 @@ a.ourOffices_Tablist__link:active {
 	}
 	.asLangList {
 		position: static;
+        height: auto;
 	}
 	.asCatalogList {
 		padding-bottom: 25px;
@@ -2675,6 +2757,35 @@ a.ourOffices_Tablist__link:active {
     .portfolioList__link figure img {
        min-height: 160px;
     }
+    .asHeaderContainer {
+        padding: 0;
+    }
+    .slicknav_menu {display: block;}
+    .asheaderLinks {display: none;}
+    .asnavbarList {
+        margin-left: 0px;
+    }
+    .asnavbar {
+        float: none;
+    }
+    .asnavbarSubList {
+        position: static;
+        width: 100%;
+        background: #fff;
+    }
+    .asnavbarSubList--regions {
+        max-height: none; 
+    }
+    .asLangList__item {
+        height: auto;
+    }
+    .asnavbarSubListlevelTwo {
+        position: static;
+        width: 100%;
+    }
+    .videoCatalog > .row > div[class^="col-"] {
+        width: 50%;
+    }
 
 
 }
@@ -2683,22 +2794,6 @@ a.ourOffices_Tablist__link:active {
 	.asShopPhoneList {
 		padding: 15px 0 0 0;
 	}
-	.asnavbar {
-		float: none;
-	}
-	.asnavbarList {
-		margin-left: 0px;
-	}
-	.asnavbarSubList {
-		position: static;
-		width: 100%;
-		background: #fff;
-	}
-	.asHeaderContainer {
-		padding: 0;
-	}
-	.slicknav_menu {display: block;}
-	.asheaderLinks {display: none;}
 	.asPrice__count {
 		font-size: 17px;
 		padding: 0;
@@ -2817,6 +2912,14 @@ a.ourOffices_Tablist__link:active {
     .portfolioList__link figure img {
         object-fit: cover;
     }
+    .videoCatalog > .row > div[class^="col-"] {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .videoCatalog > .row {
+        margin-bottom: 0;
+    }
+
     
 }
 

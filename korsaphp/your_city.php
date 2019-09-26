@@ -88,8 +88,8 @@
 				</li>
 			</ul>
 			
-			<?php include 'contents/index/whereToBuy.php'; ?>
-			<?php include 'contents/map.php'; ?>
+			<?php include 'contents/regional/your_city/whereToBuy.php'; ?>
+			<?php include 'contents/regional/your_city/map.php'; ?>
 
 			<section id="windows" class="asProductBlock">
 				<h2 class="as__subtitle">окна в Киеве</h2>
@@ -104,7 +104,7 @@
 						<div class="row">
 							<div class="col-xs-6 col-md-5 col-md-push-1">
 								<div class="asOffer">
-									<a class="asOffer__link" href="#">
+									<a class="asOffer__link" href="your_city-okna-plastikovye.php">
 										<figure>
 											<img class="img-responsive" src="img/plastick_windows.png" alt="Пластиковые окна">
 											<figcaption>Пластиковые окна</figcaption>
@@ -119,7 +119,7 @@
 							</div>
 							<div class="col-xs-6 col-md-5 col-md-push-1">
 								<div class="asOffer">
-									<a class="asOffer__link" href="#">
+									<a class="asOffer__link" href="your_city-okna-alyuminievye.php">
 										<figure>
 											<img class="img-responsive" src="img/aluminiy_windows.png" alt="Алюминиевые окна">
 											<figcaption>Алюминиевые окна</figcaption>
@@ -137,7 +137,7 @@
 				</div>
 			</section>
 
-			<?php include 'contents/index/slider.php'; ?>			
+			<?php include 'contents/regional/your_city/slider.php'; ?>			
 			<?php include 'contents/advantages.php'; ?>
 
 			<section id="balconies" class="asProductBlock">
@@ -725,6 +725,6 @@
 </div>
 
 <?php include 'contents/reviews.php'; ?>
-<?php include 'contents/index/differentTypesGoods.php'; ?>
+<?php include 'contents/regional/your_city/differentTypesGoods.php'; ?>
 
 <?php include 'footers/footer.php'; ?>
