@@ -51,7 +51,6 @@
 			
 
 			<?php include 'contents/advantages.php'; ?>
-			<?php include 'contents/recommendation.php'; ?>
 			<?php include 'contents/regional/your_city-dveri-mezhkomnatnye-steklyannye/videoCatalog.php'; ?>
 			<?php include 'contents/regional/your_city-dveri/door_opening_options.php'; ?>
 		</div>
