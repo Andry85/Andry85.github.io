@@ -2139,6 +2139,29 @@ a.asTop span.ico {
     object-fit: cover;
 }
 
+
+.asCarousel--big {
+    padding: 0 60px 0 60px;
+    margin-bottom: 63px;
+}
+
+.asCarousel--big__item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.asCarousel--big__item a {
+    display: block;
+    margin-bottom: 15px;
+}
+.asCarousel--big__item a img {
+    height: 212px;
+    object-fit: cover;
+}
+
+
+
 .asWrap .owl-carousel .owl-nav {
     position: absolute;
     left: 0;
@@ -2786,6 +2809,14 @@ a.ourOffices_Tablist__link:active {
     .videoCatalog > .row > div[class^="col-"] {
         width: 50%;
     }
+    .asCarousel--big__item {
+        flex-direction: row;
+    }
+    .asCarousel--big__item a {
+        flex-basis: 50%;
+        padding: 0 7px 0 8px;
+    }
+
 
 
 }
@@ -2998,6 +3029,9 @@ a.ourOffices_Tablist__link:active {
     }
     .portfolioList__item {
        flex-basis: 50%;
+    }
+    .asCarousel--big__item a img {
+        height: 160px;
     }
 
 }

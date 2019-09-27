@@ -115,6 +115,30 @@ $(function() {
 	 });
 	// Slider End 
 
+	// Slider Start
+	 $(".asCarousel--big .owl-carousel").owlCarousel({
+	    responsiveClass:true,
+	    loop: false,
+	    margin:15,
+	    items:1,
+	    responsive:{
+			0:{
+				nav:false,
+				dots: true,
+				autoHeight:true
+				
+	        },
+	        768:{
+	        },
+	        992:{
+	        	items:4,
+				dots: false,
+				nav:true,
+	        }
+	    }
+	 });
+	// Slider End 
+
 	// Tabs Start
 		$('.ourOffices_Tablist__link').click(function(e){
 			e.preventDefault();
