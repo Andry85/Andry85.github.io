@@ -8,7 +8,7 @@
 				<h1 class="asProductDesc__title">Точки продаж в Киеве. Продукция ТМ «КОРСА»</h1>
 				<ul class="breadcrumb">
 					<li class="breadcrumb__item">
-						<i class="icons fa fa-home"></i> 
+						<a class="breadcrumb__link" href="index.php"><i class="icons fa fa-home"></i></a> 
 					</li>
 					<li class="breadcrumb__item">
 						<span>точки продаж  киев</span>

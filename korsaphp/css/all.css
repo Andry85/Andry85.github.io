@@ -2187,7 +2187,7 @@ a.asTop span.ico {
     opacity: 0.5;
 }
 .asWrap .owl-carousel .owl-nav button.disabled {
-    opacity: 0.5;
+    opacity: 0;
     cursor: auto;
 }
 
@@ -2217,18 +2217,20 @@ a.asTop span.ico {
 
 .listType_1 {
     margin: 0 0 30px 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
+    padding: 0 30px;
 }
+.asWrap .listType_1 .owl-carousel .owl-nav button.owl-next {
+    left: -30px;
+}
+.asWrap .listType_1 .owl-carousel .owl-nav button.owl-prev {
+    right: -30px;
+}
+
 .listType_1__item {
     text-align: center;
-    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex-basis: 25%;
 }
 .listType_1__pic {
     margin: 39px 10px 15px 10px;
@@ -2237,11 +2239,12 @@ a.asTop span.ico {
     min-height: 216px; 
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: center; 
+    padding: 10px;  
 }
 .listType_1__img img {
     max-width: 100%;
+    width: auto!important;
 }
 .listType_1__footer {
     display: flex;
@@ -2253,6 +2256,7 @@ a.asTop span.ico {
 .listType_1__link figcaption {
     text-decoration: underline;
     font-size: 16px;
+    padding: 10px;
 }
 .listType_1__item  .asPrice {
     margin-bottom: 5px;
@@ -2656,8 +2660,38 @@ a.ourOffices_Tablist__link:active {
     padding: 40px 0;
 }
 
+.priceList {
+    color: #0e3d6b;
+}
+.priceList dt {
+    font-weight: bold;
+    margin: 0 0 10px 0;
+
+}
+.priceList dd {
+    padding: 0 0 0 10px;
+    margin: 0 0 10px 0;
+    position: relative;
+}
+.priceList dd:before {
+    content: '';
+    width: 4px;
+    height: 4px;
+    background: #ff8500;
+    position: absolute;
+    left: 0;
+    top: 8px;
+}
+
 
 /* Media */
+@media (max-width: 1360px) {
+    a.asTop {
+        right: 15px;
+    }
+}
+
+
 @media only screen and (max-width: 1199px) {
 	.ascategoriesNav {
 		justify-content: center;
@@ -2816,6 +2850,9 @@ a.ourOffices_Tablist__link:active {
         flex-basis: 50%;
         padding: 0 7px 0 8px;
     }
+    .listType_1 {
+        padding: 0;
+    }
 
 
 
@@ -2949,6 +2986,9 @@ a.ourOffices_Tablist__link:active {
     }
     .videoCatalog > .row {
         margin-bottom: 0;
+    }
+    a.asTop {
+        display: none;
     }
 
     

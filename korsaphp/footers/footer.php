@@ -263,7 +263,11 @@
 	
 	<div class="asTopWrapper">
 		<div class="container">
-			<a href="#" class="asTop"><span class="bg"></span><span class="ico"></span>[ Наверх ]</a>
+			<div class="row">
+				<div class="col-md-12">
+					<a href="#" class="asTop"><span class="bg"></span><span class="ico"></span>[ Наверх ]</a>
+				</div>
+			</div>			
 		</div>
 	</div>
 

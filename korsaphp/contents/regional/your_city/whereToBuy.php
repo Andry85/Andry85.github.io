@@ -1,6 +1,6 @@
 <section class="aspreambule">
 	<h2 class="as__subtitle">Точки продаж. Где купить в Киеве</h2>
-	<div class="container">
+	<div class="aspreambule__inner">
 		<div class="row">
 			<div class="col-md-5">
 				<ul class="asServices">
