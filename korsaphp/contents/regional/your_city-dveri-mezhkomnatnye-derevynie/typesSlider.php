@@ -1,4 +1,4 @@
-<div class="listType_1">
+<div class="listType_1 listType_1--onlyPhoto">
 
 	<div class="listType_1__item">
 		<a class="listType_1__link" href="uploads/your_city-dveri-mezhkomnatnye-derevynie/slider_1/001.png" title="" data-fancybox="slider_1">
