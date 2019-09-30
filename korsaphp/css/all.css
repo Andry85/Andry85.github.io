@@ -3229,6 +3229,12 @@ a.ourOffices_Tablist__link:active {
     .asCarousel--big {
         padding: 0;
     }
+    .setRow.setRow--first {
+        margin-top: 25px;
+    }
+    .setRow .listType_1 {
+        margin: 0;
+    }
 
 
 }
