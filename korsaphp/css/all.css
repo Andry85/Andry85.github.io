@@ -302,7 +302,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
-    font-family:'KelsonSans-RegularRU',Arial,sans-serif;
+    font-family:'KelsonSansRU-Normal',Arial,sans-serif;
     font-weight:normal;
 }
 h1,h2,h3,.h1,.h2,.h3{
@@ -336,7 +336,7 @@ a:hover,a:active,a:focus {text-decoration: none;}
 .asheaderPhone {
 	float: left;
 	text-decoration: none;
-	font-family: 'KelsonSans-RegularRU',Arial,sans-serif;
+	font-family: 'KelsonSansRU-Normal',Arial,sans-serif;
 	font-size: 14px;
     color: #212434;
     margin: 6px 0 0 44px;
@@ -363,7 +363,7 @@ a.asnavbarList__link {
     padding: 7px 11px 8px 11px;
     text-transform: uppercase;
     color: #044d91;
-    font-family: 'KelsonSans-RegularRU',Arial,sans-serif;
+    font-family: 'KelsonSansRU-Normal',Arial,sans-serif;
     font-size: 13px;
     transition: background-color 0.3s ease 0s, color 0.2s ease 0s;
     white-space: nowrap;
@@ -403,7 +403,7 @@ a.asnavbarList__link:hover {
 }
 a.asnavbarSubList__link {
     text-transform: uppercase;
-    font-family: 'KelsonSans-RegularRU',Arial,sans-serif;
+    font-family: 'KelsonSansRU-Normal',Arial,sans-serif;
     font-size: 12px;
     color: #337ab7;
     display: flex;
@@ -457,7 +457,7 @@ a.asnavbarSubList__link span {
     background-color: #919191;
 }
 a.asnavbarSubListlevelTwo__link {
-    font-family: 'KelsonSans-RegularRU',Arial,sans-serif;
+    font-family: 'KelsonSansRU-Normal',Arial,sans-serif;
     font-size: 12px;
     color: #337ab7;
     display: block;
@@ -506,7 +506,7 @@ a.asLangList__link {
 	padding: 0 11px 0 11px;
     text-transform: uppercase;
     color: #044d91;
-    font-family: 'KelsonSans-RegularRU',Arial,sans-serif;
+    font-family: 'KelsonSansRU-Normal',Arial,sans-serif;
     font-size: 13px;
     transition: background-color 0.3s ease 0s, color 0.2s ease 0s;
 }
@@ -1025,7 +1025,7 @@ a.asShop__mapLink {
 }
 a.asBtnLink {
 	display: inline-block;
-	font-family: 'KelsonSans-RegularRU',Arial,sans-serif;
+	font-family: 'KelsonSansRU-Light';
 	color: #fff;
 	text-align: center;
 	padding: 0 15px;
@@ -1129,7 +1129,7 @@ a.asOuterLink {
     text-decoration: underline;
     margin: 0 0 37px 0;
     display: inline-block;
-    font-family: 'KelsonSans-RegularRU',Arial,sans-serif;
+    font-family: 'KelsonSansRU-Normal',Arial,sans-serif;
 }
 a.asOuterLink:hover {
 	text-decoration: none;
@@ -1204,7 +1204,7 @@ a.asCatalogList__title:hover {
     padding-top: 30px;
     font-size: 36px;
     color: #0e3d6b;
-    font-family: 'KelsonSans-LightRU';
+    font-family: 'KelsonSansRU-Light';
 }
 
 .asreviewsWrap__title:before {
@@ -1339,7 +1339,7 @@ a.asreviewsBox__more:before {
     margin-bottom: 42px;
     padding-top: 73px;
     border: none;
-    font-family: 'KelsonSans-RegularRU',Arial,sans-serif;
+    font-family: 'KelsonSansRU-Normal',Arial,sans-serif;
     text-align: center;
 }
 .asGoods__title:before {
@@ -1457,7 +1457,7 @@ a.asFooterAction__title {
     transition: text-indent 0.2s ease-in-out 0s;
     font-weight: normal;
     font-size: 24px;
-    font-family: 'KelsonSans-RegularRU';
+    font-family: 'KelsonSansRU-Normal';
     text-transform: uppercase;
 }
 a.asFooterAction__title:hover {
@@ -1668,7 +1668,7 @@ a.asFooterSubLists__link:before {
     padding: 30px 15px 30px 15px;
 }
 .asFooterSubscribe__phone {
-    font-family: 'KelsonSans-LightRU';
+    font-family: 'KelsonSansRU-Light';
     text-transform: uppercase;
     font-size: 30px;
     line-height: 1;
@@ -1725,7 +1725,7 @@ a.asFooterSubLists__link:before {
     flex-basis: 45%;
     text-transform: uppercase;
     font-size: 14px;
-    font-family: 'KelsonSans-RegularRU';
+    font-family: 'KelsonSansRU-Normal';
     font-weight: normal;
 }
 .asSubscribeForm__email {
@@ -1739,7 +1739,7 @@ a.asFooterSubLists__link:before {
     color: rgba(255,255,255,0.3);
 }
 .asSubscribeForm__btn {
-    font-family: 'KelsonSans-RegularRU',Arial,sans-serif;
+    font-family: 'KelsonSansRU-Normal',Arial,sans-serif;
     color: #fff;
     text-align: center;
     padding: 0 15px;
@@ -1983,7 +1983,7 @@ a.asTop span.ico {
     font-size: 16px;
 }
 .asModal__btn {
-    font-family: 'KelsonSans-RegularRU',Arial,sans-serif;
+    font-family: 'KelsonSansRU-Normal',Arial,sans-serif;
 	color: #fff;
 	text-align: center;
 	padding: 0 15px;
@@ -2305,7 +2305,7 @@ a.asTop span.ico {
     right: 2px;
     background: #fff;
     text-align: center;
-    font-family: 'KelsonSans-RegularRU',Arial,sans-serif;
+    font-family: 'KelsonSansRU-Normal',Arial,sans-serif;
     font-size: 10px;
     text-transform: uppercase;
     line-height: 18px;
@@ -2382,7 +2382,7 @@ a.asTop span.ico {
     padding-top: 30px;
     font-size: 36px;
     color: #0e3d6b;
-    font-family: 'KelsonSans-LightRU';
+    font-family: 'KelsonSansRU-Light';
 }
 
 .ourOffices__title:before {
@@ -2399,7 +2399,8 @@ a.asTop span.ico {
 .ourOffices__title span {
     background: #ff8500;
     color: #FFF;
-    padding: 0 5px;
+    padding: 2px 5px;
+    position: relative;
 }
 .ourOffices__map {
     margin: 0;
@@ -2515,7 +2516,7 @@ a.ourOffices_Tablist__link:active {
 .ourOffices__info {
     padding-top: 10px;
     font-size: 22px;
-    font-family: 'KelsonSans-RegularRU',Arial,sans-serif;
+    font-family: 'KelsonSansRU-Normal',Arial,sans-serif;
     text-transform: uppercase;
     color: #0e3d6b;
     position: relative;
@@ -2781,7 +2782,7 @@ a.ourOffices_Tablist__link:active {
     margin-bottom: 42px;
     padding-top: 73px;
     border: none;
-    font-family: 'KelsonSans-RegularRU',Arial,sans-serif;
+    font-family: 'KelsonSansRU-Normal',Arial,sans-serif;
     text-align: center;
 }
 .catalogExclusive__title:before {
@@ -2990,6 +2991,9 @@ a.ourOffices_Tablist__link:active {
     .listType_1 {
         padding: 0;
     }
+    .catalogExclusiveList__item {
+        flex-basis: 25%;
+    }
 
 
 
@@ -3127,6 +3131,9 @@ a.ourOffices_Tablist__link:active {
     a.asTop {
         display: none;
     }
+    .catalogExclusiveList__item {
+        flex-basis: 50%;
+    }
 
     
 }
@@ -3210,6 +3217,10 @@ a.ourOffices_Tablist__link:active {
     .asCarousel--big__item a img {
         height: 160px;
     }
+    .listType_1__item__info {
+        left: 20%;
+    }
+
 
 }
 

@@ -140,18 +140,7 @@ $(function() {
 	// Slider End 
 
 		
-	$( ".catalogExclusiveList__item:gt(14)" ).hide();
-
-	$('.catalogExclusive__btn').click(function(e){
-		e.preventDefault();
-		$(".catalogExclusiveList li").each(function(){
-		    $(this).show();
-		});
-		
-	});
-
-	 
-
+	
 
 
 	
@@ -179,11 +168,28 @@ $(function() {
 	}
 
 	$('.asnavbarSubList--regions .asnavbarSubList__link').click(function(e){
-			e.preventDefault();
-			$(this).next('.asnavbarSubListlevelTwo').slideToggle();
-			
-		});
+		e.preventDefault();
+		$(this).next('.asnavbarSubListlevelTwo').slideToggle();
+		
+	});
 
+	// Catalog Exclusive Catalog Start
+		if (w > 767 && w < 992) {
+			$( ".catalogExclusiveList__item:gt(11)" ).hide();
+		} else if (w > 991) {
+			$( ".catalogExclusiveList__item:gt(14)" ).hide();
+		} else {
+			$( ".catalogExclusiveList__item:gt(7)" ).hide();
+		}
+
+		$('.catalogExclusive__btn').click(function(e){
+			e.preventDefault();
+			$(this).hide();
+			$(".catalogExclusiveList li").each(function(){
+			    $(this).show();
+			});	
+		});
+	// Catalog Exclusive Catalog End	
 	
 	
 });
