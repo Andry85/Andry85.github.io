@@ -3189,12 +3189,18 @@ a.ourOffices_Tablist__link:active {
     }
     .listType_1__item {
         flex-basis: 100%;
+        margin-bottom: 15px;
     }
     .nonStandardList__item {
         flex-basis: 100%;
     }
     .listType_4__item {
         flex-basis: 100%;
+        text-align: center;
+    }
+    .listType_4__title:before {
+        left: 50%;
+        transform: translateX(-50%);
     }
     .asCatalogList {
         display: flex;
@@ -3219,6 +3225,9 @@ a.ourOffices_Tablist__link:active {
     }
     .listType_1__item__info {
         left: 20%;
+    }
+    .asCarousel--big {
+        padding: 0;
     }
 
 

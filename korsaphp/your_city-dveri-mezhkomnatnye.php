@@ -78,7 +78,7 @@
 					</div>
 					<div class="col-md-6">
 						<div class="asOffer">
-							<a class="asOffer__link" href="you_city-dveri-mezhkomnatnye-alyuminievye.php">
+							<a class="asOffer__link" href="your_city-dveri-mezhkomnatnye-alyuminievye.php">
 								<figure>
 									<img class="img-responsive" src="img/aluminum_interior_doors_pic.jpg" alt="Алюминиевые двери межкомнатные">
 									<figcaption>Алюминиевые двери межкомнатные</figcaption>
@@ -164,6 +164,6 @@
 <?php include 'contents/reviews.php'; ?>
 <?php include 'contents/regional/your_city-dveri-mezhkomnatnye/portfolio.php'; ?>
 <?php include 'contents/our_offices.php'; ?>
-<?php include 'contents/regional/your_city-dveri/differentTypesGoods.php'; ?>
+<?php include 'contents/regional/your_city-dveri/differentTypesGoodsExamples.php'; ?>
 
 <?php include 'footers/footer.php'; ?>

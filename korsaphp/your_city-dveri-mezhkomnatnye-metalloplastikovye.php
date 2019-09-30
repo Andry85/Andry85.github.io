@@ -67,6 +67,7 @@
 <?php include 'contents/regional/your_city-dveri/catalog_exclusive.php'; ?>
 <?php include 'contents/regional/your_city-dveri-mezhkomnatnye-metalloplastikovye/portfolio.php'; ?>
 <?php include 'contents/our_offices.php'; ?>
+<?php include 'contents/regional/your_city-dveri-mezhkomnatnye-metalloplastikovye/other_doors_types.php'; ?>
 <?php include 'contents/regional/your_city-dveri/differentTypesGoodsExamples.php'; ?>
 
 <?php include 'footers/footer.php'; ?>

@@ -35,17 +35,17 @@
 								</a>
 							</div>
 							<div class="asCarousel--big__item">
-								<a href="uploads/you_city-dveri-mezhkomnatnye-alyuminievye/001.jpg" data-fancybox="plascicImages">
-									<img src="uploads/you_city-dveri-mezhkomnatnye-alyuminievye/001.jpg" alt="">
+								<a href="uploads/your_city-dveri-mezhkomnatnye-alyuminievye/001.jpg" data-fancybox="plascicImages">
+									<img src="uploads/your_city-dveri-mezhkomnatnye-alyuminievye/001.jpg" alt="">
 								</a>
-								<a href="uploads/you_city-dveri-mezhkomnatnye-alyuminievye/002.jpg" data-fancybox="plascicImages">
-									<img src="uploads/you_city-dveri-mezhkomnatnye-alyuminievye/002.jpg" alt="">
+								<a href="uploads/your_city-dveri-mezhkomnatnye-alyuminievye/002.jpg" data-fancybox="plascicImages">
+									<img src="uploads/your_city-dveri-mezhkomnatnye-alyuminievye/002.jpg" alt="">
 								</a>
-								<a href="uploads/you_city-dveri-mezhkomnatnye-alyuminievye/003.jpg" data-fancybox="plascicImages">
-									<img src="uploads/you_city-dveri-mezhkomnatnye-alyuminievye/003.jpg" alt="">
+								<a href="uploads/your_city-dveri-mezhkomnatnye-alyuminievye/003.jpg" data-fancybox="plascicImages">
+									<img src="uploads/your_city-dveri-mezhkomnatnye-alyuminievye/003.jpg" alt="">
 								</a>
-								<a href="uploads/you_city-dveri-mezhkomnatnye-alyuminievye/004.jpg" data-fancybox="plascicImages">
-									<img src="uploads/you_city-dveri-mezhkomnatnye-alyuminievye/004.jpg" alt="">
+								<a href="uploads/your_city-dveri-mezhkomnatnye-alyuminievye/004.jpg" data-fancybox="plascicImages">
+									<img src="uploads/your_city-dveri-mezhkomnatnye-alyuminievye/004.jpg" alt="">
 								</a>
 							</div>
 							<div class="asCarousel--big__item">

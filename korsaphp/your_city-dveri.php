@@ -120,10 +120,10 @@
 							<li class="asCatalogList__item">
 								<div class="asCatalogList__wrap">
 									<figure>
-										<a href="you_city-dveri-mezhkomnatnye-alyuminievye.php"><img src="img/aluminum_interior_doors.jpg" alt="Алюминиевые двери межкомнатные"></a>
+										<a href="your_city-dveri-mezhkomnatnye-alyuminievye.php"><img src="img/aluminum_interior_doors.jpg" alt="Алюминиевые двери межкомнатные"></a>
 									</figure>
 									<div class="asCatalogList__content">
-										<a class="asCatalogList__title" href="you_city-dveri-mezhkomnatnye-alyuminievye.php">Алюминиевые двери межкомнатные</a>
+										<a class="asCatalogList__title" href="your_city-dveri-mezhkomnatnye-alyuminievye.php">Алюминиевые двери межкомнатные</a>
 										<div class="asPrice">
 											Цена от
 											<span class="asPrice__count">7 410</span>
