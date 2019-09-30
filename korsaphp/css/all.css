@@ -2272,6 +2272,10 @@ a.asTop span.ico {
     margin-bottom: 10px;
 }
 
+.price__text--firstBlock {
+    padding-top: 25px;
+}
+
 .colorsList {
     margin: 0 auto;
     padding: 0;
@@ -2686,6 +2690,13 @@ a.ourOffices_Tablist__link:active {
     position: absolute;
     left: 0;
     top: 8px;
+}
+
+.setRow {
+    margin: 15px 0;
+}
+.setRow.setRow--first {
+    margin-top: 35px;
 }
 
 
