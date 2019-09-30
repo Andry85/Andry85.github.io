@@ -34,7 +34,7 @@
 											</ul>
 										</li>
 										<li class="asnavbarList__item">
-											<a class="asnavbarList__link" href="doors.php">двери</a>
+											<a class="asnavbarList__link" href="#">двери</a>
 											<ul class="asnavbarSubList">
 												<li class="asnavbarSubList__item">
 													<a class="asnavbarSubList__link" href="#">входные двери</a>

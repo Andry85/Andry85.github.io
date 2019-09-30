@@ -1,5 +1,5 @@
 <div class="listType_1 listType_1--doors">
-	<div class="owl-carousel">
+	<!-- <div class="owl-carousel"> -->
 		<!-- Start Slider -->
 
 			<div class="listType_1__item">
@@ -59,7 +59,7 @@
 				</div>
 			</div>
 
-			<div class="listType_1__item">
+			<!-- <div class="listType_1__item">
 				<a class="listType_1__link" href="#" title="">
 					<figure class="listType_1__pic">
 						<div class="listType_1__img">
@@ -76,7 +76,7 @@
 					</div>
 					<a class="js-callModal asBtnLink asBtnLink--primary" href="#" title="ЗАЯВКА НА ПОКУПКУ ДВЕРЕЙ">Заказать</a>
 				</div>	
-			</div>
+			</div> -->
 
 			<div class="listType_1__item">
 				<a class="listType_1__link" href="#" title="">
@@ -174,5 +174,5 @@
 			</div>
 
 		<!-- End Slider -->	
-	</div>	
+	<!-- </div> -->	
 </div>

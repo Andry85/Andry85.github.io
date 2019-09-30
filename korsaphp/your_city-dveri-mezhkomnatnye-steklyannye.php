@@ -59,6 +59,7 @@
 <?php include 'contents/reviews.php'; ?>
 <?php include 'contents/regional/your_city-dveri-mezhkomnatnye-steklyannye/portfolio.php'; ?>
 <?php include 'contents/our_offices.php'; ?>
-<?php include 'contents/regional/your_city-dveri/differentTypesGoods.php'; ?>
+<?php include 'contents/regional/your_city-dveri-mezhkomnatnye-steklyannye/other_doors_types.php'; ?>
+<?php include 'contents/regional/your_city-dveri/differentTypesGoodsExamples.php'; ?>
 
 <?php include 'footers/footer.php'; ?>
