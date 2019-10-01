@@ -710,9 +710,6 @@ a.ascategoriesNav__link figcaption {
 .asServices {
     margin: 0;
     padding: 42px 0 0 0;
-    display: inline-block;
-    float: left;
-    line-height: 0;
     list-style: none;
 }
 .asServices li {
@@ -2201,7 +2198,7 @@ a.asTop span.ico {
 }
 .asWrap .owl-carousel .owl-dots {
     text-align: center;
-    padding: 15px 0 0 0;
+    padding: 0;
 }
 .asWrap .owl-carousel .owl-dot span {
     width: 8px;
@@ -2267,9 +2264,9 @@ a.asTop span.ico {
     font-size: 16px;
     padding: 10px;
 }
-.listType_1__item  .asPrice {
-    margin-bottom: 5px;
-    padding: 5px 0 0 0;
+.listType_1__item .asPrice {
+    margin-bottom: 2px;
+    padding: 0;
 }
 .price__text {
     line-height: 1.7;
@@ -2709,7 +2706,6 @@ a.ourOffices_Tablist__link:active {
 .asPrice_withoutDiscount {
     text-align: center;
     color: #666262;
-    font-size: 16px;
     margin: 0;
 }
 .asPrice_withoutDiscount .line-through {
@@ -2727,7 +2723,7 @@ a.ourOffices_Tablist__link:active {
 }
 
 .listType_1__item__discount {
-    background-color: #da6f5b;
+    background-color: #fb515d;
     color: #fff;
     border-radius: 10px;
     min-width: 80px;
@@ -2752,8 +2748,9 @@ a.ourOffices_Tablist__link:active {
 .listType_1__item__discount h5 {
     margin: 0;
     line-height: 1;
-    font-size: 14px;
-    font-family: 'ClearSans-Bold';
+    font-size: 13px;
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+
 }
 .listType_1__item__pay {
     background: url(../img/part_pay.png) no-repeat;
@@ -2818,6 +2815,15 @@ a.ourOffices_Tablist__link:active {
 .catalogExclusive__btn {
     display: block;
     text-align: center;
+}
+.typesGoodsSeparator {
+    height: 45px;
+}
+
+.listType_1 a.asBtnLink.asBtnLink--primary {
+    background: #4bbe3f;
+    padding: 0 25px;
+    line-height: 35px;
 }
 
 
@@ -3011,7 +3017,7 @@ a.ourOffices_Tablist__link:active {
 		font-size: 16px;
 	}
 	.asOfficeMap__entry {
-		padding: 25px 0 0 0;
+		padding: 21px 0 0 0;
 	}
 	.asOffer {
 		padding: 0;
@@ -3063,6 +3069,7 @@ a.ourOffices_Tablist__link:active {
     }
     .nonStandardList__item {
         flex-basis: 50%;
+        margin-bottom: 7px;
     }
     .ourOffices__mapCol {
         display: block;
@@ -3104,16 +3111,18 @@ a.ourOffices_Tablist__link:active {
     }
     .listType_3__item {
         flex-basis: 100%;
+        margin-bottom: 7px;
     }
     .asOfficeMap__entry .asLinksWrap {
-        margin: 0;
+        margin: -3px 0 0 0;
         text-align: center;
+        padding: 0;
     }
     .asProductDesc_text {
         padding: 5px 0;
     }
     .asShop {
-        padding: 0 0 15px 0;
+        padding: 0 0 11px 0;
     }
     .asCarousel__item a {
         flex-basis: 100%;
@@ -3123,7 +3132,7 @@ a.ourOffices_Tablist__link:active {
     }
     .videoCatalog > .row > div[class^="col-"] {
         width: 100%;
-        margin-bottom: 35px;
+        margin-bottom: 20px;
     }
     .videoCatalog > .row {
         margin-bottom: 0;
@@ -3134,6 +3143,186 @@ a.ourOffices_Tablist__link:active {
     .catalogExclusiveList__item {
         flex-basis: 50%;
     }
+    .asProductDesc__title {
+        margin-top: 56px;
+    }
+    .breadcrumb {
+        margin-bottom: 7px;
+    }
+    .ascategoriesNav {
+        margin-top: -16px;
+    }
+    a.ascategoriesNav__link figcaption {
+        padding-top: 5px;
+    }
+    .ascategoriesNav__item {
+        margin-top: 17px;
+    }
+    .asServices {
+        padding-top: 30px;
+    }
+    .asServicesList__title {
+        margin-bottom: 0;
+    }
+    .asServices li {
+        margin-bottom: 11px;
+    }
+    .asShop__title {
+        margin-top: 12px;
+    }
+    .asOfficeMap {
+        padding: 47px 0 19px 0;
+    }
+    .as__subtitle {
+        margin-bottom: 4px;
+    }
+    .asProductBlock__text {
+        margin-bottom: 10px;
+    }
+    .asCarousel {
+        margin: 0 0 21px 0;
+    }
+    .asAdvantagesList {
+        padding-bottom: 18px;
+    }
+    a.asOuterLink {
+        margin-bottom: 12px;
+    }
+    .asCatalogList {
+        padding: 3px 0 4px 0;
+    }
+    .asCatalog {
+        padding-bottom: 5px;
+    }
+    a.asCatalogList__title {
+        font-size: 16px;
+        padding-top: 8px;
+    }
+    .asCatalogList__item {
+        padding-bottom: 17px;
+    }
+    .asOffer.asOffer--garden {
+        margin-bottom: -9px;
+    }
+    .asGoods__title {
+        padding-top: 60px;
+        margin-bottom: 0;
+    }
+    a.asGoods__item {
+        margin-top: 17px;
+        margin-bottom: 0;
+    }
+    .asGoods {
+        padding-bottom: 32px;
+    }
+    .listType_1__pic {
+        margin-top: 13px;
+        margin-bottom: 0;
+    }
+    .listType_1__link figcaption {
+        padding: 0;
+    }
+    .listType_1__footer a.asBtnLink {
+        margin-top: 0;
+    }
+    .listType_1 {
+        margin: 0 0 12px 0;
+    }
+    .listType_2 {
+        padding: 23px 0 18px 0;
+    }
+    .listType_2__item {
+        margin-bottom: 10px;
+    }
+    .listType_2__pic {
+        justify-content: flex-start;
+    }
+    .videoBlock .as__subtitle {
+        margin-bottom: 27px;
+    }
+    .colorsList__item {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .colorsBtnWrap {
+        padding: 0;
+    }
+    .colorsBtnWrap a.asBtnLink {
+        margin-top: 0;
+        margin-bottom: 4px;
+    }
+    .nonStandardList {
+        padding-top: 19px;
+        padding-bottom: 21px;
+    }
+    .nonStandardList__img {
+        min-height: 0; 
+    }
+    .listType_3 {
+        padding: 18px 0 0 0;
+    }
+    .listType_3__img {
+        min-height: 0;
+    }
+    .listType_3__pic figcaption {
+        padding: 5px 0 0 0;
+    }
+    .asGoods--withoutTopLine .asGoods__title {
+        padding: 10px 0 7px 0;
+    }
+    .listType_4 {
+        padding-top: 20px;
+        padding-bottom: 13px;
+    }
+    .listType_4__text {
+        margin-bottom: 10px;
+    }
+    .listType_4__item {
+        margin-bottom: 5px;
+    }
+    .listType_4__title {
+         margin-bottom: 10px;
+    }
+    .asProductBlock--doors {
+        padding-bottom: 0;
+    }
+    .asCatalog--doors .asCatalog__entry {
+        padding: 0;
+    }
+    .asGoods__subtitle {
+        margin: 10px 0 15px 0;
+    }
+    .listType_4.listType_4--doors {
+        padding: 8px 0 13px 0;
+    }
+    .listType_4.listType_4--doors .listType_4__title {
+        margin-bottom: 15px;
+    }
+    .listType_4.listType_4--doors .listType_4__footer {
+        padding-top: 5px;
+    }
+    .asCarousel--big {
+        padding: 24px 0 0 0;
+        margin-bottom: 19px;
+    }
+    .asProductBlock--doorsBlock {
+        padding-bottom: 0;
+    }
+    .listType_1__img {
+        min-height: 0;
+    }
+    .listType_1--onlyPhoto .listType_1__pic {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .listType_1--onlyPhoto {
+        margin: 17px 0 13px 0;
+    }
+
+
+
+
+
 
     
 }
@@ -3189,7 +3378,6 @@ a.ourOffices_Tablist__link:active {
     }
     .listType_1__item {
         flex-basis: 100%;
-        margin-bottom: 15px;
     }
     .nonStandardList__item {
         flex-basis: 100%;
@@ -3205,7 +3393,6 @@ a.ourOffices_Tablist__link:active {
     .asCatalogList {
         display: flex;
         flex-wrap: wrap;
-        padding: 25px 0;
     }
     .asCatalogList__item {
         flex-basis: 50%;
@@ -3226,14 +3413,8 @@ a.ourOffices_Tablist__link:active {
     .listType_1__item__info {
         left: 20%;
     }
-    .asCarousel--big {
-        padding: 0;
-    }
     .setRow.setRow--first {
         margin-top: 25px;
-    }
-    .setRow .listType_1 {
-        margin: 0;
     }
 
 

@@ -608,7 +608,7 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-						<div class="asOffer">
+						<div class="asOffer asOffer--garden">
 							<a class="asOffer__link" href="#">
 								<figure>
 									<img class="img-responsive" src="img/glazing_of_winter_garden.jpg" alt="Остекление Зимнего сада, террасы, веранды, беседки">

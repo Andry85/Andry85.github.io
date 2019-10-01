@@ -25,7 +25,7 @@
 			<?php include 'contents/regional/your_city/whereToBuy.php'; ?>
 			<?php include 'contents/regional/your_city/map.php'; ?>
 
-			<section id="windows" class="asProductBlock">
+			<section class="asProductBlock asProductBlock--doorsBlock">
 				<h2 class="as__subtitle">Входные Двери в Киеве</h2>
 				<div class="row">
 					<div class="col-md-12">

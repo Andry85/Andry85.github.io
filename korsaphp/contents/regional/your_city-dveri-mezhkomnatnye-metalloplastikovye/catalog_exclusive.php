@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h2 class="catalogExclusive__title">Примеры наших работ</h2>
+				<h2 class="catalogExclusive__title">КАТАЛОГ ЭКСКЛЮЗИВНЫХ ПЛАСТИКОВЫХ ДВЕРЕЙ</h2>
 				<ul class="catalogExclusiveList">
 					<li class="catalogExclusiveList__item">
 						<a href="uploads/your_city-dveri-mezhkomnatnye-metalloplastikovye/catalog_exclusive/001.jpg" data-fancybox="catalogExclusiveListPics">

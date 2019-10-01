@@ -24,7 +24,7 @@
 			<?php include 'contents/regional/your_city/whereToBuy.php'; ?>
 			<?php include 'contents/regional/your_city/map.php'; ?>
 
-			<section id="windows" class="asProductBlock">
+			<section class="asProductBlock asProductBlock--doors">
 				<h2 class="as__subtitle">Двери в Киеве</h2>
 				<div class="row">
 					<div class="col-md-12">
@@ -162,9 +162,6 @@
 				</div>
 			</div>
 
-			
-
-			
 			<?php include 'contents/regional/your_city-dveri/videoCatalog.php'; ?>
 			<?php include 'contents/regional/your_city-dveri/door_opening_options.php'; ?>
 		</div>
@@ -173,6 +170,7 @@
 <?php include 'contents/reviews.php'; ?>
 <?php include 'contents/regional/your_city-dveri/portfolio.php'; ?>
 <?php include 'contents/our_offices.php'; ?>
+<div class="typesGoodsSeparator"></div>
 <?php include 'contents/regional/your_city-dveri/differentTypesGoodsExamples.php'; ?>
 
 <?php include 'footers/footer.php'; ?>
