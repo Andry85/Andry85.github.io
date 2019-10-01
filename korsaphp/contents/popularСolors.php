@@ -7,7 +7,7 @@
 			</div>
 			<ul class="colorsList">
 				<li class="colorsList__item">
-					<a class="colorsList__link" href="uploads/popular_colors/natural_oak-big.jpg" data-fancybox="colorsImages">
+					<a class="colorsList__link" href="uploads/popular_colors/natural_oak.jpg" data-fancybox="colorsImages">
 						<figure>
 							<img src="uploads/popular_colors/natural_oak.jpg">
 							<figcaption>НАТУРАЛЬНЫЙ ДУБ</figcaption>
@@ -15,7 +15,7 @@
 					</a>
 				</li>
 				<li class="colorsList__item">
-					<a class="colorsList__link" href="uploads/popular_colors/gold_oak-big.jpg" data-fancybox="colorsImages">
+					<a class="colorsList__link" href="uploads/popular_colors/gold_oak.jpg" data-fancybox="colorsImages">
 						<figure>
 							<img src="uploads/popular_colors/gold_oak.jpg">
 							<figcaption>ЗОЛОТОЙ ДУБ</figcaption>
@@ -23,7 +23,7 @@
 					</a>
 				</li>
 				<li class="colorsList__item">
-					<a class="colorsList__link" href="uploads/popular_colors/light_gray-big.jpg" data-fancybox="colorsImages">
+					<a class="colorsList__link" href="uploads/popular_colors/light_gray.jpg" data-fancybox="colorsImages">
 						<figure>
 							<img src="uploads/popular_colors/light_gray.jpg">
 							<figcaption>СВЕТЛО-СЕРЫЙ</figcaption>
@@ -31,7 +31,7 @@
 					</a>
 				</li>
 				<li class="colorsList__item">
-					<a class="colorsList__link" href="uploads/popular_colors/nut-big.jpg" data-fancybox="colorsImages">
+					<a class="colorsList__link" href="uploads/popular_colors/nut.jpg" data-fancybox="colorsImages">
 						<figure>
 							<img src="uploads/popular_colors/nut.jpg">
 							<figcaption>ОРЕХ</figcaption>
@@ -39,7 +39,7 @@
 					</a>
 				</li>
 				<li class="colorsList__item">
-					<a class="colorsList__link" href="uploads/popular_colors/signal_gray-big.jpg" data-fancybox="colorsImages">
+					<a class="colorsList__link" href="uploads/popular_colors/signal_gray.jpg" data-fancybox="colorsImages">
 						<figure>
 							<img src="uploads/popular_colors/signal_gray.jpg">
 							<figcaption>СИГНАЛЬНЫЙ СЕРЫЙ</figcaption>
@@ -47,7 +47,7 @@
 					</a>
 				</li>
 				<li class="colorsList__item">
-					<a class="colorsList__link" href="uploads/popular_colors/gray-big.jpg" data-fancybox="colorsImages">
+					<a class="colorsList__link" href="uploads/popular_colors/gray.jpg" data-fancybox="colorsImages">
 						<figure>
 							<img src="uploads/popular_colors/gray.jpg">
 							<figcaption>СЕРЫЙ</figcaption>
@@ -55,7 +55,7 @@
 					</a>
 				</li>
 				<li class="colorsList__item">
-					<a class="colorsList__link" href="uploads/popular_colors/light_oak-big.jpg" data-fancybox="colorsImages">
+					<a class="colorsList__link" href="uploads/popular_colors/light_oak.jpg" data-fancybox="colorsImages">
 						<figure>
 							<img src="uploads/popular_colors/light_oak.jpg">
 							<figcaption>СВЕТЛЫЙ ДУБ</figcaption>
@@ -63,7 +63,7 @@
 					</a>
 				</li>
 				<li class="colorsList__item">
-					<a class="colorsList__link" href="uploads/popular_colors/oak-big.jpg" data-fancybox="colorsImages">
+					<a class="colorsList__link" href="uploads/popular_colors/oak.jpg" data-fancybox="colorsImages">
 						<figure>
 							<img src="uploads/popular_colors/oak.jpg">
 							<figcaption>ДУБ</figcaption>
@@ -71,7 +71,7 @@
 					</a>
 				</li>
 				<li class="colorsList__item">
-					<a class="colorsList__link" href="uploads/popular_colors/rustic_oak-big.jpg" data-fancybox="colorsImages">
+					<a class="colorsList__link" href="uploads/popular_colors/rustic_oak.jpg" data-fancybox="colorsImages">
 						<figure>
 							<img src="uploads/popular_colors/rustic_oak.jpg">
 							<figcaption>РУСТИКАЛЬНЫЙ ДУБ</figcaption>
@@ -79,7 +79,7 @@
 					</a>
 				</li>
 				<li class="colorsList__item">
-					<a class="colorsList__link" href="uploads/popular_colors/dark_oak-big.jpg" data-fancybox="colorsImages">
+					<a class="colorsList__link" href="uploads/popular_colors/dark_oak.jpg" data-fancybox="colorsImages">
 						<figure>
 							<img src="uploads/popular_colors/dark_oak.jpg">
 							<figcaption>ТЕМНЫЙ ДУБ</figcaption>
@@ -87,7 +87,7 @@
 					</a>
 				</li>
 				<li class="colorsList__item">
-					<a class="colorsList__link" href="uploads/popular_colors/quartz_gray-big.jpg" data-fancybox="colorsImages">
+					<a class="colorsList__link" href="uploads/popular_colors/quartz_gray.jpg" data-fancybox="colorsImages">
 						<figure>
 							<img src="uploads/popular_colors/quartz_gray.jpg">
 							<figcaption>КВАРЦЕВЫЙ СЕРЫЙ</figcaption>
@@ -95,10 +95,154 @@
 					</a>
 				</li>
 				<li class="colorsList__item">
-					<a class="colorsList__link" href="uploads/popular_colors/bazalt_gray-big.jpg" data-fancybox="colorsImages">
+					<a class="colorsList__link" href="uploads/popular_colors/bazalt_gray.jpg" data-fancybox="colorsImages">
 						<figure>
 							<img src="uploads/popular_colors/bazalt_gray.jpg">
 							<figcaption>БАЗАЛЬТОВЫЙ СЕРЫЙ</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li class="colorsList__item">
+					<a class="colorsList__link" href="uploads/popular_colors/oregon.jpg" data-fancybox="colorsImages">
+						<figure>
+							<img src="uploads/popular_colors/oregon.jpg">
+							<figcaption>Орегон</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li class="colorsList__item">
+					<a class="colorsList__link" href="uploads/popular_colors/bergkiefer.jpg" data-fancybox="colorsImages">
+						<figure>
+							<img src="uploads/popular_colors/bergkiefer.jpg">
+							<figcaption>ГОРНАЯ СОСНА</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li class="colorsList__item">
+					<a class="colorsList__link" href="uploads/popular_colors/dunkelrot.jpg" data-fancybox="colorsImages">
+						<figure>
+							<img src="uploads/popular_colors/dunkelrot.jpg">
+							<figcaption>ТЕМНО-КРАСНЫЙ</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li class="colorsList__item">
+					<a class="colorsList__link" href="uploads/popular_colors/weinrot.jpg" data-fancybox="colorsImages">
+						<figure>
+							<img src="uploads/popular_colors/weinrot.jpg">
+							<figcaption>ВИННО-КРАСНЫЙ</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li class="colorsList__item">
+					<a class="colorsList__link" href="uploads/popular_colors/mahagon.jpg" data-fancybox="colorsImages">
+						<figure>
+							<img src="uploads/popular_colors/mahagon.jpg">
+							<figcaption>МАХАГОН</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li class="colorsList__item">
+					<a class="colorsList__link" href="uploads/popular_colors/sapeli.jpg" data-fancybox="colorsImages">
+						<figure>
+							<img src="uploads/popular_colors/sapeli.jpg">
+							<figcaption>МАХАГОН-САПЕЛИ</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li class="colorsList__item">
+					<a class="colorsList__link" href="uploads/popular_colors/blackcherry.jpg" data-fancybox="colorsImages">
+						<figure>
+							<img src="uploads/popular_colors/blackcherry.jpg">
+							<figcaption>ЧЕРНАЯ ВИШНЯ</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li class="colorsList__item">
+					<a class="colorsList__link" href="uploads/popular_colors/schokobraun.jpg" data-fancybox="colorsImages">
+						<figure>
+							<img src="uploads/popular_colors/schokobraun.jpg">
+							<figcaption>ШОКОЛАДНО-КОРИЧНЕВЫЙ</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li class="colorsList__item">
+					<a class="colorsList__link" href="uploads/popular_colors/brillantblau.jpg" data-fancybox="colorsImages">
+						<figure>
+							<img src="uploads/popular_colors/brillantblau.jpg">
+							<figcaption>БРИЛЛИАНТОВЫЙ СИНИЙ</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li class="colorsList__item">
+					<a class="colorsList__link" href="uploads/popular_colors/shemchushnobelui.jpg" data-fancybox="colorsImages">
+						<figure>
+							<img src="uploads/popular_colors/shemchushnobelui.jpg">
+							<figcaption>Жемчужно-Белый</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li class="colorsList__item">
+					<a class="colorsList__link" href="uploads/popular_colors/antracutovo-serui.jpg" data-fancybox="colorsImages">
+						<figure>
+							<img src="uploads/popular_colors/antracutovo-serui.jpg">
+							<figcaption>АНТРАЦИТОВО-СЕРЫЙ</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li class="colorsList__item">
+					<a class="colorsList__link" href="uploads/popular_colors/grafitovui-serui.jpg" data-fancybox="colorsImages">
+						<figure>
+							<img src="uploads/popular_colors/grafitovui-serui.jpg">
+							<figcaption>Графитово-СЕРЫЙ</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li class="colorsList__item">
+					<a class="colorsList__link" href="uploads/popular_colors/perlamutr-mushuno-seruy.jpg" data-fancybox="colorsImages">
+						<figure>
+							<img src="uploads/popular_colors/perlamutr-mushuno-seruy.jpg">
+							<figcaption>Перламутово-СЕРЫЙ</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li class="colorsList__item">
+					<a class="colorsList__link" href="uploads/popular_colors/shokolad-korichnevui.jpg" data-fancybox="colorsImages">
+						<figure>
+							<img src="uploads/popular_colors/shokolad-korichnevui.jpg">
+							<figcaption>Шоколадно-коричневый</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li class="colorsList__item">
+					<a class="colorsList__link" href="uploads/popular_colors/chernui-jantar.jpg" data-fancybox="colorsImages">
+						<figure>
+							<img src="uploads/popular_colors/chernui-jantar.jpg">
+							<figcaption>Черный янтарь</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li class="colorsList__item">
+					<a class="colorsList__link" href="uploads/popular_colors/perlamutr-temnui-serui.jpg" data-fancybox="colorsImages">
+						<figure>
+							<img src="uploads/popular_colors/perlamutr-temnui-serui.jpg">
+							<figcaption>Перламутрово темно-серый</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li class="colorsList__item">
+					<a class="colorsList__link" href="uploads/popular_colors/platinovaya-korona.jpg" data-fancybox="colorsImages">
+						<figure>
+							<img src="uploads/popular_colors/platinovaya-korona.jpg">
+							<figcaption>Платиновая корона</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li class="colorsList__item">
+					<a class="colorsList__link" href="uploads/popular_colors/dub-Irlandskij.jpg" data-fancybox="colorsImages">
+						<figure>
+							<img src="uploads/popular_colors/dub-Irlandskij.jpg">
+							<figcaption>Дуб ирландский</figcaption>
 						</figure>
 					</a>
 				</li>

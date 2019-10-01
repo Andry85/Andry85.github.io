@@ -299,6 +299,7 @@ th {
 
 body {
     font-family: 'ClearSans',Arial,sans-serif;
+    font-size: 16px;
 }
 
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
@@ -643,7 +644,7 @@ a.asLangList__link:hover
 }
 
 .asProductDescText__entry {
-	line-height: 1.7;
+	line-height: 1.5;
     color: #0e3d6b;
     margin-bottom: 20px;
 }
@@ -1025,8 +1026,7 @@ a.asBtnLink {
 	font-family: 'KelsonSansRU-Light';
 	color: #fff;
 	text-align: center;
-	padding: 0 15px;
-	line-height: 31px;
+	padding: 6px 15px 5px 15px;
 	margin: 10px;
     text-transform: uppercase;
 }
@@ -1101,6 +1101,7 @@ a.asOffer__link img {
 	padding: 0 0 32px 0;
 	display: flex;
 	flex-wrap: wrap;
+    font-size: 14px;
 }
 .asAdvantagesList__item {
 	flex-basis: 33.3%;
@@ -1467,6 +1468,7 @@ a.asFooterAction__title:hover {
     line-height: 1.12;
     padding-left: 8px;
     margin: 10px 0 0 0;
+    font-size: 14px;
 }
 .asFooterAction__title .icon {
     position: absolute;
@@ -2295,6 +2297,9 @@ a.asTop span.ico {
     margin: 0;
     position: relative;
 }
+.colorsList__item figure img {
+    max-width: 100%;
+}
 .colorsList__item figure figcaption {
     position: absolute;
     bottom: 2px;
@@ -2762,7 +2767,7 @@ a.ourOffices_Tablist__link:active {
 .listType_1__item__info {
     position: absolute;
     left: 0;
-    top: 30px;
+    top: 51px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -2822,8 +2827,9 @@ a.ourOffices_Tablist__link:active {
 
 .listType_1 a.asBtnLink.asBtnLink--primary {
     background: #4bbe3f;
-    padding: 0 25px;
-    line-height: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
+    letter-spacing: 1px;
 }
 
 
@@ -3412,6 +3418,7 @@ a.ourOffices_Tablist__link:active {
     }
     .listType_1__item__info {
         left: 20%;
+        top: 30px;
     }
     .setRow.setRow--first {
         margin-top: 25px;

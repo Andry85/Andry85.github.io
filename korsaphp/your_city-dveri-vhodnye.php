@@ -126,13 +126,14 @@
 				</div>
 			</section>
 			<?php include 'contents/regional/your_city-dveri-vhodnye/videoCatalog.php'; ?>
-			<?php include 'contents/regional/your_city-dveri/door_opening_options.php'; ?>
 		</div>
 	</div>
 </div>
+<?php include 'contents/regional/your_city-dveri/door_opening_options.php'; ?>
 <?php include 'contents/reviews.php'; ?>
 <?php include 'contents/regional/your_city-dveri-vhodnye/portfolio.php'; ?>
 <?php include 'contents/our_offices.php'; ?>
+<div class="typesGoodsSeparator"></div>
 <?php include 'contents/regional/your_city-dveri/differentTypesGoodsExamples.php'; ?>
 
 <?php include 'footers/footer.php'; ?>

@@ -140,10 +140,6 @@ $(function() {
 	// Slider End 
 
 		
-	
-
-
-	
 
 	// Tabs Start
 		$('.ourOffices_Tablist__link').click(function(e){
@@ -189,7 +185,21 @@ $(function() {
 			    $(this).show();
 			});	
 		});
-	// Catalog Exclusive Catalog End	
+	// Catalog Exclusive Catalog End
+
+
+	// Catalog popular colors Catalog Start
+		$( ".colorsList__item:gt(11)" ).hide();
+		
+
+		$('.colorsBtnWrap .asBtnLink').click(function(e){
+			e.preventDefault();
+			$(this).hide();
+			$(".colorsList li").each(function(){
+			    $(this).show();
+			});	
+		});
+	// Catalog popular colors End	
 	
 	
 });
