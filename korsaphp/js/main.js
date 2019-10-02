@@ -35,7 +35,7 @@ $(function() {
 	});
 
 	// Add smooth scrolling to all links
-	$('.ascategoriesNav__link').on('click', function(e) {
+	$('.ascategoriesNav__link,.nonStandardList--scroll .nonStandardList__link').on('click', function(e) {
 	  e.preventDefault()
 
 	  $('html, body').animate(
