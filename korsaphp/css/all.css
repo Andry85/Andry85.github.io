@@ -645,6 +645,11 @@ a.asLangList__link:hover
 .asProductDesc_text.asProductDesc_text--nobotomMargin {
     padding-bottom: 0px;
 }
+.asProductDesc_text.asProductDesc_text--noMargin {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
 
 .asProductDescText__entry {
 	line-height: 1.5;
@@ -1004,23 +1009,21 @@ a.asShop__mapLink {
 	padding: 30px 0 33px 0;
 
 }
-.asOfficeMap__entry {
+.asOfficeMapEntry {
 	padding: 78px 0 0 0;
 }
-.asOfficeMap__entry .asBtnLink  {
+.asOfficeMapEntry .asBtnLink  {
 	min-width: 190px;
 }
 
-.asOfficeMap__title {
+.asOfficeMapEntry__title {
 	margin: 0 0 4px 0;
     color: #FF8D11;
     text-transform: uppercase;
     font-size: 18px;
     font-family: 'ClearSans';
 }
-.asOfficeMap__text {
 
-}
 a.asBtnLink {
 	display: inline-block;
 	font-family: 'KelsonSans';
@@ -1042,7 +1045,7 @@ a.asBtnLink.asBtnLink--default {
 a.asBtnLink.asBtnLink--primary {
 	background: #ff8500;
 }
-.asOfficeMap__entry .asLinksWrap {
+.asOfficeMapEntry .asLinksWrap {
 	margin: 0 0 0 -10px;
 	padding: 5px 0 0 0;
 }
@@ -2343,14 +2346,17 @@ a.asTop span.ico {
     align-items: center;
 }
 .nonStandardList__img {
-    min-height: 180px;
+    height: 180px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 0 5px;
+    align-items: center;
+    width: 100%;
 }
 .nonStandardList__img img {
     max-width: 100%;
+    display: block;
 }
 .nonStandardList__link {
     text-decoration: underline;
@@ -2907,13 +2913,15 @@ a.ourOffices_Tablist__link:active {
     padding: 17px 0 55px 0;
 }
 
-.benefits .asServices {
+.benefits .asServices,
+.conditionsWrap .asServices {
     padding: 18px 0 0 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.benefits .asServices li {
+.benefits .asServices li,
+.conditionsWrap .asServices li {
     flex-basis: 45%;
 }
 
@@ -2950,7 +2958,6 @@ a.ourOffices_Tablist__link:active {
     position: relative;
     line-height: 1.2;
     margin-bottom: 8px;
-    font-size: 14px;
 }
 
 .benefitsList__item:before {
@@ -2967,25 +2974,14 @@ a.ourOffices_Tablist__link:active {
     background-position: 0px -103px;
 }
 
-.benefits .asServicesList__title {
-    font-size: 11px;
-}
-.benefits .asServicesList__item {
-    font-size: 14px;
-}
 
-.benefits .asOfficeMap__entry {
+.benefits .asOfficeMapEntry {
     padding: 7px 0 0 0;
     max-width: 470px;
     margin: 0 auto;
 }
-.benefits .asOfficeMap__title {
-    text-transform: none;
-}
-.benefits .asOfficeMap__text {
-    font-size: 14px;
-}
-.benefits .asOfficeMap__entry .asLinksWrap {
+
+.benefits .asOfficeMapEntry .asLinksWrap {
     padding: 0;
     margin-top: -5px;
 }
@@ -3042,6 +3038,181 @@ a.asOffer__link .asOffer__img img {
 .asProductRow > div[class^="col-"] {
     flex-grow: 1;
 }
+
+.discountWrap {
+    background: url(../img/reviews-bg.png) center 0 #e8f0f7;
+    padding: 47px 20px 47px 20px;
+}
+
+.discountBox {
+    width: 210px;
+    background: #ff8500;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(68,68,68,0.3);
+    position: relative;
+}
+.discountBox__label {
+    background: url('../img/discountBox__label.png') no-repeat;
+    width: 83px;
+    height: 83px;
+    position: absolute;
+    left: -11px;
+    top: -8px;
+}
+.discountBox__label span {
+    transform: rotate(315deg);
+    color: #fff;
+    position: absolute;
+    left: 4px;
+    top: 12px;
+}
+
+.discountBox__inner {
+    width: 100%;
+    height: 136px;
+    overflow: hidden;
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px rgba(68,68,68,0.3);
+}
+.discountBox__bg {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    position: absolute;
+    background: #fd992d;
+    right: -55px;
+    bottom: -145px;
+}
+.discountBox__title {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    padding: 3px 10px 0 10px;
+
+}
+.discountBox__title span {
+    color: #fff;
+    font-size: 22px;
+    margin-left: auto;
+    padding: 0 9px 0 0;
+}
+.discountBox__procent {
+    position: relative;
+    z-index: 2;
+    font-size: 80px;
+    font-family: 'ClearSans-Bold';
+    color: #fff;
+    text-align: center;
+    line-height: 1.0;
+
+}
+.discountBox__procent sup {
+     font-size: 30px;
+     top: -35px;
+}
+.discountBox--right {
+    float: right;
+}
+
+.discountInner {
+    text-align: center;
+}
+.discountInner__message {
+    font-family: 'KelsonSans';
+    font-weight: 600;
+    color: #004993;
+    text-transform: uppercase;
+    font-size: 33px;
+}
+.discountInner__title {
+    color: #003b6d;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-family: 'ClearSans';
+    margin: 22px 0 10px 0;
+}
+.discountInner__title strong {
+    font-family: 'ClearSans-Bold';
+    display: block;
+}
+.discountInner__text {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'ClearSans';
+    margin: 0;
+}
+.discountInner__text span {
+    font-family: 'ClearSans-Bold';
+    color: #ff8500;
+}
+.discountInner__text i {
+    font-family: 'ClearSans-Bold';
+    font-style: normal;
+}
+
+.conditionsWrap {
+    padding: 27px 0 27px 0;
+}
+.conditionsBlock {
+    background: url(../img/reviews-bg.png) center 0 #e8f0f7;
+    padding: 80px 26px 72px 26px;
+}
+.conditionsBlock .asOfficeMapEntry {
+    padding: 0;
+}
+.conditionsBlock a.asBtnLink {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.conditionsBlock .asOfficeMapEntry .asLinksWrap {
+    margin-left: -1px;
+    padding: 0;
+}
+.conditionsBlock .asOfficeMapEntry__text {
+    margin-bottom: 0;
+}
+
+.attentionList {
+    margin: 0;
+    padding: 0 0 50px 0; 
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.attentionList__item {
+    flex-basis: 25%;
+}
+.attentionList__pic {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    min-height: 130px;
+}
+.attentionList__pic figcaption {
+    font-size: 19px;
+    text-transform: uppercase;
+    padding: 0 5px;
+}
+.attentionList__pic img {
+    margin: 0 5px;
+}
+.attentionList__text {
+    padding: 0 10px;
+}
+.asProductBlock.asProductBlock-withoutanchors {
+    padding-top: 45px;
+}
+.asProductBlock.asProductBlock-withoutanchors .nonStandardList {
+    padding-top: 29px;
+}
+
+
 
 
 /* Media */
@@ -3219,6 +3390,19 @@ a.asOffer__link .asOffer__img img {
     .benefitsBlock {
         margin-top: 20px;
     }
+    .discountBox--right {
+        float: none;
+    }
+    .discountBox {
+        margin: 0 auto;
+    }
+    .discountInner {
+        padding-bottom: 35px;
+        padding-top: 35px;
+    }
+    .attentionList__item {
+        flex-basis: 50%;
+    }
 
 
 
@@ -3235,7 +3419,7 @@ a.asOffer__link .asOffer__img img {
 	.asPrice__currency {
 		font-size: 16px;
 	}
-	.asOfficeMap__entry {
+	.asOfficeMapEntry {
 		padding: 21px 0 0 0;
 	}
 	.asOffer {
@@ -3332,7 +3516,7 @@ a.asOffer__link .asOffer__img img {
         flex-basis: 100%;
         margin-bottom: 7px;
     }
-    .asOfficeMap__entry .asLinksWrap {
+    .asOfficeMapEntry .asLinksWrap {
         margin: -3px 0 0 0;
         text-align: center;
         padding: 0;
@@ -3562,6 +3746,26 @@ a.asOffer__link .asOffer__img img {
     }
     .getPrice .asPrice {
         padding-top: 0;
+    }
+    .conditionsWrap {
+        padding-top: 35px;
+    }
+    .conditionsBlock {
+        margin-top: 16px;
+        padding-top: 26px;
+        padding-bottom: 20px;
+    }
+    .attentionList__item {
+        flex-basis: 100%;
+    }
+    .attentionList {
+        padding-bottom: 20px;
+    }
+    .attentionList__pic {
+        min-height: 0;
+    }
+    .asProductBlock.asProductBlock-withoutanchors {
+        padding-top: 54px;
     }
 
 

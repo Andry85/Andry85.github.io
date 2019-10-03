@@ -6,9 +6,9 @@
 			</div>
 		</div>
 		<div class="col-sm-5">
-			<div class="asOfficeMap__entry">
-				<h3 class="asOfficeMap__title">Звоните уже сейчас!</h3>
-				<p class="asOfficeMap__text">Получайте исчерпывающие ответы на свои вопросы от наших менеджеров и оформляйте заказ.</p>
+			<div class="asOfficeMapEntry">
+				<h3 class="asOfficeMapEntry__title">Звоните уже сейчас!</h3>
+				<p class="asOfficeMapEntry__text">Получайте исчерпывающие ответы на свои вопросы от наших менеджеров и оформляйте заказ.</p>
 				<div class="asLinksWrap">
 					<a class="js-callModal asBtnLink asBtnLink--default" href="#" title="ЗАЯВКА НА КОНСУЛЬТАЦИЮ">получить консультацию</a>
 					<a class="js-callModal asBtnLink asBtnLink--primary" href="#" title="ЗАЯВКА НА ОБРАТНЫЙ ЗВОНОК">обратный звонок</a>
