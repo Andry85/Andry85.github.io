@@ -45,12 +45,14 @@
 						
 					</div>
 					<div class="col-md-6">
-						<div class="row">
+						<div class="row asProductRow">
 							<div class="col-xs-6 col-md-5 col-md-push-1">
 								<div class="asOffer">
 									<a class="asOffer__link" href="#">
-										<figure>
-											<img class="img-responsive" src="img/plastikovye_balkony.jpg" alt="Балконы">
+										<figure class="asOffer__figure">
+											<div class="asOffer__img">
+												<img class="img-responsive" src="img/plastikovye_balkony.jpg" alt="Балконы">
+											</div>
 											<figcaption>Пластиковые балконы</figcaption>
 										</figure>
 									</a>
@@ -64,8 +66,10 @@
 							<div class="col-xs-6 col-md-5 col-md-push-1">
 								<div class="asOffer">
 									<a class="asOffer__link" href="#">
-										<figure>
-											<img class="img-responsive" src="img/alyuminievye_balkony.jpg" alt="Лоджии">
+										<figure class="asOffer__figure">
+											<div class="asOffer__img">
+												<img class="img-responsive" src="img/alyuminievye_balkony.jpg" alt="Лоджии">
+											</div>
 											<figcaption>Алюминиевые балконы</figcaption>
 										</figure>
 									</a>
@@ -104,12 +108,14 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-						<div class="row">
+						<div class="row asProductRow">
 							<div class="col-xs-6 col-md-5 col-md-push-1">
 								<div class="asOffer">
 									<a class="asOffer__link" href="#">
-										<figure>
-											<img class="img-responsive" src="img/lodzhii_pic_1.jpg" alt="Балконы">
+										<figure class="asOffer__figure">
+											<div class="asOffer__img">
+												<img class="img-responsive" src="img/lodzhii_pic_1.jpg" alt="Балконы">
+											</div>
 											<figcaption>Пластиковые лоджии</figcaption>
 										</figure>
 									</a>
@@ -123,8 +129,10 @@
 							<div class="col-xs-6 col-md-5 col-md-push-1">
 								<div class="asOffer">
 									<a class="asOffer__link" href="#">
-										<figure>
-											<img class="img-responsive" src="img/lodzhii_pic_2.jpg" alt="Лоджии">
+										<figure class="asOffer__figure">
+											<div class="asOffer__img">
+												<img class="img-responsive" src="img/lodzhii_pic_2.jpg" alt="Лоджии">
+											</div>
 											<figcaption>Алюминиевые лоджии</figcaption>
 										</figure>
 									</a>

@@ -33,7 +33,7 @@
 					</a>
 				</li>
 				<li class="nonStandardList__item">
-					<a class="nonStandardList__link" href="#">
+					<a class="nonStandardList__link" href="#triangularwindows">
 						<figure class="nonStandardList__pic">
 							<div class="nonStandardList__img">
 								<img src="img/triangular_window.png" alt="Треугольное окно">
@@ -43,7 +43,7 @@
 					</a>
 				</li>
 				<li class="nonStandardList__item">
-					<a class="nonStandardList__link" href="#">
+					<a class="nonStandardList__link" href="#squarewindows">
 						<figure class="nonStandardList__pic">
 							<div class="nonStandardList__img">
 								<img src="img/square_window.png" alt="Квадратное окно">
@@ -53,17 +53,17 @@
 					</a>
 				</li>
 				<li class="nonStandardList__item">
-					<a class="nonStandardList__link" href="#">
+					<a class="nonStandardList__link" href="#trapezoidalwindows">
 						<figure class="nonStandardList__pic">
 							<div class="nonStandardList__img">
-								<img src="img/triangular_window.png" alt="Треугольное окно">
+								<img src="img/trapezoidal_window.png" alt="Трапециевидное окно">
 							</div>	
-							<figcaption>Треугольное окно</figcaption>
+							<figcaption>Трапециевидное окно</figcaption>
 						</figure>
 					</a>
 				</li>
 				<li class="nonStandardList__item">
-					<a class="nonStandardList__link" href="#">
+					<a class="nonStandardList__link" href="#polygonwindows">
 						<figure class="nonStandardList__pic">
 							<div class="nonStandardList__img">
 								<img src="img/polygon_window.png" alt="Многоугольное окно">
@@ -73,7 +73,7 @@
 					</a>
 				</li>
 				<li class="nonStandardList__item">
-					<a class="nonStandardList__link" href="#">
+					<a class="nonStandardList__link" href="#cornerwindows">
 						<figure class="nonStandardList__pic">
 							<div class="nonStandardList__img">
 								<img src="img/corner_windows.png" alt="Угловые окна">
@@ -83,7 +83,7 @@
 					</a>
 				</li>
 				<li class="nonStandardList__item">
-					<a class="nonStandardList__link" href="#">
+					<a class="nonStandardList__link" href="#skylightswindows">
 						<figure class="nonStandardList__pic">
 							<div class="nonStandardList__img">
 								<img src="img/skylights.png" alt="Зенитные окна">
@@ -93,7 +93,7 @@
 					</a>
 				</li>
 				<li class="nonStandardList__item">
-					<a class="nonStandardList__link" href="#">
+					<a class="nonStandardList__link" href="#stainedglasswindows">
 						<figure class="nonStandardList__pic">
 							<div class="nonStandardList__img">
 								<img src="img/stained_glass_windows.png" alt="Витражные окна">
@@ -103,7 +103,7 @@
 					</a>
 				</li>
 				<li class="nonStandardList__item">
-					<a class="nonStandardList__link" href="#">
+					<a class="nonStandardList__link" href="#panoramicwindows">
 						<figure class="nonStandardList__pic">
 							<div class="nonStandardList__img">
 								<img src="img/panoramic_windows.png" alt="Панорамные окна">
@@ -113,7 +113,7 @@
 					</a>
 				</li>
 				<li class="nonStandardList__item">
-					<a class="nonStandardList__link" href="#">
+					<a class="nonStandardList__link" href="#designwindows">
 						<figure class="nonStandardList__pic">
 							<div class="nonStandardList__img">
 								<img src="img/polygon_window.png" alt="Дизайнерские окна">

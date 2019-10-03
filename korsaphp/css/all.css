@@ -1054,7 +1054,7 @@ a.asBtnLink.asBtnLink--primary {
 	padding: 15px 0 15px 0;
 }
 .asProductBlock__text {
-	line-height: 1.7;
+	line-height: 1.5;
     margin-bottom: 20px;
 }
 .asOffer {
@@ -1073,6 +1073,7 @@ a.asOffer__link figure {
 }
 a.asOffer__link figcaption {
     text-decoration: underline;
+    padding: 5px 0;
 }
 a.asOffer__link:hover figcaption {
 	border-bottom-color: #fff;
@@ -1412,6 +1413,7 @@ a.asGoods__item:hover figure figcaption {
 .asFooter {
 	background: #d5e7f3;
 	padding-top: 30px;
+    border-top: 5px solid #fff;
 }
 .asfooter__top {
 
@@ -2990,7 +2992,7 @@ a.ourOffices_Tablist__link:active {
 
 .getPrice {
     text-align: center;
-    padding: 40px 0 0 0;
+    padding: 20px 0 0 0;
 }
 .getPrice a.asBtnLink {
     min-width: 220px;
@@ -3005,18 +3007,40 @@ a.asOffer__link figure.asOffer__figure {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 5px;
 }
 a.asOffer__link .asOffer__img {
-    min-height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 5px 0;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 a.asOffer__link .asOffer__img img {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.asProductRow {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.asProductRow .asOffer,
+.asProductRow .asOffer__figure {
+    height: 100%;
+}
+.asProductRow .asOffer {
+    display: flex;
+    flex-direction: column;
+}
+.asProductRow .asOffer__link {
+    flex-grow: 1;
+}
+
+.asProductRow > div[class^="col-"] {
+    flex-grow: 1;
 }
 
 
@@ -3529,6 +3553,15 @@ a.asOffer__link .asOffer__img img {
     }
     .benefits {
         padding-bottom: 29px;
+    }
+    .asProductRow > div[class^="col-"] {
+        margin-bottom: 11px;
+    } 
+    .getPrice {
+        padding: 0;
+    }
+    .getPrice .asPrice {
+        padding-top: 0;
     }
 
 

@@ -46,19 +46,27 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-						<div class="asOffer">
-							<a class="asOffer__link" href="#">
-								<figure>
-									<img class="img-responsive" src="img/entrance_plastic_doors.jpg" alt="Пластиковые двери входные">
-									<figcaption>Пластиковые двери входные</figcaption>
-								</figure>
-							</a>
-							<div class="asPrice">
-								Цена от
-								<span class="asPrice__count">9 559</span>
-								<span class="asPrice__currency">грн</span>
+						
+						<div class="row asProductRow">
+							<div class="col-md-12">
+								<div class="asOffer">
+									<a class="asOffer__link" href="#">
+										<figure class="asOffer__figure">
+											<div class="asOffer__img">
+												<img class="img-responsive" src="img/entrance_plastic_doors.jpg" alt="Пластиковые двери входные">
+											</div>
+											<figcaption>Пластиковые двери входные</figcaption>
+										</figure>
+									</a>
+									<div class="asPrice">
+										Цена от
+										<span class="asPrice__count">9 559</span>
+										<span class="asPrice__currency">грн</span>
+									</div>
+								</div>
 							</div>
-						</div>	
+						</div>
+
 					</div>
 				</div>
 			</section>
@@ -74,19 +82,27 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-						<div class="asOffer">
-							<a class="asOffer__link" href="#">
-								<figure>
-									<img class="img-responsive" src="img/aluminum_plastic_doors.jpg" alt="Алюминиевые двери входные">
-									<figcaption>Алюминиевые двери входные</figcaption>
-								</figure>
-							</a>
-							<div class="asPrice">
-								Цена от
-								<span class="asPrice__count">18 326</span>
-								<span class="asPrice__currency">грн</span>
+
+						<div class="row asProductRow">
+							<div class="col-md-12">
+								<div class="asOffer">
+									<a class="asOffer__link" href="#">
+										<figure class="asOffer__figure">
+											<div class="asOffer__img">
+												<img class="img-responsive" src="img/aluminum_plastic_doors.jpg" alt="Алюминиевые двери входные">
+											</div>
+											<figcaption>Алюминиевые двери входные</figcaption>
+										</figure>
+									</a>
+									<div class="asPrice">
+										Цена от
+										<span class="asPrice__count">18 326</span>
+										<span class="asPrice__currency">грн</span>
+									</div>
+								</div>
 							</div>
-						</div>	
+						</div>
+
 					</div>
 				</div>
 			</section>
@@ -103,19 +119,27 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-						<div class="asOffer">
-							<a class="asOffer__link" href="#">
-								<figure>
-									<img class="img-responsive" src="img/aluminum_metal_doors.jpg" alt="Металлические двери входные">
-									<figcaption>Металлические двери входные</figcaption>
-								</figure>
-							</a>
-							<div class="asPrice">
-								Цена от
-								<span class="asPrice__count">47 000</span>
-								<span class="asPrice__currency">грн</span>
+						
+						<div class="row asProductRow">
+							<div class="col-md-12">
+								<div class="asOffer">
+									<a class="asOffer__link" href="#">
+										<figure class="asOffer__figure">
+											<div class="asOffer__img">
+												<img class="img-responsive" src="img/aluminum_metal_doors.jpg" alt="Металлические двери входные">
+											</div>
+											<figcaption>Металлические двери входные</figcaption>
+										</figure>
+									</a>
+									<div class="asPrice">
+										Цена от
+										<span class="asPrice__count">47 000</span>
+										<span class="asPrice__currency">грн</span>
+									</div>
+								</div>
 							</div>
-						</div>	
+						</div>
+
 					</div>
 					<div class="col-md-12">
 						<div class="asProductBlock__content">

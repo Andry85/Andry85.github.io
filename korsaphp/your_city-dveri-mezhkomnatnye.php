@@ -48,19 +48,27 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-						<div class="asOffer">
-							<a class="asOffer__link" href="your_city-dveri-mezhkomnatnye-metalloplastikovye.php">
-								<figure>
-									<img class="img-responsive" src="img/interior_plastic_doors.jpg" alt="Пластиковые двери межкомнатные">
-									<figcaption>Пластиковые двери межкомнатные</figcaption>
-								</figure>
-							</a>
-							<div class="asPrice">
-								Цена от
-								<span class="asPrice__count">5 528</span>
-								<span class="asPrice__currency">грн</span>
+
+						<div class="row asProductRow">
+							<div class="col-md-12">
+								<div class="asOffer">
+									<a class="asOffer__link" href="#">
+										<figure class="asOffer__figure">
+											<div class="asOffer__img">
+												<img class="img-responsive" src="img/interior_plastic_doors.jpg" alt="Пластиковые двери межкомнатные">
+											</div>
+											<figcaption>Пластиковые двери межкомнатные</figcaption>
+										</figure>
+									</a>
+									<div class="asPrice">
+										Цена от
+										<span class="asPrice__count">5 528</span>
+										<span class="asPrice__currency">грн</span>
+									</div>
+								</div>
 							</div>
-						</div>	
+						</div>
+
 					</div>
 				</div>
 			</section>
@@ -77,19 +85,28 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-						<div class="asOffer">
-							<a class="asOffer__link" href="your_city-dveri-mezhkomnatnye-alyuminievye.php">
-								<figure>
-									<img class="img-responsive" src="img/aluminum_interior_doors_pic.jpg" alt="Алюминиевые двери межкомнатные">
-									<figcaption>Алюминиевые двери межкомнатные</figcaption>
-								</figure>
-							</a>
-							<div class="asPrice">
-								Цена от
-								<span class="asPrice__count">7 410</span>
-								<span class="asPrice__currency">грн</span>
+						
+						<div class="row asProductRow">
+							<div class="col-md-12">
+								<div class="asOffer">
+									<a class="asOffer__link" href="#">
+										<figure class="asOffer__figure">
+											<div class="asOffer__img">
+												<img class="img-responsive" src="img/aluminum_interior_doors_pic.jpg" 
+												alt="Алюминиевые двери межкомнатные">
+											</div>
+											<figcaption>Алюминиевые двери межкомнатные</figcaption>
+										</figure>
+									</a>
+									<div class="asPrice">
+										Цена от
+										<span class="asPrice__count">7 410</span>
+										<span class="asPrice__currency">грн</span>
+									</div>
+								</div>
 							</div>
-						</div>	
+						</div>
+
 					</div>
 				</div>
 			</section>
@@ -105,19 +122,27 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-						<div class="asOffer">
-							<a class="asOffer__link" href="your_city-dveri-mezhkomnatnye-steklyannye.php">
-								<figure>
-									<img class="img-responsive" src="img/glass_doors_interior_pic.jpg" alt="Стеклянные двери межкомнатные">
-									<figcaption>Стеклянные двери межкомнатные</figcaption>
-								</figure>
-							</a>
-							<div class="asPrice">
-								Цена от
-								<span class="asPrice__count">10 453</span>
-								<span class="asPrice__currency">грн</span>
+						
+						<div class="row asProductRow">
+							<div class="col-md-12">	
+								<div class="asOffer">
+									<a class="asOffer__link" href="#">
+										<figure class="asOffer__figure">
+											<div class="asOffer__img">
+												<img class="img-responsive" src="img/glass_doors_interior_pic.jpg" alt="Стеклянные двери межкомнатные">
+											</div>	
+											<figcaption>Стеклянные двери межкомнатные</figcaption>
+										</figure>
+									</a>
+									<div class="asPrice">
+										Цена от
+										<span class="asPrice__count">10 453</span>
+										<span class="asPrice__currency">грн</span>
+									</div>
+								</div>	
 							</div>
-						</div>	
+						</div>
+
 					</div>
 				</div>
 			</section>
@@ -134,19 +159,27 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-						<div class="asOffer">
-							<a class="asOffer__link" href="your_city-dveri-mezhkomnatnye-derevynie.php">
-								<figure>
-									<img class="img-responsive" src="img/interior_wood_doors_pic.jpg" alt="Деревянные двери межкомнатные">
-									<figcaption>Деревянные двери межкомнатные</figcaption>
-								</figure>
-							</a>
-							<div class="asPrice">
-								Цена от
-								<span class="asPrice__count">8 100</span>
-								<span class="asPrice__currency">грн</span>
+						
+						<div class="row asProductRow">
+							<div class="col-md-12">	
+								<div class="asOffer">
+									<a class="asOffer__link" href="#">
+										<figure class="asOffer__figure">
+											<div class="asOffer__img">
+												<img class="img-responsive" src="img/interior_wood_doors_pic.jpg" alt="Деревянные двери межкомнатные">
+											</div>	
+											<figcaption>Деревянные двери межкомнатные</figcaption>
+										</figure>
+									</a>
+									<div class="asPrice">
+										Цена от
+										<span class="asPrice__count">8 100</span>
+										<span class="asPrice__currency">грн</span>
+									</div>
+								</div>	
 							</div>
 						</div>	
+
 					</div>
 					<div class="col-md-12">
 						<div class="asProductBlock__content">

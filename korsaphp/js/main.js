@@ -148,7 +148,6 @@ $(function() {
 			$(this).parent('li').addClass('ourOffices_Tablist__item--active').siblings().removeClass('ourOffices_Tablist__item--active');
 			var linkID = self.data("link-id");
 
-			console.log(linkID);
 			$(".ourOfficesTabs__item").each(function(){
 			    var id = $(this).attr('id');
 			    if (linkID == id) {

@@ -101,12 +101,14 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-						<div class="row">
+						<div class="row asProductRow">
 							<div class="col-xs-6 col-md-5 col-md-push-1">
 								<div class="asOffer">
 									<a class="asOffer__link" href="your_city-okna-plastikovye.php">
-										<figure>
-											<img class="img-responsive" src="img/plastick_windows.png" alt="Пластиковые окна">
+										<figure class="asOffer__figure">
+											<div class="asOffer__img">
+												<img class="img-responsive" src="img/plastick_windows.png" alt="Пластиковые окна">
+											</div>
 											<figcaption>Пластиковые окна</figcaption>
 										</figure>
 									</a>
@@ -120,8 +122,10 @@
 							<div class="col-xs-6 col-md-5 col-md-push-1">
 								<div class="asOffer">
 									<a class="asOffer__link" href="your_city-okna-alyuminievye.php">
-										<figure>
-											<img class="img-responsive" src="img/aluminiy_windows.png" alt="Алюминиевые окна">
+										<figure class="asOffer__figure">
+											<div class="asOffer__img">
+												<img class="img-responsive" src="img/aluminiy_windows.png" alt="Алюминиевые окна">
+											</div>	
 											<figcaption>Алюминиевые окна</figcaption>
 										</figure>
 									</a>
@@ -150,12 +154,14 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-						<div class="row">
+						<div class="row asProductRow">
 							<div class="col-xs-6 col-md-5 col-md-push-1">
 								<div class="asOffer">
 									<a class="asOffer__link" href="#">
-										<figure>
-											<img class="img-responsive" src="img/balkony-pic.jpg" alt="Балконы">
+										<figure class="asOffer__figure">
+											<div class="asOffer__img">
+												<img class="img-responsive" src="img/balkony-pic.jpg" alt="Балконы">
+											</div>	
 											<figcaption>Балконы</figcaption>
 										</figure>
 									</a>
@@ -169,8 +175,10 @@
 							<div class="col-xs-6 col-md-5 col-md-push-1">
 								<div class="asOffer">
 									<a class="asOffer__link" href="#">
-										<figure>
-											<img class="img-responsive" src="img/loggias-pic.jpg" alt="Лоджии">
+										<figure class="asOffer__figure">
+											<div class="asOffer__img">
+												<img class="img-responsive" src="img/loggias-pic.jpg" alt="Лоджии">
+											</div>	
 											<figcaption>Лоджии</figcaption>
 										</figure>
 									</a>
@@ -196,14 +204,22 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-						<div class="asOffer">
-							<a class="asOffer__link" href="your_city-dveri.php">
-								<figure>
-									<img class="img-responsive" src="img/doors-pic.jpg" alt="Двери">
-									<figcaption>Двери</figcaption>
-								</figure>
-							</a>
-						</div>		
+						
+						<div class="row asProductRow">
+							<div class="col-md-12">
+								<div class="asOffer">
+									<a class="asOffer__link" href="your_city-dveri.php">
+										<figure class="asOffer__figure">
+											<div class="asOffer__img">
+												<img class="img-responsive" src="img/doors-pic.jpg" alt="Двери">
+											</div>	
+											<figcaption>Двери</figcaption>
+										</figure>
+									</a>
+								</div>
+							</div>	
+						</div>
+
 					</div>
 				</div>
 			</section>
@@ -323,14 +339,20 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-						<div class="asOffer">
-							<a class="asOffer__link" href="#">
-								<figure>
-									<img class="img-responsive" src="img/garage_doors-pic.jpg" alt="Гаражные ворота">
-									<figcaption>Гаражные ворота</figcaption>
-								</figure>
-							</a>
-						</div>		
+						<div class="row asProductRow">
+							<div class="col-md-12">
+								<div class="asOffer">
+									<a class="asOffer__link" href="#">
+										<figure class="asOffer__figure">
+											<div class="asOffer__img">
+												<img class="img-responsive" src="img/garage_doors-pic.jpg" alt="Гаражные ворота">
+											</div>	
+											<figcaption>Гаражные ворота</figcaption>
+										</figure>
+									</a>
+								</div>
+							</div>
+						</div>	
 					</div>
 				</div>
 			</section>
@@ -448,14 +470,22 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-						<div class="asOffer">
-							<a class="asOffer__link" href="#">
-								<figure>
-									<img class="img-responsive" src="img/protective-shutters.jpg" alt="Защитные роллеты">
-									<figcaption>Защитные роллеты</figcaption>
-								</figure>
-							</a>
-						</div>		
+						
+						<div class="row asProductRow">
+							<div class="col-md-12">	
+								<div class="asOffer">
+									<a class="asOffer__link" href="#">
+										<figure class="asOffer__figure">
+											<div class="asOffer__img">
+												<img class="img-responsive" src="img/protective-shutters.jpg" alt="Защитные роллеты">
+											</div>	
+											<figcaption>Защитные роллеты</figcaption>
+										</figure>
+									</a>
+								</div>	
+							</div>
+						</div>
+
 					</div>
 				</div>
 			</section>
@@ -528,14 +558,22 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-						<div class="asOffer">
-							<a class="asOffer__link" href="#">
-								<figure>
-									<img class="img-responsive" src="img/partitions_office_pic.jpg" alt="Офисные перегородки">
-									<figcaption>Офисные перегородки</figcaption>
-								</figure>
-							</a>
-						</div>		
+						
+						<div class="row asProductRow">
+							<div class="col-md-12">	
+								<div class="asOffer">
+									<a class="asOffer__link" href="#">
+										<figure class="asOffer__figure">
+											<div class="asOffer__img">
+												<img class="img-responsive" src="img/partitions_office_pic.jpg" alt="Офисные перегородки">
+											</div>	
+											<figcaption>Офисные перегородки</figcaption>
+										</figure>
+									</a>
+								</div>
+							</div>
+						</div>
+
 					</div>
 				</div>
 			</section>
@@ -608,13 +646,21 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-						<div class="asOffer asOffer--garden">
-							<a class="asOffer__link" href="#">
-								<figure>
-									<img class="img-responsive" src="img/glazing_of_winter_garden.jpg" alt="Остекление Зимнего сада, террасы, веранды, беседки">
-								</figure>
-							</a>
-						</div>		
+						
+						<div class="row asProductRow">
+							<div class="col-md-12">
+								<div class="asOffer asOffer--garden">
+									<a class="asOffer__link" href="#">
+										<figure class="asOffer__figure">
+											<div class="asOffer__img">
+												<img class="img-responsive" src="img/glazing_of_winter_garden.jpg" alt="Остекление Зимнего сада, террасы, веранды, беседки">
+											</div>
+										</figure>
+									</a>
+								</div>	
+							</div>
+						</div>
+
 					</div>
 				</div>
 			</section>
@@ -704,19 +750,27 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-						<div class="asOffer">
-							<a class="asOffer__link" href="#">
-								<figure>
-									<img class="img-responsive" src="img/glazing_facade_building.jpg" alt="Остекление фасада здания">
-									<figcaption>Остекление фасада здания</figcaption>
-								</figure>
-							</a>
-							<div class="asPrice">
-								Цена от
-								<span class="asPrice__count">224 915</span>
-								<span class="asPrice__currency">грн</span>
+						
+						<div class="row asProductRow">
+							<div class="col-md-12">	
+								<div class="asOffer">
+									<a class="asOffer__link" href="#">
+										<figure class="asOffer__figure">
+											<div class="asOffer__img">
+												<img class="img-responsive" src="img/glazing_facade_building.jpg" alt="Остекление фасада здания">
+											</div>	
+											<figcaption>Остекление фасада здания</figcaption>
+										</figure>
+									</a>
+									<div class="asPrice">
+										Цена от
+										<span class="asPrice__count">224 915</span>
+										<span class="asPrice__currency">грн</span>
+									</div>
+								</div>
 							</div>
-						</div>	
+						</div>
+
 					</div>
 				</div>
 			</section>
