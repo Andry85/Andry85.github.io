@@ -173,7 +173,7 @@
 						<div class="row asProductRow">
 							<div class="col-xs-6">
 								<div class="asOffer">
-									<a class="asOffer__link" href="kruglye-oknа.php">
+									<a class="asOffer__link" href="kruglye-okna.php">
 										<figure class="asOffer__figure">
 											<div class="asOffer__img">
 												<img class="img-responsive" src="img/round_window_pic.png" alt="Круглое окно">
@@ -185,7 +185,7 @@
 							</div>
 							<div class="col-xs-6">
 								<div class="asOffer">
-									<a class="asOffer__link" href="kruglye-oknа.php">
+									<a class="asOffer__link" href="kruglye-okna.php">
 										<figure class="asOffer__figure">
 											<div class="asOffer__img">
 												<img class="img-responsive" src="img/round_sash_window_pic.png" alt="Круглое окно со створками">
