@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h2 class="asGoods__title">Популярные конструкции остекления в Киеве</h2>
+				<h2 class="asGoods__title">Популярные конструкции остекления</h2>
 				<ul class="listType_4">
 					<li class="listType_4__item">
 						<div class="listType_4__header">

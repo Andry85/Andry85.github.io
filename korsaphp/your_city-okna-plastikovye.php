@@ -48,7 +48,7 @@
 	</div>		
 	<?php include 'contents/our_offices.php'; ?>
 	<?php include 'contents/regional/your_city-okna/other_window_types.php'; ?>
-	<?php include 'contents//regional/your_city-okna/differentTypesGoodsExamples.php'; ?>
+	<?php include 'contents/regional/your_city-okna/differentTypesGoodsExamples.php'; ?>
 	<?php include 'contents/reviews.php'; ?>
 	<?php include 'contents/popular_construction.php'; ?>
 

@@ -3211,6 +3211,19 @@ a.asOffer__link .asOffer__img img {
 .asProductBlock.asProductBlock-withoutanchors .nonStandardList {
     padding-top: 29px;
 }
+.row--attention {
+    padding-top: 29px;
+}
+
+.profileSystems {
+    padding: 0 0 25px 0;
+}
+.profileSystems__title {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0 0 25px 0;
+    font-family: 'KelsonSans';
+}
 
 
 
@@ -3766,6 +3779,11 @@ a.asOffer__link .asOffer__img img {
     }
     .asProductBlock.asProductBlock-withoutanchors {
         padding-top: 54px;
+    }
+    .asProductBlock.asProductBlock--zenitnye {
+        padding-bottom: 0;
+        padding-top: 55px;
+        margin-bottom: -23px;
     }
 
 

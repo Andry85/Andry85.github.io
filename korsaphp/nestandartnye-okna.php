@@ -107,7 +107,7 @@
 						<div class="row asProductRow">
 							<div class="col-xs-6 col-md-4">
 								<div class="asOffer">
-									<a class="asOffer__link" href="#">
+									<a class="asOffer__link" href="arochnye-okna.php">
 										<figure class="asOffer__figure">
 											<div class="asOffer__img">
 												<img class="img-responsive" src="img/arched_window_pic.png" alt="Арочное окно">
@@ -119,7 +119,7 @@
 							</div>
 							<div class="col-xs-6 col-md-4">
 								<div class="asOffer">
-									<a class="asOffer__link" href="#">
+									<a class="asOffer__link" href="arochnye-okna.php">
 										<figure class="asOffer__figure">
 											<div class="asOffer__img">
 												<img class="img-responsive" src="img/designer_windows_pic.png" alt="Полуарочное окно">
@@ -131,7 +131,7 @@
 							</div>
 							<div class="col-xs-6 col-md-4">
 								<div class="asOffer">
-									<a class="asOffer__link" href="#">
+									<a class="asOffer__link" href="arochnye-okna.php">
 										<figure class="asOffer__figure">
 											<div class="asOffer__img">
 												<img class="img-responsive" src="img/halfark_window_pic.png" alt="Окно полуарка">
@@ -173,7 +173,7 @@
 						<div class="row asProductRow">
 							<div class="col-xs-6">
 								<div class="asOffer">
-									<a class="asOffer__link" href="#">
+									<a class="asOffer__link" href="kruglye-oknа.php">
 										<figure class="asOffer__figure">
 											<div class="asOffer__img">
 												<img class="img-responsive" src="img/round_window_pic.png" alt="Круглое окно">
@@ -185,7 +185,7 @@
 							</div>
 							<div class="col-xs-6">
 								<div class="asOffer">
-									<a class="asOffer__link" href="#">
+									<a class="asOffer__link" href="kruglye-oknа.php">
 										<figure class="asOffer__figure">
 											<div class="asOffer__img">
 												<img class="img-responsive" src="img/round_sash_window_pic.png" alt="Круглое окно со створками">
@@ -226,7 +226,7 @@
 						<div class="row asProductRow">
 							<div class="col-xs-6">
 								<div class="asOffer">
-									<a class="asOffer__link" href="#">
+									<a class="asOffer__link" href="polukruglye-oknа.php">
 										<figure class="asOffer__figure">
 											<div class="asOffer__img">
 												<img class="img-responsive" src="img/rainbow_window_pic.png" alt="Полукруглое окно «Радуга»">
@@ -238,7 +238,7 @@
 							</div>
 							<div class="col-xs-6">
 								<div class="asOffer">
-									<a class="asOffer__link" href="#">
+									<a class="asOffer__link" href="polukruglye-oknа.php">
 										<figure class="asOffer__figure">
 											<div class="asOffer__img">
 												<img class="img-responsive" src="img/most_pic.png" alt="Полукруглое окно «Мост»">
@@ -279,7 +279,7 @@
 						<div class="row asProductRow">
 							<div class="col-xs-6">
 								<div class="asOffer">
-									<a class="asOffer__link" href="#">
+									<a class="asOffer__link" href="treugolnye-oknа.php">
 										<figure class="asOffer__figure">
 											<div class="asOffer__img">
 												<img class="img-responsive" src="img/triangular_window_pic.png" alt="Треугольное окно">
@@ -291,7 +291,7 @@
 							</div>
 							<div class="col-xs-6">
 								<div class="asOffer">
-									<a class="asOffer__link" href="#">
+									<a class="asOffer__link" href="treugolnye-oknа.php">
 										<figure class="asOffer__figure">
 											<div class="asOffer__img">
 												<img class="img-responsive" src="img/triangular_window_pic_02.png" alt="Треугольное окно">
@@ -333,7 +333,7 @@
 						<div class="row asProductRow">
 							<div class="col-xs-12">
 								<div class="asOffer">
-									<a class="asOffer__link" href="#">
+									<a class="asOffer__link" href="kvadratnye-oknа.php">
 										<figure class="asOffer__figure">
 											<div class="asOffer__img">
 												<img class="img-responsive" src="img/square_window_pic.png" alt="Квадратное окно">
@@ -374,7 +374,7 @@
 						<div class="row asProductRow">
 							<div class="col-xs-6">
 								<div class="asOffer">
-									<a class="asOffer__link" href="#">
+									<a class="asOffer__link" href="trapecievidnye-oknа.php">
 										<figure class="asOffer__figure">
 											<div class="asOffer__img">
 												<img class="img-responsive" src="img/triangular_window_pic.png" alt="Трапециевидное окно">
@@ -386,7 +386,7 @@
 							</div>
 							<div class="col-xs-6">
 								<div class="asOffer">
-									<a class="asOffer__link" href="#">
+									<a class="asOffer__link" href="trapecievidnye-oknа.php">
 										<figure class="asOffer__figure">
 											<div class="asOffer__img">
 												<img class="img-responsive" src="img/triangular_window_pic_01.png" alt="Окно «Зенит»">
@@ -427,7 +427,7 @@
 						<div class="row asProductRow">
 							<div class="col-xs-6">
 								<div class="asOffer">
-									<a class="asOffer__link" href="#">
+									<a class="asOffer__link" href="mnogougolnye-oknа.php">
 										<figure class="asOffer__figure">
 											<div class="asOffer__img">
 												<img class="img-responsive" src="img/polygon_window_pic.png" alt="Окно «Дом»">
@@ -439,7 +439,7 @@
 							</div>
 							<div class="col-xs-6">
 								<div class="asOffer">
-									<a class="asOffer__link" href="#">
+									<a class="asOffer__link" href="mnogougolnye-oknа.php">
 										<figure class="asOffer__figure">
 											<div class="asOffer__img">
 												<img class="img-responsive" src="img/polygon_window_pic_01.png" alt="Окно «Пассаж»">
@@ -481,7 +481,7 @@
 						<div class="row asProductRow">
 							<div class="col-xs-12">
 								<div class="asOffer">
-									<a class="asOffer__link" href="#">
+									<a class="asOffer__link" href="ugolovye-okna.php">
 										<figure class="asOffer__figure">
 											<div class="asOffer__img">
 												<img class="img-responsive" src="img/corner_window_pic.jpg" alt="УГЛОВЫЕ ОКНО">
@@ -520,7 +520,7 @@
 						<div class="row asProductRow">
 							<div class="col-xs-12">
 								<div class="asOffer">
-									<a class="asOffer__link" href="#">
+									<a class="asOffer__link" href="zenitnye-okna.php">
 										<figure class="asOffer__figure">
 											<div class="asOffer__img">
 												<img class="img-responsive" src="img/skylights_pic.jpg" alt="Зенитные окна">
@@ -563,7 +563,7 @@
 						<div class="row asProductRow">
 							<div class="col-xs-12">
 								<div class="asOffer">
-									<a class="asOffer__link" href="#">
+									<a class="asOffer__link" href="vitrazhnye-okna.php">
 										<figure class="asOffer__figure">
 											<div class="asOffer__img">
 												<img class="img-responsive" src="img/stained_glass_windows_pic.jpg" alt="Скачать каталог витражей">
@@ -604,7 +604,7 @@
 						<div class="row asProductRow">
 							<div class="col-xs-6">
 								<div class="asOffer">
-									<a class="asOffer__link" href="#">
+									<a class="asOffer__link" href="panoramnye-okna.php">
 										<figure class="asOffer__figure">
 											<div class="asOffer__img">
 												<img class="img-responsive" src="img/panoramic_window_pic.png" alt="Окно панорамное">
@@ -616,7 +616,7 @@
 							</div>
 							<div class="col-xs-6">
 								<div class="asOffer">
-									<a class="asOffer__link" href="#">
+									<a class="asOffer__link" href="panoramnye-okna.php">
 										<figure class="asOffer__figure">
 											<div class="asOffer__img">
 												<img class="img-responsive" src="img/panoramic_window_pic_01.png" alt="Панорамное окно с импостом">
@@ -656,7 +656,7 @@
 						<div class="row asProductRow">
 							<div class="col-xs-6">
 								<div class="asOffer">
-									<a class="asOffer__link" href="#">
+									<a class="asOffer__link" href="dizajnerskye-oknа.php">
 										<figure class="asOffer__figure">
 											<div class="asOffer__img">
 												<img class="img-responsive" src="img/triangular_window_pic.png" alt="Треугольное окно">
@@ -668,7 +668,7 @@
 							</div>
 							<div class="col-xs-6">
 								<div class="asOffer">
-									<a class="asOffer__link" href="#">
+									<a class="asOffer__link" href="dizajnerskye-oknа.php">
 										<figure class="asOffer__figure">
 											<div class="asOffer__img">
 												<img class="img-responsive" src="img/triangular_window_pic_02.png" alt="Треугольное окно">

@@ -119,10 +119,19 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
-			<?php include 'contents/non-standard_windows_general--withoutanchors.php'; ?>
+			<section class="asProductBlock asProductBlock-withoutanchors">
+				<h2 class="as__subtitle">ДРУГИЕ ВАРИАНТЫ НЕСТАНДАРТНЫХ ПЛАСТИКОВЫХ ОКОН</h2>
+				<div class="row">
+					<div class="col-md-12">
+						<?php include 'contents/non-standard_windows_general--withoutanchors.php'; ?>
+					</div>
+				</div>
+			</section>	
 		</div>
 	</div>
 </div>	
 <?php include 'contents/our_offices.php'; ?>
+<?php include 'contents/popular_construction.php'; ?>
+<?php include 'contents/regional/your_city-okna/differentTypesGoodsExamples.php'; ?>
 
 <?php include 'footers/footer.php'; ?>
