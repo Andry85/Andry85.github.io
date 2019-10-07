@@ -199,8 +199,15 @@ $(function() {
 			});	
 		});
 	// Catalog popular colors End	
-	
-	
+
+	// Tooltip Start
+		$(".profileSystemsBox__labelWrap").hover(function(){
+		  $(this).find('.profileSystemsBox__tooltip').show();
+		  }, function(){
+		  $(this).find('.profileSystemsBox__tooltip').hide();
+		});
+	// Tooltip End
+
 });
 
 //end read

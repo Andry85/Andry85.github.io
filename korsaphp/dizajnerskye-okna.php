@@ -167,25 +167,7 @@
 	<div class="row row--attention">
 		<div class="col-md-12">
 			<?php include 'contents/attention.php'; ?>
-			<div class="profileSystems">
-				<h2 class="profileSystems__title">МЕТАЛЛОПЛАСТИКОВЫЕ ПРОФИЛЬНЫЕ СИСТЕМЫ REHAU</h2>
-				<p class="profileSystems__text">Теплое остекление металлопластиковыми окнами REHAU .... Приобретая пластиковые окна REHAU, Вы получаете надежное изделие, выполненное из немецких комплектующих на сертифицированном оборудовании. ПВХ окна подойдут тем клиентам, которые вместе с отличными характеристиками сохранения тепла и шумоизоляции хотят получить изысканный дизайн окна.</p>
-				<ul class="profileSystemsList">
-					<li class="profileSystemsList__item">
-						<h3 class="profileSystemsList__title">
-							<a href="#">REHAU ECOSOL 60</a>
-						</h3>
-						<div class="profileSystemsList__subtitle">ДОСТУПНОЕ ЛЕГЕНДАРНОЕ КАЧЕСТВО</div>
-						<p class="profileSystemsList__text">Надежные окна для любых помещений. 3-камерный профиль. Гарантированное качество за минимальную цену</p>
-						<figure class="profileSystemsList__pic">
-							<img src="img/ECOSOL_60.png" align="">
-						</figure>
-						<div class="profileSystemsBox">
-							
-						</div>
-					</li>
-				</ul>
-			</div>
+			<?php include 'contents/profile_systems.php'; ?>
 		</div>
 	</div>
 </div>	
