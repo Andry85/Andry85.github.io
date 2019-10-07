@@ -629,11 +629,11 @@ a.asLangList__link:hover
 .breadcrumb {
 
 }
-.breadcrumb__item {
-
-}
 .breadcrumb__item span {
 	color: #777;
+    text-transform: uppercase;
+}
+.breadcrumb__link {
     text-transform: uppercase;
 }
 .breadcrumb__item .fa-home {
@@ -2743,7 +2743,7 @@ a.ourOffices_Tablist__link:active {
 }
 
 .listType_1__item__discount {
-    background-color: #fb515d;
+    background-color: #ff0000;
     color: #fff;
     border-radius: 10px;
     min-width: 80px;
@@ -2842,9 +2842,13 @@ a.ourOffices_Tablist__link:active {
 
 .listType_1 a.asBtnLink.asBtnLink--primary {
     background: #4bbe3f;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 2px 15px 2px 15px;
     letter-spacing: 1px;
+    border-bottom: 3px solid #009820;
+    border-radius: 8px;
+    font-size: 24px;
+    font-family: 'ClearSans';
+    min-width: 178px;
 }
 
 .as__subtitleCenter {
@@ -3448,6 +3452,19 @@ a.asOffer__link .asOffer__img img {
 .systemsCallWrap a.asBtnLink {
     width: 100%;
     margin: 0 0 13px 0;
+}
+.asProductBlock.asProductBlock--plasticBalconies {
+    padding-top: 54px;
+    padding-bottom: 10px;
+}
+.listType_1__title {
+    font-size: 18px;
+    padding: 0 15px 20px 15px;
+    color: #265d9c;
+    line-height: 1.0;
+}
+.profileSystemsSecond {
+    padding: 22px 0 0 0;
 }
 
 
