@@ -202,9 +202,9 @@ $(function() {
 
 	// Tooltip Start
 		$(".profileSystemsBox__labelWrap").hover(function(){
-		  $(this).find('.profileSystemsBox__tooltip').show();
+		  $(this).find('.profileSystemsBox__tooltip').addClass('profileSystemsBox__tooltip--visible');
 		  }, function(){
-		  $(this).find('.profileSystemsBox__tooltip').hide();
+		  $(this).find('.profileSystemsBox__tooltip').removeClass('profileSystemsBox__tooltip--visible');
 		});
 	// Tooltip End
 

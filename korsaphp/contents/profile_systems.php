@@ -123,7 +123,7 @@
 							</div>
 							<div class="profileSystemsBox__col_2">
 								<div class="profileSystemsBox__inner">
-									<p class="profileSystemsBox__text">до класса WK-2 (A)<i>(адаптированный ENV 1627)</i></p>
+									<p class="profileSystemsBox__text">до класса WK-2 (A)<i>адаптированный ENV 1627</i></p>
 								</div>
 							</div>
 						</div>
@@ -252,7 +252,7 @@
 							</div>
 							<div class="profileSystemsBox__col_2">
 								<div class="profileSystemsBox__inner">
-									<p class="profileSystemsBox__text">до класса WK-2 (A)<i>(адаптированный ENV 1627)</i></p>
+									<p class="profileSystemsBox__text">до класса WK-2 (A)<i>адаптированный ENV 1627</i></p>
 								</div>
 							</div>
 						</div>
@@ -381,7 +381,7 @@
 							</div>
 							<div class="profileSystemsBox__col_2">
 								<div class="profileSystemsBox__inner">
-									<p class="profileSystemsBox__text">до класса WK-3 (A)<i>(адаптированный ENV 1627)</i></p>
+									<p class="profileSystemsBox__text">до класса WK-3 (A)<i>адаптированный ENV 1627</i></p>
 								</div>
 							</div>
 						</div>
@@ -527,7 +527,7 @@
 							</div>
 							<div class="profileSystemsBox__col_2">
 								<div class="profileSystemsBox__inner">
-									<p class="profileSystemsBox__text">до класса WK-2 (A)<i>(адаптированный ENV 1627)</i></p>
+									<p class="profileSystemsBox__text">до класса WK-2 (A)<i>адаптированный ENV 1627</i></p>
 								</div>
 							</div>
 						</div>
@@ -656,7 +656,7 @@
 							</div>
 							<div class="profileSystemsBox__col_2">
 								<div class="profileSystemsBox__inner">
-									<p class="profileSystemsBox__text">до класса WK-2 (A)<i>(адаптированный ENV 1627)</i></p>
+									<p class="profileSystemsBox__text">до класса WK-2 (A)<i>адаптированный ENV 1627</i></p>
 								</div>
 							</div>
 						</div>
