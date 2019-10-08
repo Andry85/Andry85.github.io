@@ -211,6 +211,14 @@ $(function() {
 	// Tooltip End
 
 	// Catalog Video Start
+		var rowCount = $(".videoCatalog > .row").length;
+
+		if (rowCount > 2) {
+			$('.videoCatalogBtnWrap').show();
+		} else {
+			$('.videoCatalogBtnWrap').hide();
+		}
+
 		$(".videoCatalog > .row:gt(1)" ).hide();
 		$('.videoCatalogBtnWrap .asBtnLink').click(function(e){
 			e.preventDefault();
@@ -219,32 +227,13 @@ $(function() {
 			    $(this).show();
 			});	
 		});
+
+
+
+
 	// Catalog Video End
 
 		
-
-	// Video Slider Start
-	$(".videoCatalogList.owl-carousel").owlCarousel({
-		responsiveClass:true,
-		loop: false,
-		margin:15,
-		items:1,
-		dots: true,
-		nav:false,
-
-		responsive:{
-			0:{	
-				 items:1,			
-		    },
-		    768:{
-		    	items:2,
-		    },
-		    992:{
-		    	items:2,
-		    }
-		}
-	});
-	// Video Slider End 
 
 });
 

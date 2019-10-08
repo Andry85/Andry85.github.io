@@ -2084,11 +2084,13 @@ a.asTop span.ico {
     margin: 0 0 20px 0;
 }
 .videoBlock__source {
-
+    position: relative;
 }
+
 .videoBlock__source iframe {
     width: 100%;
     border: 0;
+    position: relative;
 }
 
 @keyframes footer-modal-link-ico-hover {
@@ -2843,7 +2845,6 @@ a.ourOffices_Tablist__link:active {
 .listType_1 a.asBtnLink.asBtnLink--primary {
     background: #4bbe3f;
     padding: 2px 15px 2px 15px;
-    letter-spacing: 1px;
     border-bottom: 3px solid #009820;
     border-radius: 8px;
     font-size: 24px;
@@ -3705,6 +3706,8 @@ a.asOffer__link .asOffer__img img {
     .attentionList__item {
         flex-basis: 50%;
     }
+
+
 
 
 

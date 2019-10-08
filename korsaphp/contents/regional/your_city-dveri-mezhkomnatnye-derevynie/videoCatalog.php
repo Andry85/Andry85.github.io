@@ -9,4 +9,7 @@
 			</article>
 		</div>
 	</div>
+	<div class="videoCatalogBtnWrap">
+		<a class="asBtnLink asBtnLink--primary" href="#">посмотреть все</a>
+	</div>
 </div>
