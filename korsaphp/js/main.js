@@ -139,6 +139,8 @@ $(function() {
 	 });
 	// Slider End 
 
+
+
 		
 
 	// Tabs Start
@@ -168,7 +170,7 @@ $(function() {
 		
 	});
 
-	// Catalog Exclusive Catalog Start
+	// Catalog Exclusive Start
 		if (w > 767 && w < 992) {
 			$( ".catalogExclusiveList__item:gt(11)" ).hide();
 		} else if (w > 991) {
@@ -184,10 +186,10 @@ $(function() {
 			    $(this).show();
 			});	
 		});
-	// Catalog Exclusive Catalog End
+	// Catalog Exclusive End
 
 
-	// Catalog popular colors Catalog Start
+	// Catalog popular colors Start
 		$( ".colorsList__item:gt(11)" ).hide();
 		
 
@@ -207,6 +209,42 @@ $(function() {
 		  $(this).find('.profileSystemsBox__tooltip').removeClass('profileSystemsBox__tooltip--visible');
 		});
 	// Tooltip End
+
+	// Catalog Video Start
+		$(".videoCatalog > .row:gt(1)" ).hide();
+		$('.videoCatalogBtnWrap .asBtnLink').click(function(e){
+			e.preventDefault();
+			$(this).hide();
+			$(".videoCatalog > .row").each(function(){
+			    $(this).show();
+			});	
+		});
+	// Catalog Video End
+
+		
+
+	// Video Slider Start
+	$(".videoCatalogList.owl-carousel").owlCarousel({
+		responsiveClass:true,
+		loop: false,
+		margin:15,
+		items:1,
+		dots: true,
+		nav:false,
+
+		responsive:{
+			0:{	
+				 items:1,			
+		    },
+		    768:{
+		    	items:2,
+		    },
+		    992:{
+		    	items:2,
+		    }
+		}
+	});
+	// Video Slider End 
 
 });
 

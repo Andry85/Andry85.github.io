@@ -3466,7 +3466,29 @@ a.asOffer__link .asOffer__img img {
 .profileSystemsSecond {
     padding: 22px 0 0 0;
 }
+.videoCatalogBtnWrap {
+    text-align: center;
+    padding-bottom: 45px;
+}
 
+.videoCatalogList .videoBlock .as__subtitle {
+    min-height: 55px;
+}
+.videoCatalogList__item .videoBlock {
+    margin-bottom: 35px;
+}
+.asWrap .videoCatalogList.owl-carousel .owl-dot span {
+    width: 37px;
+    height: 10px;
+    border-radius: 0;
+    background: #fff;
+    border: 1px solid #e8e8e8;
+    outline: none;
+}
+.asWrap .videoCatalogList.owl-carousel .owl-dot.active span {
+    background: #ff8600;
+    border-color: #ff8600;
+}
 
 
 
