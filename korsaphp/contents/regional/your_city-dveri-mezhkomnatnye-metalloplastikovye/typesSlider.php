@@ -7,6 +7,7 @@
 	            <h5>2643 грн</h5>
 	        </div>
 	        <span class="listType_1__item__pay"></span>
+	        <span class="listType_1__item__iq"></span>
 	    </div>
 		<figure class="listType_1__pic">
 			<div class="listType_1__img">
@@ -31,6 +32,7 @@
 	            <h5>2747 грн</h5>
 	        </div>
 	        <span class="listType_1__item__pay"></span>
+	        <span class="listType_1__item__iq"></span>
 	    </div>
 		<figure class="listType_1__pic">
 			<div class="listType_1__img">
@@ -55,6 +57,7 @@
 	            <h5>2692 грн</h5>
 	        </div>
 	        <span class="listType_1__item__pay"></span>
+	        <span class="listType_1__item__iq"></span>
 	    </div>
 		<figure class="listType_1__pic">
 			<div class="listType_1__img">
@@ -79,6 +82,7 @@
 	            <h5>2608 грн</h5>
 	        </div>
 	        <span class="listType_1__item__pay"></span>
+	        <span class="listType_1__item__iq"></span>
 	    </div>
 		<figure class="listType_1__pic">
 			<div class="listType_1__img">
@@ -103,6 +107,7 @@
 	            <h5>4105 грн</h5>
 	        </div>
 	        <span class="listType_1__item__pay"></span>
+	        <span class="listType_1__item__iq"></span>
 	    </div>
 		<figure class="listType_1__pic">
 			<div class="listType_1__img">
@@ -127,6 +132,7 @@
 	            <h5>4222 грн</h5>
 	        </div>
 	        <span class="listType_1__item__pay"></span>
+	        <span class="listType_1__item__iq"></span>
 	    </div>
 		<figure class="listType_1__pic">
 			<div class="listType_1__img">
@@ -151,6 +157,7 @@
 	            <h5>4134 грн</h5>
 	        </div>
 	        <span class="listType_1__item__pay"></span>
+	        <span class="listType_1__item__iq"></span>
 	    </div>
 		<figure class="listType_1__pic">
 			<div class="listType_1__img">
@@ -175,6 +182,7 @@
 	            <h5>4003 грн</h5>
 	        </div>
 	        <span class="listType_1__item__pay"></span>
+	        <span class="listType_1__item__iq"></span>
 	    </div>
 		<figure class="listType_1__pic">
 			<div class="listType_1__img">
@@ -199,6 +207,7 @@
 	            <h5>4312 грн</h5>
 	        </div>
 	        <span class="listType_1__item__pay"></span>
+	        <span class="listType_1__item__iq"></span>
 	    </div>
 		<figure class="listType_1__pic">
 			<div class="listType_1__img">
@@ -223,6 +232,7 @@
 	            <h5>4493 грн</h5>
 	        </div>
 	        <span class="listType_1__item__pay"></span>
+	        <span class="listType_1__item__iq"></span>
 	    </div>
 		<figure class="listType_1__pic">
 			<div class="listType_1__img">
@@ -247,6 +257,7 @@
 	            <h5>4378 грн</h5>
 	        </div>
 	        <span class="listType_1__item__pay"></span>
+	        <span class="listType_1__item__iq"></span>
 	    </div>
 		<figure class="listType_1__pic">
 			<div class="listType_1__img">
@@ -271,6 +282,7 @@
 	            <h5>4205 грн</h5>
 	        </div>
 	        <span class="listType_1__item__pay"></span>
+	        <span class="listType_1__item__iq"></span>
 	    </div>
 		<figure class="listType_1__pic">
 			<div class="listType_1__img">
@@ -295,6 +307,7 @@
 	            <h5>3568 грн</h5>
 	        </div>
 	        <span class="listType_1__item__pay"></span>
+	        <span class="listType_1__item__iq"></span>
 	    </div>
 		<figure class="listType_1__pic">
 			<div class="listType_1__img">
@@ -319,6 +332,7 @@
 	            <h5>3732 грн</h5>
 	        </div>
 	        <span class="listType_1__item__pay"></span>
+	        <span class="listType_1__item__iq"></span>
 	    </div>
 		<figure class="listType_1__pic">
 			<div class="listType_1__img">
@@ -343,6 +357,7 @@
 	            <h5>3630 грн</h5>
 	        </div>
 	        <span class="listType_1__item__pay"></span>
+	        <span class="listType_1__item__iq"></span>
 	    </div>
 		<figure class="listType_1__pic">
 			<div class="listType_1__img">
@@ -367,6 +382,7 @@
 	            <h5>3480 грн</h5>
 	        </div>
 	        <span class="listType_1__item__pay"></span>
+	        <span class="listType_1__item__iq"></span>
 	    </div>
 		<figure class="listType_1__pic">
 			<div class="listType_1__img">

@@ -52,7 +52,7 @@
 									<a class="asOffer__link" href="#">
 										<figure class="asOffer__figure">
 											<div class="asOffer__img">
-												<img class="img-responsive" src="img/plastic_doors_interior.jpg" alt="Пластиковые двери межкомнатные">
+												<img class="img-responsive" src="img/plastic_doors_interior_pic.jpg" alt="Пластиковые двери межкомнатные">
 											</div>
 											<figcaption>Пластиковые двери межкомнатные</figcaption>
 										</figure>
@@ -91,7 +91,7 @@
 									<a class="asOffer__link" href="#">
 										<figure class="asOffer__figure">
 											<div class="asOffer__img">
-												<img class="img-responsive" src="img/aluminum_interior_doors_pic.jpg" alt="Пластиковые двери входные">
+												<img class="img-responsive" src="img/plastic_entrance_doors_pic.jpg" alt="Пластиковые двери входные">
 											</div>
 											<figcaption>Пластиковые двери входные</figcaption>
 										</figure>

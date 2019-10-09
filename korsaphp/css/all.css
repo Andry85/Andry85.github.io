@@ -2778,7 +2778,12 @@ a.ourOffices_Tablist__link:active {
     background: url(../img/part_pay.png) no-repeat;
     width: 39px;
     height: 40px;
-    display: inline-block;
+}
+.listType_1__item__iq {
+    background: url(../img/part_iq.png) no-repeat;
+    width: 43px;
+    height: 28px;
+    margin-top: 5px;
 }
 
 .listType_1__item__info {
@@ -3016,6 +3021,7 @@ a.asOffer__link .asOffer__img {
     padding: 5px 0;
     margin-top: auto;
     margin-bottom: auto;
+    max-width: 316px;
 }
 
 a.asOffer__link .asOffer__img img {
@@ -4097,6 +4103,9 @@ a.asOffer__link .asOffer__img img {
     }
     .profileSystemsList__item  {
         flex-basis: 100%;
+    }
+    a.asOffer__link .asOffer__img {
+        max-width: 100%;
     }
 
 

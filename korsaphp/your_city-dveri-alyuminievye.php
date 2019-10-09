@@ -52,7 +52,7 @@
 									<a class="asOffer__link" href="#">
 										<figure class="asOffer__figure">
 											<div class="asOffer__img">
-												<img class="img-responsive" src="img/plastic_doors_interior.jpg" alt="Алюминиевые двери межкомнатные">
+												<img class="img-responsive" src="img/aluminium_doors_interior_pic.jpg" alt="Алюминиевые двери межкомнатные">
 											</div>
 											<figcaption>Алюминиевые двери межкомнатные</figcaption>
 										</figure>
@@ -91,7 +91,7 @@
 									<a class="asOffer__link" href="#">
 										<figure class="asOffer__figure">
 											<div class="asOffer__img">
-												<img class="img-responsive" src="img/aluminum_interior_doors_pic.jpg" alt="Алюминиевые двери входные">
+												<img class="img-responsive" src="img/aluminum_entrance_doors_pic.jpg" alt="Алюминиевые двери входные">
 											</div>
 											<figcaption>Алюминиевые двери входные</figcaption>
 										</figure>
