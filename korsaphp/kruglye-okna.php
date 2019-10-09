@@ -2,7 +2,7 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-md-12">
+		<div class="col-xs-12">
 			
 			<section class="asProductDesc">
 				<h1 class="asProductDesc__title">КРУГЛЫЕ ОКНА ПЛАСТИКОВЫЕ </h1>

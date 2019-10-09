@@ -32,7 +32,7 @@
 	<div class="row">
 		<div class="col-md-12">
 			
-			<section class="asProductBlock">
+			<section class="asProductBlock asProductBlock--noMarginBottom">
 				<h2 class="as__subtitle">ДИЗАЙНЕРСКИЕ ОКНА В ИНТЕРЬЕРЕ - ПОПУЛЯРНЫЕ ФОРМЫ И РАЗМЕРЫ</h2>
 				<div class="row">
 					<div class="col-md-12">

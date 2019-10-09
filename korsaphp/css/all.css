@@ -627,7 +627,9 @@ a.asLangList__link:hover
 }
 
 .breadcrumb {
-
+}
+.breadcrumb>li.breadcrumb__item {
+    display: inline;
 }
 .breadcrumb__item span {
 	color: #777;
@@ -1052,6 +1054,9 @@ a.asBtnLink.asBtnLink--primary {
 .asProductBlock {
 	padding: 25px 0 25px 0;
 
+}
+.asProductBlock.asProductBlock--noMarginBottom {
+    padding-bottom: 0;
 }
 .asProductBlock__content {
 	padding: 15px 0 15px 0;
@@ -2849,11 +2854,10 @@ a.ourOffices_Tablist__link:active {
 
 .listType_1 a.asBtnLink.asBtnLink--primary {
     background: #4bbe3f;
-    padding: 2px 15px 2px 15px;
+    padding: 7px 15px 2px 15px;
     border-bottom: 3px solid #009820;
     border-radius: 8px;
-    font-size: 24px;
-    font-family: 'ClearSans';
+    font-size: 21px;
     min-width: 178px;
 }
 
@@ -3992,7 +3996,7 @@ a.asOffer__link .asOffer__img img {
         margin-bottom: 10px;
     }
     .listType_4__item {
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
     .listType_4__title {
          margin-bottom: 10px;
@@ -4059,7 +4063,7 @@ a.asOffer__link .asOffer__img img {
         padding-top: 0;
     }
     .conditionsWrap {
-        padding-top: 35px;
+        padding-top: 25px;
     }
     .conditionsBlock {
         margin-top: 16px;
