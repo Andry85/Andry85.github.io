@@ -1335,6 +1335,7 @@ a.asreviewsBox__more:before {
 }
 .asGoods--withoutTopLine .asGoods__title {
     padding-top: 38px;
+    margin-bottom: 22px;
 }
 .asGoods--withoutTopLine:before {
     display: none;
@@ -1344,7 +1345,7 @@ a.asreviewsBox__more:before {
 	font-size: 30px;
     font-weight: 400;
     margin-top: 0;
-    margin-bottom: 8px;
+    margin-bottom: 42px;
     padding-top: 73px;
     border: none;
     font-family: 'KelsonSans';
