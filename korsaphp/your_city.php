@@ -338,7 +338,7 @@
 				</div>
 			</div>
 
-			<div class="lg-pb-30">
+			<div class="lg-pb-30 sm-pb-0">
 				<?php include 'contents/regional/your_city/slider--dveri.php'; ?>
 			</div>
 
@@ -474,7 +474,7 @@
 				</div>
 			</div>
 
-			<div class="lg-pb-30">
+			<div class="lg-pb-30 sm-pb-0">
 				<?php include 'contents/regional/your_city/slider--vorota.php'; ?>
 			</div>
 
@@ -566,7 +566,7 @@
 				</div>
 			</div>
 
-			<div class="lg-pb-30">
+			<div class="lg-pb-30 sm-pb-0">
 				<?php include 'contents/regional/your_city/slider--rollety.php'; ?>
 			</div>
 
@@ -657,10 +657,10 @@
 				</div>
 			</div>
 
-			<div class="lg-pb-10">
+			<div class="lg-pb-10 sm-pb-0">
 				<?php include 'contents/regional/your_city/slider--peregorodki.php'; ?>
 			</div>
-			<div class="lg-pb-20">
+			<div class="lg-pb-20 sm-pb-15">
 				<p class="asProductBlock__text">Пластиковые окна в Киеве и Киевской области предлагают и другие компании, но если вы стремитесь сделать помещение теплым и уютным, подарить безопасность себе и своим близким - выбирайте “Окна КОРСА”. Наши торговые точки расположены в таких городах Киевской области: Белая Церковь, Ирпень, Киев, Обухов, Сквира, Фастов.</p>
 			</div>	
 					
@@ -766,7 +766,7 @@
 				</div>
 			</div>
 
-			<div class="lg-pb-10">
+			<div class="lg-pb-10 sm-pb-0">
 				<?php include 'contents/regional/your_city/slider--zimnij-sad-osteklenie.php'; ?>
 			</div>
 			<div class="lg-pb-15">
