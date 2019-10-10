@@ -27,6 +27,15 @@
 				</section>
 				<?php include 'contents/regional/your_city/whereToBuy.php'; ?>
 				<?php include 'contents/regional/your_city/map.php'; ?>
+			</div>
+		</div>
+	</div>	
+	<?php include 'contents/discount.php'; ?>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+
+
 				<section class="asProductBlock">
 					<h2 class="as__subtitle">Цены на пластиковые окна в Киеве</h2>
 					<div class="row">
