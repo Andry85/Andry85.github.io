@@ -2202,7 +2202,7 @@ a.asTop span.ico {
     opacity: 0.5;
 }
 .asWrap .owl-carousel .owl-nav button.disabled {
-    opacity: 0;
+    opacity: 0.5;
     cursor: auto;
 }
 
