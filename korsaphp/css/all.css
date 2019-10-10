@@ -2857,11 +2857,10 @@ a.ourOffices_Tablist__link:active {
     padding: 7px 15px 5px 15px;
     box-shadow: 0 3px 0 0 #3a9731;
     border-radius: 8px;
-    font-size: 21px;
+    font-size: 20px;
     min-width: 178px;
     transform: translateY(0);
     transition: all .1s ease-in-out;
-    letter-spacing: 0.5px;
 }
 .listType_1 a.asBtnLink.asBtnLink--primary:hover {
    transform: translateY(-2px);

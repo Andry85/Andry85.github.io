@@ -8,9 +8,9 @@
 						<a class="listType_3__link" href="#" title="">
 							<figure class="listType_3__pic">
 								<div class="listType_3__img">
-									<img src="img/plastick_windows_type_1.png" alt="">
+									<img src="img/other_windows_types_plastic.jpg" alt="">
 								</div>
-								<figcaption>Окна в Киеве</figcaption>
+								<figcaption>Пластиковые окна в Киеве</figcaption>
 							</figure>
 						</a>
 					</li>
@@ -18,7 +18,7 @@
 						<a class="listType_3__link" href="#" title="">
 							<figure class="listType_3__pic">
 								<div class="listType_3__img">
-									<img src="img/plastick_windows_type_2.png" alt="">
+									<img src="img/other_windows_types_alluminium.jpg" alt="">
 								</div>
 								<figcaption>Алюминиевые окна в Киеве</figcaption>
 							</figure>
