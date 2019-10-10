@@ -141,7 +141,7 @@
 				</div>
 			</section>
 
-			<?php include 'contents/regional/your_city/slider.php'; ?>			
+			<?php include 'contents/regional/your_city/slider--okna.php'; ?>			
 			<?php include 'contents/advantages.php'; ?>
 
 			<section id="balconies" class="asProductBlock">
@@ -193,6 +193,8 @@
 					</div>
 				</div>
 			</section>
+
+			<?php include 'contents/regional/your_city/slider--balkony-lodzhii.php'; ?>	
 
 			<section id="doors" class="asProductBlock">
 				<h2 class="as__subtitle">Двери в Киеве</h2>
@@ -329,6 +331,12 @@
 				</div>
 			</div>
 
+			<div class="lg-pt-20">
+				<?php include 'contents/regional/your_city/slider--dveri.php'; ?>
+			</div>
+
+				
+
 			<section id="gates" class="asProductBlock">
 				<h2 class="as__subtitle">Гаражные ворота в Киеве</h2>
 				<div class="row">
@@ -460,6 +468,10 @@
 				</div>
 			</div>
 
+			<div class="lg-pt-20">
+				<?php include 'contents/regional/your_city/slider--vorota.php'; ?>
+			</div>
+
 			<section id="rolets" class="asProductBlock">
 				<h2 class="as__subtitle">Защитные роллеты в Киеве</h2>
 				<div class="row">
@@ -546,6 +558,10 @@
 						</ul>
 					</div>
 				</div>
+			</div>
+
+			<div class="lg-pt-20">
+				<?php include 'contents/regional/your_city/slider--rollety.php'; ?>
 			</div>
 
 			<section id="partitions" class="asProductBlock">
@@ -635,6 +651,11 @@
 					</div>
 				</div>
 			</div>
+
+			<div class="lg-pt-20">
+				<?php include 'contents/regional/your_city/slider--peregorodki.php'; ?>
+			</div>
+
 
 			<section id="winter_garden" class="asProductBlock">
 				<h2 class="as__subtitle">Остекление Зимнего сада, террасы, веранды, беседки</h2>
@@ -738,6 +759,10 @@
 				</div>
 			</div>
 
+			<div class="lg-pt-20">
+				<?php include 'contents/regional/your_city/slider--zimnij-sad-osteklenie.php'; ?>
+			</div>
+
 			<?php include 'contents/advantages.php'; ?>
 
 			<section id="glass" class="asProductBlock">
@@ -774,6 +799,11 @@
 					</div>
 				</div>
 			</section>
+
+			<div class="lg-pt-20">
+				<?php include 'contents/regional/your_city/slider--fasad-osteklenie.php'; ?>
+			</div>
+			
 		</div>
 	</div>
 </div>
