@@ -30,11 +30,12 @@
 			</div>
 		</div>
 	</div>	
-	<?php include 'contents/discount.php'; ?>
+	<div class="lg-pb-25">
+		<?php include 'contents/regional/your_city-okna-plastikovye/discount.php'; ?>
+	</div>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-
 
 				<section class="asProductBlock">
 					<h2 class="as__subtitle">Цены на пластиковые окна в Киеве</h2>
@@ -48,6 +49,10 @@
 					</div>
 				</section>
 				<?php include 'contents/advantagesSecond.php'; ?>
+				<div class="lg-ptb-15 sm-ptb-0">
+					<?php include 'contents/regional/your_city-okna-plastikovye/slider--okna-plastikovye.php'; ?>
+				</div>
+				
 				<?php include 'contents/recommendation.php'; ?>
 				<?php include 'contents/regional/your_city-okna-plastikovye/videoCatalog.php'; ?>
 				<?php include 'contents/popularСolors.php'; ?>
@@ -56,9 +61,19 @@
 		</div>
 	</div>		
 	<?php include 'contents/our_offices.php'; ?>
-	<?php include 'contents/regional/your_city-okna/other_window_types.php'; ?>
+	<div class="profileSystemsWrap">
+		<div class="container">
+			<div class="row lg-pt-70">
+				<div class="col-md-12">
+					<?php include 'contents/profile_systems.php'; ?>
+				</div>
+			</div>
+		</div>	
+	</div>
+
 	<?php include 'contents/regional/your_city-okna/differentTypesGoodsExamples.php'; ?>
 	<?php include 'contents/reviews.php'; ?>
 	<?php include 'contents/popular_construction.php'; ?>
+	<?php include 'contents/navi.php'; ?>
 
 <?php include 'footers/footer.php'; ?>
