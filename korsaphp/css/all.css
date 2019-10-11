@@ -2794,7 +2794,7 @@ a.ourOffices_Tablist__link:active {
 .listType_1__item__info {
     position: absolute;
     left: 0;
-    top: 51px;
+    top: 39px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -3476,7 +3476,7 @@ a.asOffer__link .asOffer__img img {
 }
 .listType_1__title {
     font-size: 18px;
-    padding: 0 15px 20px 15px;
+    padding: 0 10px 20px 10px;
     color: #265d9c;
     line-height: 1.0;
     margin-top: auto;
