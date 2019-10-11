@@ -5,7 +5,9 @@ $(document).ready(function(){
 
 	$(".btn").click(function(){
 
-		getImages(pageNumber.value, onDataReceived);
+		const promise = getImages(pageNumber.value);
+		promise
+		.then(onDataReceived);
 		
 	});
 
