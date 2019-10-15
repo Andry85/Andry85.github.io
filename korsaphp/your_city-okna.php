@@ -41,18 +41,22 @@
 				<h2 class="as__subtitle">Цены на пластиковые окна в Киеве</h2>
 				<div class="row">
 					<div class="col-md-12">
-						<?php include 'contents/regional/your_city-okna-plastikovye/typesSlider.php'; ?>
+						<?php include 'contents/regional/your_city-okna/typesSlider--plastikovye.php'; ?>
 						<p class="price__text">Наша компания предоставляет возможность купить окна в Киеве из большого модельного ряда металлопластиковой профильной системы REHAU (Рехау), доступные цены на которые способны приятно удивить всех. Для покупателей компания предлагает заказать конструкцию из качественных металлопластиковых профилей : ECOSOL 60, REHAU EURO 70, REHAU SYNEGO, BRILLANT DESIGN, REHAU KORSA DESIGN 70, GENEO, REHAU GENEO PHZ. Мы разработали большой выбор стильного оформления для идеальной гармонии с интерьером, который включает стандартные и нестандартные решения, большую палитру цветов и вариантов ламинации профиля “под дерево”. Вся продукция перед выпуском проходит через высокие стандарты качества, а также через многоуровневые системы контроля качества. Важно знать, что оконная конструкция прошла испытания, получив сертификат соответствия европейским стандартам.</p>
 					</div>
 				</div>
 			</section>
 			<?php include 'contents/advantagesSecond.php'; ?>
+
+			<div class="lg-ptb-15 sm-ptb-0">
+				<?php include 'contents/regional/your_city-okna-plastikovye/slider--okna-plastikovye.php'; ?>
+			</div>
 			
 			<section class="asProductBlock">
 				<h2 class="as__subtitle">Цены на алюминиевые окна в Киеве</h2>
 				<div class="row">
 					<div class="col-md-12">
-						<?php include 'contents/regional/your_city-okna-alyuminievye/typesSlider.php'; ?>
+						<?php include 'contents/regional/your_city-okna/typesSlider--alyuminievye.php'; ?>
 						<p class="price__text">В наших точках продаж в Киеве представлены самые лучшие образцы изделий наших заводов исключительно из импортных материалов. Кроме классических форм, можно заказать оконные конструкции нестандартных форм - арочные, в виде треугольника, в форме трапеции, в виде круга и др. Любой диапазон размеров и форм, различные способы открывания: стандартное открывание или раздвижные.</p>
 						<p class="price__text">Существует два типа алюминиевого профиля: теплый и холодный. Покупая алюминиевые окна в Киеве, мы можем вам предложить модели «теплого» алюминия таких общеизвестных фирм: профиль ALTEST – 690 COMFORT, Alutech ALT W62, Alutech ALT W72. Конструкции, сделанные из такого алюминия, оснащены термовставками и не будут промерзать во время холода. Им не страшна деформация и коррозия. Также мы производим модели «холодного алюминия»: PONY 375 ALTEST, Alutech ALT C48. Такими окнами можно быстро остеклить лоджии, веранды, окна и балконы, а также купить их по доступным ценам.</p>
 						<p class="price__text">Немаловажным фактором представляется дизайн алюминиевой конструкции окна. Вы можете выбрать у нас дизайнерское оформление ваших алюминиевой конструкции окна в любом цветовом спектре. С помощью порошкового метода профиль окна покрывают краской которая, сберегает свой первозданный цветовой оттенок долгие годы. Можно купить ламинированные окна в Киеве, имитирующие натуральное дерево. У нас есть большое количество вариантов декорации под вид дерева.</p>
@@ -60,6 +64,9 @@
 					</div>
 				</div>
 			</section>
+			<div class="lg-ptb-15 sm-pb-0">
+				<?php include 'contents/regional/your_city-okna-alyuminievye/slider.php'; ?>
+			</div>
 			<?php include 'contents/recommendation.php'; ?>
 			<?php include 'contents/regional/your_city-okna/videoCatalog.php'; ?>
 			<?php include 'contents/popularСolors.php'; ?>
@@ -72,5 +79,6 @@
 <?php include 'contents/regional/your_city-okna/differentTypesGoodsExamples.php'; ?>
 <?php include 'contents/reviews.php'; ?>
 <?php include 'contents/popular_construction.php'; ?>
+<?php include 'contents/navi.php'; ?>
 
 <?php include 'footers/footer.php'; ?>
