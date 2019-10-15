@@ -1,12 +1,6 @@
 <ul class="asAdvantagesList">
 	<li class="asAdvantagesList__item">
 		<figure>
-			<img src="img/REHAU.png" alt="Профиль REHAU (Германия)">
-			<figcaption>Профиль REHAU (Германия)</figcaption>
-		</figure>
-	</li>
-	<li class="asAdvantagesList__item">
-		<figure>
 			<img src="img/Garant.png" alt="Гарантия 10 лет">
 			<figcaption>Гарантия 10 лет</figcaption>
 		</figure>

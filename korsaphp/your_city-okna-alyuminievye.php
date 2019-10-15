@@ -47,7 +47,7 @@
 					</div>
 				</div>
 				
-				<?php include 'contents/advantagesSecond.php'; ?>
+				<?php include 'contents/regional/your_city-okna-alyuminievye/advantagesSecond.php'; ?>
 
 				<div class="lg-pt-25 lg-pb-10">
 					<?php include 'contents/regional/your_city-okna-alyuminievye/slider.php'; ?>
