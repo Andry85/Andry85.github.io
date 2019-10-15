@@ -3532,6 +3532,55 @@ a.asOffer__link .asOffer__img img {
     padding-bottom: 20px;
 }
 
+.windowsSystems {
+    padding: 17px 0 3px 0;
+
+}
+.windowsSystemsTable__pic {
+    margin: 0;
+}
+.windowsSystemsTable__pic img {
+    max-width: 100%;
+}
+
+.windowsSystemsTable {
+    table-layout: fixed;
+}
+.windowsSystemsTable__col_1 {
+    width: 40.48%;
+}
+.windowsSystemsTable.table>thead>tr>th {
+    border: 0;
+
+}
+.windowsSystemsTable.table>tbody>tr:nth-child(even)> td {
+    background: #e9f1f8;
+} 
+.windowsSystemsTable.table>tbody>tr>td {
+    border: 0;
+    font-size: 14px;
+}
+.windowsSystemsTable.table>tbody {
+    border-top: 1px solid #e9f1f8;
+}
+.windowsSystems__title {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0 0 25px 0;
+    font-family: 'KelsonSans';
+}
+.windowsSystemsTable__text--name {
+    text-transform: uppercase;
+}
+
+.advantageList {
+    margin: -10px 0 0 0;
+    padding: 0;
+    list-style: none;
+}
+.advantageList__item {
+
+}
 
 
 
@@ -4144,6 +4193,13 @@ a.asOffer__link .asOffer__img img {
     }
     .videoCatalogBtnWrap {
         padding-bottom: 25px;
+    }
+    .windowsSystemsTable {
+        table-layout: auto;
+    }
+    .windowsSystemsTable__pic {
+        width: 100px;
+        height: 100px;
     }
 
 
