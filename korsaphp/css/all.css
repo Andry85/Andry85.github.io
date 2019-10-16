@@ -2206,12 +2206,11 @@ a.asTop span.ico {
 }
 
 .asWrap .owl-carousel .owl-nav button.owl-next {
-    left: -60px;
-    transform: rotate(-180deg);
-    
+    right: -60px;
 }
 .asWrap .owl-carousel .owl-nav button.owl-prev {
-    right: -60px;
+    left: -60px;
+    transform: rotate(-180deg);
 }
 .asWrap .owl-carousel .owl-dots {
     text-align: center;
@@ -2237,10 +2236,10 @@ a.asTop span.ico {
     flex-wrap: wrap;
 }
 .asWrap .listType_1 .owl-carousel .owl-nav button.owl-next {
-    left: -30px;
+    right: -30px;
 }
 .asWrap .listType_1 .owl-carousel .owl-nav button.owl-prev {
-    right: -30px;
+    left: -30px;
 }
 
 .listType_1__item {
