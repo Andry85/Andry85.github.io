@@ -2270,6 +2270,14 @@ a.asTop span.ico {
     padding: 10px;  
     justify-content: center;
 }
+.listType_1.listType_1--peregorodki .listType_1__img {
+    padding: 0 0 5px 0;
+}
+.listType_1.listType_1--peregorodki .listType_1__pic {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 .listType_1__img img {
     max-width: 100%;
     width: auto!important;
@@ -3577,9 +3585,69 @@ a.asOffer__link .asOffer__img img {
     padding: 0;
     list-style: none;
 }
-.advantageList__item {
+
+
+.offerListWrap {
 
 }
+.offerListWrap__title {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 0 15px 0;
+    padding: 0;
+    border: none;
+    text-align: center;
+}
+.offerListWrap__desc {
+    text-align: center;
+    line-height: 1.2;
+}
+.offerList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 18px 0 0 0;
+}
+.offerList__item {
+    list-style: none;
+    flex-basis: 298px;
+    padding: 10px;
+}
+.offerList__pic {
+    margin: 0 0 15px 0;
+}
+.offerList__pic img {
+    max-width: 100%;
+}
+.offerList__title {
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 3px;
+    font-size: 20px;
+    font-family: 'ClearSans-Medium';
+    margin: 0 0 28px 0;
+}
+.offerList__title:before {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    width: 200px;
+    height: 3px;
+    bottom: -2px;
+    left: 0px;
+    background: #ff8500;
+}
+.offerList__text {
+    text-align: center;
+    color: #1a1f31;
+    line-height: 1.2;
+}
+
+.getCallWrap {
+    background: url(../img/ourOffices-bg.png) center 0 #e8f0f7;
+}
+
 
 
 
