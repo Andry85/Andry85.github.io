@@ -1,7 +1,7 @@
 <?php include 'headers/header.php'; ?>
 
 <div class="container">
-	<div class="row">
+	<div class="row lg-pb-30">
 		<div class="col-md-12">
 		
 			<section class="asProductDesc">
@@ -32,7 +32,7 @@
 
 			<?php include 'contents/regional/your_city-peregorodki/offer_list.php'; ?>
 
-			<section class="asProductBlock">
+			<section class="asProductBlock lg-pb-5">
 				<h2 class="as__subtitle">Металлопластиковые перегородки в Киеве</h2>
 				<div class="row">
 					<div class="col-md-6">
@@ -65,10 +65,8 @@
 				</div>
 			</section>
 
-			<div class="lg-pb-30 sm-pb-0">
-				<?php include 'contents/regional/your_city-peregorodki/slider--peregorodki-plastikovye.php'; ?>
-			</div>
-			<section class="asProductBlock lg-mt-30">
+			<?php include 'contents/regional/your_city-peregorodki/slider--peregorodki-plastikovye.php'; ?>
+			<section class="asProductBlock">
 				<h2 class="as__subtitle">Цены на пластиковые перегородки</h2>
 				<div class="row">
 					<div class="col-md-12">
@@ -82,13 +80,13 @@
 	</div>
 </div>
 
-<?php include 'contents/getCall.php'; ?>
+<?php include 'contents/getCall_first.php'; ?>
 
 <div class="container">
 	<div class="row lg-pt-40">
 		<div class="col-md-12">
 
-			<section class="asProductBlock">
+			<section class="asProductBlock lg-pb-5">
 				<h2 class="as__subtitle">Стеклянные перегородки в Киеве</h2>
 				<div class="row">
 					<div class="col-md-6">
@@ -120,11 +118,10 @@
 					</div>
 				</div>
 			</section>
-
-			<div class="lg-ptb-30">
+			<div class="lg-pt-30">
 				<?php include 'contents/regional/your_city-peregorodki/slider--peregorodki-steklyannye.php'; ?>
 			</div>
-			<section class="asProductBlock lg-mt-30">
+			<section class="asProductBlock">
 				<h2 class="as__subtitle">Цены на стеклянные перегородки</h2>
 				<div class="row">
 					<div class="col-md-12">
@@ -133,23 +130,20 @@
 				</div>
 			</section>
 			<?php include 'contents/advantagesSecond.php'; ?>
-
 			<?php include 'contents/regional/your_city-peregorodki/offer_list--doors.php'; ?>
-
 		</div>
 	</div>
 </div>
 
 <div class="lg-ptb-30">
-	<?php include 'contents/getCall.php'; ?>
+	<?php include 'contents/getCall_second.php'; ?>
 </div>
 
-
 <div class="container">
-	<div class="row lg-pt-40">
+	<div class="row lg-pt-10">
 		<div class="col-md-12">
 
-			<section class="asProductBlock">
+			<section class="asProductBlock lg-pb-5">
 				<h2 class="as__subtitle">Алюминиевые перегородки в Киеве</h2>
 				<div class="row">
 					<div class="col-md-6">
@@ -181,11 +175,8 @@
 					</div>
 				</div>
 			</section>
-
-			<div class="lg-ptb-30">
-				<?php include 'contents/regional/your_city-peregorodki/slider--peregorodki-alyuminievye.php'; ?>
-			</div>
-			<section class="asProductBlock lg-mt-30">
+			<?php include 'contents/regional/your_city-peregorodki/slider--peregorodki-alyuminievye.php'; ?>
+			<section class="asProductBlock">
 				<h2 class="as__subtitle">Цены на алюминиевые перегородки</h2>
 				<div class="row">
 					<div class="col-md-12">
@@ -193,39 +184,50 @@
 					</div>
 				</div>
 			</section>
+
 			<?php include 'contents/advantagesSecond.php'; ?>
-
-			<?php include 'contents/regional/your_city-peregorodki/offer_list--doors.php'; ?>
-
 		</div>
 	</div>
 </div>
 
+<div class="lg-ptb-30">
+	<?php include 'contents/getCall_third.php'; ?>
+</div>
 
+<div class="container">
+	<div class="row lg-ptb-35">
+		<div class="col-md-12">
+			<?php include 'contents/regional/your_city-peregorodki/canbeused.php'; ?>
+		</div>
+	</div>
+	<div class="row lg-ptb-15">
+		<div class="col-md-12">
+			<?php include 'contents/regional/your_city-peregorodki/profits.php'; ?>
+		</div>
+	</div>
+</div>	
 
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
-
-			<?php include 'contents/regional/your_city-lodzhya/videoCatalog.php'; ?>
 			<?php include 'contents/popularСolors.php'; ?>
-
 		</div>
 	</div>
 </div>
 
-
-
-
-
-
-
-
 <?php include 'contents/our_offices.php'; ?>
-<?php include 'contents/regional/your_city-lodzhya/portfolio.php'; ?>
+
+<div class="container">
+	<div class="row lg-pt-60">
+		<div class="col-md-12">
+			<?php include 'contents/regional/your_city-peregorodki/videoCatalog.php'; ?>
+		</div>
+	</div>
+</div>
+
+<?php include 'contents/regional/your_city-peregorodki/portfolio.php'; ?>
 <?php include 'contents/reviews.php'; ?>
-<?php include 'contents/popular_construction.php'; ?>
+<?php include 'contents/regional/your_city-peregorodki/recommends.php'; ?>
+
 <?php include 'contents/navi.php'; ?>
-
-
 <?php include 'footers/footer.php'; ?>

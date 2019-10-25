@@ -287,7 +287,7 @@
 							<input name="firstname" class="asModal__field" type="text" required="required" placeholder="Введите Ваше имя">
 						</div>
 						<div class="asModal__row">
-							<input name="email" class="asModal__field" type="tel" required="required" placeholder="Введите Ваш телефон">
+							<input name="phone" class="asModal__field" type="tel" required="required" placeholder="Введите Ваш телефон">
 						</div>
 						<div class="asModal__row">
 							<button class="asModal__btn">ОБРАТНЫЙ ЗВОНОК</button>

@@ -1,7 +1,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
-			<div class="categoriesBlock">
+			<div class="categoriesBlock lg-pb-40">
 				<ul class="ascategoriesNav">
 					<li class="ascategoriesNav__item">
 						<a class="ascategoriesNav__link" href="#" title="">

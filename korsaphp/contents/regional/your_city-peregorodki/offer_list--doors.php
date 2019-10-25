@@ -1,4 +1,4 @@
-<div class="offerListWrap">
+<div class="offerListWrap offerListWrap--doors">
 	<h2 class="offerListWrap__title">популярные типы открывания дверей в перегородках</h2>
 	<p class="offerListWrap__desc">Кроме стандартного распашного открывания двери, доступны и другие варианты: штульповое, раздвижное, маятниковое, автоматическое октрывание.</p>
 	<ul class="offerList">

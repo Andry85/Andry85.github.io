@@ -70,14 +70,11 @@ $(function() {
 		$("#popupForm").validate({
 			rules: {
 				firstname: "required",
-				email: {
-					required: true,
-					email: true
-				}
+				phone: "required",
 			},
 			messages: {
 				firstname: "Пожалуйста, введите ваше имя.",
-				email: "Пожалуйста, введите корректный email",
+				phone: "Пожалуйста, введите ваш телефон.",
 			}
 		});
 		$("#subscribeForm").validate({
@@ -89,6 +86,36 @@ $(function() {
 			},
 			messages: {
 				subscribeEmail: "Пожалуйста, введите корректный email",
+			}
+		});
+		$("#getCallForm_1").validate({
+			rules: {
+				getcalfirstname__getCallForm_1: "required",
+				getcalphone__getCallForm_1: "required",
+			},
+			messages: {
+				getcalfirstname__getCallForm_1: "Пожалуйста, введите ваше имя.",
+				getcalphone__getCallForm_1: "Пожалуйста, введите ваш телефон.",
+			}
+		});
+		$("#getCallForm_2").validate({
+			rules: {
+				getcalfirstname__getCallForm_2: "required",
+				getcalphone__getCallForm_2: "required",
+			},
+			messages: {
+				getcalfirstname__getCallForm_2: "Пожалуйста, введите ваше имя.",
+				getcalphone__getCallForm_2: "Пожалуйста, введите ваш телефон.",
+			}
+		});
+		$("#getCallForm_3").validate({
+			rules: {
+				getcalfirstname__getCallForm_3: "required",
+				getcalphone__getCallForm_3: "required",
+			},
+			messages: {
+				getcalfirstname__getCallForm_3: "Пожалуйста, введите ваше имя.",
+				getcalphone__getCallForm_3: "Пожалуйста, введите ваш телефон.",
 			}
 		});
 	// Form validation End	
@@ -227,11 +254,11 @@ $(function() {
 			    $(this).show();
 			});	
 		});
-
-
-
-
 	// Catalog Video End
+
+	// Form GET CAll validation Start
+		
+	// Form GET CAll validation End	
 
 		
 
