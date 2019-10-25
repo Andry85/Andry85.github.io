@@ -2270,12 +2270,13 @@ a.asTop span.ico {
     padding: 10px;  
     justify-content: center;
 }
-.listType_1.listType_1--peregorodki .listType_1__img {
-    padding: 0 0 5px 0;
-}
-.listType_1.listType_1--peregorodki .listType_1__pic {
+.listType_1.listType_1--withSizes .listType_1__pic {
     margin-left: 5px;
     margin-right: 5px;
+    margin-top: 25px;
+}
+.listType_1.listType_1--withSizes .listType_1__title {
+    padding-bottom: 0;
 }
 
 .listType_1__img img {
@@ -2776,6 +2777,8 @@ a.ourOffices_Tablist__link:active {
     flex-direction: column;
     justify-content: center;
     margin-bottom: 10px;
+    position: relative;
+    z-index: 4;
 }
 
 .listType_1__item__discount p {
@@ -3597,15 +3600,19 @@ a.asOffer__link .asOffer__img img {
     padding: 0;
     border: none;
     text-align: center;
+    color: #1a1f32;
 }
 .offerListWrap__desc {
     text-align: center;
     line-height: 1.2;
+    color: #1a1f32;
+    max-width: 880px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .offerList {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin: 0;
     padding: 18px 0 0 0;
 }
@@ -3646,7 +3653,137 @@ a.asOffer__link .asOffer__img img {
 
 .getCallWrap {
     background: url(../img/ourOffices-bg.png) center 0 #e8f0f7;
+    padding: 41px 0 32px 0;
 }
+.getCallWrap__title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 auto 15px auto;
+    padding: 0;
+    max-width: 580px;
+    color: #1a1f32;
+}
+.getCallWrap__text {
+    margin: 0 auto 15px auto;
+    padding: 3px 0 0 0;
+    max-width: 880px;
+    text-align: center;
+    font-size: 18px;
+    color: #1a1f32;
+}
+
+
+.getCallFormWrap {
+    padding: 16px 0 13px 0;
+}
+.getCallForm {
+    display: flex;
+    justify-content: center;
+}
+.getCallForm__field {
+    border: 1px solid #d1d1d1;
+    line-height: 35px;
+    color: #1a1f32;
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+    flex-basis: 211px;
+    margin: 0 25px;
+}
+.getCallForm__field::placeholder {
+    color: #d1d1d1;
+}
+.getCallForm__btn {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #ff8600;
+    border: 0;
+    padding: 0 15px;
+    border-radius: 8px;
+}
+.getCallForm__btn:hover {
+    opacity: 0.8;
+}
+
+.listType_1Sizes {
+    display: flex;
+    flex-direction: column;
+}
+.listType_1Sizes__width {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40px
+    
+}
+.listType_1Sizes__width span {
+    font-size: 10px;
+    background: #fff;
+    display: inline-block;
+    padding: 0 6px;
+    color: #686262;
+    z-index: 3;
+    position: relative;
+    top: -1px;
+}
+.listType_1Sizes__width:before {
+    content: '';
+    width: 60%;
+    height: 2px;
+    background: #ddd;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    z-index: 2;
+}
+
+
+.listType_1Sizes__inner {
+    display: flex;
+    padding: 0 15px;
+    justify-content: center;
+}
+.listType_1Sizes__height {
+    width: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.listType_1Sizes__height:before {
+    content: '';
+    width: 2px;
+    height: 100%;
+    background: #ddd;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    z-index: 2;
+}
+.listType_1Sizes__height span {
+    font-size: 10px;
+    background: #fff;
+    display: inline-block;
+    padding: 0 6px;
+    color: #686262;
+    z-index: 3;
+    position: relative;
+    left: 1px;
+    transform: rotate(90deg);
+    white-space: nowrap;
+}
+.listType_1Sizes__pic {
+    flex-grow: 1;
+}
+
 
 
 

@@ -30,9 +30,9 @@
 				</div>
 			</div>
 
-			<?php include 'contents/offer_list.php'; ?>
+			<?php include 'contents/regional/your_city-peregorodki/offer_list.php'; ?>
 
-			<section id="gates" class="asProductBlock">
+			<section class="asProductBlock">
 				<h2 class="as__subtitle">Металлопластиковые перегородки в Киеве</h2>
 				<div class="row">
 					<div class="col-md-6">
@@ -72,7 +72,7 @@
 				<h2 class="as__subtitle">Цены на пластиковые перегородки</h2>
 				<div class="row">
 					<div class="col-md-12">
-						<?php include 'contents/regional/your_city-peregorodki/typesSlider.php'; ?>
+						<?php include 'contents/regional/your_city-peregorodki/typesSlider-plastikovye.php'; ?>
 					</div>
 				</div>
 			</section>
@@ -85,16 +85,138 @@
 <?php include 'contents/getCall.php'; ?>
 
 <div class="container">
+	<div class="row lg-pt-40">
+		<div class="col-md-12">
+
+			<section class="asProductBlock">
+				<h2 class="as__subtitle">Стеклянные перегородки в Киеве</h2>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="asProductBlock__content">
+							<p class="asProductBlock__text">Австрийские ведущие производители занимают приоритетные ниши на рынке товаров. Комплектующие, изготовленные специалистами Австрии, пользуются спросом в развитых странах мира. Стеклянные перегородки повышают эстетичность помещений, делая их более просторными, светлыми. Образцы доступны в Киеве по привлекательной цене. </p>
+							<p class="asProductBlock__text">Высококачественное, прочное стекло создает надежность и долговечность конструкциям. При этом площадь горизонтальных профилей значительно сокращается. Специальные впрессованные уплотнения надежно удерживают стеклянные полотна. По желанию заказчика, изготавливаются всевозможные конструкции. Для каждой из них характерна гибкость, возможность трансформироваться. Следует отметить высокий уровень звукоизоляции и долговечность.</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="row asProductRow">
+							<div class="col-md-12">
+								<div class="asOffer">
+									<a class="asOffer__link" href="#">
+										<figure class="asOffer__figure">
+											<div class="asOffer__img">
+												<img class="img-responsive" src="img/plastick_windows.png" alt="Пластиковые перегородки">
+											</div>	
+											<figcaption>Стеклянные перегородки</figcaption>
+										</figure>
+									</a>
+									<div class="asPrice">
+										Цена от
+										<span class="asPrice__count">10048</span>
+										<span class="asPrice__currency">грн</span>
+									</div>
+								</div>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</section>
+
+			<div class="lg-ptb-30">
+				<?php include 'contents/regional/your_city-peregorodki/slider--peregorodki-steklyannye.php'; ?>
+			</div>
+			<section class="asProductBlock lg-mt-30">
+				<h2 class="as__subtitle">Цены на стеклянные перегородки</h2>
+				<div class="row">
+					<div class="col-md-12">
+						<?php include 'contents/regional/your_city-peregorodki/typesSlider-steklyannye.php'; ?>
+					</div>
+				</div>
+			</section>
+			<?php include 'contents/advantagesSecond.php'; ?>
+
+			<?php include 'contents/regional/your_city-peregorodki/offer_list--doors.php'; ?>
+
+		</div>
+	</div>
+</div>
+
+<div class="lg-ptb-30">
+	<?php include 'contents/getCall.php'; ?>
+</div>
+
+
+<div class="container">
+	<div class="row lg-pt-40">
+		<div class="col-md-12">
+
+			<section class="asProductBlock">
+				<h2 class="as__subtitle">Алюминиевые перегородки в Киеве</h2>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="asProductBlock__content">
+							<p class="asProductBlock__text">Белорусские производители стараются создавать конкурентоспособные товары. Образцы продукции компании ALUTECH показали себя на практике с наилучшей стороны. Долговечность и невысокая цена – критерии выбора многих современных покупателей. Алюминиевые перегородки, создаваемые на основе фурнитуры производства Беларусь, можно купить в г. Киев по самой низкой стоимости. Производители применяют новые технологии, экологичные материалы. Конструкции применяют для торговых центров, офисов, отелей и других строительных объектов.</p>
+							<p class="asProductBlock__text">Основная черта профильных составляющих фирмы «Алютех» - отменное распределение металлического материала по сечениям различных форм. Фиксация осуществляется при помощи мощных прижимов. При этом конструкции выдерживают максимальную нагрузку. Отмечается высокий уровень защиты от проницаемости звуков. Высокая технологическая составляющая расширяет возможности для решения различных проектных задач.</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="row asProductRow">
+							<div class="col-md-12">
+								<div class="asOffer">
+									<a class="asOffer__link" href="#">
+										<figure class="asOffer__figure">
+											<div class="asOffer__img">
+												<img class="img-responsive" src="img/plastick_windows.png" alt="Алюминиевые перегородки">
+											</div>	
+											<figcaption>Алюминиевые перегородки</figcaption>
+										</figure>
+									</a>
+									<div class="asPrice">
+										Цена от
+										<span class="asPrice__count">10048</span>
+										<span class="asPrice__currency">грн</span>
+									</div>
+								</div>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</section>
+
+			<div class="lg-ptb-30">
+				<?php include 'contents/regional/your_city-peregorodki/slider--peregorodki-alyuminievye.php'; ?>
+			</div>
+			<section class="asProductBlock lg-mt-30">
+				<h2 class="as__subtitle">Цены на алюминиевые перегородки</h2>
+				<div class="row">
+					<div class="col-md-12">
+						<?php include 'contents/regional/your_city-peregorodki/typesSlider-alyuminievye.php'; ?>
+					</div>
+				</div>
+			</section>
+			<?php include 'contents/advantagesSecond.php'; ?>
+
+			<?php include 'contents/regional/your_city-peregorodki/offer_list--doors.php'; ?>
+
+		</div>
+	</div>
+</div>
+
+
+
+<div class="container">
 	<div class="row">
 		<div class="col-md-12">
 
 			<?php include 'contents/regional/your_city-lodzhya/videoCatalog.php'; ?>
 			<?php include 'contents/popularСolors.php'; ?>
 
-	
 		</div>
 	</div>
 </div>
+
+
+
+
 
 
 
