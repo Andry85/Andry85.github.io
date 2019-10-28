@@ -1065,6 +1065,13 @@ a.asBtnLink.asBtnLink--primary {
 	line-height: 1.5;
     margin-bottom: 20px;
 }
+.asProductBlock__text--title {
+    text-align: center;
+    max-width: 980px;
+    margin: 0 auto -10px auto;
+    padding: 20px 0 0 0;
+}
+
 .asOffer {
 	text-align: center;
 	padding: 24px 0 0 0;
@@ -2722,7 +2729,7 @@ a.ourOffices_Tablist__link:active {
     color: #0e3d6b;
 }
 .priceList dt {
-    font-weight: bold;
+    font-weight: 400;
     margin: 0 0 10px 0;
 
 }
@@ -3878,7 +3885,7 @@ a.asOffer__link .asOffer__img img {
 .profits h2 {
     font-size: 30px;
     font-weight: 600;
-    margin: 0 0 15px 0;
+    margin: 0 0 22px 0;
     padding: 0;
     border: none;
     text-align: center;
@@ -4005,6 +4012,9 @@ a.asOffer__link .asOffer__img img {
     padding: 0 0 32px 0;
 }
 
+.typesSlider-alyuminievye {
+    margin-top: -37px;
+}
 
 
 
