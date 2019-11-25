@@ -260,6 +260,16 @@ $(function() {
 		
 	// Form GET CAll validation End	
 
+	// Slider Start
+	 $(".presentationList .owl-carousel").owlCarousel({
+	    responsiveClass:true,
+	    loop: true,
+	    items:1,
+	    dots: false,
+		nav:true
+	 });
+	// Slider End 
+
 		
 
 });

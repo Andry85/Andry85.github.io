@@ -3900,8 +3900,7 @@ a.asOffer__link .asOffer__img img {
 }
 .profitsList__item {
     flex-basis: 25%;
-    
-    margin-bottom: 2px;
+    margin-bottom: 22px;
 }
 .profitsList__item figure {
     margin: 0 0 18px 0;
@@ -4016,8 +4015,138 @@ a.asOffer__link .asOffer__img img {
     margin-top: -37px;
 }
 
+.video-presentation-wrap {
 
+}
+.video-presentation-wrap__title {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0 0 47px 0;
+    padding: 0;
+    border: none;
+    text-align: center;
+    color: #1a1f32;
+}
 
+.asWrap .presentationList .owl-carousel .owl-nav button {
+    background: url(../img/presentationList-arrow.png) no-repeat;
+    width: 18px;
+    height: 43px;
+}
+.asWrap .presentationList .owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+    transform: rotate(0);
+}
+.asWrap .presentationList .owl-carousel .owl-nav button.owl-next {
+    right: 0;
+     transform: rotate(180deg);
+
+}
+.asWrap .presentationList .owl-carousel .owl-nav {
+    z-index: 11;
+    height: 43px;
+    top: 37%;
+}
+
+.presentationList__title {
+    text-align: center;
+    text-transform: none;
+    font-weight: 400;
+    color: #1a1f31;
+    margin: 14px 0 0 0;
+}
+
+.presentationList__link {
+    display: block;
+    text-align: center;
+}
+
+.popularPricesTable {
+    max-width: 840px;
+    margin: 0 auto;
+
+}
+.popularPricesTable .table {
+    table-layout: fixed;
+}
+.popularPricesTable .table>tbody>tr>td,
+.popularPricesTable .table>tbody>tr>th {
+    border: 0;
+    width: 25%;
+    padding: 0;
+    font-weight: normal;
+}
+.popularPricesTable_subtitle {
+    text-align: center;
+    font-size: 18px;
+    color: #003b6d;
+    font-weight: 600;
+    padding: 0 18px;
+}
+.popularPricesTable_subtitle:after {
+    content: '';
+    border-bottom: 3px solid #ff8700;
+    display: block;
+    margin-top: 6px;
+}
+
+.popularPricesTable_desc {
+    text-align: center;
+    font-size: 14px;
+    padding: 0 18px;
+}
+
+.popularPricesTableCar {
+    display: inline-block;
+    padding: 0 14px 9px 14px;
+    text-align: center;
+}
+.popularPricesTableCar__pic {
+    margin: 0;
+}
+.popularPricesTableCar__pic figcaption {
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #30333f;
+}
+.popularPricesTable_text {
+    color: #1a1f31;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 3px 18px 6px 18px;
+    margin: 0;
+}
+.popularPricesTable_text span {
+    font-weight: 400;
+}
+.popularPricesTable .table>tbody>tr:nth-child(even) td {
+    background: #f1eeed;
+}
+.popularPricesTable .table>tbody>tr:nth-child(even) td:first-child {
+    background: none;
+}
+
+.popularPricesTable_border {
+    position: relative;
+    margin-top: 4px;
+}
+.popularPricesTable_border:after {
+    content: '';
+    background: #ff8600;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+
+}
+.popularPricesTable .table>tbody>tr.popularPricesTable_bottom td {
+    background: none;
+}
+.popularPricesTable .table>tbody>tr.popularPricesTable_bottom td:first-child .popularPricesTable_border:after {
+    width: calc(100% + 17px);
+}
 
 
 /* Media */
