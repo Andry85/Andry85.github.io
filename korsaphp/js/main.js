@@ -423,7 +423,7 @@ $(function() {
 	$('.gateConfiguratorForm__btn').on('click', function(e) {
 	  e.preventDefault()
 
-	  $(".selectionDoorsCalculateWrap").slideDown();
+	  $(".selectionDoorsCalculateWrap").slideToggle();
 	  var confWidthData = $('.gateConfiguratorForm__width').val();
 	  var confWidth = Number(confWidthData);
 	  var confHeightData = $('.gateConfiguratorForm__height').val();

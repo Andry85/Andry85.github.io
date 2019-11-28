@@ -335,7 +335,7 @@
 </div>
 
 <?php include 'contents/reviews.php'; ?>
-<?php include 'contents/regional/your_city-peregorodki/recommends.php'; ?>
+<?php include 'contents/recommends.php'; ?>
 
 <?php include 'contents/navi.php'; ?>
 <?php include 'footers/footer.php'; ?>
