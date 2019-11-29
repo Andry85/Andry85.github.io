@@ -2,7 +2,7 @@
   "name": "app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Andry85/Andry85.github.io/tree/master/liliAgency",
+  "homepage": "https://andry85.github.io/liliAgency/",
   "dependencies": {
     "google-maps-react": "^2.0.2",
     "react": "^16.10.1",
