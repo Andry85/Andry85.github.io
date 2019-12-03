@@ -3065,7 +3065,7 @@ a.asOffer__link .asOffer__img {
 a.asOffer__link .asOffer__img img {
     margin-top: 0;
     margin-bottom: 0;
-    max-width: 316px;
+    max-width: 100%;
 }
 
 .asProductRow {
@@ -4762,6 +4762,11 @@ a.asOffer__link .asOffer__img img {
     top: 47%;
 }
 
+
+.offerListWrap.offerListWrap--shutters .offerList {
+    max-width: 880px;
+    margin: 0 auto;
+}
 
 
 
