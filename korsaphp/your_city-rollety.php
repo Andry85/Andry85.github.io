@@ -70,14 +70,13 @@
 				<div class="lg-pt-25 lg-pb-10">
 					<?php include 'contents/regional/your_city-rollety/slider--rollety-zashitnye.php'; ?>
 				</div>
-				<p class="asProductBlock__text">Пластиковые окна в Киеве и Киевской области предлагают и другие компании, но если вы стремитесь сделать помещение теплым и уютным, подарить безопасность себе и своим близким - выбирайте “Окна КОРСА”. Наши торговые точки расположены в таких городах Киевской области: Белая Церковь, Ирпень, Киев, Обухов, Сквира, Фастов.</p>
 			
 			</section>
 
 		</div>
 	</div>
 </div>
-<div class="lg-ptb-40">
+<div class="lg-ptb-40 sm-pt-0 sm-pb-30">
 	<?php include 'contents/regional/your_city-rollety/getCall_first.php'; ?>
 </div>
 <div class="container">
@@ -117,9 +116,8 @@
 					</div>
 				</div>
 				<div class="lg-pt-25 lg-pb-10">
-					<?php include 'contents/regional/your_city-rollety/slider--rollety-zashitnye.php'; ?>
+					<?php include 'contents/regional/your_city-rollety/slider--rolletnye-reshetki.php'; ?>
 				</div>
-				<p class="asProductBlock__text">Пластиковые окна в Киеве и Киевской области предлагают и другие компании, но если вы стремитесь сделать помещение теплым и уютным, подарить безопасность себе и своим близким - выбирайте “Окна КОРСА”. Наши торговые точки расположены в таких городах Киевской области: Белая Церковь, Ирпень, Киев, Обухов, Сквира, Фастов.</p>
 			
 			</section>
 
@@ -127,10 +125,21 @@
 	</div>
 </div>
 
+<div class="lg-pt-20 sm-pt-0">
+	<?php include 'contents/our_offices.php'; ?>
+</div>
 
+<div class="container">
+	<div class="row lg-pt-60">
+		<div class="col-md-12">
+			<?php include 'contents/regional/your_city-rollety/videoCatalog.php'; ?>
+		</div>
+	</div>
+</div>
 
-
+<?php include 'contents/regional/your_city-rollety/portfolio.php'; ?>
 <?php include 'contents/reviews.php'; ?>
-<?php include 'contents/regional/your_city/differentTypesGoods.php'; ?>
+<?php include 'contents/recommends.php'; ?>
+<?php include 'contents/navi.php'; ?>
 
 <?php include 'footers/footer.php'; ?>
