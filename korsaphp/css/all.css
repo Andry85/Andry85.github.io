@@ -3684,8 +3684,10 @@ a.asOffer__link .asOffer__img img {
     font-weight: 600;
     margin: 0 auto 15px auto;
     padding: 0;
-    max-width: 580px;
+    max-width: 620px;
     color: #1a1f32;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.2;
 }
 .getCallWrap__text {
     margin: 0 auto 15px auto;
@@ -3694,6 +3696,8 @@ a.asOffer__link .asOffer__img img {
     text-align: center;
     font-size: 18px;
     color: #1a1f32;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.333;
 }
 
 
@@ -4001,9 +4005,12 @@ a.asOffer__link .asOffer__img img {
     border-radius: 2px;
 }
 .recommendsList__item p {
-    color: #1a1f31;
-    line-height: 1.1;
+    color: #383b48;
+    line-height: 1.125;
     padding: 0 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
 }
 
 .recommendsOuter {
