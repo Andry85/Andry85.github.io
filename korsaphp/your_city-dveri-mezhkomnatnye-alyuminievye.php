@@ -56,6 +56,6 @@
 <?php include 'contents/regional/your_city-dveri-mezhkomnatnye-alyuminievye/portfolio.php'; ?>
 <?php include 'contents/our_offices.php'; ?>
 <?php include 'contents/regional/your_city-dveri/differentTypesGoodsExamples.php'; ?>
-<?php include 'contents/regional/your_city-dveri/navi.php'; ?>
+<?php include 'contents/navi.php'; ?>
 
 <?php include 'footers/footer.php'; ?>

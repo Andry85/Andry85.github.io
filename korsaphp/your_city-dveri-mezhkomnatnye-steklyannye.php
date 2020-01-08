@@ -61,7 +61,7 @@
 <?php include 'contents/our_offices.php'; ?>
 <?php include 'contents/regional/your_city-dveri-mezhkomnatnye-steklyannye/other_doors_types.php'; ?>
 <?php include 'contents/regional/your_city-dveri/differentTypesGoodsExamples.php'; ?>
-<?php include 'contents/regional/your_city-dveri/navi.php'; ?>
+<?php include 'contents/navi.php'; ?>
 
 
 <?php include 'footers/footer.php'; ?>

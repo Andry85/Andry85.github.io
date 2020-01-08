@@ -199,7 +199,7 @@
 <?php include 'contents/our_offices.php'; ?>
 <div class="typesGoodsSeparator"></div>
 <?php include 'contents/regional/your_city-dveri/differentTypesGoodsExamples.php'; ?>
-<?php include 'contents/regional/your_city-dveri/navi.php'; ?>
+<?php include 'contents/navi.php'; ?>
 
 
 <?php include 'footers/footer.php'; ?>

@@ -213,7 +213,7 @@
 <?php include 'contents/regional/your_city-balkony/portfolio.php'; ?>
 <?php include 'contents/reviews.php'; ?>
 <?php include 'contents/popular_construction.php'; ?>
-<?php include 'contents/navi.php'; ?>
+<?php include 'contents/regional/your_city-balkony/navi.php'; ?>
 
 
 <?php include 'footers/footer.php'; ?>

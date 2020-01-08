@@ -79,6 +79,6 @@
 <?php include 'contents/regional/your_city-okna/differentTypesGoodsExamples.php'; ?>
 <?php include 'contents/reviews.php'; ?>
 <?php include 'contents/popular_construction.php'; ?>
-<?php include 'contents/navi.php'; ?>
+<?php include 'contents/regional/your_city-okna/navi.php'; ?>
 
 <?php include 'footers/footer.php'; ?>
