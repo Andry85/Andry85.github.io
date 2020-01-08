@@ -3891,12 +3891,13 @@ a.asOffer__link .asOffer__img img {
 }
 .profits h2 {
     font-size: 30px;
-    font-weight: 600;
-    margin: 0 0 22px 0;
-    padding: 0;
+    font-weight: 900;
+    margin: 0;
+    padding: 0 0 15px 0;
     border: none;
     text-align: center;
     color: #1a1f32;
+    font-family: 'Roboto', sans-serif;
 }
 .profitsList {
     padding: 2px 0 0 0;
@@ -3907,7 +3908,7 @@ a.asOffer__link .asOffer__img img {
 }
 .profitsList__item {
     flex-basis: 25%;
-    margin-bottom: 22px;
+    margin: 20px 0 45px 0;
 }
 .profitsList__item figure {
     margin: 0 0 18px 0;
@@ -3918,10 +3919,12 @@ a.asOffer__link .asOffer__img img {
     position: relative;
     padding-bottom: 13px;
     font-size: 20px;
-    font-family: 'ClearSans-Medium';
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     margin: 0 0 14px 0;
-    min-height: 83px;
+    min-height: 60px;
     padding: 0 10px;
+    line-height: 1.2;
 }
 .profitsList__item h3:before {
     content: '';
@@ -3937,6 +3940,9 @@ a.asOffer__link .asOffer__img img {
 .profitsList__item p {
     color: #1a1f31;
     padding: 0 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.0;
 }
 
 .recommends {
@@ -4092,6 +4098,7 @@ a.asOffer__link .asOffer__img img {
     width: 25%;
     padding: 0;
     font-weight: normal;
+    vertical-align: middle;
 }
 .popularPricesTable_subtitle {
     text-align: center;
@@ -4131,8 +4138,9 @@ a.asOffer__link .asOffer__img img {
     color: #1a1f31;
     font-size: 20px;
     font-weight: 600;
-    padding: 3px 18px 6px 18px;
+    padding: 0 18px 0 18px;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 .popularPricesTable_text span {
     font-weight: 400;
