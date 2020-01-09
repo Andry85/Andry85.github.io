@@ -68,7 +68,7 @@
 						</div>		
 					</div>
 				</div>
-				<div class="lg-pt-25 lg-pb-10">
+				<div class="lg-pt-25 lg-pb-10 sm-pb-0">
 					<?php include 'contents/regional/your_city-rollety/slider--rollety-zashitnye.php'; ?>
 				</div>
 			
@@ -193,7 +193,7 @@
 	<?php include 'contents/regional/your_city-rollety/getCall_first.php'; ?>
 </div>
 
-<div class="lg-pt-25 lg-pb-65">
+<div class="lg-pt-25 lg-pb-65 sm-pb-15">
 	<div class="manualControl">
 		<div class="container">
 			<div class="row">
@@ -284,6 +284,51 @@
 	</div>
 </div>
 
+<div class="lg-pt-60 lg-pb-75 sm-pt-30 sm-pb-55">
+	<div class="controlOptions">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="as__subtitleBold">Варианты управления роллетами</h2>
+					<ul class="controlOptionsList">
+						<li class="controlOptionsList__item">
+							<h3 class="controlOptionsList__subtitle">Групповое управление</h3>
+							<figure class="controlOptionsList__pic">
+								<img class="img-responsive" src="uploads/your_city-rollety-zashitnye/roller_shutter-1.jpg" alt="">
+								<figcaption>Управление группой роллет<br> с помощью одного приемника</figcaption>
+							</figure>
+						</li>
+						<li class="controlOptionsList__item">
+							<h3 class="controlOptionsList__subtitle">Уневерсальное управление</h3>
+							<figure class="controlOptionsList__pic">
+								<img class="img-responsive" src="uploads/your_city-rollety-zashitnye/roller_shutter-2.jpg" alt="">
+								<figcaption>Управление группой роллет с помощью<br> нескольких каналов управления</figcaption>
+							</figure>
+						</li>
+						<li class="controlOptionsList__item">
+							<h3 class="controlOptionsList__subtitle">Раздельное управление</h3>
+							<figure class="controlOptionsList__pic">
+								<img class="img-responsive" src="uploads/your_city-rollety-zashitnye/roller_shutter-3.jpg" alt="">
+								<figcaption>Управление одной роллетой с помощью<br> настенного выключателя или пульта</figcaption>
+							</figure>
+						</li>
+						<li class="controlOptionsList__item">
+							<h3 class="controlOptionsList__subtitle">Совмещенное управление</h3>
+							<figure class="controlOptionsList__pic">
+								<img class="img-responsive" src="uploads/your_city-rollety-zashitnye/roller_shutter-4.jpg" alt="">
+								<figcaption>Управление несколькими роллетами с одного центрального пульта или отдельно с помощью выключателей/радиопульта</figcaption>
+							</figure>
+						</li>
+					</ul>
+					<p class="controlOptions__desc">Благодаря автоматическим вариантам рольставней от Alutech, обеспечены удобное управление изделиями различных габаритов и безопасность. Приводы отличают небольшие размеры, плавные приведение в работу и остановка, устойчивый к действиям вандалов, корпус. Нагрузка на механизмы минимальна, что способствует продлению срока эксплуатации изделий за счёт предотвращения быстрого износа.</p>
+					<div class="controlOptions__footer">
+						<a class="js-callModal asBtnLink asBtnLink-order" href="#" title="Заказать роллеты">Заказать роллеты</a>
+					</div>		
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 
 <div class="lg-pt-20 sm-pt-0">
@@ -301,6 +346,6 @@
 <?php include 'contents/regional/your_city-rollety/portfolio.php'; ?>
 <?php include 'contents/reviews.php'; ?>
 <?php include 'contents/recommends.php'; ?>
-<?php include 'contents/regional/your_city-rollety/navi.php'; ?>
+<?php include 'contents/regional/your_city-rollety-zashitnye/navi.php'; ?>
 
 <?php include 'footers/footer.php'; ?>
