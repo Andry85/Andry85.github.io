@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h2 class="asGoods__title">Двери для разных типов помещений</h2>
+				<h2 class="asGoods__title asGoods__title--types">Двери для разных типов помещений</h2>
 				<ul class="asGoodsList">
 					<li>
 						<a class="asGoods__item" href="#">

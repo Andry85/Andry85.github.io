@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h2 class="asGoods__title">Другие типы межкомнатных дверей</h2>
+				<h2 class="asGoods__title asGoods__title--types">Другие типы межкомнатных дверей</h2>
 				<ul class="listType_3">
 					<li class="listType_3__item">
 						<a class="listType_3__link" href="#" title="">

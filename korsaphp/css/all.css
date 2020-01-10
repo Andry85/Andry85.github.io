@@ -1434,7 +1434,7 @@ a.asreviewsBox__more:before {
 }
 .asGoods--withoutTopLine .asGoods__title {
     padding-top: 38px;
-    margin-bottom: 22px;
+    margin-bottom: 7px;
 }
 .asGoods--withoutTopLine:before {
     display: none;
@@ -1442,14 +1442,22 @@ a.asreviewsBox__more:before {
 
 .asGoods__title {
 	font-size: 30px;
-    font-weight: 400;
+    font-weight: 900;
     margin-top: 0;
-    margin-bottom: 42px;
+    margin-bottom: 62px;
     padding-top: 73px;
     border: none;
-    font-family: 'KelsonSans';
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #1a1f31;
+
 }
+.asGoods__title.asGoods__title--types {
+    font-family: 'KelsonSans';
+    color: #0e3d6b;
+    font-weight: normal;
+}
+
 .asGoods__title:before {
     content: "";
     position: absolute;
@@ -1462,10 +1470,12 @@ a.asreviewsBox__more:before {
     background: #ff8500;
 }
 .asGoods__subtitle {
-    line-height: 1.7;
+    line-height: 0.875;
     text-align: center;
     max-width: 700px;
     margin: 0px auto 50px auto;
+    font-family: 'Roboto', sans-serif;
+    color: #1a1f31;
 }
 
 a.asGoods__item {
@@ -2995,8 +3005,11 @@ a.ourOffices_Tablist__link:active {
     background: #ff8500;
 }
 .listType_4__text {
-    color: #0e3d6b;
+    color: #1a1f31;
     margin-bottom: 20px;
+    font-family: 'KelsonSans';
+    line-height: 1.18;
+    font-weight:300;
 }
 
 .portfolioList {
