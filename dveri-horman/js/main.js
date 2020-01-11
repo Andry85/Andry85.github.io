@@ -1393,6 +1393,15 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event) {
 			$('html, body').animate({scrollTop: '+=250px'}, 400);
 		}
 	});
+
+	$(".asreviewsBox__entry p").each(function(){
+	    var lengthString = $(this).text();
+	    var trimString = lengthString.slice(0, 130);
+	    $(this).text(trimString + '...');
+	});
+
+	
+
 })(jQuery);
 
 (function($) {
