@@ -1,5 +1,5 @@
 @charset "UTF-8";
-body * {
+body {
     font-family: Roboto, sans-serif;
     color: #212434
 }
@@ -223,6 +223,30 @@ section:before {
     -ms-flex-pack: justify;
     justify-content: space-between
 }
+
+.size-selector {
+    color: #ff8500;
+    font-size: 18px;
+}
+.size-selector i {
+    font-weight: bold;
+    font-size: 24px;
+    font-style: normal;
+    margin-right: 5px;
+}
+
+
+.advantagesList {
+    margin: 0;
+    padding: 0 50px 50px 50px;
+}
+.advantagesList li {
+    color: #0e3d6b;
+    line-height: 1.7;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
 
 @media (max-width:992px) {
     .navbar .navbar-nav {
@@ -598,7 +622,7 @@ section:before {
     text-transform: uppercase;
     position: relative;
     padding-bottom: 12px;
-    height: 56px
+    min-height: 56px
 }
 
 #odds-section .odds-item__title:before {
@@ -2806,6 +2830,8 @@ footer .copy span {
     transform: translateX(-30px)
 }
 
+
+
 @media (max-width:1200px) {
     #constructor-section #colorSelected {
         width: 100%;
@@ -3618,7 +3644,10 @@ footer .copy span {
 #mobPreviwWrapper .constructor-preview-wrapper .size-selector {
     width: 50%;
     padding: 12px;
-    padding-top: 20px
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #mobPreviwWrapper .constructor-preview-wrapper .size-selector input {
@@ -3776,3 +3805,29 @@ footer .copy span {
     opacity: .8
 }
 
+
+@media (max-width: 767px) {
+    #constructor-section .constructor-preview-wrapper .constructor-image-wrapper #gateSelected {
+        top: 9.4%;
+    }
+}
+@media (max-width:576px) {
+    #constructor-section .constructor-preview-wrapper .constructor-image-wrapper #gateSelected {
+        top: 10.4%;
+    }
+}
+@media (max-width: 460px) {
+    #constructor-section .constructor-preview-wrapper .constructor-image-wrapper #gateSelected {
+        top: 12.4%;
+    }
+}
+@media (max-width: 380px) {
+    #constructor-section .constructor-preview-wrapper .constructor-image-wrapper #gateSelected {
+        top: 13.4%;
+    }
+}
+@media (max-width: 340px) {
+    #constructor-section .constructor-preview-wrapper .constructor-image-wrapper #gateSelected {
+        top: 14.4%;
+    }
+}

@@ -946,11 +946,199 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event) {
 	}
 
 	function setPreviewSections(color) {
-
 		$("#construction-types li").each(function(){
 			var selectedType = $(this).attr('data-construction');
 		   $(this).find('img').attr('src', url + selectedType +'/'+ color+'.jpg');
 		});
+
+	}
+
+	
+
+
+	function setPrice() {
+		var colorTypeVar = $('#construction-types li.selected-type').attr('data-construction');
+		var selectedTypeVar = $('#construction-colors li.selected-color').attr('data-color');
+		var price = $('.doorsPrice i');
+
+		switch (colorTypeVar + '__' + selectedTypeVar) {
+		  case 'THP-010__1':
+		    price.html('40 500');
+		    break;
+		  case 'THP-015__1':
+		    price.html('40 600');
+		    break;
+		  case 'THP-515__1':
+		    price.html('40 500');
+		    break;
+		  case 'THP-700S__1':
+		    price.html('51 000');
+		    break;
+		  case 'THP-810S__1':
+		    price.html('51 000');
+		    break;
+		  case 'THP-900S__1':
+		    price.html('51 000');
+		    break;
+		  case 'THP-700A__1':
+		    price.html('39 900');
+		    break;
+		  case 'THP-750F__1':
+		    price.html('39 900');
+		    break; 
+
+		  case 'THP-010__2':
+		    price.html('40 500');
+		    break;
+		  case 'THP-015__2':
+		    price.html('40 500');
+		    break;
+		  case 'THP-515__2':
+		    price.html('40 500');
+		    break;
+		  case 'THP-700S__2':
+		    price.html('51 000');
+		    break;
+		  case 'THP-810S__2':
+		    price.html('51 000');
+		    break;
+		  case 'THP-900S__2':
+		    price.html('51 000');
+		    break;
+		  case 'THP-700A__2':
+		    price.html('43 500');
+		    break;
+		  case 'THP-750F__2':
+		    price.html('43 500');
+		    break;
+
+		  case 'THP-010__3':
+		    price.html('40 500');
+		    break;
+		  case 'THP-015__3':
+		    price.html('40 500');
+		    break;
+		  case 'THP-515__3':
+		    price.html('40 500');
+		    break;
+		  case 'THP-700S__3':
+		    price.html('51 000');
+		    break;
+		  case 'THP-810S__3':
+		    price.html('51 000');
+		    break;
+		  case 'THP-900S__3':
+		    price.html('51 000');
+		    break;
+		  case 'THP-700A__3':
+		    price.html('43 500');
+		    break;
+		  case 'THP-750F__3':
+		    price.html('43 500');
+		    break;
+
+		  case 'THP-010__4':
+		    price.html('40 500');
+		    break;
+		  case 'THP-015__4':
+		    price.html('40 500');
+		    break;
+		  case 'THP-515__4':
+		    price.html('40 500');
+		    break;
+		  case 'THP-700S__4':
+		    price.html('51 000');
+		    break;
+		  case 'THP-810S__4':
+		    price.html('51 000');
+		    break;
+		  case 'THP-900S__4':
+		    price.html('51 000');
+		    break;
+		  case 'THP-700A__4':
+		    price.html('46 500');
+		    break;
+		  case 'THP-750F__4':
+		    price.html('46 500');
+		    break;
+
+		  case 'THP-010__5':
+		    price.html('40 500');
+		    break;
+		  case 'THP-015__5':
+		    price.html('40 500');
+		    break;
+		  case 'THP-515__5':
+		    price.html('40 500');
+		    break;
+		  case 'THP-700S__5':
+		    price.html('55 500');
+		    break;
+		  case 'THP-810S__5':
+		    price.html('55 500');
+		    break;
+		  case 'THP-900S__5':
+		    price.html('55 500');
+		    break;
+		  case 'THP-700A__5':
+		    price.html('46 500');
+		    break;
+		  case 'THP-750F__5':
+		    price.html('46 500');
+		    break;
+
+		  case 'THP-010__6':
+		    price.html('45 000');
+		    break;
+		  case 'THP-015__6':
+		    price.html('45 000');
+		    break;
+		  case 'THP-515__6':
+		    price.html('45 000');
+		    break;
+		  case 'THP-700S__6':
+		    price.html('55 500');
+		    break;
+		  case 'THP-810S__6':
+		    price.html('55 500');
+		    break;
+		  case 'THP-900S__6':
+		    price.html('55 500');
+		    break;
+		  case 'THP-700A__6':
+		    price.html('46 500');
+		    break;
+		  case 'THP-750F__6':
+		    price.html('46 500');
+		    break;
+
+		  case 'THP-010__7':
+		    price.html('45 000');
+		    break;
+		  case 'THP-015__7':
+		    price.html('45 000');
+		    break;
+		  case 'THP-515__7':
+		    price.html('45 000');
+		    break;
+		  case 'THP-700S__7':
+		    price.html('55 500');
+		    break;
+		  case 'THP-810S__7':
+		    price.html('55 500');
+		    break;
+		  case 'THP-900S__7':
+		    price.html('55 500');
+		    break;
+		  case 'THP-700A__7':
+		    price.html('46 500');
+		    break;
+		  case 'THP-750F__7':
+		    price.html('46 500');
+		    break;         
+
+		}	
+
 
 	}
 
@@ -1014,7 +1202,6 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event) {
 				type;
 		}
 
-
 			
 		if( $('#construction-decors .selected-decor').attr('data-order') == "no-decor") {
 			decorToDisplay.text("Без декора");
@@ -1045,10 +1232,9 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event) {
 			selectedType = $(this).attr('data-construction');
 			setPreviewImage(selectedColor, selectedType);
 			setDecor(selectedDecor, selectedType);
+			setPrice();
 
 			
-
-
 		} else {
 			return false;
 		}
@@ -1080,6 +1266,7 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event) {
 			setPreviewImage(selectedColor, selectedType);
 			setPreviewColor(selectedColor, 'colors');
 			setPreviewSections(colorvar);
+			setPrice();
 		} else {
 			return false;
 		}
