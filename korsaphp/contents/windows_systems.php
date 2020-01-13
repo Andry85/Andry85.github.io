@@ -1,5 +1,5 @@
 <div class="windowsSystems">
-	<h2 class="windowsSystems__title">МЕТАЛЛОПЛАСТИКОВЫЕ ПРОФИЛЬНЫЕ СИСТЕМЫ REHAU</h2>
+	<h2 class="windowsSystems__title">АЛЮМИНИЕВЫЕ ПРОФИЛЬНЫЕ СИСТЕМЫ</h2>
 	<div class="table-responsive">
 	  <table class="table windowsSystemsTable">
 	  	<thead>

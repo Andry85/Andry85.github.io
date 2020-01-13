@@ -229,9 +229,12 @@ $(function() {
 
 
 	// Catalog popular colors Start
-		$( ".colorsList__item:gt(11)" ).hide();
+		if (w > 767) {
+			$( ".colorsList__item:gt(11)" ).hide();
+		} else {
+			$( ".colorsList__item:gt(3)" ).hide();
+		} 
 		
-
 		$('.colorsBtnWrap .asBtnLink').click(function(e){
 			e.preventDefault();
 			$(this).hide();

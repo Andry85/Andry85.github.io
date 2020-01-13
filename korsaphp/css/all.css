@@ -9,7 +9,7 @@ html {
 
 
 body {
-    margin: 0
+    margin: 0;
 }
 
 article,
@@ -661,9 +661,11 @@ a.asLangList__link:hover
 }
 
 .breadcrumb {
+    padding: 4px 8px;
 }
 .breadcrumb>li.breadcrumb__item {
     display: inline;
+    font-size: 13px;
 }
 .breadcrumb__item span {
 	color: #777;
@@ -688,7 +690,7 @@ a.asLangList__link:hover
 
 
 .asProductDescText__entry {
-	line-height: 1.5;
+	line-height: 1.063;
     margin-bottom: 20px;
 }
 
@@ -1131,11 +1133,14 @@ a.asBtnLink-order:hover {
 .asProductBlock.asProductBlock--noMarginBottom {
     padding-bottom: 0;
 }
+.asProductBlock.asProductBlock--gate {
+     padding-bottom: 13px;
+}
 .asProductBlock__content {
 	padding: 15px 0 15px 0;
 }
 .asProductBlock__text {
-	line-height: 1.5;
+	line-height: 1.063;
     margin-bottom: 20px;
 }
 .asProductBlock__text--title {
@@ -1162,6 +1167,7 @@ a.asOffer__link figure {
 a.asOffer__link figcaption {
     text-decoration: underline;
     padding: 5px 0;
+    font-size: 23px;
 }
 a.asOffer__link:hover figcaption {
 	border-bottom-color: #fff;
@@ -1171,7 +1177,7 @@ a.asOffer__link img {
 }
 
 .asPrice {
-	padding: 14px 0 0 0;
+	padding: 8px 0 0 0;
 	color: #666262;
 }
 .asPrice__count {
@@ -1199,8 +1205,8 @@ a.asOffer__link img {
 .asAdvantagesList__item {
 	-ms-flex-preferred-size: 33.3%;
 	    flex-basis: 33.3%;
-	margin: 0 0 11px 0;
     font-family: 'ClearSans-Medium';
+    margin-bottom: 11px;
 
 }
 .asAdvantagesList__item figure {
@@ -1253,9 +1259,11 @@ a.asOuterLink:hover {
 	-ms-flex-preferred-size: 153px;
 	    flex-basis: 153px;
 	margin: 0;
+    flex-shrink: 0;
 }
 .asCatalogList__wrap figure img {
     max-width: 100%;
+    width: 100%;
 }
 
 .asCatalogList__content {
@@ -1280,8 +1288,14 @@ a.asCatalogList__title:hover {
 	padding: 4px 0 0 0;
 }
 .asCatalog {
-	margin: -25px 0 0 0;
+	margin: 0;
 	padding: 0 0 20px 0;
+}
+.asCatalog.asCatalog--general {
+    margin: 0 0 8px 0;
+    position: relative;
+    top: -20px;
+    padding: 0;
 }
 
 .asCatalogList.asCatalogList--leftDesc .asCatalogList__content {
@@ -1389,6 +1403,9 @@ a.asCatalogList__title:hover {
 }
 .asreviewsBox__entry p {
 	margin: 0;
+    line-height: 1.24;
+    color: #333;
+    font-size: 14px;
 }
 
 a.asreviewsBox__more {
@@ -1598,6 +1615,7 @@ a.asFooterAction__title:hover {
     padding-left: 8px;
     margin: 10px 0 0 0;
     font-size: 14px;
+    color: #0e3d6b;
 }
 .asFooterAction__title .icon {
     position: absolute;
@@ -2536,7 +2554,7 @@ a.asTop span.ico {
     padding: 10px;
 }
 .listType_1__item .asPrice {
-    margin-bottom: 2px;
+    margin-bottom: 6px;
     padding: 0;
 }
 .price__text {
@@ -2607,8 +2625,7 @@ a.asTop span.ico {
             justify-content: center;
 }
 .nonStandardList__item {
-    -ms-flex-preferred-size: 16.666%;
-        flex-basis: 16.666%;
+        flex-basis: 20%;
 }
 .nonStandardList__pic {
     margin: 0;
@@ -3225,6 +3242,7 @@ a.ourOffices_Tablist__link:active {
     border-radius: 8px;
     font-size: 20px;
     min-width: 178px;
+    max-width: 100%;
     -webkit-transform: translateY(0);
             transform: translateY(0);
     -webkit-transition: all .1s ease-in-out;
@@ -3427,6 +3445,10 @@ a.asOffer__link .asOffer__img {
     
 }
 
+a.asOffer__link .asOffer__img.asOffer__img--shadow {
+    margin-bottom: -28px;
+}
+
 a.asOffer__link .asOffer__img img {
     margin-top: 0;
     margin-bottom: 0;
@@ -3441,7 +3463,6 @@ a.asOffer__link .asOffer__img img {
         flex-wrap: wrap;
 }
 
-.asProductRow .asOffer,
 .asProductRow .asOffer__figure {
     height: 100%;
 }
@@ -5714,6 +5735,7 @@ a.asOffer__link .asOffer__img img {
 @media (max-width: 991px) {
 	.asheaderPhone {
 		margin-left: 22px;
+        margin-top: 10px;
 	}
 	.asnavbarList {
 		margin-left: 12px;
@@ -5971,6 +5993,9 @@ a.asOffer__link .asOffer__img img {
         padding-left: 10px;
         padding-right: 10px;
     }
+    a.asFooterAction__title {
+        font-size: 24px;
+    }
 
 
 
@@ -6034,10 +6059,12 @@ a.asOffer__link .asOffer__img img {
     .asFooterInfo {
         -ms-flex-preferred-size: 100%;
             flex-basis: 100%;
+            padding-bottom: 10px;
     }
     .asFooterLinks {
          -ms-flex-preferred-size: 100%;
              flex-basis: 100%;
+             padding: 15px;
     }
     .asFooterSubscribe {
         -ms-flex-preferred-size: 100%;
@@ -6171,6 +6198,7 @@ a.asOffer__link .asOffer__img img {
     }
     .asShop__title {
         margin-top: 12px;
+        font-size: 20px;
     }
     .asOfficeMap {
         padding: 47px 0 19px 0;
@@ -6211,7 +6239,6 @@ a.asOffer__link .asOffer__img img {
         margin-bottom: 0;
     }
     a.asGoods__item {
-        margin-top: 17px;
         margin-bottom: 0;
     }
     .asGoods {
@@ -6260,7 +6287,8 @@ a.asOffer__link .asOffer__img img {
         padding-bottom: 21px;
     }
     .nonStandardList__img {
-        min-height: 0; 
+        min-height: 150px; 
+        height: auto;
     }
     .listType_3 {
         padding: 18px 0 0 0;
@@ -6282,10 +6310,11 @@ a.asOffer__link .asOffer__img img {
         margin-bottom: 10px;
     }
     .listType_4__item {
-        margin-bottom: 10px;
+        margin-bottom: 30px;
     }
     .listType_4__title {
-         margin-bottom: 10px;
+         margin-bottom: 20px;
+         padding-bottom: 10px;
     }
     .asProductBlock--doors {
         padding-bottom: 0;
@@ -6395,6 +6424,7 @@ a.asOffer__link .asOffer__img img {
     .profileSystemsList__item  {
         -ms-flex-preferred-size: 100%;
             flex-basis: 100%;
+            margin-bottom: 20px;
     }
     a.asOffer__link .asOffer__img {
         max-width: 100%;
@@ -6513,6 +6543,52 @@ a.asOffer__link .asOffer__img img {
     .controlOptionsList {
         padding-bottom: 25px;
     }
+    .asServicesList__item {
+        line-height: 1.1;
+        font-size: 14px;
+    }
+    .asServicesList__item small {
+        top: 0;
+    }
+    .asShopPhoneList__item {
+        font-size: 14px;
+    }
+    .asFooterInfo__logo {
+        display: block;
+        text-align: center;
+    }
+    .asFooterInfo__logo img {
+        margin: 0 auto;
+    }
+    a.asFooterInfo__email {
+        margin: 3px 0 0 0;
+    }
+    a.asFooterList__link {
+        font-size: 16px;
+    }
+    .asFooterList__item--opened a.asFooterList__link, 
+    .asFooterList__item:hover a.asFooterList__link {
+        transform: translateX(0);
+    }
+    .asFooterSubscribe__phone {
+        text-align: center;
+        display: block;
+    }
+    a.ourOffices_Tablist__link {
+        padding-left: 5.74%;
+    }
+    .listType_1 a.asBtnLink.asBtnLink--primary {
+        min-width: inherit;
+    }
+    .listType_1__item .asPrice {
+        margin-bottom: 12px;
+    }
+    .listType_1__title {
+        padding: 0 0 10px 0;
+        font-size: 16px;
+        margin-top: 0;
+    }
+
 
 
 
@@ -6576,14 +6652,7 @@ a.asOffer__link .asOffer__img img {
         -ms-flex-preferred-size: 50%;
             flex-basis: 50%;
     }
-    .listType_1__item {
-        -ms-flex-preferred-size: 100%;
-            flex-basis: 100%;
-    }
-    .nonStandardList__item {
-        -ms-flex-preferred-size: 100%;
-            flex-basis: 100%;
-    }
+
     .listType_4__item {
         -ms-flex-preferred-size: 100%;
             flex-basis: 100%;

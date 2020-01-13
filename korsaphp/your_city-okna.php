@@ -69,7 +69,7 @@
 			</div>
 			<?php include 'contents/recommendation.php'; ?>
 			<?php include 'contents/regional/your_city-okna/videoCatalog.php'; ?>
-			<?php include 'contents/popularСolors.php'; ?>
+			<?php include 'contents/regional/your_city-okna/popularСolors.php'; ?>
 			<?php include 'contents/non-standard_windows.php'; ?>	
 		</div>
 	</div>
@@ -78,7 +78,7 @@
 <?php include 'contents/regional/your_city-okna/other_window_types.php'; ?>
 <?php include 'contents/regional/your_city-okna/differentTypesGoodsExamples.php'; ?>
 <?php include 'contents/reviews.php'; ?>
-<?php include 'contents/popular_construction.php'; ?>
+<?php include 'contents/regional/your_city-okna/popular_construction.php'; ?>
 <?php include 'contents/regional/your_city-okna/navi.php'; ?>
 
 <?php include 'footers/footer.php'; ?>
