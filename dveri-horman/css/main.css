@@ -369,6 +369,13 @@ a.asreviewsBox__more:before {
         padding: 0 15px;
         height: calc(100vh - 50px)
     }
+    .advantagesList {
+        padding: 0 15px 0 15px;
+    }
+    .asreviewsBox {
+        margin: 0;
+    }
+
 }
 
 .navbar a {
@@ -2020,7 +2027,8 @@ a.asreviewsBox__more:before {
 
 @media (max-width:576px) {
     #testimonials-section .section-title {
-        margin-top: 24px
+        margin-top: 34px;
+        margin-bottom: 15px;
     }
 }
 
@@ -2133,19 +2141,11 @@ a.asreviewsBox__more:before {
 }
 
 #advantages-section .advantage-row {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -webkit-box-align: strech;
-    -ms-flex-align: strech;
-    align-items: strech;
     margin-bottom: 40px;
     margin-top: 60px;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center
+    justify-content: center;
 }
 
 @media (max-width:576px) {
@@ -2155,23 +2155,18 @@ a.asreviewsBox__more:before {
 }
 
 #advantages-section .advantage-row .advantage {
-    width: 100%;
-    min-height: 212px;
-    max-width: 275px;
-    min-width: 230px;
+    flex-basis: 275px;
     padding: 7px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     text-align: center
 }
+
+#advantages-section .advantage-row .advantage p {
+   width: 100%;
+}
+
 
 #advantages-section .advantage-row .advantage .divider {
     background-color: #ff8500;
