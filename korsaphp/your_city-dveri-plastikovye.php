@@ -69,8 +69,9 @@
 					</div>
 				</div>
 			</section>
-			<?php include 'contents/advantages.php'; ?>
-
+			<div class="asAdvantagesWrap">
+				<?php include 'contents/advantagesSecond.php'; ?>
+			</div>
 			<section class="asProductBlock">
 				<h2 class="as__subtitle">Входные Пластиковые Двери</h2>
 				<div class="row">
@@ -120,7 +121,9 @@
 		</div>
 	</div>
 </div>
-<?php include 'contents/regional/your_city-dveri/door_opening_options.php'; ?>
+<div class="lg-pt-55 lg-pb-15">
+	<?php include 'contents/regional/your_city-dveri/door_opening_options.php'; ?>
+</div>	
 <?php include 'contents/reviews.php'; ?>
 <?php include 'contents/regional/your_city-dveri-plastikovye/portfolio.php'; ?>
 <?php include 'contents/our_offices.php'; ?>
