@@ -8,7 +8,7 @@
 						<a class="listType_3__link" href="#" title="">
 							<figure class="listType_3__pic">
 								<div class="listType_3__img">
-									<img src="img/plastikovye_dveri_mezhkomnatnye_color.jpg" alt="">
+									<img src="img/interior_plastic_doors.jpg" alt="">
 								</div>
 								<figcaption>Пластиковые двери межкомнатные</figcaption>
 							</figure>
@@ -18,7 +18,7 @@
 						<a class="listType_3__link" href="#" title="">
 							<figure class="listType_3__pic">
 								<div class="listType_3__img">
-									<img src="img/alyuminievye_dveri_mezhkomnatnye_color.jpg" alt="">
+									<img src="img/aluminum_entrance_doors_pic.jpg" alt="">
 								</div>
 								<figcaption>Алюминиевые двери межкомнатные</figcaption>
 							</figure>
@@ -28,7 +28,7 @@
 						<a class="listType_3__link" href="#" title="">
 							<figure class="listType_3__pic">
 								<div class="listType_3__img">
-									<img src="img/steklyannye_dveri_mezhkomnatnye.jpg" alt="">
+									<img src="img/interior_wood_doors_pic.jpg" alt="">
 								</div>
 								<figcaption>Деревянные двери межкомнатные</figcaption>
 							</figure>

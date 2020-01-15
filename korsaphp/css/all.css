@@ -1487,6 +1487,7 @@ a.asreviewsBox__more:before {
     font-family: 'KelsonSans';
     color: #0e3d6b;
     font-weight: normal;
+    margin-bottom: 20px;
 }
 
 .asGoods__title:before {
@@ -2572,7 +2573,7 @@ a.asTop span.ico {
     padding: 0;
 }
 .price__text {
-    line-height: 1.7;
+    line-height: 1.063;
     color: #0e3d6b;
     margin-bottom: 10px;
 }

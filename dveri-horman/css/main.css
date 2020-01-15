@@ -242,14 +242,33 @@ section:before {
 
 .advantagesList {
     margin: 0;
-    padding: 0 50px 70px 50px;
+    padding: 0 0 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .advantagesList li {
+    text-align: center;
+    flex-basis: 25%;
     color: #0e3d6b;
-    line-height: 1.7;
+    line-height: 1.2;
     margin-bottom: 10px;
-    font-size: 18px;
+    font-size: 15px;
+    position: relative;
+    list-style: none;
+    padding: 15px 20px 50px 20px;
 }
+.advantagesList li:after {
+    content: '';
+    width: 40px;
+    transform: translateX(-50%);
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    background: #ff8500;
+    top: 0;
+}
+
 
 .facebook-icon {
     background: url(../img/facebook-logo.svg) no-repeat;

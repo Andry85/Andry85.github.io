@@ -8,9 +8,9 @@
 						<a class="listType_3__link" href="#" title="">
 							<figure class="listType_3__pic">
 								<div class="listType_3__img">
-									<img src="img/aluminum_entrance_doors_pic.jpg" alt="">
+									<img src="img/interior_plastic_doors.jpg" alt="">
 								</div>
-								<figcaption>Алюминиевые двери межкомнатные</figcaption>
+								<figcaption>Пластиковые двери межкомнатные</figcaption>
 							</figure>
 						</a>
 					</li>

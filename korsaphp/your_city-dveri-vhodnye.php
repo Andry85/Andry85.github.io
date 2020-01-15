@@ -70,7 +70,7 @@
 					</div>
 				</div>
 			</section>
-			<?php include 'contents/advantages.php'; ?>
+			<?php include 'contents/advantagesSecond.php'; ?>
 
 			<section class="asProductBlock">
 				<h2 class="as__subtitle">Алюминиевые Двери</h2>

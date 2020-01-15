@@ -55,7 +55,9 @@
 		</div>
 	</div>
 </div>
-<?php include 'contents/regional/your_city-dveri/door_opening_options.php'; ?>
+<div class="lg-pt-55 lg-pb-15">
+	<?php include 'contents/regional/your_city-dveri/door_opening_options.php'; ?>
+</div>
 <?php include 'contents/reviews.php'; ?>
 <?php include 'contents/regional/your_city-dveri-mezhkomnatnye-steklyannye/portfolio.php'; ?>
 <?php include 'contents/our_offices.php'; ?>

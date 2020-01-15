@@ -215,7 +215,7 @@ $(function() {
 		} else if (w > 991) {
 			$( ".catalogExclusiveList__item:gt(14)" ).hide();
 		} else {
-			$( ".catalogExclusiveList__item:gt(7)" ).hide();
+			$( ".catalogExclusiveList__item:gt(3)" ).hide();
 		}
 
 		$('.catalogExclusive__btn').click(function(e){
