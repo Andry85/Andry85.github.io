@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-md-12">
 				<h2 class="asGoods__title asGoods__title--types">Популярные конструкции остекления</h2>
-				<ul class="listType_4">
+				<ul class="listType_4 listType_4--popular">
 					<li class="listType_4__item">
 						<div class="listType_4__header">
 							<h3 class="listType_4__title"><a href="#">распашное ОСТЕКЛЕНИЕ</a></h3>

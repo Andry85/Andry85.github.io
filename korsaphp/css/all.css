@@ -3044,6 +3044,16 @@ a.ourOffices_Tablist__link:active {
     font-weight:300;
 }
 
+.listType_4--popular {
+    padding: 27px 0 0 0;
+}
+.listType_4--popular .listType_4__text {
+    line-height: 1.29;
+    color: #003b6d;
+    font-size: 14px;
+
+}
+
 .portfolioList {
     margin: 0;
     padding: 0 0 55px 0;
