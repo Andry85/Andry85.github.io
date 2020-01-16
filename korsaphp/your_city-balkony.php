@@ -168,7 +168,7 @@
 									</ul>
 								</dd>
 							</dl>
-							<div class="glazingBtnWpar">
+							<div class="glazingBtnWpar glazingBtnWpar--cold">
 								<a class="js-callModal asBtnLink asBtnLink--primary" href="#" title="ЗАЯВКА НА ОБРАТНЫЙ ЗВОНОК">хочу заказать</a>
 							</div>
 						</div>

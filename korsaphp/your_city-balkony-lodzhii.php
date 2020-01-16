@@ -168,7 +168,7 @@
 									</ul>
 								</dd>
 							</dl>
-							<div class="glazingBtnWpar">
+							<div class="glazingBtnWpar glazingBtnWpar--cold">
 								<a class="js-callModal asBtnLink asBtnLink--primary" href="#" title="ЗАЯВКА НА ОБРАТНЫЙ ЗВОНОК">хочу заказать</a>
 							</div>
 						</div>
@@ -213,7 +213,7 @@
 <?php include 'contents/regional/your_city-balkony-lodzhii/portfolio.php'; ?>
 <?php include 'contents/reviews.php'; ?>
 <?php include 'contents/popular_construction.php'; ?>
-<?php include 'contents/navi.php'; ?>	
+<?php include 'contents/regional/your_city-balkony-lodzhii/navi.php'; ?>	
 
 
 <?php include 'footers/footer.php'; ?>

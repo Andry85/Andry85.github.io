@@ -81,7 +81,7 @@
 	    </div>
 		<figure class="listType_1__pic">
 			<div class="listType_1__img">
-				<img src="uploads/your_city-balkon-plastikovyj/slider_03/003.jpg" alt="">
+				<img src="uploads/your_city-balkon-plastikovyj/slider_03/004.jpg" alt="">
 			</div>
 			<figcaption class="listType_1__title">Балконный блок, дверь с панелью и окно из двух частей с открыванием</figcaption>
 		</figure>

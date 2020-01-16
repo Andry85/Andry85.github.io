@@ -662,6 +662,7 @@ a.asLangList__link:hover
 
 .breadcrumb {
     padding: 4px 8px;
+    background: none;
 }
 .breadcrumb>li.breadcrumb__item {
     display: inline;
@@ -742,8 +743,8 @@ a.ascategoriesNav__link figcaption {
     text-transform: uppercase;
     position: relative;
     padding-bottom: 3px;
-    font-size: 23px;
-    font-family: 'ClearSans-Medium';
+    font-size: 24px;
+    font-family: 'ClearSans';
     margin: 0;
 }
 .as__subtitle:after {
@@ -2392,7 +2393,7 @@ a.asTop span.ico {
     margin-bottom: 15px;
 }
 .asCarousel--big__item a img {
-    height: 212px;
+    height: 158px;
     -o-object-fit: cover;
        object-fit: cover;
 }
@@ -3040,19 +3041,14 @@ a.ourOffices_Tablist__link:active {
     color: #1a1f31;
     margin-bottom: 20px;
     font-family: 'KelsonSans';
-    line-height: 1.18;
+    line-height: 1.28;
     font-weight:300;
 }
 
 .listType_4--popular {
     padding: 27px 0 0 0;
 }
-.listType_4--popular .listType_4__text {
-    line-height: 1.29;
-    color: #003b6d;
-    font-size: 14px;
 
-}
 
 .portfolioList {
     margin: 0;
@@ -3292,7 +3288,7 @@ a.ourOffices_Tablist__link:active {
     padding: 0 0 35px 0;
 }
 .glazingPic {
-    margin: 0 15px;
+    margin: 0;
     text-align: center;
 }
 .glazingPic img {
@@ -3303,23 +3299,27 @@ a.ourOffices_Tablist__link:active {
     margin: 0;
 }
 .glazingList__title {
-    font-family: 'ClearSans-Bold';
+    font-family: 'ClearSans';
     font-size: 22px;
     color: #005c9d;
     margin: 0  0 12px 0;
+    font-weight: normal;
 }
 .glazingList__subtitle {
-    font-family: 'ClearSans-Bold';
+    font-family: 'ClearSans';
     font-size: 16px;
     color: #005c9d;
     text-transform: none;
     margin: 0 0 16px 0;
+    font-weight: normal;
 }
 .glazingList__text {
     line-height: 1.2;
+    font-size: 15px;
 }
 .glazingList__item {
     padding-bottom: 5px;
+    font-size: 15px;
 }
 .glazingSublist {
     margin: 0 0 20px 0;
@@ -3332,19 +3332,30 @@ a.ourOffices_Tablist__link:active {
 .glazingBtnWpar {
     text-align: center;
 }
+.glazingBtnWpar.glazingBtnWpar--cold {
+    margin-top: 54px;
+}
+.asProductBlock--glazing {
+    margin-bottom: 37px;
+    padding-top: 5px;
+}
+
 .glazingList--warm .glazingList__title,
 .glazingList--warm .glazingList__subtitle {
     color: #ff8500;
 }
 .asProductBlock--glazing .col-sm-3 {
-    width: 30%;
+    width: 25%;
 }
 .asProductBlock--glazing .col-sm-6 {
-    width: 40%;
+    width: 50%;
 }
 .categoriesBlock {
     padding: 0 0 60px 0;
 }
+
+
+
 
 .benefits {
     padding: 17px 0 55px 0;
@@ -3824,9 +3835,6 @@ a.asOffer__link .asOffer__img img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     padding: 0 7px 0 7px;
     position: relative;
 }
@@ -6714,9 +6722,6 @@ a.asOffer__link .asOffer__img img {
     .portfolioList__item {
        -ms-flex-preferred-size: 50%;
            flex-basis: 50%;
-    }
-    .asCarousel--big__item a img {
-        height: 160px;
     }
     .listType_1__item__info {
         left: 20%;

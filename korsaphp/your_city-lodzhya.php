@@ -51,7 +51,7 @@
 			</section>
 
 			<section class="asProductBlock">
-				<h2 class="as__subtitle">металлопластиковые балконы, окна на балкон в Киеве</h2>
+				<h2 class="as__subtitle">металлопластиковые лоджии, окна на балкон в Киеве</h2>
 				<div class="row">
 					<div class="col-md-12">
 						<div class="asProductBlock__content">
@@ -66,7 +66,7 @@
 			
 			<?php include 'contents/recommendation.php'; ?>
 			<?php include 'contents/regional/your_city-lodzhya/videoCatalog.php'; ?>
-			<?php include 'contents/popularСolors.php'; ?>
+			<?php include 'contents/regional/your_city-lodzhya/popularСolors.php'; ?>
 		</div>
 	</div>
 </div>	
