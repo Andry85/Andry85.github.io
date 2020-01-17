@@ -101,7 +101,7 @@
 								<div class="profileSystemsBox__tooltip">
 									<p>Максимально возможная толщина стеклопакета, который можно установить в окно из этого профиля. Напрямую зависит от параметра "ТОЛЩИНА ПРОФИЛЯ"</p>
 								</div>
-								<span class="profileSystemsBox__label">Количество камер</span>
+								<span class="profileSystemsBox__label">МАКС. ТОЛЩИНА СТЕКЛОПАКЕТА</span>
 							</div>
 						</div>
 						<div class="profileSystemsBox__col_2">
@@ -230,7 +230,7 @@
 								<div class="profileSystemsBox__tooltip">
 									<p>Максимально возможная толщина стеклопакета, который можно установить в окно из этого профиля. Напрямую зависит от параметра "ТОЛЩИНА ПРОФИЛЯ"</p>
 								</div>
-								<span class="profileSystemsBox__label">Количество камер</span>
+								<span class="profileSystemsBox__label">МАКС. ТОЛЩИНА СТЕКЛОПАКЕТА</span>
 							</div>
 						</div>
 						<div class="profileSystemsBox__col_2">
@@ -359,7 +359,7 @@
 								<div class="profileSystemsBox__tooltip">
 									<p>Максимально возможная толщина стеклопакета, который можно установить в окно из этого профиля. Напрямую зависит от параметра "ТОЛЩИНА ПРОФИЛЯ"</p>
 								</div>
-								<span class="profileSystemsBox__label">Количество камер</span>
+								<span class="profileSystemsBox__label">МАКС. ТОЛЩИНА СТЕКЛОПАКЕТА</span>
 							</div>
 						</div>
 						<div class="profileSystemsBox__col_2">

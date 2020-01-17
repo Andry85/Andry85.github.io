@@ -35,20 +35,20 @@
 			<section class="asProductBlock lg-pb-5">
 				<h2 class="as__subtitle">Металлопластиковые перегородки в Киеве</h2>
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-7">
 						<div class="asProductBlock__content">
 							<p class="asProductBlock__text">Офисное пространство должно отвечать требованиям, благодаря которым увеличивается производительность труда. Металлопластиковые перегородки решают проблемы деления помещений на функциональные зоны. Благодаря добросовестности немецких изготовителей создаются лучшие условия для деятельности работников офисов. Перегородки препятствуют проникновению посторонних шумов, света, скрывают обзор. Это позволяет удачно организовать рабочее пространство. Такие задачи реально решить благодаря профессионалам нашей компании.</p>
 							<p class="asProductBlock__text">Конструкции представляют собой профильную трехкамерную систему. Несмотря на высокое качество брендовой марки REHAU, купить перегородки в Киеве доступно по экономной цене. Изделия отличаются высокой изоляцией от шума, звуков. В процессе комплектации используются стеклопакеты или моно-стекло достаточного диаметра. Можно предусмотреть двери с различными элементами, замками, оригинальными нажимными ручками. Металлопластик отменно сочетается со стеклянными деталями, увеличивая эстетичность зданий. Для солидных конструкций в больших помещениях применяют специальные приспособления – усилители. Их прикрепляют к плоскости потолка и пола.</p>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-5">
 						<div class="row asProductRow">
 							<div class="col-md-12">
 								<div class="asOffer">
 									<a class="asOffer__link" href="#">
 										<figure class="asOffer__figure">
 											<div class="asOffer__img">
-												<img class="img-responsive" src="img/plastick_windows.png" alt="Пластиковые перегородки">
+												<img class="img-responsive" src="img/plastick_windows_small.png" alt="Пластиковые перегородки">
 											</div>	
 											<figcaption>Пластиковые перегородки</figcaption>
 										</figure>
@@ -64,8 +64,9 @@
 					</div>
 				</div>
 			</section>
-
-			<?php include 'contents/regional/your_city-peregorodki/slider--peregorodki-plastikovye.php'; ?>
+			<div class="lg-pt-50 lg-pb-45">
+				<?php include 'contents/regional/your_city-peregorodki/slider--peregorodki-plastikovye.php'; ?>
+			</div>
 			<section class="asProductBlock">
 				<h2 class="as__subtitle">Цены на пластиковые перегородки</h2>
 				<div class="row">
@@ -89,20 +90,20 @@
 			<section class="asProductBlock lg-pb-5">
 				<h2 class="as__subtitle">Стеклянные перегородки в Киеве</h2>
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-7">
 						<div class="asProductBlock__content">
 							<p class="asProductBlock__text">Австрийские ведущие производители занимают приоритетные ниши на рынке товаров. Комплектующие, изготовленные специалистами Австрии, пользуются спросом в развитых странах мира. Стеклянные перегородки повышают эстетичность помещений, делая их более просторными, светлыми. Образцы доступны в Киеве по привлекательной цене. </p>
 							<p class="asProductBlock__text">Высококачественное, прочное стекло создает надежность и долговечность конструкциям. При этом площадь горизонтальных профилей значительно сокращается. Специальные впрессованные уплотнения надежно удерживают стеклянные полотна. По желанию заказчика, изготавливаются всевозможные конструкции. Для каждой из них характерна гибкость, возможность трансформироваться. Следует отметить высокий уровень звукоизоляции и долговечность.</p>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-5">
 						<div class="row asProductRow">
 							<div class="col-md-12">
 								<div class="asOffer">
 									<a class="asOffer__link" href="#">
 										<figure class="asOffer__figure">
 											<div class="asOffer__img">
-												<img class="img-responsive" src="img/plastick_windows.png" alt="Пластиковые перегородки">
+												<img class="img-responsive" src="img/plastick_windows_small.png" alt="Пластиковые перегородки">
 											</div>	
 											<figcaption>Стеклянные перегородки</figcaption>
 										</figure>
@@ -118,7 +119,7 @@
 					</div>
 				</div>
 			</section>
-			<div class="lg-pt-30">
+			<div class="lg-pt-65 lg-pb-45">
 				<?php include 'contents/regional/your_city-peregorodki/slider--peregorodki-steklyannye.php'; ?>
 			</div>
 			<section class="asProductBlock">
@@ -146,20 +147,20 @@
 			<section class="asProductBlock lg-pb-5">
 				<h2 class="as__subtitle">Алюминиевые перегородки в Киеве</h2>
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-7">
 						<div class="asProductBlock__content">
 							<p class="asProductBlock__text">Белорусские производители стараются создавать конкурентоспособные товары. Образцы продукции компании ALUTECH показали себя на практике с наилучшей стороны. Долговечность и невысокая цена – критерии выбора многих современных покупателей. Алюминиевые перегородки, создаваемые на основе фурнитуры производства Беларусь, можно купить в г. Киев по самой низкой стоимости. Производители применяют новые технологии, экологичные материалы. Конструкции применяют для торговых центров, офисов, отелей и других строительных объектов.</p>
 							<p class="asProductBlock__text">Основная черта профильных составляющих фирмы «Алютех» - отменное распределение металлического материала по сечениям различных форм. Фиксация осуществляется при помощи мощных прижимов. При этом конструкции выдерживают максимальную нагрузку. Отмечается высокий уровень защиты от проницаемости звуков. Высокая технологическая составляющая расширяет возможности для решения различных проектных задач.</p>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-5">
 						<div class="row asProductRow">
 							<div class="col-md-12">
 								<div class="asOffer">
 									<a class="asOffer__link" href="#">
 										<figure class="asOffer__figure">
 											<div class="asOffer__img">
-												<img class="img-responsive" src="img/plastick_windows.png" alt="Алюминиевые перегородки">
+												<img class="img-responsive" src="img/plastick_windows_small.png" alt="Алюминиевые перегородки">
 											</div>	
 											<figcaption>Алюминиевые перегородки</figcaption>
 										</figure>
@@ -175,7 +176,9 @@
 					</div>
 				</div>
 			</section>
-			<?php include 'contents/regional/your_city-peregorodki/slider--peregorodki-alyuminievye.php'; ?>
+			<div class="lg-pt-65 lg-pb-45">
+				<?php include 'contents/regional/your_city-peregorodki/slider--peregorodki-alyuminievye.php'; ?>
+			</div>
 			<section class="asProductBlock">
 				<h2 class="as__subtitle">Цены на алюминиевые перегородки</h2>
 				<div class="row">
@@ -210,7 +213,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
-			<?php include 'contents/popularСolors.php'; ?>
+			<?php include 'contents/regional/your_city-peregorodki/popularСolors.php'; ?>
 		</div>
 	</div>
 </div>

@@ -691,7 +691,7 @@ a.asLangList__link:hover
 
 
 .asProductDescText__entry {
-	line-height: 1.063;
+	line-height: 1.25;
     margin-bottom: 20px;
 }
 
@@ -729,6 +729,7 @@ a.ascategoriesNav__link figcaption {
     text-align: center;
     color: #337ab7;
     font-family: 'ClearSans-Medium';
+    line-height: 1.1;
 }
 
 .aspreambule {
@@ -1093,7 +1094,7 @@ a.asBtnLink.asBtnLink--primary {
 
 a.asBtnLink-order {
     display: inline-block;
-    font-family: 'KelsonSans';
+    font-family: 'ClearSans',Arial,sans-serif;
     font-weight: 300;
     font-size: 20px;
     color: #fff;
@@ -1101,7 +1102,8 @@ a.asBtnLink-order {
     margin: 10px;
     text-transform: uppercase;
     background: #4bbe3f;
-    padding: 7px 15px 5px 15px;
+    padding: 7px 21px 5px 21px;
+    letter-spacing: 1px;
     -webkit-box-shadow: 0 3px 0 0 #3a9731;
             box-shadow: 0 3px 0 0 #3a9731;
     border-radius: 8px;
@@ -1155,7 +1157,7 @@ a.asBtnLink-order:hover {
 	padding: 15px 0 15px 0;
 }
 .asProductBlock__text {
-	line-height: 1.063;
+	line-height: 1.25;
     margin-bottom: 20px;
 }
 .asProductBlock__text--title {
@@ -1163,6 +1165,10 @@ a.asBtnLink-order:hover {
     max-width: 980px;
     margin: 0 auto -10px auto;
     padding: 20px 0 0 0;
+    line-height: 1.0;
+    color: #1a1f32;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 .asOffer {
@@ -1468,6 +1474,10 @@ a.asreviewsBox__more:before {
     padding-top: 23px;
     margin-bottom: 7px;
 }
+.asGoods--withoutTopLine .asGoods__title.asGoods__title--examples {
+    margin-bottom: 62px;
+}
+
 .asGoods--withoutTopLine:before {
     display: none;
 }
@@ -2533,8 +2543,8 @@ a.asTop span.ico {
             justify-content: center;
 }
 .listType_1.listType_1--withSizes .listType_1__pic {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 0;
+    margin-right: 0;
     margin-top: 25px;
 }
 .listType_1.listType_1--withSizes .listType_1__title {
@@ -2574,7 +2584,7 @@ a.asTop span.ico {
     padding: 0;
 }
 .price__text {
-    line-height: 1.063;
+    line-height: 1.25;
     color: #0e3d6b;
     margin-bottom: 10px;
 }
@@ -3078,7 +3088,7 @@ a.ourOffices_Tablist__link:active {
     padding: 40px 0 0 0;
 }
 .asCatalog__text {
-    line-height: 1.063;
+    line-height: 1.25;
     color: #0e3d6b;
     margin-bottom: 20px;
 }
@@ -3260,7 +3270,9 @@ a.ourOffices_Tablist__link:active {
 
 .listType_1 a.asBtnLink.asBtnLink--primary {
     background: #4bbe3f;
-    padding: 7px 15px 5px 15px;
+    font-family: 'ClearSans',Arial,sans-serif;
+    letter-spacing: 1px;
+    padding: 7px 21px 5px 21px;
     -webkit-box-shadow: 0 3px 0 0 #3a9731;
             box-shadow: 0 3px 0 0 #3a9731;
     border-radius: 8px;
@@ -4132,11 +4144,13 @@ a.asOffer__link .asOffer__img img {
 }
 .offerListWrap__desc {
     text-align: center;
-    line-height: 1.2;
     color: #1a1f32;
     max-width: 980px;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.0;
 }
 .offerList {
     display: -webkit-box;
@@ -4181,7 +4195,9 @@ a.asOffer__link .asOffer__img img {
 .offerList__text {
     text-align: center;
     color: #1a1f31;
-    line-height: 1.2;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.0;
 }
 
 .getCallWrap {
@@ -4303,7 +4319,7 @@ a.asOffer__link .asOffer__img img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    height: 40px
+    height: 30px
     
 }
 .listType_1Sizes__width span {
@@ -4334,13 +4350,13 @@ a.asOffer__link .asOffer__img img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 0 15px;
+    padding: 0;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
 }
 .listType_1Sizes__height {
-    width: 40px;
+    width: 30px;
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4410,11 +4426,13 @@ a.asOffer__link .asOffer__img img {
 }
 .canbeUsed__desc {
     text-align: center;
-    line-height: 1.2;
+    line-height: 1.0;
     color: #1a1f32;
     max-width: 880px;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 .canbeUsedList {
@@ -4446,7 +4464,7 @@ a.asOffer__link .asOffer__img img {
 .canbeUsedList__item figure figcaption {
     color: #003b6d;
     font-size: 18px;
-    line-height: 1.2;
+    line-height: 0.88;
     padding: 8px 0 0 0;
 }
 
@@ -4681,6 +4699,9 @@ a.asOffer__link .asOffer__img img {
     font-weight: normal;
     vertical-align: middle;
 }
+.popularPricesTable .table>tbody>tr>th {
+        vertical-align: top;
+}
 .popularPricesTable_subtitle {
     text-align: center;
     font-size: 18px;
@@ -4696,9 +4717,13 @@ a.asOffer__link .asOffer__img img {
 }
 
 .popularPricesTable_desc {
-    text-align: center;
+    color: #2e333e;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.0;
     font-size: 14px;
     padding: 0 18px;
+    text-align: center;
 }
 
 .popularPricesTableCar {
@@ -4780,6 +4805,9 @@ a.asOffer__link .asOffer__img img {
 .popularPrices__desc {
     text-align: center;
     color: #2e333e;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.0;
 }
 
 

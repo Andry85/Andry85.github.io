@@ -101,7 +101,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
-			<?php include 'contents/popularСolors.php'; ?>
+			<?php include 'contents/regional/your_city-peregorodki-plastikovye/popularСolors.php'; ?>
 		</div>
 	</div>
 </div>

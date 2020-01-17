@@ -49,10 +49,9 @@
 					</div>
 				</div>
 			</section>
-
-			<?php include 'contents/regional/your_city-peregorodki/canbeused.php'; ?>
-
-			
+			<div class="lg-pt-5 lg-pb-10">
+				<?php include 'contents/regional/your_city-peregorodki/canbeused.php'; ?>
+			</div>
 			<section class="asProductBlock lg-pt-45 lg-pb-10">
 				<h2 class="as__subtitle">Цены на стеклянные перегородки</h2>
 				<div class="row">
@@ -67,7 +66,7 @@
 					<?php include 'contents/regional/your_city-peregorodki-steklyannye/typesSlider--second.php'; ?>
 					<p class="asProductBlock__text">Принимая решение заказать алюминиевые перегородки в Киеве по приемлемой цене, не стоит думать, что перед вами предстанет исключительно металлический блеск, который сочетается с прозрачным стеклом. Разнообразие современного покрытия позволяет получить модели различных оттенков, имитирующие фактуру дерева и разных материалов на выбор.</p>
 					<p class="asProductBlock__text">Обратившись в ближайшую точку продаж, легко получить дельную рекомендацию, помощь по выбору оптимальной конструкции, а также оставить заявку. Благодаря собственной логистике, заказ будет доставлен в кратчайшие сроки.</p>
-					<div class="lg-pt-20 lg-pb-25">
+					<div class="lg-pt-40 lg-pb-70">
 						<?php include 'contents/regional/your_city-peregorodki-steklyannye/slider.php'; ?>
 					</div>	
 				</div>

@@ -22,6 +22,9 @@
 								<input type="text" placeholder="Высота (мм)" class="gateConfiguratorForm__height">
 							</div>
 						</div>
+						<div class="visible-xs-block visible-sm-block sm-pt-15">
+							<p class="selectionDoorsRow__text"><b>Обратите внимание!</b>  Действует акционное предложение на секции типа М-гофр. Цены указаны с учётом акционной скидки. Секции типов S-гофр, L-гофр, D-гофр, T-гофр, Кассета - рассчитываются по обычной цене</p>
+						</div>
 						<div class="gateConfiguratorForm__row">
 							<button class="gateConfiguratorForm__btn">Рассчитать стоимость</button>
 						</div>
@@ -111,9 +114,9 @@
 				</ul>
 				
 			</div>
-
-			<p class="selectionDoorsRow__text"><b>Обратите внимание!</b>  Действует акционное предложение на секции типа М-гофр. Цены указаны с учётом акционной скидки. Секции типов S-гофр, L-гофр, D-гофр, T-гофр, Кассета - рассчитываются по обычной цене</p>
-
+			<div class="hidden-xs hidden-sm">
+				<p class="selectionDoorsRow__text"><b>Обратите внимание!</b>  Действует акционное предложение на секции типа М-гофр. Цены указаны с учётом акционной скидки. Секции типов S-гофр, L-гофр, D-гофр, T-гофр, Кассета - рассчитываются по обычной цене</p>
+			</div>
 		</div>
 	</div>
 </div>

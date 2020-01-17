@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h2 class="asGoods__title">Примеры наших работ</h2>
+				<h2 class="asGoods__title asGoods__title--examples">Примеры наших работ</h2>
 				<!-- Slider Start -->
 					<div class="asCarousel--big">
 						<div class="owl-carousel">
