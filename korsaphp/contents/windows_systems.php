@@ -1,6 +1,5 @@
 <div class="windowsSystems">
 	<h2 class="windowsSystems__title">АЛЮМИНИЕВЫЕ ПРОФИЛЬНЫЕ СИСТЕМЫ</h2>
-	<div class="table-responsive">
 	  <table class="table windowsSystemsTable">
 	  	<thead>
     		<tr>
@@ -153,5 +152,4 @@
     	</tbody>
 		
 	  </table>
-	</div>
 </div>

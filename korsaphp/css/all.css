@@ -6652,10 +6652,13 @@ a.asOffer__link .asOffer__img img {
         font-size: 16px;
         margin-top: 0;
     }
-
-
-
-
+    .windowsSystemsTable__pic {
+        display: none;
+    }
+    .windowsSystemsTable.table>tbody>tr>td {
+        font-size: 12px;
+        padding: 4px;
+    }
 
 
 
