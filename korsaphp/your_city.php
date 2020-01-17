@@ -234,110 +234,113 @@
 				</div>
 			</section>
 
-			<div class="asCatalog asCatalog--general">
-				<div class="row">
-					<div class="col-md-5">
-						<a class="asOuterLink" href="your_city-dveri-vhodnye.php">Входные двери</a>
-						<ul class="asCatalogList">
-							<li class="asCatalogList__item">
-								<div class="asCatalogList__wrap">
-									<figure>
-										<a href="your_city-dveri-vhodnye-metalloplastikovye.php"><img src="img/plastic_entrance_doors.jpg" alt="Пластиковые двери входные"></a>
-									</figure>
-									<div class="asCatalogList__content">
-										<a class="asCatalogList__title" href="your_city-dveri-vhodnye-metalloplastikovye.php">Пластиковые двери входные</a>
-										<div class="asPrice">
-											Цена от
-											<span class="asPrice__count">9 559</span>
-											<span class="asPrice__currency">грн</span>
+			<div class="lg-pb-45 lg-pt-35">
+				<div class="asCatalog asCatalog--general">
+					<div class="row">
+						<div class="col-md-5">
+							<a class="asOuterLink" href="your_city-dveri-vhodnye.php">Входные двери</a>
+							<ul class="asCatalogList">
+								<li class="asCatalogList__item">
+									<div class="asCatalogList__wrap">
+										<figure>
+											<a href="your_city-dveri-vhodnye-metalloplastikovye.php"><img src="img/plastic_entrance_doors.jpg" alt="Пластиковые двери входные"></a>
+										</figure>
+										<div class="asCatalogList__content">
+											<a class="asCatalogList__title" href="your_city-dveri-vhodnye-metalloplastikovye.php">Пластиковые двери входные</a>
+											<div class="asPrice">
+												Цена от
+												<span class="asPrice__count">9 559</span>
+												<span class="asPrice__currency">грн</span>
+											</div>
 										</div>
 									</div>
-								</div>
-							</li>
-							<li class="asCatalogList__item">
-								<div class="asCatalogList__wrap">
-									<figure>
-										<a href="your_city-dveri-vhodnye-alyuminievye.php"><img src="img/aluminum_entrance_doors.jpg" alt="Алюминиевые двери входные"></a>
-									</figure>
-									<div class="asCatalogList__content">
-										<a class="asCatalogList__title" href="your_city-dveri-vhodnye-alyuminievye.php">Алюминиевые двери входные</a>
-										<div class="asPrice">
-											Цена от
-											<span class="asPrice__count">18 326</span>
-											<span class="asPrice__currency">грн</span>
+								</li>
+								<li class="asCatalogList__item">
+									<div class="asCatalogList__wrap">
+										<figure>
+											<a href="your_city-dveri-vhodnye-alyuminievye.php"><img src="img/aluminum_entrance_doors.jpg" alt="Алюминиевые двери входные"></a>
+										</figure>
+										<div class="asCatalogList__content">
+											<a class="asCatalogList__title" href="your_city-dveri-vhodnye-alyuminievye.php">Алюминиевые двери входные</a>
+											<div class="asPrice">
+												Цена от
+												<span class="asPrice__count">18 326</span>
+												<span class="asPrice__currency">грн</span>
+											</div>
 										</div>
 									</div>
-								</div>
-							</li>
-							<li class="asCatalogList__item">
-								<div class="asCatalogList__wrap">
-									<figure>
-										<a href="your_city-dveri-vhodnye-metallicheskie.php"><img src="img/metal_entrance_doors.jpg" alt="Металлические двери входные"></a>
-									</figure>
-									<div class="asCatalogList__content">
-										<a class="asCatalogList__title" href="your_city-dveri-vhodnye-metallicheskie.php">Металлические двери входные</a>
-										<div class="asPrice">
-											Цена от
-											<span class="asPrice__count">8 931</span>
-											<span class="asPrice__currency">грн</span>
+								</li>
+								<li class="asCatalogList__item">
+									<div class="asCatalogList__wrap">
+										<figure>
+											<a href="your_city-dveri-vhodnye-metallicheskie.php"><img src="img/metal_entrance_doors.jpg" alt="Металлические двери входные"></a>
+										</figure>
+										<div class="asCatalogList__content">
+											<a class="asCatalogList__title" href="your_city-dveri-vhodnye-metallicheskie.php">Металлические двери входные</a>
+											<div class="asPrice">
+												Цена от
+												<span class="asPrice__count">8 931</span>
+												<span class="asPrice__currency">грн</span>
+											</div>
 										</div>
 									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-					<div class="col-md-5 col-md-push-1">
-						<a class="asOuterLink" href="your_city-dveri-mezhkomnatnye.php">МЕжкомнатные двери</a>
-						<ul class="asCatalogList">
-							<li class="asCatalogList__item">
-								<div class="asCatalogList__wrap">
-									<figure>
-										<a href="your_city-dveri-mezhkomnatnye-metalloplastikovye.php"><img src="img/plastic_interior_doors.jpg" alt="Пластиковые двери межкомнатные"></a>
-									</figure>
-									<div class="asCatalogList__content">
-										<a class="asCatalogList__title" href="your_city-dveri-mezhkomnatnye-metalloplastikovye.php">Пластиковые двери межкомнатные</a>
-										<div class="asPrice">
-											Цена от
-											<span class="asPrice__count">5 528</span>
-											<span class="asPrice__currency">грн</span>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-5 col-md-push-1">
+							<a class="asOuterLink" href="your_city-dveri-mezhkomnatnye.php">МЕжкомнатные двери</a>
+							<ul class="asCatalogList">
+								<li class="asCatalogList__item">
+									<div class="asCatalogList__wrap">
+										<figure>
+											<a href="your_city-dveri-mezhkomnatnye-metalloplastikovye.php"><img src="img/plastic_interior_doors.jpg" alt="Пластиковые двери межкомнатные"></a>
+										</figure>
+										<div class="asCatalogList__content">
+											<a class="asCatalogList__title" href="your_city-dveri-mezhkomnatnye-metalloplastikovye.php">Пластиковые двери межкомнатные</a>
+											<div class="asPrice">
+												Цена от
+												<span class="asPrice__count">5 528</span>
+												<span class="asPrice__currency">грн</span>
+											</div>
 										</div>
 									</div>
-								</div>
-							</li>
-							<li class="asCatalogList__item">
-								<div class="asCatalogList__wrap">
-									<figure>
-										<a href="your_city-dveri-mezhkomnatnye-alyuminievye.php"><img src="img/aluminum_interior_doors.jpg" alt="Алюминиевые двери межкомнатные"></a>
-									</figure>
-									<div class="asCatalogList__content">
-										<a class="asCatalogList__title" href="your_city-dveri-mezhkomnatnye-alyuminievye.php">Алюминиевые двери межкомнатные</a>
-										<div class="asPrice">
-											Цена от
-											<span class="asPrice__count">7 410</span>
-											<span class="asPrice__currency">грн</span>
+								</li>
+								<li class="asCatalogList__item">
+									<div class="asCatalogList__wrap">
+										<figure>
+											<a href="your_city-dveri-mezhkomnatnye-alyuminievye.php"><img src="img/aluminum_interior_doors.jpg" alt="Алюминиевые двери межкомнатные"></a>
+										</figure>
+										<div class="asCatalogList__content">
+											<a class="asCatalogList__title" href="your_city-dveri-mezhkomnatnye-alyuminievye.php">Алюминиевые двери межкомнатные</a>
+											<div class="asPrice">
+												Цена от
+												<span class="asPrice__count">7 410</span>
+												<span class="asPrice__currency">грн</span>
+											</div>
 										</div>
 									</div>
-								</div>
-							</li>
-							<li class="asCatalogList__item">
-								<div class="asCatalogList__wrap">
-									<figure>
-										<a href="your_city-dveri-mezhkomnatnye-steklyannye.php"><img src="img/glass_doors_interior.jpg" alt="Стеклянные двери межкомнатные"></a>
-									</figure>
-									<div class="asCatalogList__content">
-										<a class="asCatalogList__title" href="your_city-dveri-mezhkomnatnye-steklyannye.php">Стеклянные двери межкомнатные</a>
-										<div class="asPrice">
-											Цена от
-											<span class="asPrice__count">10 453</span>
-											<span class="asPrice__currency">грн</span>
+								</li>
+								<li class="asCatalogList__item">
+									<div class="asCatalogList__wrap">
+										<figure>
+											<a href="your_city-dveri-mezhkomnatnye-steklyannye.php"><img src="img/glass_doors_interior.jpg" alt="Стеклянные двери межкомнатные"></a>
+										</figure>
+										<div class="asCatalogList__content">
+											<a class="asCatalogList__title" href="your_city-dveri-mezhkomnatnye-steklyannye.php">Стеклянные двери межкомнатные</a>
+											<div class="asPrice">
+												Цена от
+												<span class="asPrice__count">10 453</span>
+												<span class="asPrice__currency">грн</span>
+											</div>
 										</div>
 									</div>
-								</div>
-							</li>
-						</ul>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
-			</div>
+			</div>	
+
 
 			<div class="lg-pb-35 sm-pb-0">
 				<?php include 'contents/regional/your_city/slider--dveri.php'; ?>
