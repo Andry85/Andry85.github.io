@@ -1189,7 +1189,7 @@ a.asOffer__link figure {
 }
 a.asOffer__link figcaption {
     text-decoration: underline;
-    padding: 5px 0;
+    padding: 8px 0 5px 0;
     font-size: 23px;
 }
 a.asOffer__link:hover figcaption {
@@ -2589,6 +2589,7 @@ a.asTop span.ico {
     line-height: 1.25;
     color: #0e3d6b;
     margin-bottom: 10px;
+    text-align: justify;
 }
 
 .price__text--firstBlock {
@@ -2878,7 +2879,7 @@ a.ourOffices_Tablist__link:active {
     height: 100%;
 }
 .ourOfficesTabs__text {
-    line-height: 1.7;
+    line-height: 1.25;
     color: #0e3d6b;
     margin-bottom: 20px;
 }
@@ -3093,6 +3094,7 @@ a.ourOffices_Tablist__link:active {
     line-height: 1.25;
     color: #0e3d6b;
     margin-bottom: 20px;
+    text-align: justify;
 }
 .asCatalog.asCatalog--doors {
     padding: 0 0 24px 0;
@@ -3499,7 +3501,7 @@ a.asOffer__link .asOffer__img {
 }
 
 a.asOffer__link .asOffer__img.asOffer__img--shadow {
-    margin-bottom: -12px;
+    margin-bottom: -23px;
 }
 
 a.asOffer__link .asOffer__img img {
@@ -5563,9 +5565,13 @@ a.asOffer__link .asOffer__img img {
     padding-bottom: 18px;
 }
 
-.manualControl {
-
+.automaticShutter {
+    text-align: justify;
 }
+.controlOptions__desc {
+    text-align: justify;
+}
+
 .as__subtitleBold {
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
@@ -6063,14 +6069,18 @@ a.asOffer__link .asOffer__img img {
         font-size: 24px;
     }
 
-
-
-
-
-
 }
 
 @media only screen and (max-width: 767px) {
+    a.asBtnLink-order {
+        letter-spacing: 0;
+    }
+    .listType_1__img img {
+        height: 120px;
+    }
+    .ourOffices__title {
+        font-size: 26px;
+    }
 	.asShopPhoneList {
 		padding: 15px 0 0 0;
 	}
@@ -6314,6 +6324,7 @@ a.asOffer__link .asOffer__img img {
     .listType_1__pic {
         margin-top: 13px;
         margin-bottom: 0;
+        justify-content: flex-start;
     }
     .listType_1__link figcaption {
         padding: 0;
@@ -6526,6 +6537,9 @@ a.asOffer__link .asOffer__img img {
     .canbeUsedList {
         padding-left: 0;
         padding-right: 0;
+    }
+    .canbeUsedList__item {
+        flex-basis: 50%;
     }
     .recommendsList__item {
         -ms-flex-preferred-size: 100%;

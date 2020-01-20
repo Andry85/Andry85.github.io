@@ -180,6 +180,7 @@ $(function() {
 
 
 
+
 		
 
 	// Tabs Start
@@ -284,6 +285,20 @@ $(function() {
 		nav:true
 	 });
 	// Slider End 
+
+	// Slider Start
+	 $(".videoCatalogMobileSlider").owlCarousel({
+	    responsiveClass:true,
+	    loop: true,
+	    items:1,
+	    nav:false,
+		dots: true,
+		autoHeight:true
+	 });
+	// Slider End 
+
+
+	
 
 	var dataLamination = 1;
 	var dataSection = 1;
