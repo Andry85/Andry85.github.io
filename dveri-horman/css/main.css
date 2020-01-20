@@ -3620,7 +3620,7 @@ footer .copy span {
 }
 
 #doorTypeMobWrapper #construction-types li img {
-    height: auto
+    height: auto;
 }
 
 #doorLaminationMobWrapper {
@@ -3936,6 +3936,20 @@ footer .copy span {
     #constructor-section .constructor-preview-wrapper .constructor-image-wrapper #gateSelected {
         top: 9.4%;
     }
+    #doorTypeMobWrapper #construction-types li img {
+        height: 120px;
+    }
+    #doorTypeMobWrapper #construction-types li {
+        width: auto;
+    }
+    #doorTypeMobWrapper {
+        height: 160px;
+        width: 100%;
+        margin: 0;
+    }
+    #mobPreviwWrapper .constructor-preview-wrapper {
+        margin: 0;
+    }
 }
 @media (max-width:576px) {
     #constructor-section .constructor-preview-wrapper .constructor-image-wrapper #gateSelected {
@@ -3946,6 +3960,7 @@ footer .copy span {
     #constructor-section .constructor-preview-wrapper .constructor-image-wrapper #gateSelected {
         top: 12.4%;
     }
+
 }
 @media (max-width: 380px) {
     #constructor-section .constructor-preview-wrapper .constructor-image-wrapper #gateSelected {

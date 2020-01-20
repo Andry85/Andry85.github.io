@@ -138,7 +138,7 @@
 						</div>		
 					</div>
 				</div>
-				<div class="lg-pt-10 lg-pb-30">
+				<div class="lg-ptb-30">
 					<?php include 'contents/regional/your_city/slider--okna.php'; ?>
 				</div>
 				<p class="asProductBlock__text">Алюминиевые окна -  это красивое и стильное решение остекления. В них сочетается повышенная прочность конструкции, невероятно большой срок эксплуатации - 80 лет без смены внешнего вида и свойств окна, стильный современный вид, возможность покраски в любой цвет, хорошие тепло- и звукоизоляционные характеристики. (Благодаря своим свойствам окна из алюминия пропускают больше света и обладают высокой износоустойчивостью и прочностью. Строгие линии конструкций и широкий спектр цветов позволит подчеркнуть стиль Вашего дома. ) Именно благодаря такому сочетанию уникальных свойств алюминиевые окна ТМ КОРСА пользуются спросом при остеклении коммерческих, офисных и административных зданий, а также частных коттеджей современного дизайна. Алюминиевые окна //в Городе// обладают более широким температурным режимом и сохраняют свои свойства при перепадах температур от -80 С до +100 С. Они не требуют особенного ухода, но при этом открывают перед Вами широкие возможности в области дизайна, так как окна из алюминия могут быть изготовлены больших размеров и любых форм.</p>
@@ -194,7 +194,7 @@
 						</div>		
 					</div>
 				</div>
-				<div class="lg-pt-25 lg-pb-45">
+				<div class="lg-ptb-30">
 					<?php include 'contents/regional/your_city/slider--balkony-lodzhii.php'; ?>	
 				</div>	
 				<p class="asProductBlock__text">Высокую популярность обретает остекление лоджии алюминиевым профилем. Такие конструкции легче металлопластиковых аналогов (за счет алюминия). Именно из них изготавливаются окна особо больших размеров. Среди ключевых преимуществ таких изделий можно отметить: полное противостояние огню; прочность и долговечность (не подвергаются коррозии); широкая палитра оттенков; возможность изготовления конструкций любых размеров; доступная цена. Предусмотрены алюминиевые профили как для холодного, так и для теплого остекления.</p>
@@ -342,7 +342,7 @@
 			</div>	
 
 
-			<div class="lg-pb-35 sm-pb-0">
+			<div class="lg-ptb-30">
 				<?php include 'contents/regional/your_city/slider--dveri.php'; ?>
 			</div>
 
@@ -481,7 +481,7 @@
 				</div>
 			</div>
 
-			<div class="lg-pb-35 lg-pt-10 sm-pb-0">
+			<div class="lg-ptb-30">
 				<?php include 'contents/regional/your_city/slider--vorota.php'; ?>
 			</div>
 
@@ -575,7 +575,7 @@
 				</div>
 			</div>
 
-			<div class="lg-pb-35 lg-pt-10 sm-pb-0">
+			<div class="lg-ptb-30">
 				<?php include 'contents/regional/your_city/slider--rollety.php'; ?>
 			</div>
 
@@ -667,7 +667,7 @@
 					</div>
 				</div>
 			</div>		
-			<div class="lg-pb-35 lg-pt-10 sm-pb-0">
+			<div class="lg-ptb-30">
 				<?php include 'contents/regional/your_city/slider--peregorodki.php'; ?>
 			</div>
 			<div class="lg-pb-20 sm-pb-15">
@@ -777,7 +777,7 @@
 				</div>
 			</div>
 
-			<div class="lg-pb-45 sm-pb-0">
+			<div class="lg-ptb-30">
 				<?php include 'contents/regional/your_city/slider--zimnij-sad-osteklenie.php'; ?>
 			</div>
 			<div class="lg-pb-15">
@@ -822,7 +822,7 @@
 				</div>
 			</section>
 
-			<div class="lg-pb-50">
+			<div class="lg-ptb-30">
 				<?php include 'contents/regional/your_city/slider--fasad-osteklenie.php'; ?>
 			</div>
 			<div class="lg-pb-50">

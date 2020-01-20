@@ -693,6 +693,7 @@ a.asLangList__link:hover
 .asProductDescText__entry {
 	line-height: 1.25;
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 .ascategoriesNav {
@@ -1159,6 +1160,7 @@ a.asBtnLink-order:hover {
 .asProductBlock__text {
 	line-height: 1.25;
     margin-bottom: 20px;
+    text-align: justify;
 }
 .asProductBlock__text--title {
     text-align: center;
@@ -2369,7 +2371,7 @@ a.asTop span.ico {
 }
 .asCarousel__item a {
     display: block;
-    margin-bottom: 15px;
+    margin-bottom: 0;
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
     padding: 0 7px 0 8px;
@@ -3497,7 +3499,7 @@ a.asOffer__link .asOffer__img {
 }
 
 a.asOffer__link .asOffer__img.asOffer__img--shadow {
-    margin-bottom: -28px;
+    margin-bottom: -12px;
 }
 
 a.asOffer__link .asOffer__img img {
@@ -3533,9 +3535,9 @@ a.asOffer__link .asOffer__img img {
 }
 
 .asProductRow > div[class^="col-"] {
-    -webkit-box-flex: 1;
+    /*-webkit-box-flex: 1;
         -ms-flex-positive: 1;
-            flex-grow: 1;
+            flex-grow: 1;*/
 }
 
 .discountWrap {
@@ -6217,6 +6219,7 @@ a.asOffer__link .asOffer__img img {
     .asCarousel__item a {
         -ms-flex-preferred-size: 100%;
             flex-basis: 100%;
+            margin-bottom: 15px
     }
     .portfolioList__link figure img {
         -o-object-fit: cover;
@@ -6643,6 +6646,9 @@ a.asOffer__link .asOffer__img img {
     }
     .listType_1 a.asBtnLink.asBtnLink--primary {
         min-width: inherit;
+        letter-spacing: 0;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .listType_1__item .asPrice {
         margin-bottom: 12px;
