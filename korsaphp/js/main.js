@@ -293,7 +293,8 @@ $(function() {
 	    items:1,
 	    nav:false,
 		dots: true,
-		autoHeight:true
+		video:true,
+		merge:true,
 	 });
 	// Slider End 
 

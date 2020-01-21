@@ -2686,7 +2686,7 @@ a.asTop span.ico {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding: 0 5px;
+    padding: 10px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -5733,7 +5733,9 @@ a.asOffer__link .asOffer__img img {
     padding: 20px 0 0 0;
 }
 
-
+.videoCatalogMobileSlider .item-video {
+    height: 300px;
+}
 
 
 
@@ -6386,6 +6388,7 @@ a.asOffer__link .asOffer__img img {
     .nonStandardList__img {
         min-height: 150px; 
         height: auto;
+        padding:0;
     }
     .listType_3 {
         padding: 18px 0 0 0;
