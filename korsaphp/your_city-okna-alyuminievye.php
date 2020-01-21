@@ -49,7 +49,7 @@
 				
 				<?php include 'contents/regional/your_city-okna-alyuminievye/advantagesSecond.php'; ?>
 
-				<div class="lg-pt-25 lg-pb-10">
+				<div class="lg-ptb-15">
 					<?php include 'contents/regional/your_city-okna-alyuminievye/slider.php'; ?>
 				</div>
 

@@ -6073,6 +6073,12 @@ a.asOffer__link .asOffer__img img {
 }
 
 @media only screen and (max-width: 767px) {
+    .asPrice_withoutDiscount {
+        font-size: 13px;
+    }
+    .asPrice_withoutDiscount .line-through {
+        font-size: 13px;
+    }
     .listType_1__item__discount {
         max-width: 100%;
         height: auto;
@@ -6788,7 +6794,7 @@ a.asOffer__link .asOffer__img img {
     }
     .listType_1__item__info {
         left: 6%;
-        top: 2px;
+        top: 10px;
     }
     .setRow.setRow--first {
         margin-top: 25px;

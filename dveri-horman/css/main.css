@@ -193,7 +193,8 @@ section:before {
 }
 .section-title.section-title--leftAlign {
     text-align: left;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    margin-top: 56px;
 }
 
 .section-title h2 {
@@ -242,32 +243,44 @@ section:before {
 
 .advantagesList {
     margin: 0;
-    padding: 0 0 20px 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    padding: 0 40px 20px 20px;
 }
 .advantagesList li {
-    text-align: center;
-    flex-basis: 25%;
-    color: #0e3d6b;
+    color: #212434;
     line-height: 1.2;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-size: 15px;
     position: relative;
+    padding: 0;
     list-style: none;
-    padding: 15px 20px 50px 20px;
+    padding: 0 0 0 15px;
+    font-weight: bold;
 }
-.advantagesList li:after {
+.advantagesList li:before {
     content: '';
-    width: 40px;
-    transform: translateX(-50%);
-    height: 2px;
     position: absolute;
-    left: 50%;
+    left: 0;
+    top: 7px;
+    width: 4px;
+    height: 4px;
     background: #ff8500;
-    top: 0;
 }
+
+.advantages__pic {
+    height: 100%;
+    display: flex;
+}
+
+.advantagesWrap .row {
+    display: flex;
+}
+
+.advantagesWrap .section-title h2 {
+    font-size: 26px;
+    margin-top: 0;
+}
+
+
 
 
 .facebook-icon {
@@ -369,10 +382,20 @@ a.asreviewsBox__more:before {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff',endColorstr='#ffffff',GradientType=1);
 }
 
+.advantages__pic img {
+    max-width: 100%;
+}
+
 
 @media (max-width:992px) {
     .navbar .navbar-nav {
         width: calc(100% - 84px)
+    }
+}
+
+@media (max-width:991px) {
+    .advantagesWrap .row {
+        display: block;
     }
 }
 
@@ -389,7 +412,7 @@ a.asreviewsBox__more:before {
         height: calc(100vh - 50px)
     }
     .advantagesList {
-        padding: 0 15px 0 15px;
+        padding: 0 0 30px 15px;
     }
     .asreviewsBox {
         margin: 0;
