@@ -254,7 +254,7 @@ section:before {
     padding: 0;
     list-style: none;
     padding: 0 0 0 15px;
-    font-weight: bold;
+    
 }
 .advantagesList li:before {
     content: '';
@@ -412,7 +412,7 @@ a.asreviewsBox__more:before {
         height: calc(100vh - 50px)
     }
     .advantagesList {
-        padding: 0 0 30px 15px;
+        padding: 0 0 15px 15px;
     }
     .asreviewsBox {
         margin: 0;
