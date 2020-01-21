@@ -21,7 +21,7 @@
 					</p>
 				</div>
 			</section>
-			<?php include 'contents/regional/your_city/whereToBuy.php'; ?>
+			<?php include 'contents/regional/your_city-peregorodki-plastikovye/whereToBuy/whereToBuy.php'; ?>
 			<?php include 'contents/regional/your_city/map.php'; ?>
 			<div class="row lg-mb-20">
 				<div class="col-md-12">

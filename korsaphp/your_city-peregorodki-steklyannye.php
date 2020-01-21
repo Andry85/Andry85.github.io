@@ -20,7 +20,7 @@
 					</p>
 				</div>
 			</section>
-			<?php include 'contents/regional/your_city/whereToBuy.php'; ?>
+			<?php include 'contents/regional/your_city-peregorodki-steklyannye/whereToBuy/whereToBuy.php'; ?>
 			<?php include 'contents/regional/your_city/map.php'; ?>
 			<div class="row">
 				<div class="col-md-12">

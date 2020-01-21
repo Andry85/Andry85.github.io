@@ -21,7 +21,7 @@
 				</div>
 			</section>
 			
-			<?php include 'contents/regional/your_city/whereToBuy.php'; ?>
+			<?php include 'contents/regional/your_city-dveri-mezhkomnatnye-alyuminievye/whereToBuy/whereToBuy.php'; ?>
 			<?php include 'contents/regional/your_city/map.php'; ?>
 
 			<section class="asProductBlock">

@@ -24,7 +24,7 @@
 				</div>
 			</section>
 			
-			<?php include 'contents/regional/your_city/whereToBuy.php'; ?>
+			<?php include 'contents/regional/your_city-balkon-alyuminievyj/whereToBuy/whereToBuy.php'; ?>
 			<?php include 'contents/regional/your_city/map.php'; ?>
 
 			<div class="row">
@@ -135,7 +135,7 @@
 				</div>
 			</section>
 			<?php include 'contents/recommendation.php'; ?>
-			<?php include 'contents/regional/your_city-balkon-plastikovyj/videoCatalog.php'; ?>
+			<?php include 'contents/regional/your_city-balkon-alyuminievyj/videoCatalog.php'; ?>
 			<?php include 'contents/popularСolors.php'; ?>
 			<div class="lg-pt-55 lg-pb-80">
 				<?php include 'contents/windows_systems.php'; ?>

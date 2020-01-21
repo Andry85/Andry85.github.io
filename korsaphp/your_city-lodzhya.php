@@ -23,7 +23,7 @@
 					<p class="asProductDescText__entry">В наших фирменных офисах имеется большой подбор оконных и дверных конструкций. Наш квалифицированный специалист порекомендует оптимальный вариант и поможет выбрать наилучшее для вас. Если Вы уже выбрали окна или двери, то оформить заказ можно по телефону 0(800) 210-210. </p>
 				</div>
 			</section>
-			<?php include 'contents/regional/your_city/whereToBuy.php'; ?>
+			<?php include 'contents/regional/your_city-lodzhya/whereToBuy/whereToBuy.php'; ?>
 			<?php include 'contents/regional/your_city/map.php'; ?>
 			<div class="row lg-mb-20">
 				<div class="col-md-12">

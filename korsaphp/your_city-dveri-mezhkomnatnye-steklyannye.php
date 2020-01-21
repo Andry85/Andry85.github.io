@@ -24,7 +24,7 @@
 				</div>
 			</section>
 			
-			<?php include 'contents/regional/your_city/whereToBuy.php'; ?>
+			<?php include 'contents/regional/your_city-dveri-mezhkomnatnye-steklyannye/whereToBuy/whereToBuy.php'; ?>
 			<?php include 'contents/regional/your_city/map.php'; ?>
 
 			<section class="asProductBlock">

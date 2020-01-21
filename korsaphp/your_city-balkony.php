@@ -22,7 +22,7 @@
 				</div>
 			</section>
 			
-			<?php include 'contents/regional/your_city/whereToBuy.php'; ?>
+			<?php include 'contents/regional/your_city-balkony/whereToBuy/whereToBuy.php'; ?>
 			<?php include 'contents/regional/your_city/map.php'; ?>
 
 			<div class="row">

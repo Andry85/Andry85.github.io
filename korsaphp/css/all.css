@@ -2458,15 +2458,15 @@ a.asTop span.ico {
     padding: 0;
 }
 .asWrap .owl-carousel .owl-dot span {
-    width: 8px;
-    height: 8px;
+    width: 16px;
+    height: 16px;
     border-radius: 50%;
     background: #ccc;
     display: block;
-    margin: 4px;
+    margin: 8px;
 }
 .asWrap .owl-carousel .owl-dot.active span {
-    background: #000;
+    background: #ff8500;
 }
 
 .listType_1 {
@@ -5907,6 +5907,7 @@ a.asOffer__link .asOffer__img img {
     .listType_1__item {
         -ms-flex-preferred-size: 50%;
             flex-basis: 50%;
+            margin-bottom: 25px;
     }
     .nonStandardList__item {
         -ms-flex-preferred-size: 25%;
@@ -6072,6 +6073,17 @@ a.asOffer__link .asOffer__img img {
 }
 
 @media only screen and (max-width: 767px) {
+    .listType_1__item__discount {
+        max-width: 100%;
+        height: auto;
+        padding: 6px 3px;
+    }
+    .listType_1__item__discount h5 {
+        font-size: 11px;
+    }
+    .listType_1__item__discount p {
+        font-size: 10px;
+    }
     a.asBtnLink-order {
         letter-spacing: 0;
     }
@@ -6775,8 +6787,8 @@ a.asOffer__link .asOffer__img img {
            flex-basis: 50%;
     }
     .listType_1__item__info {
-        left: 20%;
-        top: 30px;
+        left: 6%;
+        top: 2px;
     }
     .setRow.setRow--first {
         margin-top: 25px;
