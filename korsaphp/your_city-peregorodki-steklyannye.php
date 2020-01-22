@@ -60,7 +60,7 @@
 					</div>
 				</div>
 			</section>
-			<?php include 'contents/advantagesSecond.php'; ?>
+			<?php include 'contents/regional/your_city-okna-alyuminievye/advantagesSecond.php'; ?>
 			<div class="row typesSlider-alyuminievye">
 				<div class="col-md-12">
 					<?php include 'contents/regional/your_city-peregorodki-steklyannye/typesSlider--second.php'; ?>
