@@ -35,7 +35,7 @@
 			</div>
 
 			<section class="asProductBlock">
-				<h2 class="as__subtitle">Балконы и лоджии в Киеве</h2>
+				<h2 class="as__subtitle">балконы, двери и окна на балкон в Киеве</h2>
 				<div class="row">
 					<div class="col-md-6">
 						<div class="asProductBlock__content">
