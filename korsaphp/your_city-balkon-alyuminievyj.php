@@ -109,7 +109,7 @@
 					</div>
 				</div>
 			</section>	
-			<?php include 'contents/advantagesSecond.php'; ?>
+			<?php include 'contents/regional/your_city-okna-alyuminievye/advantagesSecond.php'; ?>
 			<section class="asProductBlock">
 				<h2 class="as__subtitle">Цены на популярные варианты ОСТЕКЛЕНИЕ БАЛКОНА</h2>
 				<div class="row">
