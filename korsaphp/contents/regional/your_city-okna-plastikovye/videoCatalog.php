@@ -70,54 +70,26 @@
 
 <div class="videoCatalogMobile visible-xs-block">
 	<div class="videoCatalogMobileSlider owl-carousel">
-		<div class="item">
-			<article class="videoBlock">
-				<div class="videoBlock__source">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/_eLJojmemMw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-			</article>
+		<div class="item-video">
+			<a class="owl-video" href="https://www.youtube.com/embed/_eLJojmemMw"></a>
 		</div>
-		<div class="item">
-			<article class="videoBlock">
-				<div class="videoBlock__source">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/dYSRh09WImU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-			</article>
+		<div class="item-video">
+			<a class="owl-video" href="https://www.youtube.com/embed/dYSRh09WImU"></a>
 		</div>
-		<div class="item">
-			<article class="videoBlock">
-				<div class="videoBlock__source">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/x5FcgWvYSbc" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-			</article>
+		<div class="item-video">
+			<a class="owl-video" href="https://www.youtube.com/embed/x5FcgWvYSbc"></a>
 		</div>
-		<div class="item">
-			<article class="videoBlock">
-				<div class="videoBlock__source">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/WgbiYLoqx7A" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-			</article>
+		<div class="item-video">
+			<a class="owl-video" href="https://www.youtube.com/embed/WgbiYLoqx7A"></a>
 		</div>
-		<div class="item">
-			<article class="videoBlock">
-				<div class="videoBlock__source">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/1VyGVxGQPqA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-			</article>
+		<div class="item-video">
+			<a class="owl-video" href="https://www.youtube.com/embed/1VyGVxGQPqA"></a>
 		</div>
-		<div class="item">
-			<article class="videoBlock">
-				<div class="videoBlock__source">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/2l-5yf0FG3c" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-			</article>
+		<div class="item-video">
+			<a class="owl-video" href="https://www.youtube.com/embed/2l-5yf0FG3c"></a>
 		</div>
-		<div class="item">
-			<article class="videoBlock">
-				<div class="videoBlock__source">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/BiDsBh9mmQc" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-			</article>
-		</div>	
+		<div class="item-video">
+			<a class="owl-video" href="https://www.youtube.com/embed/BiDsBh9mmQc"></a>
+		</div>
 	</div>
 </div>

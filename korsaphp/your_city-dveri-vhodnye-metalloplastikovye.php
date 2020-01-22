@@ -45,6 +45,10 @@
 					</div>
 				</div>
 			</section>
+			<?php include 'contents/advantagesSecond.php'; ?>
+			<div class="lg-pt-15 lg-pb-70 sm-ptb-0">
+				<?php include 'contents/regional/your_city-dveri-vhodnye-metalloplastikovye/slider--dveri-vhodnye-metalloplastikovye.php'; ?>
+			</div>
 
 			<?php include 'contents/regional/your_city-dveri-vhodnye-metalloplastikovye/videoCatalog.php'; ?>
 

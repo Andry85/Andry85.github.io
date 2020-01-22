@@ -78,28 +78,28 @@
 
 <div class="videoCatalogMobile visible-xs-block">
 	<div class="videoCatalogMobileSlider owl-carousel">
-		<div class="item-video" data-merge="1">
+		<div class="item-video">
 			<a class="owl-video" href="https://www.youtube.com/embed/WgbiYLoqx7A"></a>
 		</div>
-		<div class="item-video" data-merge="1">
+		<div class="item-video">
 			<a class="owl-video" href="https://www.youtube.com/embed/dYSRh09WImU"></a>
 		</div>
-		<div class="item-video" data-merge="1">
+		<div class="item-video">
 			<a class="owl-video" href="https://www.youtube.com/embed/x5FcgWvYSbc"></a>
 		</div>
-		<div class="item-video" data-merge="1">
+		<div class="item-video">
 			<a class="owl-video" href="https://www.youtube.com/embed/_eLJojmemMw"></a>
 		</div>
-		<div class="item-video" data-merge="1">
+		<div class="item-video">
 			<a class="owl-video" href="https://www.youtube.com/embed/1VyGVxGQPqA"></a>
 		</div>
-		<div class="item-video" data-merge="1">
+		<div class="item-video">
 			<a class="owl-video" href="https://www.youtube.com/embed/2l-5yf0FG3c"></a>
 		</div>
-		<div class="item-video" data-merge="1">
+		<div class="item-video">
 			<a class="owl-video" href="https://www.youtube.com/embed/BiDsBh9mmQc"></a>
 		</div>
-		<div class="item-video" data-merge="1">
+		<div class="item-video">
 			<a class="owl-video" href="https://www.youtube.com/embed/TzXcQLM9bA4"></a>
 		</div>		
 	</div>

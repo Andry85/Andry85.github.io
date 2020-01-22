@@ -46,6 +46,12 @@
 				</div>
 			</section>
 
+			<?php include 'contents/regional/your_city-okna-alyuminievye/advantagesSecond.php'; ?>
+
+			<div class="lg-pt-15 lg-pb-70 sm-ptb-0">
+				<?php include 'contents/regional/your_city-dveri-mezhkomnatnye-alyuminievye/slider.php'; ?>
+			</div>
+
 
 			<?php include 'contents/regional/your_city-dveri-mezhkomnatnye-alyuminievye/videoCatalog.php'; ?>
 		</div>

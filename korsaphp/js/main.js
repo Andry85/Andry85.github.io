@@ -287,19 +287,21 @@ $(function() {
 	// Slider End 
 
 	// Slider Start
-	 $(".videoCatalogMobileSlider").owlCarousel({
-	    responsiveClass:true,
-	    loop: true,
-	    items:1,
-	    nav:false,
-		dots: true,
-		video:true,
-		merge:true,
-	 });
+
+	
+		var owl = $('.videoCatalogMobileSlider');
+		 owl.owlCarousel({
+		    responsiveClass:true,
+		    loop: true,
+		    items:1,
+		    nav:false,
+			dots: true,
+			video:true
+		 });
+
 	// Slider End 
 
 
-	
 
 	var dataLamination = 1;
 	var dataSection = 1;

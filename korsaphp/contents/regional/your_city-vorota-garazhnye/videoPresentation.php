@@ -1,4 +1,4 @@
-<div class="videoPresentation">
+<div class="videoPresentation hidden-xs">
 	<div class="container">
 		
 		<div class="row">
@@ -106,5 +106,50 @@
 			</div>
 		</div>
 
+	</div>
+</div>
+
+
+<div class="videoCatalogMobile visible-xs-block">
+	<div class="videoCatalogMobileSlider owl-carousel">
+		<div class="item-video">
+			<a class="owl-video" href="https://www.youtube.com/embed/T2nBxS5Gdjw"></a>
+		</div>
+		<div class="item-video">
+			<a class="owl-video" href="https://www.youtube.com/embed/1fE4vfzibK4"></a>
+		</div>
+		<div class="item-video">
+			<a class="owl-video" href="https://www.youtube.com/embed/5t-bDge7ZXA"></a>
+		</div>
+		<div class="item-video">
+			<a class="owl-video" href="https://www.youtube.com/embed/TK3cTsFIhVc"></a>
+		</div>
+		<div class="item-video">
+			<a class="owl-video" href="https://www.youtube.com/embed/tnS3bM0poJg"></a>
+		</div>
+		<div class="item-video">
+			<a class="owl-video" href="https://www.youtube.com/embed/fTkqwKqBTOA"></a>
+		</div>
+		<div class="item-video">
+			<a class="owl-video" href="https://www.youtube.com/embed/mhLwvs55rYI"></a>
+		</div>
+		<div class="item-video">
+			<a class="owl-video" href="https://www.youtube.com/embed/N1BkMPsPHtM"></a>
+		</div>
+		<div class="item-video">
+			<a class="owl-video" href="https://www.youtube.com/embed/0_GvLjSo0dQ"></a>
+		</div>
+		<div class="item-video">
+			<a class="owl-video" href="https://www.youtube.com/embed/5DZfM3_RcCg"></a>
+		</div>
+		<div class="item-video">
+			<a class="owl-video" href="https://www.youtube.com/embed/qp39w8vYH_8"></a>
+		</div>
+		<div class="item-video">
+			<a class="owl-video" href="https://www.youtube.com/embed/DbeR_J1OsIE"></a>
+		</div>
+		<div class="item-video">
+			<a class="owl-video" href="https://www.youtube.com/embed/ebG8YgomAOo"></a>
+		</div>
 	</div>
 </div>

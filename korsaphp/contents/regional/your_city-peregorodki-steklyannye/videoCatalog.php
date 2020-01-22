@@ -43,33 +43,17 @@
 
 <div class="videoCatalogMobile visible-xs-block">
 	<div class="videoCatalogMobileSlider owl-carousel">
-		<div class="item">
-			<article class="videoBlock">
-				<div class="videoBlock__source">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/pwS0cjJ0gsM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-			</article>
+		<div class="item-video">
+			<a class="owl-video" href="https://www.youtube.com/embed/pwS0cjJ0gsM"></a>
 		</div>
-		<div class="item">
-			<article class="videoBlock">
-				<div class="videoBlock__source">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/vG0a_2NiLPs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-			</article>
+		<div class="item-video">
+			<a class="owl-video" href="https://www.youtube.com/embed/vG0a_2NiLPs"></a>
 		</div>
-		<div class="item">
-			<article class="videoBlock">
-				<div class="videoBlock__source">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/JyyL-iIsbBE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-			</article>
+		<div class="item-video">
+			<a class="owl-video" href="https://www.youtube.com/embed/JyyL-iIsbBE"></a>
 		</div>
-		<div class="item">
-			<article class="videoBlock">
-				<div class="videoBlock__source">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/h9bQmrySF5M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-			</article>
+		<div class="item-video">
+			<a class="owl-video" href="https://www.youtube.com/embed/h9bQmrySF5M"></a>
 		</div>
 	</div>
 </div>

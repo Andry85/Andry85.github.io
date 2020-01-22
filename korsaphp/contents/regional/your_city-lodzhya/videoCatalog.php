@@ -16,12 +16,8 @@
 
 <div class="videoCatalogMobile visible-xs-block">
 	<div class="videoCatalogMobileSlider owl-carousel">
-		<div class="item">
-			<article class="videoBlock">
-				<div class="videoBlock__source">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/HK1-J7CJiPg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-			</article>
-		</div>	
+		<div class="item-video">
+			<a class="owl-video" href="https://www.youtube.com/embed/HK1-J7CJiPg"></a>
+		</div>
 	</div>
 </div>

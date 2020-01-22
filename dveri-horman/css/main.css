@@ -2588,7 +2588,9 @@ footer .copy span {
 }
 
 .slick-slide img {
-    display: block
+    display: block;
+    border: 1px solid #ff8500;
+    min-height: 300px;
 }
 
 .slick-slide.slick-loading img {
