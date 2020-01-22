@@ -37,7 +37,7 @@
 		</div>
 	</div>
 </div>
-<?php include 'contents/discount.php'; ?>
+<?php include 'contents/regional/your_city-lodzhya/discount.php'; ?>
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
