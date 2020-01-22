@@ -5918,6 +5918,7 @@ a.asOffer__link .asOffer__img img {
     .listType_1__item {
         -ms-flex-preferred-size: 50%;
             flex-basis: 50%;
+            padding: 0 5px;
             margin-bottom: 25px;
     }
     .nonStandardList__item {
@@ -6084,6 +6085,9 @@ a.asOffer__link .asOffer__img img {
 }
 
 @media only screen and (max-width: 767px) {
+    .listType_1__additional {
+        font-size: 13px;
+    }
     .asProductBlock--glazing {
         margin-bottom: 0;
     }
@@ -6707,6 +6711,7 @@ a.asOffer__link .asOffer__img img {
         padding-right: 10px;
     }
     .listType_1__item .asPrice {
+        padding-top: 10px;
         margin-bottom: 12px;
     }
     .listType_1__title {
