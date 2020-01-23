@@ -34,7 +34,7 @@
 
 			<?php include 'contents/regional/your_city-vorota-garazhnye/offer_list.php'; ?>
 
-			<section class="asProductBlock lg-pb-5">
+			<section class="asProductBlock lg-pb-5" id="voroty_type_0">
 				<h2 class="as__subtitle">Секционные ворота в Киеве</h2>
 				<div class="row">
 					<div class="col-md-6">
@@ -81,7 +81,7 @@
 	<div class="row">
 		<div class="col-md-12">
 
-			<section class="asProductBlock lg-pb-5">
+			<section class="asProductBlock lg-pb-5" id="voroty_type_1">
 				<h2 class="as__subtitle">Подъемно-поворотные ворота в Киеве</h2>
 				<div class="row">
 					<div class="col-md-6">
@@ -129,7 +129,7 @@
 	<div class="row">
 		<div class="col-md-12">
 
-			<section class="asProductBlock lg-pb-5">
+			<section class="asProductBlock lg-pb-5" id="voroty_type_2">
 				<h2 class="as__subtitle">Роллетные ворота в Киеве</h2>
 				<div class="row">
 					<div class="col-md-6">
@@ -179,7 +179,7 @@
 	<div class="row">
 		<div class="col-md-12">
 
-			<section class="asProductBlock lg-pb-5">
+			<section class="asProductBlock lg-pb-5" id="voroty_type_3">
 				<h2 class="as__subtitle">Рулоннные ворота в Киеве</h2>
 				<div class="row">
 					<div class="col-md-6">

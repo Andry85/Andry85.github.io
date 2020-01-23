@@ -32,7 +32,7 @@
 
 			<?php include 'contents/regional/your_city-peregorodki/offer_list.php'; ?>
 
-			<section class="asProductBlock lg-pb-5">
+			<section class="asProductBlock lg-pb-5" id="peregorodki_type_0">
 				<h2 class="as__subtitle">Металлопластиковые перегородки в Киеве</h2>
 				<div class="row">
 					<div class="col-md-6">
@@ -87,7 +87,7 @@
 	<div class="row lg-pt-40">
 		<div class="col-md-12">
 
-			<section class="asProductBlock lg-pb-5">
+			<section class="asProductBlock lg-pb-5" id="peregorodki_type_1">
 				<h2 class="as__subtitle">Стеклянные перегородки в Киеве</h2>
 				<div class="row">
 					<div class="col-md-6">
@@ -144,7 +144,7 @@
 	<div class="row lg-pt-10">
 		<div class="col-md-12">
 
-			<section class="asProductBlock lg-pb-5">
+			<section class="asProductBlock lg-pb-5" id="peregorodki_type_2">
 				<h2 class="as__subtitle">Алюминиевые перегородки в Киеве</h2>
 				<div class="row">
 					<div class="col-md-6">

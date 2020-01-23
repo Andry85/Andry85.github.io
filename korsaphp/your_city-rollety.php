@@ -35,7 +35,7 @@
 
 			<?php include 'contents/regional/your_city-rollety/offer_list.php'; ?>
 
-			<section class="asProductBlock">
+			<section class="asProductBlock" id="shutters_type_0">
 				<h2 class="as__subtitle">Защитные роллеты в Киеве</h2>
 				<div class="row">
 					<div class="col-md-6">
@@ -83,7 +83,7 @@
 	<div class="row">
 		<div class="col-md-12">
 
-			<section class="asProductBlock">
+			<section class="asProductBlock" id="shutters_type_1">
 				<h2 class="as__subtitle">Роллетные решетки в Киеве</h2>
 				<div class="row">
 					<div class="col-md-6">
