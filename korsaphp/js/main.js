@@ -512,7 +512,7 @@ $(function() {
 	// Slider Start
 	 $(".laminationColorMobile .owl-carousel").owlCarousel({
 	    responsiveClass:true,
-	    loop: true,
+	    loop: false,
 	    items: 3,
 	    dots: false,
 		nav:true,
@@ -523,7 +523,7 @@ $(function() {
 	// Slider Start
 	 $(".sectionTypeMobile .owl-carousel").owlCarousel({
 	    responsiveClass:true,
-	    loop: true,
+	    loop: false,
 	    items: 3,
 	    dots: false,
 		nav:true,

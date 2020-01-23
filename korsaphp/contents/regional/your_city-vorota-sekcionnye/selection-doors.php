@@ -156,7 +156,7 @@
 						<img src="uploads/your_city-vorota-sekcionnye/lamination_color/6.jpg">
 						<h4><i>Тёмный дуб</i></h4>
 					</li>
-					<li class="laminationColorList__item" data-lamination="4">
+					<li class="laminationColorList__item" data-lamination="7">
 						<img src="uploads/your_city-vorota-sekcionnye/lamination_color/7.jpg">
 						<h4><i>Ночной дуб</i></h4>
 					</li>
@@ -204,7 +204,7 @@
 							</div>
 						</div>
 						<div class="item">
-							<div class="laminationColorList__item" data-lamination="4">
+							<div class="laminationColorList__item" data-lamination="7">
 								<img src="uploads/your_city-vorota-sekcionnye/lamination_color/7.jpg">
 								<h4><i>Ночной дуб</i></h4>
 							</div>

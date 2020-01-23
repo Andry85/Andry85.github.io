@@ -6702,13 +6702,13 @@ a.asOffer__link .asOffer__img img {
     }
     .laminationColor__title {
         padding-bottom: 10px;
-        font-size: 20px;
+        font-size: 18px;
     }
     .gateConfigurator {
         display: block;
         margin: 0 auto;
         text-align: center;
-        padding: 25px 0 0 0;
+        padding: 8px 0 0 0;
     }
     .gateConfigurator__height {
         height: 150px;
