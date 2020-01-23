@@ -20,7 +20,7 @@
 			<div class="col-md-6">
 				<div class="discountInner">
 					<div class="discountInner__message">Покупайте выгодно!</div>
-					<h2 class="discountInner__title">ЛОДЖИИ <strong>СО СКИДКОЙ 30%</strong></h2>
+					<h2 class="discountInner__title">Остекление лоджии пластиковыми окнами REHAU <strong>СО СКИДКОЙ 30%</strong></h2>
 					<p class="discountInner__text"><span>ТОРОПИТЕСЬ!</span> АКЦИЯ ТОЛЬКО <i>ДО КОНЦА НЕДЕЛИ</i></p>
 				</div>
 			</div>

@@ -3,7 +3,7 @@
 	<p class="popularPrices__desc">Цены указаны на <strong>акционные гаражные секционные ворота</strong> RenoMatic light 2018, секции M-гофр, Z/N направляющая, без привода и с автоматическим приводом ProLift700. Цена гаражных секционных ворот может быть изменена в случае изменения официального курса евро НБУ.</p>
 	<div class="popularPricesTable">
 
-		<div class="table-responsive">
+		
 			<table class="table">
 				<tr>
 					<th>
@@ -40,24 +40,24 @@
 						</div>
 					</td>
 					<td>
-						<p class="popularPricesTable_text">2500 × 2125 <span>мм</span></p>
+						<p class="popularPricesTable_text">2500×2125<span>мм</span></p>
 					</td>
 					<td>
-						<p class="popularPricesTable_text">20 475 <span>грн.</span></p>
+						<p class="popularPricesTable_text">20 475<span>грн.</span></p>
 					</td>
 					<td>
-						<p class="popularPricesTable_text">27 125 <span>грн.</span></p>
+						<p class="popularPricesTable_text">27 125<span>грн.</span></p>
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<p class="popularPricesTable_text">2500 × 2125 <span>мм</span></p>
+						<p class="popularPricesTable_text">2500×2125 <span>мм</span></p>
 					</td>
 					<td>
-						<p class="popularPricesTable_text">23 625 <span>грн.</span></p>
+						<p class="popularPricesTable_text">23 625<span>грн.</span></p>
 					</td>
 					<td>
-						<p class="popularPricesTable_text">30 625 <span>грн.</span></p>
+						<p class="popularPricesTable_text">30 625<span>грн.</span></p>
 					</td>
 				</tr>
 				<tr>
@@ -70,46 +70,46 @@
 						</div>
 					</td>
 					<td>
-						<p class="popularPricesTable_text">3000 × 2125 <span>мм</span></p>
+						<p class="popularPricesTable_text">3000×2125<span>мм</span></p>
 					</td>
 					<td>
-						<p class="popularPricesTable_text">25 550 <span>грн.</span></p>
+						<p class="popularPricesTable_text">25 550<span>грн.</span></p>
 					</td>
 					<td>
-						<p class="popularPricesTable_text">32 375 <span>грн.</span></p>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<p class="popularPricesTable_text">3500 × 2125 <span>мм</span></p>
-					</td>
-					<td>
-						<p class="popularPricesTable_text">28 350 <span>грн.</span></p>
-					</td>
-					<td>
-						<p class="popularPricesTable_text">34 650 <span>грн.</span></p>
+						<p class="popularPricesTable_text">32 375<span>грн.</span></p>
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<p class="popularPricesTable_text">4000 × 2125 <span>мм</span></p>
+						<p class="popularPricesTable_text">3500×2125<span>мм</span></p>
 					</td>
 					<td>
-						<p class="popularPricesTable_text">30 100 <span>грн.</span></p>
+						<p class="popularPricesTable_text">28 350<span>грн.</span></p>
 					</td>
 					<td>
-						<p class="popularPricesTable_text">37 100 <span>грн.</span></p>
+						<p class="popularPricesTable_text">34 650<span>грн.</span></p>
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<p class="popularPricesTable_text">5000 × 2125 <span>мм</span></p>
+						<p class="popularPricesTable_text">4000×2125<span>мм</span></p>
 					</td>
 					<td>
-						<p class="popularPricesTable_text">35 000 <span>грн.</span></p>
+						<p class="popularPricesTable_text">30 100<span>грн.</span></p>
 					</td>
 					<td>
-						<p class="popularPricesTable_text">42 000 <span>грн.</span></p>
+						<p class="popularPricesTable_text">37 100<span>грн.</span></p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p class="popularPricesTable_text">5000×2125<span>мм</span></p>
+					</td>
+					<td>
+						<p class="popularPricesTable_text">35 000<span>грн.</span></p>
+					</td>
+					<td>
+						<p class="popularPricesTable_text">42 000<span>грн.</span></p>
 					</td>
 				</tr>
 				<tr class="popularPricesTable_bottom">
@@ -128,13 +128,13 @@
 				<tr>
 					<td class="popularPricesTableCar_desc"></td>
 					<td>
-						<p class="popularPricesTable_text">2500 × 2250 <span>мм</span></p>
+						<p class="popularPricesTable_text">2500×2250<span>мм</span></p>
 					</td>
 					<td>
-						<p class="popularPricesTable_text">20 475 <span>грн.</span></p>
+						<p class="popularPricesTable_text">20 475<span>грн.</span></p>
 					</td>
 					<td>
-						<p class="popularPricesTable_text">27 125 <span>грн.</span></p>
+						<p class="popularPricesTable_text">27 125<span>грн.</span></p>
 					</td>
 				</tr>
 				<tr>
@@ -147,35 +147,35 @@
 						</div>
 					</td>
 					<td>
-						<p class="popularPricesTable_text">2750 × 2250 <span>мм</span></p>
+						<p class="popularPricesTable_text">2750×2250<span>мм</span></p>
 					</td>
 					<td>
-						<p class="popularPricesTable_text">23 625 <span>грн.</span></p>
+						<p class="popularPricesTable_text">23 625<span>грн.</span></p>
 					</td>
 					<td>
-						<p class="popularPricesTable_text">30 625 <span>грн.</span></p>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<p class="popularPricesTable_text">3000 × 2250 <span>мм</span></p>
-					</td>
-					<td>
-						<p class="popularPricesTable_text">25 550 <span>грн.</span></p>
-					</td>
-					<td>
-						<p class="popularPricesTable_text">32 375 <span>грн.</span></p>
+						<p class="popularPricesTable_text">30 625<span>грн.</span></p>
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<p class="popularPricesTable_text">3500 × 2250 <span>мм</span></p>
+						<p class="popularPricesTable_text">3000×2250<span>мм</span></p>
 					</td>
 					<td>
-						<p class="popularPricesTable_text">28 350 <span>грн.</span></p>
+						<p class="popularPricesTable_text">25 550<span>грн.</span></p>
 					</td>
 					<td>
-						<p class="popularPricesTable_text">34 650 <span>грн.</span></p>
+						<p class="popularPricesTable_text">32 375<span>грн.</span></p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p class="popularPricesTable_text">3500×2250<span>мм</span></p>
+					</td>
+					<td>
+						<p class="popularPricesTable_text">28 350<span>грн.</span></p>
+					</td>
+					<td>
+						<p class="popularPricesTable_text">34 650<span>грн.</span></p>
 					</td>
 				</tr>
 				<tr>
@@ -188,90 +188,90 @@
 						</div>
 					</td>
 					<td>
-						<p class="popularPricesTable_text">4000 × 2250 <span>мм</span></p>
+						<p class="popularPricesTable_text">4000×2250<span>мм</span></p>
 					</td>
 					<td>
-						<p class="popularPricesTable_text">30 100 <span>грн.</span></p>
+						<p class="popularPricesTable_text">30 100<span>грн.</span></p>
 					</td>
 					<td>
-						<p class="popularPricesTable_text">37 100 <span>грн.</span></p>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<p class="popularPricesTable_text">5000 × 2250 <span>мм</span></p>
-					</td>
-					<td>
-						<p class="popularPricesTable_text">35 000 <span>грн.</span></p>
-					</td>
-					<td>
-						<p class="popularPricesTable_text">42 000 <span>грн.</span></p>
+						<p class="popularPricesTable_text">37 100<span>грн.</span></p>
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<p class="popularPricesTable_text">2500 × 2500 <span>мм</span></p>
+						<p class="popularPricesTable_text">5000×2250<span>мм</span></p>
 					</td>
 					<td>
-						<p class="popularPricesTable_text">21 350 <span>грн.</span></p>
+						<p class="popularPricesTable_text">35 000<span>грн.</span></p>
 					</td>
 					<td>
-						<p class="popularPricesTable_text">29 925 <span>грн.</span></p>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<p class="popularPricesTable_text">2750 × 2500 <span>мм</span></p>
-					</td>
-					<td>
-						<p class="popularPricesTable_text">25 200 <span>грн.</span></p>
-					</td>
-					<td>
-						<p class="popularPricesTable_text">33 950 <span>грн.</span></p>
+						<p class="popularPricesTable_text">42 000<span>грн.</span></p>
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<p class="popularPricesTable_text">3000 × 2500 <span>мм</span></p>
+						<p class="popularPricesTable_text">2500×2500<span>мм</span></p>
 					</td>
 					<td>
-						<p class="popularPricesTable_text">27 125 <span>грн.</span></p>
+						<p class="popularPricesTable_text">21 350<span>грн.</span></p>
 					</td>
 					<td>
-						<p class="popularPricesTable_text">35 875 <span>грн.</span></p>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<p class="popularPricesTable_text">3500 × 2500 <span>мм</span></p>
-					</td>
-					<td>
-						<p class="popularPricesTable_text">30 100 <span>грн.</span></p>
-					</td>
-					<td>
-						<p class="popularPricesTable_text">37 100 <span>грн.</span></p>
+						<p class="popularPricesTable_text">29 925<span>грн.</span></p>
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<p class="popularPricesTable_text">4000 × 2500 <span>мм</span></p>
+						<p class="popularPricesTable_text">2750×2500<span>мм</span></p>
 					</td>
 					<td>
-						<p class="popularPricesTable_text">35 000 <span>грн.</span></p>
+						<p class="popularPricesTable_text">25 200<span>грн.</span></p>
 					</td>
 					<td>
-						<p class="popularPricesTable_text">42 000 <span>грн.</span></p>
+						<p class="popularPricesTable_text">33 950<span>грн.</span></p>
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<p class="popularPricesTable_text">5000 × 2500 <span>мм</span></p>
+						<p class="popularPricesTable_text">3000×2500<span>мм</span></p>
 					</td>
 					<td>
-						<p class="popularPricesTable_text">40 250 <span>грн.</span></p>
+						<p class="popularPricesTable_text">27 125<span>грн.</span></p>
 					</td>
 					<td>
-						<p class="popularPricesTable_text">51 800 <span>грн.</span></p>
+						<p class="popularPricesTable_text">35 875<span>грн.</span></p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p class="popularPricesTable_text">3500×2500<span>мм</span></p>
+					</td>
+					<td>
+						<p class="popularPricesTable_text">30 100<span>грн.</span></p>
+					</td>
+					<td>
+						<p class="popularPricesTable_text">37 100<span>грн.</span></p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p class="popularPricesTable_text">4000×2500<span>мм</span></p>
+					</td>
+					<td>
+						<p class="popularPricesTable_text">35 000<span>грн.</span></p>
+					</td>
+					<td>
+						<p class="popularPricesTable_text">42 000<span>грн.</span></p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p class="popularPricesTable_text">5000×2500<span>мм</span></p>
+					</td>
+					<td>
+						<p class="popularPricesTable_text">40 250<span>грн.</span></p>
+					</td>
+					<td>
+						<p class="popularPricesTable_text">51 800<span>грн.</span></p>
 					</td>
 				</tr>
 				<tr class="popularPricesTable_bottom">
@@ -297,20 +297,20 @@
 						</div>
 					</td>
 					<td>
-						<p class="popularPricesTable_text">3000 × 3000 <span>мм</span></p>
+						<p class="popularPricesTable_text">3000×3000<span>мм</span></p>
 					</td>
 					<td>
-						<p class="popularPricesTable_text">32 900 <span>грн.</span></p>
+						<p class="popularPricesTable_text">32 900<span>грн.</span></p>
 					</td>
 					<td>
-						<p class="popularPricesTable_text">42 000 <span>грн.</span></p>
+						<p class="popularPricesTable_text">42 000<span>грн.</span></p>
 					</td>
 				</tr>
 				<tr class="popularPricesTable_empty">
 					<td colspan="4">&nbsp;</td>
 				</tr>
 			</table>
-		</div>
+		
 
 
 	</div>

@@ -498,7 +498,30 @@ $(function() {
 	        }
 	    }
 	 });
-	// Slider End 
+	// Slider End
+
+
+
+	// Getting profitsList highest element
+	if (w > 767) {
+
+	  var highest = 0;
+	  $(".profitsList .profitsList__item").each(function(){
+	  	var element = $(this).find('h3');
+	    var currentHig = element.height();
+	    if (currentHig > highest) {
+	    	highest = currentHig;
+	    }
+	  });
+	  $(".profitsList .profitsList__item").each(function(){
+	  	$(this).find('h3').height(highest);
+	  });
+
+	}
+
+
+
+
 
 	
 

@@ -5,13 +5,13 @@
 		<div class="col-md-12">
 		
 			<section class="asProductDesc">
-				<h1 class="asProductDesc__title">Гаражные ворота В КИЕВЕ</h1>
+				<h1 class="asProductDesc__title">Секционные ворота В КИЕВЕ</h1>
 				<ul class="breadcrumb">
 					<li class="breadcrumb__item">
 						<a class="breadcrumb__link" href="index.php"><i class="icons fa fa-home"></i></a>
 					</li>
 					<li class="breadcrumb__item">
-						<span>купить гаражные ворота киев</span>
+						<span>купить Секционные ворота киев</span>
 					</li>
 				</ul>
 				<div class="asProductDesc_text asProductDesc_text--nobotomMargin">
