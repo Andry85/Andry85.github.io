@@ -4519,7 +4519,7 @@ a.asOffer__link .asOffer__img img {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     margin: 0 0 14px 0;
-    padding: 0 10px 15px 10px;
+    padding: 0 10px 12px 10px;
     line-height: 1.2;
 }
 .profitsList__item h3:before {
@@ -4853,11 +4853,13 @@ a.asOffer__link .asOffer__img img {
 .selectionDoorsRow__leftCol {
     -ms-flex-preferred-size: 48.16%;
         flex-basis: 48.16%;
+        width: 48.16%;
 
 }
 .selectionDoorsRow__rightCol {
     -ms-flex-preferred-size: 49.84%;
         flex-basis: 49.84%;
+        width: 49.84%;
 }
 .gateConfigurator {
     display: inline-block;
@@ -6653,17 +6655,46 @@ a.asOffer__link .asOffer__img img {
     .sectionTypeList__action {
         top: 6px;
     }
-    .laminationColorList {
-        -ms-flex-wrap: nowrap;
-            flex-wrap: nowrap;
-        min-height: .01%;
-        overflow-x: auto;
-        overflow-y: hidden;
+  
+    .laminationColorMobile, .sectionTypeMobile {
+        padding: 0 40px;
+    }
+
+    .asWrap .laminationColorMobile .owl-carousel .owl-nav,
+    .asWrap .sectionTypeMobile .owl-carousel .owl-nav {
+        height: 100%;
+    }
+    .asWrap .laminationColorMobile .owl-carousel .owl-nav button,
+    .asWrap .sectionTypeMobile .owl-carousel .owl-nav button {
+        background: url(../img/slider_arrow.png) no-repeat;
+        position: absolute;
+        content: '';
+        height: 60px;
+        width: 16px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .laminationColorList__item h4 {
+        padding: 0 5px;
+    }
+
+
+    .asWrap .laminationColorMobile .owl-carousel .owl-nav button.owl-prev,
+    .asWrap .sectionTypeMobile .owl-carousel .owl-nav button.owl-prev {
+        left: -40px;
+    }
+    .asWrap .laminationColorMobile .owl-carousel .owl-nav button.owl-next,
+    .asWrap .sectionTypeMobile .owl-carousel .owl-nav button.owl-next {
+        right: -40px;
+        transform: rotate(180deg) translateY(-50%);
+        transform-origin: top;
     }
     .laminationColorList__item {
         -ms-flex-negative: 0;
             flex-shrink: 0;
-        padding: 0;
+        padding: 0 0 10px 0;
+        min-height: 105px;
     }
     .sectionType__title {
         padding-bottom: 10px;
@@ -6676,6 +6707,8 @@ a.asOffer__link .asOffer__img img {
     .gateConfigurator {
         display: block;
         margin: 0 auto;
+        text-align: center;
+        padding: 25px 0 0 0;
     }
     .gateConfigurator__height {
         height: 150px;

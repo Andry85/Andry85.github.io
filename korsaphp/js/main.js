@@ -308,7 +308,12 @@ $(function() {
 	var urlPath = 'uploads/your_city-vorota-sekcionnye/door_types';
 
 	$(".sectionTypeList__item").click(function(){
-	   $(this).addClass('sectionTypeList__item--active').siblings().removeClass('sectionTypeList__item--active');
+		if (w > 767) {
+		   $(this).addClass('sectionTypeList__item--active').siblings().removeClass('sectionTypeList__item--active');
+		} else {
+			$(this).addClass('sectionTypeList__item--active').parents('.sectionTypeMobile').find('.sectionTypeList__item').not(this).removeClass('sectionTypeList__item--active');
+
+		}
 	   dataSection = $(this).attr("data-section");
 	   checkFoto(dataLamination, dataSection);
 	   var sectionName = $(this).find('h4').text();
@@ -316,7 +321,11 @@ $(function() {
 	});
 
 	$(".laminationColorList__item").click(function(){
-	   $(this).addClass('laminationColorList__item--active').siblings().removeClass('laminationColorList__item--active');
+		if (w > 767) {
+		   $(this).addClass('laminationColorList__item--active').siblings().removeClass('laminationColorList__item--active');
+		} else {
+			$(this).addClass('laminationColorList__item--active').parents('.laminationColorMobile').find('.laminationColorList__item').not(this).removeClass('laminationColorList__item--active');
+		}
 	    dataLamination = $(this).attr("data-lamination");
 	   checkFoto(dataLamination, dataSection);
 	   
@@ -499,6 +508,36 @@ $(function() {
 	    }
 	 });
 	// Slider End
+
+	// Slider Start
+	 $(".laminationColorMobile .owl-carousel").owlCarousel({
+	    responsiveClass:true,
+	    loop: true,
+	    items: 3,
+	    dots: false,
+		nav:true,
+		margin: 5
+	 });
+	// Slider End
+
+	// Slider Start
+	 $(".sectionTypeMobile .owl-carousel").owlCarousel({
+	    responsiveClass:true,
+	    loop: true,
+	    items: 3,
+	    dots: false,
+		nav:true,
+		margin: 5
+	 });
+	// Slider End
+
+
+	
+
+
+
+
+	
 
 
 
