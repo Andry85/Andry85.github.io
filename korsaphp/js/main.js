@@ -543,7 +543,7 @@ $(function() {
 	    } // End if
 	  });
 
-	$(".offerList__title a").click(function(){
+	$(".offerList__item > a").click(function(){
 		 var hash = this.hash;
 		$('html, body').animate({
 	        scrollTop: $(hash).offset().top-30

@@ -4175,6 +4175,9 @@ a.asOffer__link .asOffer__img img {
         flex-basis: 298px;
     padding: 10px;
 }
+.offerList__item > a {
+    color: #0e3d6b;
+}
 .offerList__pic {
     margin: 0 0 15px 0;
 }
@@ -4189,9 +4192,7 @@ a.asOffer__link .asOffer__img img {
     font-family: 'ClearSans-Medium';
     margin: 0 0 28px 0;
 }
-.offerList__title a {
-    color: #0e3d6b;
-}
+
 
 .offerList__title:before {
     content: '';
