@@ -407,6 +407,232 @@ a.asreviewsBox__more:before {
     max-width: 100%;
 }
 
+.newConfigPreview {
+
+
+}
+.newConfigPreview__pic {
+    position: relative;
+    padding: 26px 0;
+    margin-bottom: -15px;
+}
+.newConfigPreview__shadow {
+    z-index: 2;
+    position: relative;
+    max-width: 100%;
+}
+.newConfigPreview__selected {
+        left: 49.8%;
+    top: 8.4%;
+    max-width: 257px;
+    width: 50.9%;
+    transform: translateX(-50%);
+    z-index: 1;
+    position: absolute;
+}
+.newConfigPreview__price {
+    color: #11A06B;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 0 35px 0;
+}
+.newConfigPreview__price i {
+    font-weight: bold;
+    font-size: 28px;
+    font-style: normal;
+    margin-right: 5px;
+}
+
+.newConfigTypes {
+
+}
+.newConfigTypes__title {
+
+}
+.newConfigSlider {
+    padding: 0 25px;
+}
+.newConfigSlider__item {
+    padding: 5px;
+    margin: 5px;
+    min-height: 90px;
+}
+.newConfigSlider__item span {
+    display: block;
+}
+
+.newConfigSlider__item img {
+    max-width: 100%;
+}
+
+.newConfigSlider__item p {
+    font-family: Calibri, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    line-height: 12px;
+    margin-top: 6px;
+}
+
+.newConfigSlider__item.active {
+    background: #e8e8e8;
+}
+
+.newConfigColors {
+    padding: 25px 0 0 0;
+}
+
+.selectionDoorsCalculateWrap {}
+
+.selectionDoorsCalculate {
+    background: #f5f5f5;
+    padding: 15px 0;
+}
+
+.calculateDoors {
+    border: 1px solid #d1d1d1;
+    background: #fff;
+    padding: 12px 32px 12px 39px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.calculateDoors__left {
+    -ms-flex-preferred-size: 47.58%;
+        flex-basis: 47.58%;
+}
+.calculateDoors__right {
+    -ms-flex-preferred-size: 47.74%;
+        flex-basis: 47.74%;
+}
+
+.calculateDoorsÐ¡hoice {
+    padding: 11px 0 0 0;
+}
+.calculateDoorsÐ¡hoice h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 0 0 115px;
+    padding: 0;
+    color: #1a1f32;
+}
+.calculateDoorsList {
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+}
+.calculateDoorsList__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 10px;
+}
+.calculateDoorsList__title {
+    -ms-flex-preferred-size: 257px;
+        flex-basis: 257px;
+    color: #4f5157;
+    font-size: 18px;
+}
+.calculateDoorsList__value {
+    color: #505157;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.calculateDoorsList__value i {
+    font-style: normal;
+    margin-right: 4px;
+}
+.calculateDoorsForm {
+
+}
+.calculateDoorsForm__text {
+    text-align: center;
+    font-size: 18px;
+    color: #1a1f31;
+    font-weight: 300;
+    line-height: 1.333;
+    padding: 4px 0 8px 0;
+    margin: 0;
+}
+.calculateDoorsForm__row {
+    padding: 3px 0;
+    text-align: center;
+}
+.calculateDoorsForm__row input {
+    border: 1px solid #d1d1d1;
+    font-size: 14px;
+    color: #d1d1d1;
+    text-transform: uppercase;
+    padding: 0 14px 0 14px;
+    line-height: 35px;
+    width: 213px;
+    max-width: 100%;
+}
+.calculateDoorsForm__row label.error {
+    display: block;
+    color: #ff0000;
+    font-size: 11px;
+    padding: 5px 0 0 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.calculateDoorsForm__row input::-webkit-input-placeholder {
+    color: #d1d1d1;
+}
+
+.calculateDoorsForm__row input:-ms-input-placeholder {
+    color: #d1d1d1;
+}
+
+.calculateDoorsForm__row input::-ms-input-placeholder {
+    color: #d1d1d1;
+}
+
+.calculateDoorsForm__row input::placeholder {
+    color: #d1d1d1;
+}
+.calculateDoorsForm__buttonsRow {
+    padding: 11px 0 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.calculateDoorsForm__btn {
+    margin: 0 20px 10px 20px;
+    background: #ff8600;
+    border-radius: 10px;
+    padding: 0 15px;
+    border: 0;
+    color: #fff;
+    line-height: 35px;
+    text-transform: uppercase;
+    font-weight: 300;
+    width: 210px;
+    max-width: 100%; 
+    font-weight: bold;
+}
+.calculateDoorsForm__btn:hover {
+    opacity: 0.8;
+}
+.calculateDoorsForm__btn--secondary {
+    background: #268ece;
+}
+
+
+
+
 
 @media (max-width:992px) {
     .navbar .navbar-nav {
@@ -2630,8 +2856,6 @@ footer .copy span {
 
 .slick-slide img {
     display: block;
-    border: 1px solid #ff8500;
-    min-height: 300px;
 }
 
 .slick-slide.slick-loading img {

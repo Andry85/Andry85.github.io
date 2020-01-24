@@ -1435,3 +1435,198 @@ $(document).click(function (event) {
 });
 
 })(jQuery);
+
+
+
+(function($) {
+
+	$('.newConfigSlider').slick({
+		slidesToShow: 6,
+		slidesToScroll: 1,
+		dots: false,
+		responsive: [
+			{
+				breakpoint: 1200,
+				settings: {
+					slidesToShow: 2
+				}
+			},
+			{
+				breakpoint: 720,
+				settings: {
+					arrows: false,
+					slidesToShow: 1
+				}
+			}
+		]
+	});
+
+	var dataColor = 1;
+	var dataSection = 1;
+
+	var urlPath = 'img/constructor/previews/';
+
+	$(".newConfigSlider--types .newConfigSlider__item").click(function(){
+
+	   $(this).addClass('active').parents('.newConfigSlider--types').find('.newConfigSlider__item').not(this).
+	   removeClass('active');
+
+	   dataSection = $(this).attr("data-section");
+	   checkFoto(dataColor, dataSection);
+	   var sectionName = $(this).find('p').text();
+	   $('.calculateDoorsList__value--name').text(sectionName);
+
+	});
+
+	$(".newConfigColors .newConfigSlider__item").click(function(){
+		
+		$(this).addClass('active').parents('.newConfigSlider--types').find('.newConfigSlider__item').not(this).
+	   removeClass('active');
+
+	   dataColor = $(this).attr("data-color");
+	   checkFoto(dataColor, dataSection);
+	   
+	   var profileColor = $(this).find('p span').text();
+	   $('.calculateDoorsList__value--color').text(profileColor);
+
+	   
+
+	});
+
+	function setPreviewSections(color) {
+		$("#newConfigSlider--types .newConfigSlider__item").each(function(){
+			var selectedType = $(this).attr('data-construction');
+		   $(this).find('img').attr('src', urlPath + selectedType +'/'+ color+'.jpg');
+		});
+
+	}
+
+
+	var prewImg = $('.newConfigPreview__selected');
+
+	function checkFoto(color, section) {
+		if (color == 1 && section == 1) {
+			prewImg.attr("src",`${urlPath}/THP-010/1.jpg`);
+		} else if (color == 1 && section == 2) {
+			prewImg.attr("src",`${urlPath}/THP-015/1.jpg`);
+		} else if (color == 1 && section == 3) {
+			prewImg.attr("src",`${urlPath}/THP-515/1.jpg`);
+		} else if (color == 1 && section == 4) {
+			prewImg.attr("src",`${urlPath}/THP-700S/1.jpg`);
+		} else if (color == 1 && section == 5) {
+			prewImg.attr("src",`${urlPath}/THP-810S/1.jpg`);
+		} else if (color == 1 && section == 6) {
+			prewImg.attr("src",`${urlPath}/THP-900S/1.jpg`);
+		} else if (color == 1 && section == 7) {
+			prewImg.attr("src",`${urlPath}/THP-700A/1.jpg`);
+		} else if (color == 1 && section == 8) {
+			prewImg.attr("src",`${urlPath}/THP-750F/1.jpg`);
+
+		} else if (color == 2 && section == 1) {
+			prewImg.attr("src",`${urlPath}/THP-010/2.jpg`);
+		} else if (color == 2 && section == 2) {
+			prewImg.attr("src",`${urlPath}/THP-015/2.jpg`);
+		} else if (color == 2 && section == 3) {
+			prewImg.attr("src",`${urlPath}/THP-515/2.jpg`);
+		} else if (color == 2 && section == 4) {
+			prewImg.attr("src",`${urlPath}/THP-700S/2.jpg`);
+		} else if (color == 2 && section == 5) {
+			prewImg.attr("src",`${urlPath}/THP-810S/2.jpg`);
+		} else if (color == 2 && section == 6) {
+			prewImg.attr("src",`${urlPath}/THP-900S/2.jpg`);
+		} else if (color == 2 && section == 7) {
+			prewImg.attr("src",`${urlPath}/THP-700A/2.jpg`);
+		} else if (color == 2 && section == 8) {
+			prewImg.attr("src",`${urlPath}/THP-750F/2.jpg`);
+
+		} else if (color == 3 && section == 1) {
+			prewImg.attr("src",`${urlPath}/THP-010/3.jpg`);
+		} else if (color == 3 && section == 2) {
+			prewImg.attr("src",`${urlPath}/THP-015/3.jpg`);
+		} else if (color == 3 && section == 3) {
+			prewImg.attr("src",`${urlPath}/THP-515/3.jpg`);
+		} else if (color == 3 && section == 4) {
+			prewImg.attr("src",`${urlPath}/THP-700S/3.jpg`);
+		} else if (color == 3 && section == 5) {
+			prewImg.attr("src",`${urlPath}/THP-810S/3.jpg`);
+		} else if (color == 3 && section == 6) {
+			prewImg.attr("src",`${urlPath}/THP-900S/3.jpg`);
+		} else if (color == 3 && section == 7) {
+			prewImg.attr("src",`${urlPath}/THP-700A/3.jpg`);
+		} else if (color == 3 && section == 8) {
+			prewImg.attr("src",`${urlPath}/THP-750F/3.jpg`);
+
+		} else if (color == 4 && section == 1) {
+			prewImg.attr("src",`${urlPath}/THP-010/4.jpg`);
+		} else if (color == 4 && section == 2) {
+			prewImg.attr("src",`${urlPath}/THP-015/4.jpg`);
+		} else if (color == 4 && section == 3) {
+			prewImg.attr("src",`${urlPath}/THP-515/4.jpg`);
+		} else if (color == 4 && section == 4) {
+			prewImg.attr("src",`${urlPath}/THP-700S/4.jpg`);
+		} else if (color == 4 && section == 5) {
+			prewImg.attr("src",`${urlPath}/THP-810S/4.jpg`);
+		} else if (color == 4 && section == 6) {
+			prewImg.attr("src",`${urlPath}/THP-900S/4.jpg`);
+		} else if (color == 4 && section == 7) {
+			prewImg.attr("src",`${urlPath}/THP-700A/4.jpg`);
+		} else if (color == 4 && section == 8) {
+			prewImg.attr("src",`${urlPath}/THP-750F/4.jpg`);
+			
+		} else if (color == 5 && section == 1) {
+			prewImg.attr("src",`${urlPath}/THP-010/5.jpg`);
+		} else if (color == 5 && section == 2) {
+			prewImg.attr("src",`${urlPath}/THP-015/5.jpg`);
+		} else if (color == 5 && section == 3) {
+			prewImg.attr("src",`${urlPath}/THP-515/5.jpg`);
+		} else if (color == 5 && section == 4) {
+			prewImg.attr("src",`${urlPath}/THP-700S/5.jpg`);
+		} else if (color == 5 && section == 5) {
+			prewImg.attr("src",`${urlPath}/THP-810S/5.jpg`);
+		} else if (color == 5 && section == 6) {
+			prewImg.attr("src",`${urlPath}/THP-900S/5.jpg`);
+		} else if (color == 5 && section == 7) {
+			prewImg.attr("src",`${urlPath}/THP-700A/5.jpg`);
+		} else if (color == 5 && section == 8) {
+			prewImg.attr("src",`${urlPath}/THP-750F/5.jpg`);
+			
+		} else if (color == 6 && section == 1) {
+			prewImg.attr("src",`${urlPath}/THP-010/6.jpg`);
+		} else if (color == 6 && section == 2) {
+			prewImg.attr("src",`${urlPath}/THP-015/6.jpg`);
+		} else if (color == 6 && section == 3) {
+			prewImg.attr("src",`${urlPath}/THP-515/6.jpg`);
+		} else if (color == 6 && section == 4) {
+			prewImg.attr("src",`${urlPath}/THP-700S/6.jpg`);
+		} else if (color == 6 && section == 5) {
+			prewImg.attr("src",`${urlPath}/THP-810S/6.jpg`);
+		} else if (color == 6 && section == 6) {
+			prewImg.attr("src",`${urlPath}/THP-900S/6.jpg`);
+		} else if (color == 6 && section == 7) {
+			prewImg.attr("src",`${urlPath}/THP-700A/6.jpg`);
+		} else if (color == 6 && section == 8) {
+			prewImg.attr("src",`${urlPath}/THP-750F/6.jpg`);
+			
+		} else if (color == 7 && section == 1) {
+			prewImg.attr("src",`${urlPath}/THP-010/7.jpg`);
+		} else if (color == 7 && section == 2) {
+			prewImg.attr("src",`${urlPath}/THP-015/7.jpg`);
+		} else if (color == 7 && section == 3) {
+			prewImg.attr("src",`${urlPath}/THP-515/7.jpg`);
+		} else if (color == 7 && section == 4) {
+			prewImg.attr("src",`${urlPath}/THP-700S/7.jpg`);
+		} else if (color == 7 && section == 5) {
+			prewImg.attr("src",`${urlPath}/THP-810S/7.jpg`);
+		} else if (color == 7 && section == 6) {
+			prewImg.attr("src",`${urlPath}/THP-900S/7.jpg`);
+		} else if (color == 7 && section == 7) {
+			prewImg.attr("src",`${urlPath}/THP-700A/7.jpg`);
+		} else if (color == 7 && section == 8) {
+			prewImg.attr("src",`${urlPath}/THP-750F/7.jpg`);
+			
+		}     
+
+	}
+
+
+})(jQuery);	
