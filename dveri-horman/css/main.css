@@ -881,7 +881,13 @@ a.asreviewsBox__more:before {
 .start-feature__inner {
     display: inline-block;
     vertical-align: middle;
+    position: relative;
 }
+
+.start-feature__inner--last {
+    top: 10px;
+}
+
 
 #start-section .start-feature .img-wrapper {
     height: 65px
