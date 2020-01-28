@@ -11,6 +11,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"/>
+
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
 	<body>
@@ -68,7 +69,11 @@
 								<div class="img-wrapper">
 									<img src="img/deliver.png" alt="deliver">
 								</div>
-								<h4>Доставка по <b>Украине</b></h4>
+								<h4>
+									<span class="start-feature__inner">
+										<b>Доставка по Украине</b>
+									</span>
+								</h4>
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6 col-xs-6">
@@ -76,15 +81,23 @@
 								<div class="img-wrapper">
 									<img src="img/start_feature_img_2.png" alt="Quantity montage">
 								</div>
-								<h4>Качественный монтаж</h4>
+								<h4>
+									<span class="start-feature__inner">
+										<b>Качественный монтаж</b>
+									</span>
+								</h4>
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6 col-xs-6">
 							<div class="start-feature">
 								<div class="img-wrapper">
-									<img src="img/start_feature_img_3.png" alt="10 years">
+									<img src="img/start_feature_img_3_ru.png" alt="10 years">
 								</div>
-								<h4>Гарантия <b>5 лет</b></h4>
+								<h4>
+									<span class="start-feature__inner">
+										<b>Гарантия 5 лет</b>
+									</span>
+								</h4>
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6 col-xs-6">
@@ -92,7 +105,11 @@
 								<div class="img-wrapper">
 									<img src="img/start_feature_img_4.png" alt="20 years">
 								</div>
-								<h4><b>20 лет</b> доверия <br> клиентов</h4>
+								<h4>
+									<span class="start-feature__inner start-feature__inner--last">
+										<b>22 года доверия <br> клиентов</b>
+									</span>
+								</h4>
 							</div>
 						</div>
 					</div>
@@ -204,7 +221,6 @@
 					<div class="row">
 						<div class="col-md-12 section-title">
 							<h2>Поможем подобрать идеальный вариант <br>дверей</h2>
-							<p>
 								Получите бесплатную консультацию по выбору входной двери. Мы предложим оптимальный вариант <br> исходя из ваших предпочтений</p>
 						</div>
 					</div>
@@ -231,146 +247,291 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12 section-title">
-							<h2>визуальный подбор дверей HÖRMANN</h2>
+							<h2>ВИЗУАЛЬНЫЙ ПОДБОР ДВЕРЕЙ HÖRMANN</h2>
 						</div>
 					</div>
-					<div class="row" id="descConstructorWrapper">
-						<div class="col-md-4" id="deskPreviwWrapper">
-							<div class="constructor-preview-wrapper" id="constructorPreviewWrapper">
-								<div class="constructor-image-wrapper">
-									<img id="wallDoor" src="img/wall-door.png" alt="">
-									<img id="gateSelected" src="img/constructor/previews/THP-010/1.jpg" alt="preview">
-								</div>
-
-								<div class="size-selector">
-									<span class="doorsPrice"><i>40 500</i> грн.*</span>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-7 col-md-offset-1">
-							<div class="row">
-								<div class="col-md-12">
-									<h3 class="construction-title">Входные двери Thermo65</h3>
-
-									<div class="construction-type" id="doorTypeDeskWrapper">
-										<ul id="construction-types">
-											<li data-construction="THP-010" class="selected-type promo-type">
-												<img src="img/constructor/previews/THP-010/1.jpg" alt="0">
-												<p>THP 010</p>
-											</li>
-											<li data-construction="THP-015">
-													<img src="img/constructor/previews/THP-015/1.jpg" alt="0">
+					<div class="row newConfigTypesMobile">
+						<div class="col-sm-12">
+							<div class="mobileTabs">
+								<ul class="mobileTabsList">
+									<li class="mobileTabsList__item active">
+										<a class="mobileTabsList__link" href="#">Tип дверей</a>
+									</li>
+									<li class="mobileTabsList__item">
+										<a class="mobileTabsList__link" href="#">Цвет/Ламинирование</a>
+									</li>
+								</ul>
+								<div class="mobileTabsContainer">
+									<div class="mobileTabsContainer__tab active">
+										<div class="mobileTabsContainer__title">Выберите тип дверей</div>
+										<div class="newConfigSlider newConfigSlider--types">
+											<div class="item">
+												<div class="newConfigSlider__item active" data-section="1" data-type="THP-010">
+													<img src="img/constructor/previews/THP-010/1.jpg" alt="THP-010">
+													<p>THP 010</p>
+												</div>
+											</div>
+											<div class="item">
+												<div class="newConfigSlider__item" data-section="2" data-type="THP-015">
+													<img src="img/constructor/previews/THP-015/1.jpg" alt="THP 015">
 													<p>THP 015</p>
-											</li>
-											<li data-construction="THP-515">
-													<img src="img/constructor/previews/THP-515/1.jpg" alt="0">
+												</div>
+											</div>
+											<div class="item">
+												<div class="newConfigSlider__item" data-section="3" data-type="THP-515">
+													<img src="img/constructor/previews/THP-515/1.jpg" alt="THP 515">
 													<p>THP 515</p>
-											</li>
-											<li data-construction="THP-700S">
-													<img src="img/constructor/previews/THP-700S/1.jpg" alt="0">
+												</div>
+											</div>
+											<div class="item">
+												<div class="newConfigSlider__item" data-section="4" data-type="THP-700S">
+													<img src="img/constructor/previews/THP-700S/1.jpg" alt="THP 700S">
 													<p>THP 700S</p>
-											</li>
-											<li data-construction="THP-810S">
-													<img src="img/constructor/previews/THP-810S/1.jpg" alt="0">
+												</div>
+											</div>
+											<div class="item">
+												<div class="newConfigSlider__item" data-section="5" data-type="THP-810S">
+													<img src="img/constructor/previews/THP-810S/1.jpg" alt="THP 810S">
 													<p>THP 810S</p>
-											</li>
-											<li data-construction="THP-900S">
-												<img src="img/constructor/previews/THP-900S/1.jpg" alt="0">
-												<p>THP 900S</p>
-											</li>
-											<li data-construction="THP-700A">
-												<img src="img/constructor/previews/THP-700A/1.jpg" alt="0">
-												<p>THP 700A</p>
-											</li>
-											<li data-construction="THP-750F">
-												<img src="img/constructor/previews/THP-750F/1.jpg" alt="0">
-												<p>THP 750F</p>
-											</li>
-										</ul>
+												</div>
+											</div>
+											<div class="item">
+												<div class="newConfigSlider__item" data-section="6" data-type="THP-900S">
+													<img src="img/constructor/previews/THP-900S/1.jpg" alt="THP 900S">
+													<p>THP 900S</p>
+												</div>
+											</div>
+											<div class="item">
+												<div class="newConfigSlider__item" data-section="7" data-type="THP-700A">
+													<img src="img/constructor/previews/THP-700A/1.jpg" alt="THP 700A">
+													<p>THP 700A</p>
+												</div>
+											</div>
+											<div class="item">
+												<div class="newConfigSlider__item" data-section="8" data-type="THP-750F">
+													<img src="img/constructor/previews/THP-750F/1.jpg" alt="THP 750F">
+													<p>THP 750F</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="mobileTabsContainer__tab">
+										<div class="mobileTabsContainer__title">Выберите цвет или ламинацию</div>
+										<div class="newConfigSlider newConfigSlider--colors">
+											<div class="item">
+												<div class="newConfigSlider__item active" data-color="1">
+													<img src="img/constructor/textutes/1.jpg" alt="RAL 9016">
+													<p>RAL 9016 <span>Белый</span></p>
+												</div>
+											</div>
+											<div class="item">
+												<div class="newConfigSlider__item" data-color="2">
+													<img src="img/constructor/textutes/2.jpg" alt="RAL 7016">
+													<p>RAL 7016 <span>Серый антрацит</span></p>
+												</div>
+											</div>
+											<div class="item">
+												<div class="newConfigSlider__item" data-color="3">
+													<img src="img/constructor/textutes/3.jpg" alt="RAL 8028">
+													<p>RAL 8028 <span>Коричневый</span></p>
+												</div>
+											</div>
+											<div class="item">
+												<div class="newConfigSlider__item" data-color="4">
+													<img src="img/constructor/textutes/4.jpg" alt="CH 703">
+													<p>CH 703 <span>Титан металлик</span></p>
+												</div>
+											</div>
+											<div class="item">
+												<div class="newConfigSlider__item" data-color="5">
+													<img src="img/constructor/textutes/5.jpg" alt="Золотой дуб">
+													<p><span>Золотой дуб</span></p>
+												</div>
+											</div>
+											<div class="item">
+												<div class="newConfigSlider__item" data-color="6">
+													<img src="img/constructor/textutes/6.jpg" alt="Темный дуб">
+													<p><span>Темный дуб</span></p>
+												</div>
+											</div>
+											<div class="item">
+												<div class="newConfigSlider__item" data-color="7">
+													<img src="img/constructor/textutes/7.jpg" alt="Ночной дуб">
+													<p><span>Ночной дуб</span></p>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
-							<div class="row">
-								<div class="col-md-12">
-									<h3 class="construction-title">Выберите вариант цвета или ламинации</h3>
-									<div class="construction-color" id="doorColorDeskWrapper">
-										<ul id="construction-colors">
-											<li data-color="1" class="selected-color">
-												<img src="img/constructor/textutes/1.jpg" alt="color">
-												<p>RAL 9016<br> Белый</p>
-											</li>
-											<li data-color="2">
-												<img src="img/constructor/textutes/2.jpg" alt="color">
-												<p>RAL 7016<br> Серый антрацит</p>
-											</li>
-											<li data-color="3">
-												<img src="img/constructor/textutes/3.jpg" alt="color">
-												<p>RAL 8028<br> Коричневый</p>
-											</li>
-											<li data-color="4">
-												<img src="img/constructor/textutes/4.jpg" alt="color">
-												<p>CH 703<br> Титан металлик</p>
-											</li>
-											<li data-color="5">
-												<img src="img/constructor/textutes/5.jpg" alt="color">
-												<p>Золотой дуб</p>
-											</li>
-											<li data-color="6">
-												<img src="img/constructor/textutes/6.jpg" alt="color">
-												<p>Темный дуб</p>
-											</li>
-											<li data-color="7">
-												<img src="img/constructor/textutes/7.jpg" alt="color">
-												<p>Ночной дуб</p>
-											</li>
-										</ul>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-5 newConfigPreviewWrap">
+							<div class="newConfigPreview">
+								<div class="newConfigPreview__pic">
+									<img class="newConfigPreview__shadow" src="img/wall-door.png" alt="">
+									<img class="newConfigPreview__selected" src="img/constructor/previews/THP-010/1.jpg" alt="preview">
+								</div>
+								<div class="newConfigPreview__price"><i>40 500</i>грн.*</div>
+								<button id="newConfigPreview__btn" class="btn btn-custom btn-start">заказать</button>
+							</div>
+						</div>
+						<div class="col-sm-7 newConfigTypesWrap">
+							<div class="newConfigTypes">
+								<h3 class="newConfigTypes__title">Входные двери Thermo65</h3>
+								<div class="newConfigSlider newConfigSlider--types">
+									<div class="item">
+										<div class="newConfigSlider__item active" data-section="1" data-type="THP-010">
+											<img src="img/constructor/previews/THP-010/1.jpg" alt="THP-010">
+											<p>THP 010</p>
+										</div>
+									</div>
+									<div class="item">
+										<div class="newConfigSlider__item" data-section="2" data-type="THP-015">
+											<img src="img/constructor/previews/THP-015/1.jpg" alt="THP 015">
+											<p>THP 015</p>
+										</div>
+									</div>
+									<div class="item">
+										<div class="newConfigSlider__item" data-section="3" data-type="THP-515">
+											<img src="img/constructor/previews/THP-515/1.jpg" alt="THP 515">
+											<p>THP 515</p>
+										</div>
+									</div>
+									<div class="item">
+										<div class="newConfigSlider__item" data-section="4" data-type="THP-700S">
+											<img src="img/constructor/previews/THP-700S/1.jpg" alt="THP 700S">
+											<p>THP 700S</p>
+										</div>
+									</div>
+									<div class="item">
+										<div class="newConfigSlider__item" data-section="5" data-type="THP-810S">
+											<img src="img/constructor/previews/THP-810S/1.jpg" alt="THP 810S">
+											<p>THP 810S</p>
+										</div>
+									</div>
+									<div class="item">
+										<div class="newConfigSlider__item" data-section="6" data-type="THP-900S">
+											<img src="img/constructor/previews/THP-900S/1.jpg" alt="THP 900S">
+											<p>THP 900S</p>
+										</div>
+									</div>
+									<div class="item">
+										<div class="newConfigSlider__item" data-section="7" data-type="THP-700A">
+											<img src="img/constructor/previews/THP-700A/1.jpg" alt="THP 700A">
+											<p>THP 700A</p>
+										</div>
+									</div>
+									<div class="item">
+										<div class="newConfigSlider__item" data-section="8" data-type="THP-750F">
+											<img src="img/constructor/previews/THP-750F/1.jpg" alt="THP 750F">
+											<p>THP 750F</p>
+										</div>
 									</div>
 								</div>
 							</div>
-
-						</div>
-					</div>
-				</div>
-
-
-				<div class="container">
-					<div id="constructor-mobile">
-						<!-- Nav tabs -->
-
-						<ul class="nav nav-tabs" role="tablist">
-							<li class="active"><a href="#doorTypeMob" role="tab" data-toggle="tab">Tип секции</a></li>
-							<li><a href="#doorColorMob" role="tab" data-toggle="tab">Цвет/Ламинирование</a></li>
-						</ul>
-
-						<!-- Tab panes -->
-						<div class="tab-content">
-							<div class="tab-pane active" id="doorTypeMob">
-								<button class="mob-toggle" data-toggle="collapse" data-target="#doorTypeMobWrapper" aria-expanded="true">Выберите тип дверей</button>
-
-								<div id="doorTypeMobWrapper" class="collapse in">
-
+							<div class="newConfigColors">
+								<h3 class="newConfigColors__title">Выберите вариант цвета или ламинации</h3>
+								<div class="newConfigSliderColorDesctop newConfigSlider--colors">
+									<div class="item">
+										<div class="newConfigSlider__item active" data-color="1">
+											<img src="img/constructor/textutes/1.jpg" alt="RAL 9016">
+											<p>RAL 9016 <span>Белый</span></p>
+										</div>
+									</div>
+									<div class="item">
+										<div class="newConfigSlider__item" data-color="2">
+											<img src="img/constructor/textutes/2.jpg" alt="RAL 7016">
+											<p>RAL 7016 <span>Серый антрацит</span></p>
+										</div>
+									</div>
+									<div class="item">
+										<div class="newConfigSlider__item" data-color="3">
+											<img src="img/constructor/textutes/3.jpg" alt="RAL 8028">
+											<p>RAL 8028 <span>Коричневый</span></p>
+										</div>
+									</div>
+									<div class="item">
+										<div class="newConfigSlider__item" data-color="4">
+											<img src="img/constructor/textutes/4.jpg" alt="CH 703">
+											<p>CH 703 <span>Титан металлик</span></p>
+										</div>
+									</div>
+									<div class="item">
+										<div class="newConfigSlider__item" data-color="5">
+											<img src="img/constructor/textutes/5.jpg" alt="Золотой дуб">
+											<p><span>Золотой дуб</span></p>
+										</div>
+									</div>
+									<div class="item">
+										<div class="newConfigSlider__item" data-color="6">
+											<img src="img/constructor/textutes/6.jpg" alt="Темный дуб">
+											<p><span>Темный дуб</span></p>
+										</div>
+									</div>
+									<div class="item">
+										<div class="newConfigSlider__item" data-color="7">
+											<img src="img/constructor/textutes/7.jpg" alt="Ночной дуб">
+											<p><span>Ночной дуб</span></p>
+										</div>
+									</div>
 								</div>
-
 							</div>
-
-							<div class="tab-pane" id="doorColorMob">
-								<button class="mob-toggle" data-toggle="collapse" data-target="#doorColorMobWrapper" aria-expanded="true">Выберите цвет или ламинацию</button>
-
-								<div id="doorColorMobWrapper" class="collapse in">
-								</div>
-							</div>
-
 						</div>
-
-						<div id="mobPreviwWrapper">
-									
-						</div>
-					</div>
+					</div>		
 				</div>
-
-
 			</section>
+
+			<div class="selectionDoorsCalculateWrap lg-ptb-15">
+				<div class="selectionDoorsCalculate">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+
+								<div class="calculateDoors">
+									<div class="calculateDoors__left">
+										<div class="calculateDoorsСhoice">
+											<h3>Вы выбрали</h3>
+											<ul class="calculateDoorsList">
+												<li class="calculateDoorsList__item">
+													<span class="calculateDoorsList__title">Тип дверей</span>
+													<span class="calculateDoorsList__value calculateDoorsList__value--name">THP 010</span>
+												</li>
+												<li class="calculateDoorsList__item">
+													<span class="calculateDoorsList__title">Цвет дверей</span>
+													<span class="calculateDoorsList__value calculateDoorsList__value--color">RAL 9016</span>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="calculateDoors__right">
+										<div class="calculateDoorsForm">
+											<p class="calculateDoorsForm__text">
+												Оставьте ваши контакты для расчета стоимости. <br> течение 2 часов мы перезвоним, уточним детали заказа и рассчитаем стоимость двери.
+											</p>
+											<form id="calculateDoorsForm" class="calculateDoorsForm__form" method="post" action="#">
+												<div class="calculateDoorsForm__row">
+													<input type="text" placeholder="Введите имя" required="required" name="calculateDoorsForm__name">
+												</div>
+												<div class="calculateDoorsForm__row">
+													<input type="tel" placeholder="Введите телефон" required="required" name="calculateDoorsForm__tel">
+												</div>
+												<div class="calculateDoorsForm__buttonsRow">
+													<button class="calculateDoorsForm__btn">бесплатный замер</button>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
 
 			<section id="works-section">
 				<div class="container">
@@ -678,7 +839,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12 section-title">
-							<h2>Почему больше 350 000 клиентов <br>довольны нашей продукцией?</h2>
+							<h2>Почему больше 350 000 клиентов <br>довольны сотрудничеством с ТМ ОКНА КОРСА?</h2>
 						</div>
 					</div>
 					<div class="advantage-row">
@@ -687,14 +848,14 @@
 								<img src="img/fabrika.jpg" alt="fabrika">
 								<h3>Собственное производство</h3>
 								<div class="divider"></div>
-								<p>Крупнейшие заводы в Европе. Гарантированная доставка в любой город</p>
+								<p>Крупнейшие заводы в центре Украины. Гарантированная доставка в любой город</p>
 							</div>
 
 							<div class="advantage">
-								<img src="img/Montaj_ru.jpg" alt="Montaj_ru">
+								<img src="img/Montaj_ukr.jpg" alt="Montaj_ukr">
 								<h3>Качество монтажа</h3>
 								<div class="divider"></div>
-								<p>Наши представители - профессионалы, которые дорожат своей репутацией. Энергоэффективный монтаж по ГОСТу</p>
+								<p>Качественный энергосберегающий монтаж по ДСТУ и стандартам Hörmann</p>
 							</div>
 
 							<div class="advantage">
@@ -708,7 +869,7 @@
 								<img src="img/smart.jpg" alt="smart">
 								<h3>Огромный опыт работы</h3>
 								<div class="divider"></div>
-								<p>Работаем с 1998 года. Произведено более 1000000 качественных окон из немецкого профиля REHAU</p>
+								<p>Работаем с 1998 года. Произведено более 1200000 оконных и дверных конструкций</p>
 							</div>
 
 							<div class="advantage">
@@ -722,7 +883,7 @@
 								<img src="img/20_year.jpg" alt="20_year">
 								<h3>Практически и надежно</h3>
 								<div class="divider"></div>
-								<p>10 лет гарантии на металлопластиковые конструкции. Бесплатное регулирования, гарантийное и послегарантийное обслуживание</p>
+								<p>5 лет гарантии на входные двери. Бесплатное регулирования, гарантийное и послегарантийное обслуживание</p>
 							</div>
 
 							<div class="advantage">
@@ -736,29 +897,8 @@
 								<img src="img/house.jpg" alt="house">
 								<h3>Современный дизайн</h3>
 								<div class="divider"></div>
-								<p>Более 1000 вариантов окраски и большой выбор ламинации "под дерево"</p>
+								<p>Большой выбор ламинации "под дерево" и вариантов окраски</p>
 							</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
-							<div class="video-slider">
-								<div>
-									<div class="embed-responsive embed-responsive-16by9">
-										<iframe  src="https://www.youtube.com/embed/SQql4YfH0ow?rel=0&amp;wmode=opaque&amp;showinfo=1" allowfullscreen=""></iframe>
-									</div>
-								</div>
-								<div>
-									<div class="embed-responsive embed-responsive-16by9">
-										<iframe  src="https://www.youtube.com/embed/8Znoy2SMK1k?rel=0&amp;wmode=opaque&amp;showinfo=1" allowfullscreen=""></iframe>
-									</div>
-								</div>
-								<div>
-									<div class="embed-responsive embed-responsive-16by9">
-										<iframe  src="https://www.youtube.com/embed/-hP905GXXWA?rel=0&amp;wmode=opaque&amp;showinfo=1" allowfullscreen=""></iframe>
-									</div>
-								</div>
-							</div>
-						</div>
 					</div>
 					<div class="row">
 						<div class="col-md-12">
@@ -791,11 +931,6 @@
 								<div class="slide">
 									<a href="img/cert/6.jpg" data-toggle="lightbox-close" data-gallery="cert-gallery">
 										<img class="img-responsive" src="img/cert/6.jpg" alt="certificate">
-									</a>
-								</div>
-								<div class="slide">
-									<a href="img/cert/7.jpg" data-toggle="lightbox-close" data-gallery="cert-gallery">
-										<img class="img-responsive" src="img/cert/7.jpg" alt="certificate">
 									</a>
 								</div>
 							</div>
@@ -896,10 +1031,10 @@
 					<div class="modal-body">
 						<form action="#">
 							<div class="form-group">
-								<input type="text" class="form-control" name="name" placeholder="Введіть ваше ім'я" required>
+								<input type="text" class="form-control" name="name" placeholder="Введите ваше имя" required>
 							</div>
 							<div class="form-group">
-								<input type="text" class="form-control" name="phone" placeholder="Введіть Ваш телефон" required>
+								<input type="text" class="form-control" name="phone" placeholder="Введите Ваш телефон" required>
 							</div>
 							<button type="submit" class="btn btn-custom btn-start">Купить со скидкой</button>
 							<div class="form-suffix">
@@ -916,6 +1051,7 @@
 		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 		crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+		<script src="js/litebox.js"></script>
 		<script src="js/main.js"></script>
 		<script
 		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
