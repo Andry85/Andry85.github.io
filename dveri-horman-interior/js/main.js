@@ -56,12 +56,6 @@ $('.catalogBoxSlider').slick({
 			settings: {
 				slidesToShow: 2,
 			}
-		},
-		{
-			breakpoint: 520,
-			settings: {
-				slidesToShow: 1,
-			}
 		}
 	]
 });
