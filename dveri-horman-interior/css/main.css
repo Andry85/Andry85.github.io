@@ -891,7 +891,7 @@ a.asreviewsBox__more:before {
 }
 
 #advantages-section {
-    padding-bottom: 60px
+    padding-bottom: 66px
 }
 
 #advantages-section .section-title {
@@ -968,8 +968,8 @@ a.asreviewsBox__more:before {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    margin-bottom: 40px;
-    margin-top: 60px;
+    margin-bottom: 65px;
+    margin-top: 0px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -1000,6 +1000,9 @@ a.asreviewsBox__more:before {
 
 #advantages-section .advantage-row .advantage p {
    width: 100%;
+   font-size: 16px;
+   font-weight: 300;
+   line-height: 1.125;
 }
 
 
@@ -1702,17 +1705,40 @@ footer .copy span {
 }
 .catalogWrap .section-title {
     margin-top: 35px;
+    margin-bottom: 77px;
 }
 .catalogBox {
+    margin: 0 0 45px 0;
 
+}
+.catalogBox--last {
+    margin-bottom: 0;
 }
 .catalogBoxSlider {
     padding: 0 20px;
+    margin: 93px 0;
+}
+
+.catalogBoxSlider--designLine {
+    margin-top: 0;
+}
+
+.catalogBoxSlider .slick-arrow {
+    background-position: center 121px;
 }
 
 .catalogBoxSlider__item {
 
 }
+.catalogBoxSlider__item p {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.5;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
 
 .catalogBoxSlider__pic {
     text-align: center;
@@ -1720,6 +1746,8 @@ footer .copy span {
 
 .catalogBoxSlider__pic img {
     max-width: 100%;
+    margin: 0 auto;
+    max-height: 285px;
 }
 .catalogBoxSlider__pic figcaption {
     font-size: 16px;
@@ -1734,7 +1762,7 @@ footer .copy span {
     font-size: 36px;
     position: relative;
     padding: 0 0 23px 0;
-    margin: 0;
+    margin: 0 0 8px 0;
 }
 .catalogBox__title:before {
     content: '';
@@ -1760,18 +1788,23 @@ footer .copy span {
 .catalogBox__subtitle {
     font-size: 18px;
     font-weight: 300;
+    padding: 0 0 0 8px;
 
+}
+.catalogBox__pic img {
+    max-width: 100%;
 }
 
 .catalogBox__text {
     font-size: 16px;
     line-height: 1.125;
+    padding: 0 10px 0 8px;
 }
 
 .catalogBoxList {
     font-size: 16px;
     line-height: 1.125;
-    padding: 6px 0 0 0;
+    padding: 6px 15px 0 8px;
 }
 
 .catalogBoxList__title {
@@ -1786,4 +1819,111 @@ footer .copy span {
     position: absolute;
     left: 0;
     top: 0;
+}
+
+.articlesWrap {
+    padding: 46px 0 0 0;
+}
+.articlesWrap .section-title {
+    margin-top: 35px;
+    margin-bottom: 77px;
+}
+
+.articlesBox {
+    display: flex;
+    flex-wrap: wrap;
+}
+.articlesItem {
+    flex-basis: 50%;
+    padding: 0 35px;
+    margin: 0 0 62px 0;
+}
+.articlesItem__pic {
+    text-align: center;
+}
+.articlesItem__pic img {
+    max-width: 100%;
+}
+
+.articlesItem__title {
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    color: #003b6d;
+    text-transform: uppercase;
+    font-size: 24px;
+    position: relative;
+    padding: 8px 0 16px 0;
+    margin: 0 0 18px 0;
+    line-height: 1.25;
+    min-height: 85px;
+}
+.articlesItem__title:before {
+    content: '';
+    width: 200px;
+    background: #ff8600;
+    height: 3px;
+    max-width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+.articlesItem__title:after {
+    content: '';
+    width: 276px;
+    background: #d6e8f4;
+    height: 1px;
+    max-width: 100%;
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+}
+.articlesItem__text {
+    font-size: 16px;
+    line-height: 1.125;
+    padding: 0 0 8px 0;
+}
+.slick-initialized .slick-slide:focus {
+    outline: none;
+}
+
+@media (max-width: 991px) {
+    .catalogBox__pic {
+        padding: 15px 0 0 0;
+        text-align: center;
+    }
+    .catalogBoxSlider {
+        margin: 50px 0;
+    }
+    .catalogBoxSlider .slick-arrow {
+        background-position: center 70px;
+    }
+
+}
+
+@media (max-width:767px) {
+    .catalogBoxSlider__pic img {
+        max-height: 200px
+    }
+    .catalogBoxSlider {
+        margin: 30px 0;
+    }
+    .catalogBox {
+        margin: 0 0 20px 0;
+    }
+    .catalogWrap .section-title {
+        margin: 20px 0 30px 0;
+    }
+    .articlesItem {
+        flex-basis: 100%;
+        padding: 0;
+        margin: 0 0 25px 0;
+    }
+    #advantages-section .advantage-row {
+        margin-bottom: 25px;
+    }
+    #advantages-section #certificate-slider {
+        margin-bottom: 25px;
+    }
+
+
 }
