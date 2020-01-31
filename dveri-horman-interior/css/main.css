@@ -1889,6 +1889,7 @@ footer .copy span {
     font-size: 16px;
     line-height: 1.125;
     padding: 0 0 8px 0;
+    text-align: justify;
 }
 .slick-initialized .slick-slide:focus {
     outline: none;
