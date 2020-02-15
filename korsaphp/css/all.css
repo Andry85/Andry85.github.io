@@ -5754,7 +5754,94 @@ a.asOffer__link .asOffer__img img {
     margin-top: 10px;
 }
 
+.section-title {
+    margin-top: 72px;
+    margin-bottom: 66px;
+    text-align: center;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.section-title h2 {
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    color: #212434;
+    
+}
+
+#odds-section {
+    margin-bottom: 0
+}
+#odds-section .section-title {
+    margin-top: 72px;
+    margin-bottom: 38px;
+    
+}
+
+#odds-section .odds-item {
+    margin-bottom: 33px;
+    min-height: 300px
+}
+#odds-section .odds-item img {
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 0 auto
+}
+#odds-section .odds-item__title {
+    color: #0e3d6b;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 12px;
+    min-height: 56px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+#odds-section .odds-item__title:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #dae7f3;
+    bottom: 0;
+    left: 0
+}
+#odds-section .odds-item__title:after {
+    content: "";
+    position: absolute;
+    width: 77%;
+    height: 3px;
+    background-color: #ff8500;
+    bottom: -1px;
+    left: 0
+}
+#odds-section .odds-item__body {
+    color: #212434;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.12
+}
+
+
+.asGoods--metallicheskie {
+
+}
+
+.asGoods--metallicheskie .asGoods__subtitle {
+    max-width: 100%;
+    margin-bottom: 37px;
+}
+
+.asGoods--metallicheskie  .listType_4 {
+    justify-content: space-around;
+}
+
+.asGoods--metallicheskie  .listType_4__item {
+    flex-basis: 308px;
+}
 
 
 
@@ -5820,6 +5907,12 @@ a.asOffer__link .asOffer__img img {
     }
     .automaticShutterList__item figure {
         padding: 0 5px;
+    }
+    #odds-section .odds-item {
+        min-height: 240px
+    }
+    #odds-section .odds-item br {
+        display: none
     }
 
 }
@@ -6094,6 +6187,23 @@ a.asOffer__link .asOffer__img img {
 }
 
 @media only screen and (max-width: 767px) {
+    #odds-section .odds-item {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 520px
+    }
+    #odds-section .section-title h2 {
+        font-size: 26px;
+        max-width: 580px;
+        margin-left: auto;
+        margin-right: auto
+    }
+    #odds-section .section-title p {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 580px
+    }
+
     .listType_1__additional {
         font-size: 13px;
     }
