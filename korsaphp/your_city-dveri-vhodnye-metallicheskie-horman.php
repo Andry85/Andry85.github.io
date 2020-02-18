@@ -559,99 +559,150 @@
 	</div>
 </div>
 
+<div class="comparisonBlock">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="comparisonBlock__inner">
+					<h2 class="comparisonBlock__title">наши изделия в сравнении</h2>
+					<p class="comparisonBlock__desc"><span>Цены указаны</span> на акционные входные двери.<br>* В зависимости от размера двери. Указанные значения для RAM 1230 × 2180 мм</p>
+					<table class="comparisonBlockTable">
+						<tr>
+							<th>
+								<h3>Категории/ Тип изделия</h3>
+							</th>
+							<th>
+								<h3>Thermo65</h3>
+							</th>
+							<th>
+								<h3>Thermo45</h3>
+							</th>
+						</tr>
+						<tr>
+							<td>Дверное полотно</td>
+							<td>Стальное дверное полотно толщиной 65 мм</td>
+							<td>Стальное дверное полотно толщиной 46 мм</td>
+						</tr>
+						<tr>
+							<td>Теплоизоляция</td>
+							<td>Коэффициент UD до 0,87 Вт/(м²·K)*</td>
+							<td>Коэффициент UD до 1,1 Вт/(м²·K)*</td>
+						</tr>
+						<tr>
+							<td>Имеющееся оснащение для защиты от взлома</td>
+							<td>RC 2</td>
+							<td>RC 2 поставляется для мотивов TPS 700 / 750 / 900 / 010 / 015 и 100 (без боковых элементов и окон верхнего света)</td>
+						</tr>
+						<tr>
+							<td>Коробка</td>
+							<td>Алюминиевая коробка с термическим разделением 80 мм</td>
+							<td>Алюминиевая коробка с термическим разделением 60 мм</td>
+						</tr>
+						<tr>
+							<td>Цена</td>
+							<td>от 43 750 грн.</td>
+							<td>от 26 250 грн.</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
+
+
+<section id="odds-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 section-title">
+				<h2>Преимущества межкомнатных дверей H<b>ö</b>rmann</h2>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-6 col-lg-3">
+				<div class="odds-item">
+					<img src="img/icons/vorota-hermann.png" alt="icon">
+					<h3 class="odds-item__title">Немецкое качество продукции</h3>
+					<p class="odds-item__body">
+						Межкомнатные двери Hörmann изготавливаются в Германии. Они отвечают всем требованиям по качеству и безопасности, действующим в Европе.
+					</p>
+				</div>
+			</div>
+			<div class="col-sm-6 col-lg-3">
+				<div class="odds-item">
+					<img src="img/icons/econom.png" alt="icon">
+					<h3 class="odds-item__title">Межкомнатные двери на долгие годы</h3>
+					<p class="odds-item__body">
+						Мы убеждены в нашей продукции и в нашем качестве. Поэтому межкомнатные двери будут радовать вас на протяжении многих лет
+					</p>
+				</div>
+			</div>
+			<div class="col-sm-6 col-lg-3">
+				<div class="odds-item">
+					<img src="img/icons/design.png" alt="icon">
+					<h3 class="odds-item__title">Покрытие ДВЕРЕЙ Duradecor</h3>
+					<p class="odds-item__body">
+						Для заказа доступны 3 варианта поверхности Decograin и 4 варианта цветов по шкале RAL, а также в 6 эксклюзивных цветах Hörmann Matt Deluxe, подобных цвету гаражных ворот
+					</p>
+				</div>
+			</div>
+			<div class="col-sm-6 col-lg-3">
+				<div class="odds-item">
+					<img src="img/icons/kalitka.png" alt="icon">
+					<h3 class="odds-item__title">скрытый ПРОФИЛь СТВОРКИ двери</h3>
+					<p class="odds-item__body">
+						Изысканное дверное полотно, сплошное с внешней и внутренней стороны, с расположенным внутри профилем створки отвечает самым высоким требованиям к оформлению. Их вид изнутри идеально сочетается с межкомнатными дверями.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6 col-lg-3">
+				<div class="odds-item">
+					<img src="img/icons/anti-vor.png" alt="icon">
+					<h3 class="odds-item__title">широкий ассортимент продукции</h3>
+					<p class="odds-item__body">
+						Комбинация дверного полотна и коробки на любой вкус. У нас Вы найдете подходящий вариант исполнения двери для Вашего конкретного интерьера. 
+					</p>
+				</div>
+			</div>	
+			<div class="col-sm-6 col-lg-3">
+				<div class="odds-item">
+					<img src="img/icons/ideas.jpg" alt="icon">
+					<h3 class="odds-item__title">Стеклянные двери с нанопокрытием</h3>
+					<p class="odds-item__body">
+						Двери серии GlassLine имеют нанопокрытие, обеспечивающее защиту от отпечатков пальцев. Наши деревянные и стеклянные двери прекрасно комбинируются друг с другом.
+					</p>
+				</div>
+			</div>
+			<div class="col-sm-6 col-lg-3">
+				<div class="odds-item">
+					<img src="img/icons/secure_glazing_icon.png" alt="icon">
+					<h3 class="odds-item__title">Поверхность с Высокой ударопрочностью</h3>
+					<p class="odds-item__body">
+						Поверхность Duradecor отличается повышенной ударопрочностью на 48% более высокой, чем в среднем у прошедших испытание непрерывного давления пластиков других производителей. 
+					</p>
+				</div>
+			</div>
+			<div class="col-sm-6 col-lg-3">
+				<div class="odds-item">
+					<img src="img/icons/multitool.png" alt="icon">
+					<h3 class="odds-item__title">Привод для дверей PortaMatic</h3>
+					<p class="odds-item__body">
+						Для большего комфорта или при наличии физических ограничений, рекомендуюем установить привод, который открывает и закрывает двери автоматически с помощью пульта.
+					</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>
 
 <div class="container">
 	<div class="row">
-		<div class="col-md-12">	
-
-			<section id="odds-section">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-10 section-title">
-							<h2>Преимущества межкомнатных дверей H<b>ö</b>rmann</h2>
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="col-sm-6 col-lg-3">
-							<div class="odds-item">
-								<img src="img/icons/vorota-hermann.png" alt="icon">
-								<h3 class="odds-item__title">Немецкое качество продукции</h3>
-								<p class="odds-item__body">
-									Межкомнатные двери Hörmann изготавливаются в Германии. Они отвечают всем требованиям по качеству и безопасности, действующим в Европе.
-								</p>
-							</div>
-						</div>
-						<div class="col-sm-6 col-lg-3">
-							<div class="odds-item">
-								<img src="img/icons/econom.png" alt="icon">
-								<h3 class="odds-item__title">Межкомнатные двери на долгие годы</h3>
-								<p class="odds-item__body">
-									Мы убеждены в нашей продукции и в нашем качестве. Поэтому межкомнатные двери будут радовать вас на протяжении многих лет
-								</p>
-							</div>
-						</div>
-						<div class="col-sm-6 col-lg-3">
-							<div class="odds-item">
-								<img src="img/icons/design.png" alt="icon">
-								<h3 class="odds-item__title">Покрытие ДВЕРЕЙ Duradecor</h3>
-								<p class="odds-item__body">
-									Для заказа доступны 3 варианта поверхности Decograin и 4 варианта цветов по шкале RAL, а также в 6 эксклюзивных цветах Hörmann Matt Deluxe, подобных цвету гаражных ворот
-								</p>
-							</div>
-						</div>
-						<div class="col-sm-6 col-lg-3">
-							<div class="odds-item">
-								<img src="img/icons/kalitka.png" alt="icon">
-								<h3 class="odds-item__title">скрытый ПРОФИЛь СТВОРКИ двери</h3>
-								<p class="odds-item__body">
-									Изысканное дверное полотно, сплошное с внешней и внутренней стороны, с расположенным внутри профилем створки отвечает самым высоким требованиям к оформлению. Их вид изнутри идеально сочетается с межкомнатными дверями.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-6 col-lg-3">
-							<div class="odds-item">
-								<img src="img/icons/anti-vor.png" alt="icon">
-								<h3 class="odds-item__title">широкий ассортимент продукции</h3>
-								<p class="odds-item__body">
-									Комбинация дверного полотна и коробки на любой вкус. У нас Вы найдете подходящий вариант исполнения двери для Вашего конкретного интерьера. 
-								</p>
-							</div>
-						</div>	
-						<div class="col-sm-6 col-lg-3">
-							<div class="odds-item">
-								<img src="img/icons/ideas.jpg" alt="icon">
-								<h3 class="odds-item__title">Стеклянные двери с нанопокрытием</h3>
-								<p class="odds-item__body">
-									Двери серии GlassLine имеют нанопокрытие, обеспечивающее защиту от отпечатков пальцев. Наши деревянные и стеклянные двери прекрасно комбинируются друг с другом.
-								</p>
-							</div>
-						</div>
-						<div class="col-sm-6 col-lg-3">
-							<div class="odds-item">
-								<img src="img/icons/secure_glazing_icon.png" alt="icon">
-								<h3 class="odds-item__title">Поверхность с Высокой ударопрочностью</h3>
-								<p class="odds-item__body">
-									Поверхность Duradecor отличается повышенной ударопрочностью на 48% более высокой, чем в среднем у прошедших испытание непрерывного давления пластиков других производителей. 
-								</p>
-							</div>
-						</div>
-						<div class="col-sm-6 col-lg-3">
-							<div class="odds-item">
-								<img src="img/icons/multitool.png" alt="icon">
-								<h3 class="odds-item__title">Привод для дверей PortaMatic</h3>
-								<p class="odds-item__body">
-									Для большего комфорта или при наличии физических ограничений, рекомендуюем установить привод, который открывает и закрывает двери автоматически с помощью пульта.
-								</p>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</section>
+		<div class="col-md-12">				
 
 			<?php include 'contents/regional/your_city-dveri-vhodnye-metallicheskie/videoCatalog.php'; ?>	
 		</div>
