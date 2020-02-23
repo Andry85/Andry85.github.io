@@ -6031,6 +6031,7 @@ a.asOffer__link .asOffer__img img {
 .mobileTabsList__item {
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
+        display: flex;
 }
 .mobileTabsList__item:first-child {
     border-right: 1px solid #fff;
@@ -6041,6 +6042,7 @@ a.asOffer__link .asOffer__img img {
     text-align: center;
     padding: 10px 4px;
     font-size: 16px;
+    flex-basis: 100%;
 }
 .mobileTabsList__link:focus,
 .mobileTabsList__link:hover {
@@ -6771,6 +6773,9 @@ a.asOffer__link .asOffer__img img {
     }
     .catalogBoxSlider .slick-arrow {
         background-position: center 70px;
+    }
+    .comparisonBlock__inner {
+        padding: 0 20px;
     }
 
 }
@@ -7537,6 +7542,30 @@ a.asOffer__link .asOffer__img img {
     }
     .newConfigTypesWrap {
         display: none;
+    }
+    .comparisonBlock__title {
+        font-size: 18px;
+    }
+    .comparisonBlock__desc {
+        font-size: 13px;
+    }
+    .comparisonBlockTable tr th h3 {
+        font-size: 13px;
+        margin: 0 5px;
+    }
+    .comparisonBlock__inner {
+        padding: 0 5px;
+        border-width: 5px;
+    }
+    .comparisonBlockTable tr td {
+        padding: 5px;
+        font-size: 11px;
+    }
+    .comparisonBlockTable tr td:first-child {
+        font-size: 12px;
+    }
+    .getCallWrap__title {
+        font-size: 22px;
     }
 
 
