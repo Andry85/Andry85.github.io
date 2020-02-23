@@ -6343,12 +6343,13 @@ a.asOffer__link .asOffer__img img {
 
 .comparisonBlock {
 
+
 }
 .comparisonBlock__inner {
     border: 11px solid #f0eeed;
     max-width: 1068px;
-    margin: 0 auto;
-    padding: 0 10px;
+    margin: 0 auto 29px auto;
+    padding: 0 43px 0 43px;
 }
 .comparisonBlock__title {
     font-weight: 900;
@@ -6364,10 +6365,60 @@ a.asOffer__link .asOffer__img img {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 1.21;
-     font-weight: 600;
+    font-weight: 600;
+    color: #333640;
+    padding-bottom: 18px;
 }
 .comparisonBlock__desc span {
     font-weight: 400;
+}
+
+.comparisonBlockTable {
+    table-layout: fixed;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.comparisonBlockTable th td,
+.comparisonBlockTable tr td {
+    width: 33.3%;
+}
+.comparisonBlockTable tr th h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #0e3d6b;
+    position: relative;
+    text-align: center;
+}
+
+.comparisonBlockTable tr th h3:after {
+    content: '';
+    max-width: 170px;
+    height: 3px;
+    background: #ff8500;
+    margin: 9px auto 0 auto;
+    display: block;
+}
+
+.comparisonBlockTable tr td {
+    font-size: 16px;
+    line-height: 1.56;
+    text-align: center;
+    color: #212434;
+    padding: 18px 15px;
+}
+.comparisonBlockTable tr:nth-child(odd) td {
+    background: #f7f6f6;
+}
+.comparisonBlockTable tr td:first-child {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+}
+.comparisonBlockTable tr th:first-child h3 {
+    text-align: left;
+    font-weight: 400;
+    text-transform: none;
 }
 
 

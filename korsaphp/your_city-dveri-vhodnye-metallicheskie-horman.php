@@ -45,7 +45,7 @@
 	</div>
 </div>
 
-<div id="catalog-section" class="catalogWrap">
+<div class="catalogWrap">
 				
 	<div class="container">
 		<div class="row">
@@ -605,9 +605,277 @@
 						</tr>
 					</table>
 				</div>
+				<p class="asProductBlock__text">Обратившись в ближайшую точку продаж легко ознакомиться с полным ассортиментом, получить квалифицированную консультацию, заказать качественные железные двери в Киеве по выгодной цене.</p>
+				<p class="asProductBlock__text">Компания Корса работает на украинском рынке более 20 лет. За это время открыто 120 точек продаж. Собственная логистика позволяет оперативно доставить заказ в любой населенный пункт, обеспечить профессиональный монтаж, обслуживание. </p>
 			</div>
 		</div>
 	</div>
+</div>
+
+<div class="lg-ptb-30 sm-pt-0 sm-pb-30">
+	<?php include 'contents/regional/your_city-dveri-vhodnye-metallicheskie-horman/getCall_second.php'; ?>
+</div>
+
+<div class="catalogWrap">
+				
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 section-title">
+				<h2>Каталог входных алюминиевых дверей Hörmann</h2>
+			</div>
+		</div>
+	</div>
+	<div class="catalogBox">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h3 class="catalogBox__title">Серия ThermoCarbon</h3>
+					<p class="catalogBox__text">Наш чемпион в области теплоизоляции и защиты от взлома среди алюминиевых дверей в частный дом выгодно отличается превосходным коэффициентом теплоизоляции UD прибл. до 0,47 Вт/ (м²·K), серийно поставляется с прекрасным оснащением для защиты от взлома класса RC 3 с 9-кратным запирающим устройством и восхищает своим высокотехнологичным профилем створки из гибридного материала – стекловолокна с карбоном.</p>
+				</div>
+				<div class="col-md-6">
+					<figure class="catalogBox__pic">
+						<img src="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermocarbo/main.jpg" alt="">
+					</figure>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="catalogBoxSlider">
+						<div class="owl-carousel">
+							<div class="item">
+								<div class="catalogBoxSlider__item">
+									<figure class="catalogBoxSlider__pic">
+										<a href="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermocarbo/001.png" data-fancybox="plascic_003">
+											<img src="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermocarbo/001.png" alt="">
+										</a>	
+										<figcaption>Мотив 860</figcaption>
+									</figure>
+								</div>
+							</div>
+							<div class="item">
+								<div class="catalogBoxSlider__item">
+									<figure class="catalogBoxSlider__pic">
+										<a href="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermocarbo/002.png" data-fancybox="plascic_003">
+											<img src="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermocarbo/002.png" alt="">
+										</a>	
+										<figcaption>Мотив 308</figcaption>
+									</figure>
+								</div>
+							</div>
+							<div class="item">
+								<div class="catalogBoxSlider__item">
+									<figure class="catalogBoxSlider__pic">
+										<a href="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermocarbo/003.png" data-fancybox="plascic_003">
+											<img src="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermocarbo/003.png" alt="">
+										</a>
+										<figcaption>Мотив 680</figcaption>
+									</figure>
+								</div>
+							</div>
+							<div class="item">
+								<div class="catalogBoxSlider__item">
+									<figure class="catalogBoxSlider__pic">
+										<a href="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermocarbo/004.png" data-fancybox="plascic_003">
+											<img src="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermocarbo/004.png" alt="">
+										</a>
+										<figcaption>Мотив 305</figcaption>
+									</figure>
+								</div>
+							</div>
+							<div class="item">
+								<div class="catalogBoxSlider__item">
+									<figure class="catalogBoxSlider__pic">
+										<a href="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermocarbo/005.png" data-fancybox="plascic_003">
+											<img src="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermocarbo/005.png" alt="">
+										</a>
+										<figcaption>Мотив 686</figcaption>
+									</figure>
+								</div>
+							</div>
+							<div class="item">
+								<div class="catalogBoxSlider__item">
+									<figure class="catalogBoxSlider__pic">
+										<a href="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermocarbo/006.png" data-fancybox="plascic_003">
+											<img src="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermocarbo/006.png" alt="">
+										</a>
+										<figcaption>Мотив 310</figcaption>
+									</figure>
+								</div>
+							</div>
+							<div class="item">
+								<div class="catalogBoxSlider__item">
+									<figure class="catalogBoxSlider__pic">
+										<a href="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermocarbo/007.png" data-fancybox="plascic_003">
+											<img src="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermocarbo/007.png" alt="">
+										</a>
+										<figcaption>Мотив 300</figcaption>
+									</figure>
+								</div>
+							</div>
+							<div class="item">
+								<div class="catalogBoxSlider__item">
+									<figure class="catalogBoxSlider__pic">
+										<a href="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermocarbo/008.png" data-fancybox="plascic_003">
+											<img src="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermocarbo/008.png" alt="">
+										</a>
+										<figcaption>Мотив 302</figcaption>
+									</figure>
+								</div>
+							</div>
+							<div class="item">
+								<div class="catalogBoxSlider__item">
+									<figure class="catalogBoxSlider__pic">
+										<a href="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermocarbo/009.png" data-fancybox="plascic_003">
+											<img src="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermocarbo/009.png" alt="">
+										</a>
+										<figcaption>Мотив 306</figcaption>
+									</figure>
+								</div>
+							</div>
+							<div class="item">
+								<div class="catalogBoxSlider__item">
+									<figure class="catalogBoxSlider__pic">
+										<a href="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermocarbo/010.png" data-fancybox="plascic_003">
+											<img src="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermocarbo/010.png" alt="">
+										</a>
+										<figcaption>Мотив 650</figcaption>
+									</figure>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="catalogBox">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h3 class="catalogBox__title">Серия ThermoSafe</h3>
+					<p class="catalogBox__text">Входная дверь ThermoSafe отличается высокой теплоизоляцией за счет алюминиевой рамы 80 мм с термическим разделением, защитой от взлома класса RC 3 с 5-кратным сверхнадежным замком и возможностью выбора из более чем 70 мотивов. И это только некоторые из характеристик этой металлической двери.</p>
+				</div>
+				<div class="col-md-6">
+					<figure class="catalogBox__pic">
+						<img src="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermosafe/main.jpg" alt="">
+					</figure>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="catalogBoxSlider">
+						<div class="owl-carousel">
+							<div class="item">
+								<div class="catalogBoxSlider__item">
+									<figure class="catalogBoxSlider__pic">
+										<a href="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermosafe/001.png" data-fancybox="plascic_004">
+											<img src="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermosafe/001.png" alt="">
+										</a>
+										<figcaption>Мотив 504</figcaption>
+									</figure>
+								</div>
+							</div>
+							<div class="item">
+								<div class="catalogBoxSlider__item">
+									<figure class="catalogBoxSlider__pic">
+										<a href="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermosafe/002.png" data-fancybox="plascic_004">
+											<img src="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermosafe/002.png" alt="">
+										</a>
+										<figcaption>Мотив 502</figcaption>
+									</figure>
+								</div>
+							</div>
+							<div class="item">
+								<div class="catalogBoxSlider__item">
+									<figure class="catalogBoxSlider__pic">
+										<a href="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermosafe/003.png" data-fancybox="plascic_004">
+											<img src="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermosafe/003.png" alt="">
+										</a>
+										<figcaption>Мотив 860</figcaption>
+									</figure>
+								</div>
+							</div>
+							<div class="item">
+								<div class="catalogBoxSlider__item">
+									<figure class="catalogBoxSlider__pic">
+										<a href="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermosafe/004.png" data-fancybox="plascic_004">
+											<img src="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermosafe/004.png" alt="">
+										</a>
+										<figcaption>Мотив 503</figcaption>
+									</figure>
+								</div>
+							</div>
+							<div class="item">
+								<div class="catalogBoxSlider__item">
+									<figure class="catalogBoxSlider__pic">
+										<a href="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermosafe/005.png" data-fancybox="plascic_004">
+											<img src="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermosafe/005.png" alt="">
+										</a>
+										<figcaption>Мотив 505</figcaption>
+									</figure>
+								</div>
+							</div>
+							<div class="item">
+								<div class="catalogBoxSlider__item">
+									<figure class="catalogBoxSlider__pic">
+										<a href="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermosafe/006.png" data-fancybox="plascic_004">
+											<img src="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermosafe/006.png" alt="">
+										</a>
+										<figcaption>Мотив 867</figcaption>
+									</figure>
+								</div>
+							</div>
+							<div class="item">
+								<div class="catalogBoxSlider__item">
+									<figure class="catalogBoxSlider__pic">
+										<a href="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermosafe/007.png" data-fancybox="plascic_004">
+											<img src="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermosafe/007.png" alt="">
+										</a>
+										<figcaption>Мотив 501</figcaption>
+									</figure>
+								</div>
+							</div>
+							<div class="item">
+								<div class="catalogBoxSlider__item">
+									<figure class="catalogBoxSlider__pic">
+										<a href="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermosafe/008.png" data-fancybox="plascic_004">
+											<img src="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermosafe/008.png" alt="">
+										</a>
+										<figcaption>Мотив 686</figcaption>
+									</figure>
+								</div>
+							</div>
+							<div class="item">
+								<div class="catalogBoxSlider__item">
+									<figure class="catalogBoxSlider__pic">
+										<a href="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermosafe/009.png" data-fancybox="plascic_004">
+											<img src="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermosafe/009.png" alt="">
+										</a>
+										<figcaption>Мотив 872</figcaption>
+									</figure>
+								</div>
+							</div>
+							<div class="item">
+								<div class="catalogBoxSlider__item">
+									<figure class="catalogBoxSlider__pic">
+										<a href="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermosafe/010.png" data-fancybox="plascic_004">
+											<img src="uploads/your_city-dveri-vhodnye-metallicheskie-horman/catalog/thermosafe/010.png" alt="">
+										</a>
+										<figcaption>Мотив 871</figcaption>
+									</figure>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+<div class="sm-pt-0 sm-pb-30">
+	<?php include 'contents/regional/your_city-dveri-vhodnye-metallicheskie-horman/getCall_third.php'; ?>
 </div>
 
 
@@ -616,7 +884,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-10 section-title">
-				<h2>Преимущества межкомнатных дверей H<b>ö</b>rmann</h2>
+				<h2>Преимущества наружных дверей H<b>ö</b>rmann</h2>
 			</div>
 		</div>
 
