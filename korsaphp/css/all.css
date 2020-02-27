@@ -5871,6 +5871,10 @@ a.asOffer__link .asOffer__img img {
     margin: 93px 0;
 }
 
+.catalogBoxSlider--last {
+    margin-bottom: 0
+}
+
 
 
 .catalogBoxSlider .slick-arrow {
