@@ -5871,6 +5871,8 @@ a.asOffer__link .asOffer__img img {
     margin: 93px 0;
 }
 
+
+
 .catalogBoxSlider--last {
     margin-bottom: 0
 }
@@ -7501,6 +7503,10 @@ a.asOffer__link .asOffer__img img {
     }
     .catalogBoxSlider {
         margin: 30px 0;
+        padding: 0;
+    }
+    .catalogBoxSlider .owl-carousel {
+        padding: 0 20px;
     }
     .catalogBox {
         margin: 0 0 20px 0;
