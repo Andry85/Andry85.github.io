@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Flexbug #11</title>
+<style type="text/css">
+	* {box-sizing: border-box;}
+
+	img {
+		height: auto;
+    	max-width: 100%;
+	}
+
+	.container {
+    	display: inline-flex;
+		flex-flow: row wrap;
+		writing-mode: vertical-lr;
+		border: 1px solid red;
+		margin: 10px;
+		padding: 5px;
+		height: 200px;
+				
+	}
+
+
+	.container__item {
+		padding: 5px;
+		margin: 5px;
+		background: #ccc;
+		writing-mode: horizontal-tb;
+	}
+	
+</style>
+</head>
+<body>
+
+	<div class="container">
+		<div class="container__item">
+			One
+		</div>
+		<div class="container__item">
+			Two
+		</div>
+		<div class="container__item">
+			Three
+		</div>
+		<div class="container__item">
+			Four
+		</div>
+		<div class="container__item">
+			Five
+		</div>
+		<div class="container__item">
+			Six
+		</div>
+		<div class="container__item">
+			Seven
+		</div>
+		<div class="container__item">
+			Eight
+		</div>
+		<div class="container__item">
+			Nine
+		</div>
+		<div class="container__item">
+			Ten
+		</div>
+		
+	</div>
+
+</body>
+</html>

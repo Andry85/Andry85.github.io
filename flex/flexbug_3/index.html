@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Flexbug #3</title>
+<style type="text/css">
+	* {box-sizing: border-box;}
+
+	img {
+		max-width: 100%;
+	}
+
+	.container {
+		display: flex;
+		justify-content: center;
+		border: 1px solid red;
+			
+		
+	}
+	.container__item {
+		padding: 25px;
+		border: 1px solid #ccc;
+		max-width: 100%;
+		background: #ccc;
+		flex-basis: 250px;
+	}
+	.container__itemWrapper {
+		display: flex;
+		justify-content: center;
+		min-height: 400px;
+
+	}
+
+</style>
+</head>
+<body>
+
+	<div class="container">
+		<div class="container__itemWrapper">
+			<div class="container__item">
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
