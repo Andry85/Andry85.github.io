@@ -1,28 +1,31 @@
 (function ($) {
 
-  
 
+
+  setTimeout(function(){ 
+      $('body').prepend('<p>First text</p>');
+  }, 3000);
+  
 
   Drupal.behaviors.paragrapg = {
 
-      COLOR: 'red',
       attach: function (context, settings) {
 
-        var $self = this;
-        console.log($self);
+  
 
+      // $('p', context).once('paragrapg').each(function() {
+      //     $(this, context).css('color', 'red');
+      // });
 
-        $('p', context).once('paragrapg').each(function() {
-          console.log(this);
-          $(this).css('color', $self.COLOR);
-        });
+      // $('p', context).once('paragrapg').each(function() {
+      //   $(this).css('color', 'red');
+      // });
+
+      // $('p').once('paragrapg').each(function() {
+      //   $(this).css('color', 'red');
+      // });
    
 
-      },
-      detach: function (context, settings) {
-        $('p', context).removeOnce('paragrapg').each(function() {
-          $(this).css('color', '');
-        });
       }
       
   };
