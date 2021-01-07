@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, forwardRef } from "react";
 import DatePicker from "react-datepicker";
 
 import "react-datepicker/dist/react-datepicker.css";
@@ -22,9 +22,11 @@ function Add(props) {
     props.setStartDate(new Date());
   }
 
-  const ExampleCustomInput = ({ value, onClick }) => (
-    <input type="text" value={value} className={styles.formWrapper__field} onClick={onClick} />
-  );
+  const ref = React.createRef()
+
+  const ExampleCustomInput = forwardRef(({ value, onClick }, ref) => (
+    <input type="text" readOnly value={value} className={styles.formWrapper__field} onClick={onClick} ref={ref} />
+  ));
 
 
 
@@ -50,7 +52,7 @@ function Add(props) {
                 selected={props.startDate} 
                 onChange={date =>  props.setStartDate(date)}
                 dateFormat="dd/MM/yyyy" 
-                customInput={<ExampleCustomInput />}
+                customInput={<ExampleCustomInput ref={ref} />}
                 />
               </div>
               <div className="col-md-12">

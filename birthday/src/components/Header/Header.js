@@ -11,9 +11,9 @@ function Header() {
   return (
     <div className={styles.header}>
       
-      <a href="#"className={styles.logo}>
+      <span className={styles.logo}>
         <img src={logo} alt=""/>
-      </a>
+      </span>
 
     </div>
   );

@@ -48,8 +48,7 @@ function Panel() {
   const [actionName, setActionName] = useState('+ Add a person');
 
   const setInfo = (name, startDate) => {
-    console.log(name);
-    console.log(startDate);
+
 
     let day = startDate.getDate();
     let month = startDate.getMonth() + 1;
@@ -95,9 +94,6 @@ function Panel() {
 
     setActionName('+ Add a person');
 
-    console.log(userId);
-
-
   }
 
   const onDelete = (id) => {
@@ -124,10 +120,6 @@ function Panel() {
     setStartDate(d);
 
     setActionName('Edit the person');
-
-    console.log(userId);
-
-  
 
   }
 
