@@ -1,9 +1,0 @@
-body {behavior:url("csshover.htc");}
-.avatarka div a {margin-top: expression((parentNode.offsetHeight - this.offsetHeight)<0 ? "0" : (parentNode.offsetHeight - this.offsetHeight)/2 + "px");}
-#heading li.curr .heading-bg1 {margin-right: 6px!important;}
-.heading-bg1 {margin-right: 5px;}
-.period dl dd .lineForm {margin-right: 3px;}
-.down {margin-right: 2px;}
-.avatarka-small div a {margin-top: expression((parentNode.offsetHeight - this.offsetHeight)<0 ? "0" : (parentNode.offsetHeight - this.offsetHeight)/2 + "px");}
-.popap-block-bg4 form div input { padding: 13px 13px 0 16px; height: 24px;}
-.slid-preambule {height:auto !important; height:175px; }

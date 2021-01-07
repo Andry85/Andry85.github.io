@@ -1,1 +1,0 @@
-Cufon.replace('.inner p',  {fontFamily: 'Impact'});

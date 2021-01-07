@@ -1,6 +1,0 @@
-.products li a.product img  {margin-top: expression((parentNode.offsetHeight - this.offsetHeight)<0 ? "0" : (parentNode.offsetHeight - this.offsetHeight)/2 + "px");}
-.tovars li a.title span {margin-top: expression((parentNode.offsetHeight - this.offsetHeight)<0 ? "0" : (parentNode.offsetHeight - this.offsetHeight)/2 + "px");}
-.inner {height: auto !important; height: 489px;}
-.text-inner {height: auto !important; height: 494px;}
-.news-inner {height: auto !important; height: 448px;}
-.left-column .banner {bottom: 13px;}

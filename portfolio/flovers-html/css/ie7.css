@@ -1,6 +1,0 @@
-.search input {padding-top: 3px; height: 19px;}
-.katalog-list li {display: inline; margin-right: 50px;}
-.katalog-list li div a {margin-top: expression((parentNode.offsetHeight - this.offsetHeight)<0 ? "0" : (parentNode.offsetHeight - this.offsetHeight)/2 + "px");}
-.question a span { left: 8px; bottom: 49px;}
-.catalog li {display: inline; margin-right: 80px;}
-.catalog li div.pic a {margin-top: expression((parentNode.offsetHeight - this.offsetHeight)<0 ? "0" : (parentNode.offsetHeight - this.offsetHeight)/2 + "px");}

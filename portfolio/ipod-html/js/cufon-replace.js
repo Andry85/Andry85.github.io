@@ -1,1 +1,0 @@
-Cufon.replace('.description, .box-bg h2, .box-bg form .title, .box-bg .info p',  { fontFamily: 'Myriad Pro', hover:true });

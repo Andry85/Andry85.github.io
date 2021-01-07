@@ -1,5 +1,0 @@
-body {behavior:url("csshover.htc");}
-#body-bg {height:100%; width:expression((document.documentElement.clientWidth||document.body.clientWidth)<1000?'1000px':'100%');}
-.top-banners li.last a { margin: 0 34px 0 0;}
-.shadow {right: -2px;}
-#head .zifra {top: 2px;}

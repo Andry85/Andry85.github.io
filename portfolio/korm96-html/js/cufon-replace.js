@@ -1,1 +1,0 @@
-Cufon.replace('.head-inner-center p, .preambule p',  {fontFamily: 'Bookman Old Style'});
